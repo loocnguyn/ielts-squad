@@ -11,7 +11,9 @@ import { safeNextPath } from "@/lib/paths";
 import { createClient } from "@/lib/supabase/client";
 
 const URL_ERRORS: Record<string, string> = {
-  auth: "Liên kết trong email đã hết hạn hoặc được mở ở trình duyệt khác. Thử đăng nhập lại nhé.",
+  // Opening the confirmation link in another browser still confirms the email;
+  // only the automatic sign-in fails, so point people at the password form.
+  auth: "Liên kết đã hết hạn hoặc được mở ở trình duyệt khác. Nếu bạn vừa xác nhận email, hãy đăng nhập bằng mật khẩu ở dưới.",
 };
 
 function describeAuthError(message: string) {
