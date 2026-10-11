@@ -46,3 +46,5 @@ next-env.d.ts
 # local e2e test accounts
 /e2e/local-test-users.json
 !.env.development.local.example
+
+.vercel

@@ -57,6 +57,13 @@ Trong dashboard, phần Authentication:
 3. **Allow manual linking**: bật để trang Hồ sơ liên kết được nhiều kiểu đăng nhập vào một tài khoản.
 4. Email mặc định của Supabase giới hạn vài thư mỗi giờ. Khi có nhiều người dùng, cấu hình SMTP riêng.
 
+## Deploy
+
+App chạy trên Vercel tại https://ielts-squad.vercel.app (project `ielts-squad`). Hai biến
+`NEXT_PUBLIC_SUPABASE_URL` và `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` đã đặt cho Production và Preview.
+Deploy lại bằng `npx vercel deploy --prod`. Sau lần deploy đầu, nhớ làm bước 1 ở phần Cấu hình Supabase
+với domain này, nếu không link trong email xác nhận sẽ dẫn về `localhost`.
+
 ## Cách app hoạt động
 
 - **Không cần secret key.** Mọi thao tác có đặc quyền (phát đề, chấm điểm, streak, lưu đề) là hàm
