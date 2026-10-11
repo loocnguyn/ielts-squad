@@ -5,13 +5,18 @@ import { useSearchParams } from "next/navigation";
 import { Loader2, Mail } from "lucide-react";
 import { toast } from "sonner";
 import type { Provider } from "@supabase/supabase-js";
-import { DiscordIcon, GitHubIcon, GoogleIcon } from "@/components/provider-icons";
+import {
+  DiscordIcon,
+  GitHubIcon,
+  GoogleIcon,
+} from "@/components/provider-icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { safeNextPath } from "@/lib/paths";
 import { createClient } from "@/lib/supabase/client";
+import { useEnabledProviders, type OAuthProvider } from "@/lib/supabase/providers";
 
 const PROVIDERS: { id: Provider; label: string; icon: React.ReactNode }[] = [
   { id: "google", label: "Tiếp tục với Google", icon: <GoogleIcon /> },
@@ -25,13 +30,17 @@ const URL_ERRORS: Record<string, string> = {
 
 function describeAuthError(message: string) {
   const m = message.toLowerCase();
-  if (m.includes("invalid login credentials")) return "Email hoặc mật khẩu không đúng.";
-  if (m.includes("email not confirmed")) return "Email chưa được xác nhận. Kiểm tra hộp thư của bạn.";
-  if (m.includes("already registered")) return "Email này đã có tài khoản. Hãy đăng nhập.";
+  if (m.includes("invalid login credentials"))
+    return "Email hoặc mật khẩu không đúng.";
+  if (m.includes("email not confirmed"))
+    return "Email chưa được xác nhận. Kiểm tra hộp thư của bạn.";
+  if (m.includes("already registered"))
+    return "Email này đã có tài khoản. Hãy đăng nhập.";
   if (m.includes("rate limit") || m.includes("security purposes"))
     return "Bạn thao tác hơi nhanh. Đợi một phút rồi thử lại.";
   if (m.includes("password should be")) return "Mật khẩu cần ít nhất 8 ký tự.";
-  if (m.includes("provider is not enabled")) return "Kiểu đăng nhập này chưa được bật trên Supabase.";
+  if (m.includes("provider is not enabled"))
+    return "Kiểu đăng nhập này chưa được bật trên Supabase.";
   return message;
 }
 
@@ -39,6 +48,12 @@ export function LoginForm() {
   const searchParams = useSearchParams();
   const next = safeNextPath(searchParams.get("next"));
   const urlError = searchParams.get("error");
+
+  // Only providers switched on in Supabase get a button; the rest would dead-end on an error page.
+  const enabledProviders = useEnabledProviders();
+  const providers = PROVIDERS.filter((provider) =>
+    enabledProviders?.includes(provider.id as OAuthProvider),
+  );
 
   const [mode, setMode] = useState<"signin" | "signup">("signin");
   const [email, setEmail] = useState("");
@@ -71,7 +86,10 @@ export function LoginForm() {
     const supabase = createClient();
 
     if (mode === "signin") {
-      const { error } = await supabase.auth.signInWithPassword({ email, password });
+      const { error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
       if (error) {
         toast.error(describeAuthError(error.message));
         setPending(null);
@@ -92,7 +110,9 @@ export function LoginForm() {
     } else if (data.session) {
       enter();
     } else {
-      setNotice(`Đã gửi email xác nhận tới ${email}. Bấm vào liên kết trong thư để vào app.`);
+      setNotice(
+        `Đã gửi email xác nhận tới ${email}. Bấm vào liên kết trong thư để vào app.`,
+      );
     }
   }
 
@@ -106,7 +126,10 @@ export function LoginForm() {
     });
     setPending(null);
     if (error) toast.error(describeAuthError(error.message));
-    else setNotice(`Đã gửi liên kết đăng nhập tới ${email}. Mở thư trên chính trình duyệt này.`);
+    else
+      setNotice(
+        `Đã gửi liên kết đăng nhập tới ${email}. Mở thư trên chính trình duyệt này.`,
+      );
   }
 
   async function sendPasswordReset() {
@@ -128,32 +151,43 @@ export function LoginForm() {
   return (
     <div className="flex flex-col gap-5">
       {urlError && (
-        <p role="alert" className="rounded-lg bg-destructive/10 px-3 py-2 text-sm text-destructive">
+        <p
+          role="alert"
+          className="rounded-lg bg-destructive/10 px-3 py-2 text-sm text-destructive"
+        >
           {URL_ERRORS[urlError] ?? "Đăng nhập không thành công. Thử lại nhé."}
         </p>
       )}
 
-      <div className="flex flex-col gap-2">
-        {PROVIDERS.map((provider) => (
-          <Button
-            key={provider.id}
-            type="button"
-            variant="outline"
-            className="h-10 justify-center gap-2.5"
-            disabled={busy}
-            onClick={() => signInWithProvider(provider.id)}
-          >
-            {pending === provider.id ? <Loader2 className="animate-spin" /> : provider.icon}
-            {provider.label}
-          </Button>
-        ))}
-      </div>
+      {providers.length > 0 && (
+        <>
+          <div className="flex flex-col gap-2">
+            {providers.map((provider) => (
+              <Button
+                key={provider.id}
+                type="button"
+                variant="outline"
+                className="h-10 justify-center gap-2.5"
+                disabled={busy}
+                onClick={() => signInWithProvider(provider.id)}
+              >
+                {pending === provider.id ? (
+                  <Loader2 className="animate-spin" />
+                ) : (
+                  provider.icon
+                )}
+                {provider.label}
+              </Button>
+            ))}
+          </div>
 
-      <div className="flex items-center gap-3 text-xs text-muted-foreground">
-        <span className="h-px flex-1 bg-border" />
-        hoặc dùng email
-        <span className="h-px flex-1 bg-border" />
-      </div>
+          <div className="flex items-center gap-3 text-xs text-muted-foreground">
+            <span className="h-px flex-1 bg-border" />
+            hoặc dùng email
+            <span className="h-px flex-1 bg-border" />
+          </div>
+        </>
+      )}
 
       <Tabs defaultValue="password" onValueChange={() => setNotice(null)}>
         <TabsList className="w-full">
@@ -191,7 +225,9 @@ export function LoginForm() {
               <Input
                 id="password"
                 type="password"
-                autoComplete={mode === "signin" ? "current-password" : "new-password"}
+                autoComplete={
+                  mode === "signin" ? "current-password" : "new-password"
+                }
                 required
                 minLength={8}
                 value={password}
@@ -207,7 +243,9 @@ export function LoginForm() {
               className="text-sm text-muted-foreground underline-offset-4 hover:underline"
               onClick={() => setMode(mode === "signin" ? "signup" : "signin")}
             >
-              {mode === "signin" ? "Chưa có tài khoản? Đăng ký" : "Đã có tài khoản? Đăng nhập"}
+              {mode === "signin"
+                ? "Chưa có tài khoản? Đăng ký"
+                : "Đã có tài khoản? Đăng nhập"}
             </button>
           </form>
         </TabsContent>
@@ -226,7 +264,11 @@ export function LoginForm() {
               />
             </div>
             <Button type="submit" className="h-10" disabled={busy}>
-              {pending === "magic" ? <Loader2 className="animate-spin" /> : <Mail />}
+              {pending === "magic" ? (
+                <Loader2 className="animate-spin" />
+              ) : (
+                <Mail />
+              )}
               Gửi liên kết đăng nhập
             </Button>
           </form>
@@ -234,7 +276,10 @@ export function LoginForm() {
       </Tabs>
 
       {notice && (
-        <p role="status" className="rounded-lg bg-success/10 px-3 py-2 text-sm text-success">
+        <p
+          role="status"
+          className="rounded-lg bg-success/10 px-3 py-2 text-sm text-success"
+        >
           {notice}
         </p>
       )}

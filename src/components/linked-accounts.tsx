@@ -7,6 +7,7 @@ import type { Provider } from "@supabase/supabase-js";
 import { DiscordIcon, GitHubIcon, GoogleIcon } from "@/components/provider-icons";
 import { Button } from "@/components/ui/button";
 import { createClient } from "@/lib/supabase/client";
+import { useEnabledProviders, type OAuthProvider } from "@/lib/supabase/providers";
 
 const PROVIDERS: { id: Provider; label: string; icon: React.ReactNode }[] = [
   { id: "google", label: "Google", icon: <GoogleIcon /> },
@@ -18,6 +19,8 @@ const PROVIDERS: { id: Provider; label: string; icon: React.ReactNode }[] = [
 export function LinkedAccounts() {
   const [linked, setLinked] = useState<string[] | null>(null);
   const [pending, setPending] = useState<string | null>(null);
+  const enabledProviders = useEnabledProviders();
+  const providers = PROVIDERS.filter((provider) => enabledProviders?.includes(provider.id as OAuthProvider));
 
   useEffect(() => {
     let cancelled = false;
@@ -47,9 +50,18 @@ export function LinkedAccounts() {
     }
   }
 
+  if (enabledProviders !== null && providers.length === 0) {
+    return (
+      <p className="text-sm text-muted-foreground">
+        Hiện chỉ có đăng nhập bằng email. Khi Google, GitHub hoặc Discord được bật trong Supabase,
+        bạn sẽ liên kết được ở đây.
+      </p>
+    );
+  }
+
   return (
     <ul className="flex flex-col gap-2">
-      {PROVIDERS.map((provider) => {
+      {providers.map((provider) => {
         const isLinked = linked?.includes(provider.id) ?? false;
         return (
           <li key={provider.id} className="flex items-center gap-3 rounded-lg border bg-background px-3 py-2">
