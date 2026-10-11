@@ -39,7 +39,8 @@ Lệnh này dựng Postgres, Auth, API, Storage và Realtime trên máy rồi á
 đè `.env.local` khi chạy `npm run dev`). Ở chế độ cục bộ, đăng ký bằng email không cần xác nhận thư.
 Xóa `.env.development.local` để quay lại project thật; `npx supabase stop` để tắt.
 
-`node e2e/realtime-check.mjs <groupId>` kiểm tra kênh realtime riêng tư của một nhóm bằng hai tài
+`node e2e/realtime-peer.mjs send|listen <groupId>` đóng vai thành viên còn lại khi bạn thử realtime với
+một trình duyệt. `node e2e/realtime-check.mjs <groupId>` kiểm tra kênh realtime riêng tư của một nhóm bằng hai tài
 khoản thử trong `e2e/local-test-users.json` (file này không được commit; tự tạo với dạng
 `{ "a": { "email", "password", "name" }, "b": { ... } }` rồi đăng ký hai tài khoản đó qua app).
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Loader2, Mail } from "lucide-react";
 import { toast } from "sonner";
 import type { Provider } from "@supabase/supabase-js";
@@ -36,7 +36,6 @@ function describeAuthError(message: string) {
 }
 
 export function LoginForm() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const next = safeNextPath(searchParams.get("next"));
   const urlError = searchParams.get("error");
@@ -46,6 +45,9 @@ export function LoginForm() {
   const [password, setPassword] = useState("");
   const [pending, setPending] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
+
+  // A full page load, so nothing a previous account left in the client router survives.
+  const enter = () => window.location.assign(next);
 
   const callbackUrl = (destination: string) =>
     `${window.location.origin}/auth/callback?next=${encodeURIComponent(destination)}`;
@@ -75,8 +77,7 @@ export function LoginForm() {
         setPending(null);
         return;
       }
-      router.replace(next);
-      router.refresh();
+      enter();
       return;
     }
 
@@ -89,8 +90,7 @@ export function LoginForm() {
     if (error) {
       toast.error(describeAuthError(error.message));
     } else if (data.session) {
-      router.replace(next);
-      router.refresh();
+      enter();
     } else {
       setNotice(`Đã gửi email xác nhận tới ${email}. Bấm vào liên kết trong thư để vào app.`);
     }

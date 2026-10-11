@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { LogOut, UserRound } from "lucide-react";
-import { signOut } from "@/app/actions/auth";
+import { UserRound } from "lucide-react";
+import { SignOutItem } from "@/components/sign-out-item";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -37,13 +37,7 @@ export async function UserMenu() {
           </Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <form action={signOut}>
-          <DropdownMenuItem asChild variant="destructive">
-            <button type="submit" className="w-full">
-              <LogOut /> Đăng xuất
-            </button>
-          </DropdownMenuItem>
-        </form>
+        <SignOutItem />
       </DropdownMenuContent>
     </DropdownMenu>
   );
