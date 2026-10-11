@@ -1,0 +1,216 @@
+{
+  "tests": [
+    {
+      "skill": "reading",
+      "title": "The Return of the Night",
+      "passage": {
+        "title": "The Return of the Night",
+        "paragraphs": [
+          {
+            "label": "A",
+            "text": "For most of human history, darkness arrived every evening as reliably as the tide. Today, more than four fifths of the world's population lives under skies brightened by artificial light, and in the most heavily lit regions the Milky Way has not been visible to the naked eye for generations. Astronomers were the first to complain, since the glow above cities drowned out the faint objects they wished to study. Yet what began as a professional nuisance is now understood to be a far wider problem. Researchers in fields as different as ecology, medicine and energy policy have come to regard the loss of the night as a form of pollution in its own right, with costs that are only beginning to be measured."
+          },
+          {
+            "label": "B",
+            "text": "The mechanism is simple. Light that escapes upwards or sideways from a lamp is scattered by dust and water droplets in the atmosphere, producing the dome of brightness known as skyglow. A poorly designed street lamp may send a third of its output where nobody needs it. Satellite images suggest that the lit surface of the planet has been expanding by roughly two per cent a year, and the true figure is probably higher, because the sensors in orbit are largely blind to the blue-rich light of the newest lamps. In other words, the instruments that monitor the problem are least sensitive to the kind of lighting that is spreading fastest."
+          },
+          {
+            "label": "C",
+            "text": "The consequences for wildlife are the best documented. Hatchling sea turtles, which evolved to crawl towards the brightest horizon, once the moonlit sea, now head inland towards hotels and roads, where many die. Migrating birds, which navigate partly by the stars, are drawn off course by illuminated towers and circle them until they are exhausted. Insects fare worst of all. A single lamp can attract moths from hundreds of metres away, and those that are not eaten by waiting predators often die of fatigue before dawn. Because many of these insects pollinate crops and wild plants at night, a decline in their numbers has effects that reach far beyond the lamp itself."
+          },
+          {
+            "label": "D",
+            "text": "Human beings are not exempt. The body's internal clock is set chiefly by light, and exposure during the evening delays the release of melatonin, the hormone that prepares us for sleep. Laboratory studies have linked disrupted sleep to poorer concentration and, over the long term, to a higher risk of several chronic illnesses. It would be wrong, however, to blame street lighting alone. Most of the light that reaches people's eyes at night comes from indoor lamps and screens, and scientists have so far found it difficult to separate the influence of outdoor lighting from that of the habits of the people who live beneath it."
+          },
+          {
+            "label": "E",
+            "text": "Ironically, a technology that promised to reduce the problem has in some respects made it worse. Light-emitting diodes use far less electricity than the sodium lamps they replace, and city authorities adopted them eagerly in the hope of cutting both costs and carbon emissions. But cheaper light tends to mean more light. Economists call this the rebound effect: when a service becomes less expensive, people consume more of it, and part of the expected saving disappears. Many towns that switched to diodes simply installed brighter lamps, or lit streets and buildings that had previously been left dark."
+          },
+          {
+            "label": "F",
+            "text": "None of this means that the night must be abandoned to darkness. The remedies are well understood and, unusually for an environmental problem, they take effect the moment they are applied. Shielded fittings direct light downwards, where it is useful. Warmer-coloured lamps scatter less in the atmosphere and disturb animals less. Dimming or switching off lights in the small hours saves money without, according to several large studies in Britain, any measurable increase in crime or road accidents. A number of regions have gone further and created dark-sky reserves, in which lighting is strictly controlled and visitors come specifically to see the stars."
+          },
+          {
+            "label": "G",
+            "text": "What stands in the way is less a shortage of knowledge than a habit of mind. Brightness is widely associated with safety, prosperity and modernity, and a well-lit street is taken as evidence that a council is doing its job. Changing that perception may prove harder than changing the lamps. Campaigners argue that light should be treated like any other resource: used where and when it is needed, in the amount required, and no more. If that principle were accepted, the stars could return to city skies within a single night, a recovery that no other form of pollution can offer."
+          }
+        ]
+      },
+      "groups": [
+        {
+          "type": "true_false_not_given",
+          "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+          "questions": [
+            { "n": 1, "prompt": "Astronomers were the earliest group to object to brighter night skies.", "answer": "TRUE", "evidence": "Paragraph A: 'Astronomers were the first to complain'." },
+            { "n": 2, "prompt": "Satellite measurements probably overestimate how quickly lit areas are growing.", "answer": "FALSE", "evidence": "Paragraph B: 'the true figure is probably higher'." },
+            { "n": 3, "prompt": "Turtle hatchlings prefer artificial light because it is warmer than moonlight.", "answer": "NOT GIVEN", "evidence": "Paragraph C explains they follow the brightest horizon; temperature is never mentioned." },
+            { "n": 4, "prompt": "The greater part of people's exposure to light at night comes from inside buildings.", "answer": "TRUE", "evidence": "Paragraph D: 'Most of the light ... comes from indoor lamps and screens'." },
+            { "n": 5, "prompt": "Sodium lamps cost more to manufacture than light-emitting diodes.", "answer": "NOT GIVEN", "evidence": "Paragraph E compares electricity use, not manufacturing cost." }
+          ]
+        },
+        {
+          "type": "matching",
+          "variant": "information",
+          "instruction": "The passage has seven paragraphs, A-G. Which paragraph contains the following information?",
+          "options": { "A": "Paragraph A", "B": "Paragraph B", "C": "Paragraph C", "D": "Paragraph D", "E": "Paragraph E", "F": "Paragraph F", "G": "Paragraph G" },
+          "questions": [
+            { "n": 6, "prompt": "an explanation of why energy-saving lighting has not reduced overall brightness", "answer": "E", "evidence": "The rebound effect." },
+            { "n": 7, "prompt": "a reference to evidence that reducing lighting does not make streets more dangerous", "answer": "F", "evidence": "Studies in Britain found no measurable increase in crime or road accidents." },
+            { "n": 8, "prompt": "a description of how misdirected light produces a visible glow", "answer": "B", "evidence": "Light is scattered by dust and water droplets, producing skyglow." },
+            { "n": 9, "prompt": "the suggestion that public attitudes are the main barrier to change", "answer": "G", "evidence": "'less a shortage of knowledge than a habit of mind'." }
+          ]
+        },
+        {
+          "type": "completion",
+          "variant": "summary",
+          "instruction": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "word_limit": "NO MORE THAN TWO WORDS",
+          "text": "Artificial light harms many species. Young turtles move towards roads instead of the sea, and birds that rely on the {{10}} to find their way become disoriented. Night-flying insects gather around lamps, where they are caught by {{11}} or die of exhaustion. This matters because many of them {{12}} plants after dark. In people, evening light postpones the production of {{13}}, a hormone connected with sleep.",
+          "answers": { "10": ["stars"], "11": ["waiting predators", "predators"], "12": ["pollinate"], "13": ["melatonin"] },
+          "evidence": { "10": "Paragraph C: birds 'navigate partly by the stars'.", "11": "Paragraph C: 'eaten by waiting predators'.", "12": "Paragraph C: insects 'pollinate crops and wild plants at night'.", "13": "Paragraph D: light 'delays the release of melatonin'." }
+        }
+      ]
+    },
+    {
+      "skill": "listening",
+      "title": "Leisure centre enquiry and garden volunteers",
+      "parts": [
+        {
+          "part": 1,
+          "context": "You will hear a man phoning a leisure centre to ask about becoming a member.",
+          "speakers": [
+            { "id": "A", "name": "Receptionist", "voice": "female_uk" },
+            { "id": "B", "name": "Caller", "voice": "male_uk" }
+          ],
+          "script": [
+            { "speaker": "A", "text": "Good morning, Riverside Leisure Centre, Hannah speaking. How can I help?" },
+            { "speaker": "B", "text": "Hi, I'd like to ask about joining. I've just moved to the area." },
+            { "speaker": "A", "text": "Of course. Can I take your name first?" },
+            { "speaker": "B", "text": "Yes, it's Daniel Okafor. That's O, K, A, F, O, R." },
+            { "speaker": "A", "text": "Thank you, Daniel. And are you interested in the gym, the pool, or both?" },
+            { "speaker": "B", "text": "Mainly the pool, to be honest. I used to swim three times a week, though I'd like to try the climbing wall as well." },
+            { "speaker": "A", "text": "Then the Active membership would suit you. It covers the pool and the climbing wall, and it's thirty-eight pounds a month." },
+            { "speaker": "B", "text": "I thought I saw forty-five on the website." },
+            { "speaker": "A", "text": "That's the Premium one, which adds the gym and the classes. Active is thirty-eight." },
+            { "speaker": "B", "text": "Right, thirty-eight is fine. When are the quiet times for swimming?" },
+            { "speaker": "A", "text": "Early mornings are busy with the swimming club. I'd suggest early afternoon, between one and three. Evenings fill up again after six." },
+            { "speaker": "B", "text": "Early afternoon works for me. Do I need to bring anything when I come in to register?" },
+            { "speaker": "A", "text": "Just a photo ID and proof of address. Oh, and your bank details for the monthly payment." },
+            { "speaker": "B", "text": "A bank statement would have my address on it, wouldn't it?" },
+            { "speaker": "A", "text": "It would, but we actually ask for a utility bill or a tenancy agreement, I'm afraid." },
+            { "speaker": "B", "text": "No problem, I've got my tenancy agreement. And is there parking?" },
+            { "speaker": "A", "text": "There is, behind the building on Mill Lane. It's free for members for the first two hours. Just give your registration number at the front desk." },
+            { "speaker": "B", "text": "Perfect. Could I come in on Thursday?" },
+            { "speaker": "A", "text": "Thursday's fine. We do inductions for the climbing wall at ten thirty and at four. Shall I book you in?" },
+            { "speaker": "B", "text": "Ten thirty, please." },
+            { "speaker": "A", "text": "Lovely. That's all booked, Daniel. We'll see you on Thursday." }
+          ],
+          "groups": [
+            {
+              "type": "completion",
+              "variant": "form",
+              "instruction": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+              "word_limit": "ONE WORD AND/OR A NUMBER",
+              "text": "Riverside Leisure Centre: new member enquiry\nSurname: {{1}}\nMain interest: the {{2}}\nMembership: Active, costing £{{3}} a month\nBest time to swim: early {{4}}\nBring: photo ID and a {{5}} agreement\nCar park: behind the building on Mill {{6}}",
+              "answers": { "1": ["Okafor"], "2": ["pool"], "3": ["38", "thirty-eight"], "4": ["afternoon"], "5": ["tenancy"], "6": ["Lane"] },
+              "evidence": { "3": "Forty-five is the Premium price, mentioned as a distractor.", "5": "A bank statement is not accepted." }
+            }
+          ]
+        },
+        {
+          "part": 2,
+          "context": "You will hear a coordinator welcoming new volunteers to a community garden.",
+          "speakers": [{ "id": "C", "name": "Coordinator", "voice": "female_us" }],
+          "script": [
+            { "speaker": "C", "text": "Good evening everyone, and welcome to Hollybank Community Garden. My name's Priya, and I coordinate the volunteers here. Before we go outside, let me tell you a little about how the garden works." },
+            { "speaker": "C", "text": "The site was a car park until twenty fourteen, when the council agreed to lease it to local residents. Since then we've built forty raised beds, a greenhouse, and most recently a small orchard, which was planted last spring." },
+            { "speaker": "C", "text": "People often assume that everything we grow is sold to raise money. In fact, about half goes to the food bank on Carter Street, and the rest is shared among the volunteers. We did consider running a market stall, but we decided against it." },
+            { "speaker": "C", "text": "Now, a word about what you'll actually be doing. New volunteers usually start with watering and weeding, because those jobs need doing every single day. Once you've done four sessions, you can ask to be trained on the composting system, which is a bit more technical." },
+            { "speaker": "C", "text": "Tools are kept in the green shed next to the greenhouse. Please clean them before you put them back. It sounds obvious, but dirty tools spread plant diseases faster than anything else." },
+            { "speaker": "C", "text": "We meet on Wednesday evenings and Saturday mornings. Saturdays are the most popular, so if you prefer a quieter session, come on a Wednesday." },
+            { "speaker": "C", "text": "One last thing. Gloves are provided, but you'll need to bring your own boots, and a bottle of water in summer. Right, let's go and have a look around." }
+          ],
+          "groups": [
+            {
+              "type": "multiple_choice",
+              "instruction": "Choose the correct letter, A, B or C.",
+              "questions": [
+                { "n": 7, "prompt": "Before 2014, the garden site was used as", "options": { "A": "a market.", "B": "a car park.", "C": "an orchard." }, "answer": "B" },
+                { "n": 8, "prompt": "What does the garden do with the food it grows?", "options": { "A": "It sells it to raise funds.", "B": "It gives all of it to a food bank.", "C": "It divides it between a food bank and the volunteers." }, "answer": "C", "evidence": "Selling is what people assume; a market stall was rejected." },
+                { "n": 9, "prompt": "Volunteers can be trained in composting", "options": { "A": "after they have attended four sessions.", "B": "on their first day.", "C": "if they come every day." }, "answer": "A" }
+              ]
+            },
+            {
+              "type": "completion",
+              "variant": "sentence",
+              "instruction": "Complete the sentences below. Write ONE WORD ONLY for each answer.",
+              "word_limit": "ONE WORD ONLY",
+              "text": "Tools are stored in a shed that is {{10}} in colour.\nUnwashed tools can pass on plant {{11}}.\nVolunteers must bring their own {{12}}.",
+              "answers": { "10": ["green"], "11": ["diseases"], "12": ["boots"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "writing",
+      "task": 1,
+      "title": "Household internet access by region",
+      "prompt": "The chart below shows the percentage of households with internet access in four world regions between 2005 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "chart": {
+        "type": "line",
+        "title": "Households with internet access, 2005-2020",
+        "x_label": "Year",
+        "y_label": "Households",
+        "unit": "%",
+        "categories": ["2005", "2010", "2015", "2020"],
+        "series": [
+          { "name": "Europe", "values": [42, 67, 82, 88] },
+          { "name": "The Americas", "values": [33, 45, 60, 72] },
+          { "name": "Asia-Pacific", "values": [12, 24, 41, 61] },
+          { "name": "Africa", "values": [2, 5, 13, 22] }
+        ]
+      }
+    },
+    {
+      "skill": "writing",
+      "task": 2,
+      "title": "Remote work and city centres",
+      "prompt": "In many countries, a growing number of people now work from home rather than travelling to an office. Some believe this trend will damage city centres and local economies, while others argue that it will make towns and cities better places to live. Discuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "essay_type": "discussion"
+    },
+    {
+      "skill": "speaking",
+      "part": 1,
+      "title": "Mornings and public transport",
+      "topics": [
+        { "topic": "Mornings", "questions": ["Do you usually get up early in the morning?", "What do you normally do in the first hour after you wake up?", "Has your morning routine changed since you were a child?"] },
+        { "topic": "Public transport", "questions": ["How often do you use public transport?", "What kind of transport is most popular where you live?", "Would you rather travel by bus or by train? Why?"] }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "part": 2,
+      "title": "A skill that took a long time to learn",
+      "cue_card": {
+        "prompt": "Describe a skill that took you a long time to learn.",
+        "bullets": ["what the skill was", "why you decided to learn it", "how you learned it"],
+        "closing": "and explain how you felt when you were finally able to do it well."
+      },
+      "rounding_off": ["Do you still use this skill today?"]
+    },
+    {
+      "skill": "speaking",
+      "part": 3,
+      "title": "Learning skills in adult life",
+      "theme": "A skill that took a long time to learn",
+      "questions": [
+        "Why do some people give up when they find a new skill difficult?",
+        "Is it better to learn practical skills from a teacher or by yourself?",
+        "How has technology changed the way adults learn new things?",
+        "Do you think employers should pay for their staff to learn skills unrelated to their job?",
+        "Some people say patience is becoming rarer in modern society. To what extent do you agree?"
+      ]
+    }
+  ]
+}
