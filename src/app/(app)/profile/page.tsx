@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Award, CalendarDays, Flame, Target } from "lucide-react";
 import { BandTrend, type TrendPoint } from "@/components/charts/band-trend";
-import { LinkedAccounts } from "@/components/linked-accounts";
 import { ProfileForm } from "@/components/profile-form";
 import { requireProfile } from "@/lib/auth";
 import { formatBand } from "@/lib/bands";
@@ -132,19 +131,10 @@ export default async function ProfilePage() {
         </ul>
       </section>
 
-      <div className="grid gap-4 lg:grid-cols-2">
-        <section className="rounded-2xl border bg-card p-5">
-          <h2 className="mb-4 font-heading font-bold">Thông tin của bạn</h2>
-          <ProfileForm profile={profile} />
-        </section>
-        <section className="rounded-2xl border bg-card p-5">
-          <h2 className="font-heading font-bold">Cách đăng nhập</h2>
-          <p className="mt-1 mb-4 text-sm text-muted-foreground">
-            Liên kết thêm để lần sau đăng nhập kiểu nào cũng vào đúng tài khoản này.
-          </p>
-          <LinkedAccounts />
-        </section>
-      </div>
+      <section className="max-w-md rounded-2xl border bg-card p-5">
+        <h2 className="mb-4 font-heading font-bold">Thông tin của bạn</h2>
+        <ProfileForm profile={profile} />
+      </section>
     </div>
   );
 }

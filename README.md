@@ -53,10 +53,9 @@ Trong dashboard, phần Authentication:
 
 1. **URL Configuration**: đặt Site URL là domain của app, và thêm `https://<domain>/auth/callback`
    (cùng `http://localhost:3000/auth/callback` khi dev) vào Redirect URLs.
-2. **Providers**: bật Google, GitHub, Discord và điền client ID / secret lấy từ từng nhà cung cấp.
-   Email + mật khẩu và magic link đã bật sẵn.
-3. **Allow manual linking**: bật để trang Hồ sơ liên kết được nhiều kiểu đăng nhập vào một tài khoản.
-4. Email mặc định của Supabase giới hạn vài thư mỗi giờ. Khi có nhiều người dùng, cấu hình SMTP riêng.
+2. Đăng nhập chỉ dùng email + mật khẩu (có xác nhận email và quên mật khẩu), đã bật sẵn trong Supabase.
+   App không dùng OAuth hay magic link.
+3. Email mặc định của Supabase giới hạn vài thư mỗi giờ. Khi có nhiều người dùng, cấu hình SMTP riêng.
 
 ## Deploy
 

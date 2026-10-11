@@ -3,7 +3,7 @@ import type { EmailOtpType } from "@supabase/supabase-js";
 import { safeNextPath } from "@/lib/paths";
 import { createClient } from "@/lib/supabase/server";
 
-// Lands here from OAuth, email confirmation, magic link and password reset.
+// Lands here from the links in sign-up confirmation and password reset emails.
 export async function GET(request: NextRequest) {
   const { searchParams, origin } = request.nextUrl;
   const next = safeNextPath(searchParams.get("next"));

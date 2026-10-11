@@ -18,7 +18,7 @@ export default function LoginPage() {
           Đăng nhập để nhận bộ đề hôm nay cùng cả nhóm.
         </p>
         {/* The form reads ?next and ?error, which only exist at request time. */}
-        <Suspense fallback={<div className="h-80 animate-pulse rounded-xl bg-muted" />}>
+        <Suspense fallback={<div className="h-56 animate-pulse rounded-xl bg-muted" />}>
           <LoginForm />
         </Suspense>
       </div>
