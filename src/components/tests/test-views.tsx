@@ -44,6 +44,23 @@ export function CueCard({ card }: { card: Extract<SpeakingContent, { part: 2 }>[
 }
 
 export function SpeakingPreview({ content }: { content: SpeakingContent }) {
+  if (content.part === "full") {
+    const parts: [string, SpeakingContent][] = [
+      ["Part 1", { part: 1, ...content.part1 }],
+      ["Part 2", { part: 2, ...content.part2 }],
+      ["Part 3", { part: 3, ...content.part3 }],
+    ];
+    return (
+      <div className="flex flex-col gap-5">
+        {parts.map(([label, part]) => (
+          <section key={label} className="flex flex-col gap-2">
+            <h3 className="font-heading font-bold">{label}</h3>
+            <SpeakingPreview content={part} />
+          </section>
+        ))}
+      </div>
+    );
+  }
   if (content.part === 2) {
     return (
       <div className="flex flex-col gap-3">

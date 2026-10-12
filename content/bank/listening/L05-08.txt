@@ -1,0 +1,392 @@
+# L05 | Campsite booking and animal rescue volunteers
+## 1 | You will hear a man phoning a campsite to book a place for his family.
+@A Manager female_us
+@B Caller male_uk
+A: Pinewood Lakes Campsite, good morning. Ruth speaking.
+B: Morning. I'd like to book a pitch for a family tent in August, if you've got any space left.
+A: August is busy, but let me see. Which dates were you thinking of?
+B: We were hoping to arrive on Friday the fourteenth and stay for a week.
+A: Hmm. The fourteenth is completely full, because of the music festival in the village. I could offer you a pitch from Saturday the fifteenth.
+B: That would still work. Could we stay until the following Saturday, then?
+A: Yes, that's seven nights. And how many of you are there?
+B: Two adults and three children. My mother may join us for a couple of days, but she'd stay at the hotel in the village.
+A: So five in the tent. How big is the tent?
+B: It's a six-metre one.
+A: Then you'll need a large pitch. Standard pitches are twenty-two pounds a night, and the large ones are twenty-eight.
+B: Twenty-eight. Fine. Does that include electricity?
+A: No, electricity is four pounds extra per night. Do you need it?
+B: I don't think so. We cook on gas, and our lamps run on batteries.
+A: OK, no electricity. Now, we have two areas for tents. The meadow is nearer the shop and the play area, but it's noisier. The orchard is quieter and has more shade.
+B: The children would love to be near the play area. But honestly, after a day with them I'd rather have some peace. Put us in the orchard.
+A: The orchard it is. Can I take your name?
+B: It's Stefan Novak. That's N, O, V, A, K.
+A: Thank you. Arrival is any time after two in the afternoon, and please remember that the gate closes at half past ten at night.
+B: We'll be there well before that. Is there anywhere to buy food on the site?
+A: There's a small shop for basics, bread and milk and so on. It doesn't sell fresh meat or vegetables, but there's a farm shop about a mile down the road.
+B: Good to know. And what is there for the children to do? I saw something about boats on your website.
+A: That's out of date, I'm afraid. We used to hire out rowing boats, but the insurance became too expensive. What we have now is kayaks, and there's a lesson for beginners every morning at ten. Swimming is allowed too, though only in the marked area beside the jetty.
+B: Are dogs allowed? We're not bringing one. I'm just thinking about the noise.
+A: They are, but owners have to camp in a separate field on the other side of the lake, so you won't be disturbed.
+B: Great. Do you need a deposit?
+A: Yes, we ask for thirty pounds now, and you pay the rest when you arrive. If you cancel more than a week before your stay, you get the deposit back. After that, I'm afraid we keep it.
+B: That seems fair. I'll pay the thirty by card now.
+== fill:note | 1WN
+Pinewood Lakes Campsite: booking
+Arrival: Saturday {{1=15|15th|fifteenth}} August, for seven nights
+Number of people in the tent: {{2=5|five}}
+Price per night: £{{3=28|twenty-eight}}
+Area of the site: the {{4=orchard}}
+Surname: {{5=Novak}}
+Gate closes at: {{6=10.30|10:30|half past ten}} pm
+Fresh food: available from a {{7=farm}} shop nearby
+== mc
+8. What can guests do on the lake?
+A. hire a rowing boat
+B. swim wherever they like
+C. have a kayak lesson
+=> C // Rowing boats are no longer hired out; swimming is only allowed in the marked area.
+9. What does Ruth say about dogs?
+A. They are kept in a different part of the site.
+B. They are not allowed on the site.
+C. They are only allowed in the orchard.
+=> A // Dog owners camp in a separate field on the other side of the lake.
+10. The deposit will be returned if Stefan cancels
+A. at any time before he arrives.
+B. more than a week before his stay.
+C. because of bad weather.
+=> B // After that point the campsite keeps the deposit.
+## 2 | You will hear the volunteer coordinator of an animal rescue centre talking to new volunteers.
+@C Coordinator male_us
+C: Hello everyone, and welcome to Oakfield Animal Rescue. I'm Dev, and I coordinate the volunteers. I'll tell you a bit about the centre, and then explain what we expect from you.
+C: Oakfield opened twenty-two years ago. It was started by a retired vet, in a barn that a local farmer let her use for nothing. These days we look after around a hundred and twenty animals at any one time. Visitors always assume that most of them are dogs. In fact, we have far more cats than anything else, and the number of rabbits is growing fast, because people buy them for children and then lose interest.
+C: People also ask where the money comes from. We receive nothing from the government. About a third of our income is raised by our two charity shops, and the rest, which is by far the larger part, is given by members of the public.
+C: Now, your first weeks. I know many of you came here wanting to walk dogs, and you will. But nobody takes a dog out until they've completed our handling course, however long they've been with us. It runs on Saturday mornings and lasts two hours. Until then, you'll be cleaning and feeding, which is honestly what the animals need most.
+C: A few rules. Every time you arrive, sign in at the office, so that we know who's on the site if there's a fire. Wear closed shoes, not sandals. And we don't allow phones in the kennels. A sudden ringtone can terrify a nervous dog, so leave yours in a locker.
+C: Please don't bring treats for the animals, however kind it seems. Many of them are on special diets, and one biscuit can undo a week of careful feeding.
+C: As for when we need you, mornings are popular, and we usually have plenty of help then. Where we're really short of people is the afternoon, so if you're free after lunch, you'll be very welcome. We ask everyone to do one shift a week, and to stay with us for at least three months, because the animals get used to familiar faces.
+C: One last thing. Volunteers often fall in love with an animal and want to take it home. You're welcome to apply, but you'll be treated exactly like any other member of the public. That means one of our staff will come and carry out a home visit before any decision is made.
+C: Right, I'll show you where the lockers are, and then we'll make a start.
+== mc
+11. Who started the rescue centre?
+A. a local farmer
+B. a retired vet
+C. a group of volunteers
+=> B // The farmer only lent the barn.
+12. Which animals does the centre look after most?
+A. dogs
+B. rabbits
+C. cats
+=> C // Visitors assume dogs, but there are far more cats; rabbit numbers are growing.
+13. Most of the centre's income comes from
+A. its charity shops.
+B. gifts from the public.
+C. a government grant.
+=> B // The shops raise about a third; nothing comes from the government.
+14. Volunteers are allowed to walk dogs once they have
+A. finished a training course.
+B. worked at the centre for a month.
+C. been approved by the coordinator.
+=> A // Nobody takes a dog out before completing the handling course, however long they have been there.
+== fill:note | 1W
+Rules and arrangements for volunteers
+- sign in at the {{15=office}} on arrival
+- no {{16=phones}} in the kennels
+- do not give {{17=treats}} to the animals
+- more help is needed in the {{18=afternoon}}
+- stay for a minimum of three {{19=months}}
+- anyone wishing to adopt must have a home {{20=visit}}
+
+# L06 | River survey report and the psychology of queuing
+## 3 | You will hear two environmental science students, Lena and Karim, discussing a report on a river survey.
+@A Lena female_us
+@B Karim male_uk
+A: So, Karim, the river report is due on Monday. Have you been through the results?
+B: I have. First of all, I'm glad we went in April in the end. I wanted to go in March, remember.
+A: I do. And the equipment had been booked for March. But the river was so high that nobody could have stood in it safely.
+B: Exactly. Now, we ought to mention the problems with the equipment as a limitation.
+A: Yes. I'd assumed the oxygen meter would let us down, because it's so old, but it behaved perfectly. It was the nets. Two of them had holes, and we lost half of one sample.
+B: Right. And in the method section, I think we should explain why we counted insects instead of relying on chemical tests.
+A: Because a chemical test only tells you about the moment you take the sample. The insects living on the river bed reflect what conditions have been like over several months.
+B: Good, that's clear. They're harder to identify, though. It took us hours.
+A: It did. Now, what struck you most about the results overall?
+B: Honestly, I expected the stretch through the town to be the dirtiest. All those roads and drains. But the worst readings were out in the countryside.
+A: That surprised me too. So let's go through the sites one at a time. Site one, above the farm.
+B: The water was completely clear there, and we found nine kinds of insect, including mayflies, which can only live in clean water. It's our best site by far.
+A: Then site two, just below the farm.
+B: That's where the nitrate reading was the highest of anywhere, three times the level at site one. I thought the number of insects would fall as well, but it hardly changed.
+A: Not yet, perhaps. Site three, beside the old factory.
+B: I was sure we'd find chemicals there. The readings were normal. What we did notice was that the water was a strange orange colour.
+A: Doctor Hale says that's iron from the old mine workings, and it's harmless.
+B: Then site four, under the town bridge. A shopping trolley, plastic bags, dozens of bottles. I took photographs.
+A: A man fishing there told us the river was full of fish, but we never saw one.
+B: No. And site five, at the weir. The current was so strong that we could hardly hold the net still, so we only managed one sample instead of three.
+A: We'll have to say the results from that site are less reliable. Now, recommendations.
+B: I'd like to suggest planting trees along the bank below the farm.
+A: Trees would take years. The cattle walk straight into the water there. If the farmer put up a fence, the bank would recover within a season.
+B: That's more realistic. A fence, then. Shall I draft that section?
+A: Please. I'll do the tables.
+== mc
+1. Why did the students do their fieldwork in April rather than March?
+A. The equipment was not available in March.
+B. Their tutor was away in March.
+C. The water level was dangerous in March.
+=> C // The equipment had been booked for March, but the river was too high to stand in safely.
+2. Which equipment caused a problem during the survey?
+A. the nets
+B. the oxygen meter
+C. the sample bottles
+=> A // The old oxygen meter behaved perfectly; two nets had holes.
+3. The students counted insects because insects
+A. are simple to identify.
+B. show the quality of the water over a long period.
+C. react quickly to chemicals.
+=> B // A chemical test only describes one moment; insects reflect conditions over several months.
+4. What surprised both students about the results?
+A. The river was most polluted outside the town.
+B. The river was cleaner than in earlier surveys.
+C. The readings varied very little between sites.
+=> A // They expected the town stretch to be dirtiest, but the worst readings were in the countryside.
+5. What will the students recommend?
+A. planting trees beside the river
+B. moving the cattle to another field
+C. putting up a fence along the bank
+=> C // Trees would take years; a fence would let the bank recover within a season.
+== match:generic | What did the students find at each of the following sites? Choose FIVE answers from the list and write the correct letter, A-G, next to questions 6-10.
+A. a high level of nitrate
+B. a large amount of rubbish
+C. very few kinds of insect
+D. water of an unusual colour
+E. water moving too fast to sample properly
+F. a large number of fish
+G. clear water with a wide range of insects
+6. Site 1, above the farm => G // Clear water and nine kinds of insect, including mayflies.
+7. Site 2, below the farm => A // The highest nitrate reading; the number of insects hardly changed.
+8. Site 3, beside the old factory => D // Normal readings, but the water was orange because of iron.
+9. Site 4, under the town bridge => B // A trolley, bags and bottles; no fish were seen.
+10. Site 5, at the weir => E // The current was too strong to hold the net still.
+## 4 | You will hear part of a lecture about the psychology of waiting in queues.
+@C Lecturer female_uk
+C: This afternoon I'd like to talk about something we all do and nearly all dislike, which is waiting in a queue. It turns out that how long a wait feels has surprisingly little to do with how long it actually is.
+C: Let's begin with a basic finding. When researchers time people in a queue and then ask them how long they waited, the estimates are consistently too high. On average, people believe they have waited about a third longer than they really have.
+C: The first principle is that time passes more slowly when we have nothing to do. A famous example comes from an office building in New York, where tenants complained about slow lifts. Speeding up the lifts would have been expensive. Instead, the manager had mirrors fitted beside the lift doors. People now had something to look at, namely themselves, and the complaints almost stopped.
+C: An airport in Texas found a similar solution. Passengers were complaining about the wait for their bags. So the airport moved the arrival gates further away. Passengers now had to walk for six minutes before reaching the hall, the bags were already there when they arrived, and everyone was satisfied, although the total time had not changed at all.
+C: The second principle is that uncertainty makes a wait feel longer. That's why theme parks put up signs showing the waiting time. And notice that the time shown is deliberately too long. If the sign says forty minutes and you reach the front in thirty, you feel that you've gained something.
+C: In the same way, people tolerate a delay much better when they are given an explanation. A pilot who tells passengers why the plane isn't moving gets far fewer complaints than one who says nothing.
+C: Third, fairness. Nothing makes people angrier than seeing someone who arrived later being served first. This is why banks and airports have moved to one winding line feeding several desks. Interestingly, people accept exceptions when they understand the reason. In a hospital emergency department, nobody objects when a patient whose need is urgent goes straight in.
+C: Fourth, and this comes from research on memory, we don't judge an experience by its average. What matters most is the end. A queue that crawls and then suddenly speeds up is remembered far more kindly than one that starts quickly and then stops.
+C: Businesses apply all this. Supermarkets put magazines beside the tills, partly to sell them, of course, but also to keep us occupied. And telephone helplines now tell callers their position in the queue, because knowing you are third is far easier to bear than silence.
+== fill:note | 1W
+The psychology of queuing
+- people think they have waited about a {{11=third}} longer than they really have
+Having nothing to do
+- office building: {{12=mirrors}} were placed beside the lifts
+- airport: passengers had to {{13=walk}} further to collect their bags
+Uncertainty
+- theme parks show a waiting time that is too {{14=long}}
+- delays are accepted more easily when there is an {{15=explanation}}
+Fairness
+- people are angry if a later arrival is served {{16=first}}
+- in hospitals, an exception is accepted when a patient's need is {{17=urgent}}
+Memory
+- the most important part of a wait is the {{18=end}}
+Use in business
+- supermarkets place {{19=magazines}} near the tills
+- helplines tell callers their {{20=position}} in the queue
+
+# L07 | Dental clinic registration and a city walking festival
+## 1 | You will hear a woman registering as a new patient at a dental clinic.
+@A Receptionist male_uk
+@B Patient female_us
+A: Good morning, Castle Street Dental Clinic.
+B: Hi. I've just moved here and I'd like to register as a new patient, and book a check-up if that's possible.
+A: Certainly. I'll take a few details first. Can I have your name?
+B: It's Ingrid Lindqvist. I'd better spell the surname. L, I, N, D, Q, V, I, S, T.
+A: Thank you. And your address?
+B: Twenty-seven Fenner Road. That's F, E, double N, E, R.
+A: Fenner Road, got it. And what do you do for a living? We ask because of the forms for the health service.
+B: I'm a translator. I work from home most of the time.
+A: Lovely. Now, when did you last have a check-up?
+B: Let me think. About eighteen months ago? No, hang on. It was just before we moved to Leeds, so it must be two years.
+A: Two years. And is anything troubling you at the moment?
+B: Actually, yes. One of my back teeth hurts when I eat anything cold. Ice cream is impossible. Hot drinks are fine, strangely.
+A: I'll make a note of that for the dentist. Do you have any allergies we should know about?
+B: Only one. I'm allergic to latex, so the dentist will need different gloves.
+A: That's no problem, we keep those in stock. Now, let's find you an appointment. I've got Monday at quarter past eight, Wednesday at twenty to six, or Thursday at one.
+B: I start work at eight on Mondays, and I usually have meetings over lunch. I finish at five, though, so Wednesday would be ideal.
+A: Wednesday at twenty to six, then. You'll be seeing Doctor Amara.
+B: Great. How much will the check-up cost?
+A: It's thirty-five pounds. If the dentist decides you need X-rays, those are fifteen pounds on top. We did have a free first visit for new patients, but that offer ended in the spring.
+B: That's a shame. Do I need to bring my old X-rays with me?
+A: No, your previous dentist can send those to us directly. What would help is a list of any medicines you take regularly.
+B: I can do that. There are only two.
+A: And we'll send you a reminder the day before. We normally do that by text message.
+B: My phone's been playing up lately, and I keep missing texts. Could you email me instead?
+A: Of course. I'll put that on your record.
+== fill:form | 1WN
+Castle Street Dental Clinic: new patient
+Surname: {{1=Lindqvist}}
+Address: 27 {{2=Fenner}} Road
+Occupation: {{3=translator}}
+Last check-up: {{4=2|two}} years ago
+Present problem: pain when eating {{5=cold}} food
+Allergy: {{6=latex}}
+== mc
+7. Which appointment does Ingrid choose?
+A. Monday morning
+B. Wednesday early evening
+C. Thursday lunchtime
+=> B // She starts work at eight on Mondays and has lunch meetings, but finishes at five.
+8. How much does a check-up without X-rays cost?
+A. nothing for new patients
+B. thirty-five pounds
+C. fifty pounds
+=> B // X-rays are fifteen pounds extra; the free first visit ended in the spring.
+9. What is Ingrid asked to bring to her appointment?
+A. the X-rays from her last dentist
+B. a form from the health service
+C. details of her medication
+=> C // The previous dentist will send the X-rays directly.
+10. How will the clinic remind Ingrid about her appointment?
+A. by email
+B. by text message
+C. by phone call
+=> A // The clinic normally texts, but her phone has been missing texts.
+## 2 | You will hear the organiser of a walking festival describing this year's programme on local radio.
+@C Organiser female_uk
+C: Thanks for having me. Yes, the Brantley Walking Festival is back next month, and I'm delighted to say it's bigger than ever.
+C: For anyone who doesn't know it, the festival began as a single guided walk, organised by the history society to raise money for the church roof. That was eleven years ago. Last year we had more than two thousand walkers over the weekend.
+C: What's different this year? Well, in the past, everything set off from the town hall, and the square became terribly crowded. So we've given each walk a different starting point, and they're all printed on the map in the programme.
+C: Most walks cost five pounds, and children go free. I should explain where that money goes, because people sometimes think we make a profit. We don't. Every guide is a volunteer. The fee pays for insurance, and whatever is left goes to the footpath repair fund.
+C: You can book online, and I'd recommend it. You can also just turn up on the day, but if a walk is full, you'll be disappointed. What we can't do, I'm afraid, is take bookings over the phone, because we simply haven't got the staff.
+C: Let me pick out a few walks. The river walk follows the old towpath, and it's completely flat with a good hard surface. That makes it the one walk we can recommend to wheelchair users.
+C: The heritage walk goes around the old town with a local historian. It ends at the Crown Inn, and lunch there is part of the price, which is why it's twelve pounds and not five.
+C: The rooftop walk is new. With special permission, we're taking small groups up the tower of the old brewery. There are a hundred and forty steps and some low railings, so we can't accept anyone under twelve.
+C: The woodland walk is led by the park rangers. Thanks to a grant from the council, there's no charge at all for that one, though you still need a ticket.
+C: The lantern walk sets off from the park gates at seven in the evening. By the time it reaches the castle, it'll be completely dark, and everyone carries a paper lantern. It's magical.
+C: And finally, the island walk. You cross to Heron Island by ferry, walk around the nature reserve, and come back the same way. The ferry only holds twenty, so that walk sells out within hours.
+C: Programmes are in the library and the tourist office from Monday.
+== mc
+11. The first walking festival was organised in order to
+A. attract visitors to the town.
+B. collect money for a building.
+C. celebrate the history society's anniversary.
+=> B // It was a single walk to raise money for the church roof.
+12. What has changed about the festival this year?
+A. The walks begin in different places.
+B. The festival lasts longer.
+C. There is a new map of the town.
+=> A // Everything used to set off from the town hall; each walk now has its own starting point.
+13. What happens to the money that walkers pay?
+A. It is shared among the guides.
+B. It pays for the festival programme.
+C. Some of it is used to maintain paths.
+=> C // Guides are volunteers; the fee pays for insurance and the rest goes to the footpath repair fund.
+14. Walkers are NOT able to book
+A. on the day of the walk.
+B. on the internet.
+C. by telephone.
+=> C // There are not enough staff to take phone bookings.
+== match:features | What does the organiser say about each of the following walks? Choose SIX answers from the list and write the correct letter, A-H, next to questions 15-20.
+A. It is free of charge.
+B. It includes a meal.
+C. It finishes after dark.
+D. It is not open to young children.
+E. It is suitable for wheelchair users.
+F. It involves a boat trip.
+G. It is led by an artist.
+H. It has been shortened this year.
+15. the river walk => E // Flat with a hard surface, recommended to wheelchair users.
+16. the heritage walk => B // Lunch at the Crown Inn is part of the price.
+17. the rooftop walk => D // Nobody under twelve is accepted.
+18. the woodland walk => A // A council grant means there is no charge.
+19. the lantern walk => C // It will be completely dark when it reaches the castle.
+20. the island walk => F // Walkers cross to the island by ferry.
+
+# L08 | Cafe marketing project and sleep in animals
+## 3 | You will hear two business students, Priya and Dan, discussing a marketing project for a local cafe.
+@A Priya female_uk
+@B Dan male_us
+A: Dan, have you got a minute to talk about the cafe project?
+B: Sure. I went to see the owner yesterday, actually. She's worried. Takings are down fifteen per cent on last year.
+A: Did she say why? I assumed it was the new coffee chain on the high street.
+B: That's what I thought, too. But she says her regulars have stayed loyal. The real change is that the college moved its art department to the other campus, so she's lost the students who used to come in between classes.
+A: So the passing trade has gone. That changes what we recommend. What does she want from us?
+B: She asked for a new logo, to be honest. But I think that's the wrong place to start. What she needs first is to find out who her customers actually are now.
+A: I agree. A survey, then. We could leave paper forms on the tables.
+B: People never fill those in. I'd rather stand in the cafe for a few days and talk to customers face to face. We'd get fewer answers, but better ones.
+A: That takes time, though. We've only got three weeks.
+B: Two afternoons each would do it. Thirty short conversations would be enough for a project like this.
+A: All right. And what about social media? Her page hasn't been updated since March.
+B: I looked at it. The photos are good, but every post is an advertisement. Special offer, special offer. Nobody shares that.
+A: So what should she post?
+B: Stories. She buys her beans from one family farm in Peru. She should talk about that, about the people.
+A: I like that. Now, the loyalty card. She stamps a paper card and gives the tenth coffee free.
+B: And half the cards get lost. An app would solve that, but she can't afford one.
+A: There's a cheaper way. Some cafes simply keep the card behind the counter, in a box, in alphabetical order. The customer never has to carry it.
+B: That's clever. And it means the staff learn people's names.
+A: Exactly. Now, for the report, Professor Lund wants us to measure whether our ideas work.
+B: We can't measure profit in three weeks.
+A: No, but we can count how many customers come back within a week. The till records every card payment.
+B: Repeat visits. Good. And the presentation? I hate talking to slides.
+A: Why don't we film the owner explaining her problem in her own words, and build the talk around that?
+B: Much better. I'll ask her on Thursday.
+== mc
+1. According to the owner, the cafe's income has fallen because
+A. a competitor has opened nearby.
+B. her regular customers have stopped coming.
+C. a group of customers has moved away.
+=> C // Regulars stayed loyal; the art department moved to another campus.
+2. What does Dan think the cafe owner should do first?
+A. learn more about her customers
+B. change the cafe's logo
+C. lower her prices
+=> A // She asked for a logo, but he thinks she first needs to find out who her customers are.
+3. How will the students collect information?
+A. by leaving forms on the tables
+B. by interviewing customers in the cafe
+C. by sending out an online survey
+=> B // Dan says people never fill in paper forms; he would rather talk face to face.
+4. What is the problem with the cafe's social media page?
+A. The photographs are of poor quality.
+B. It has too few followers.
+C. All the posts are trying to sell something.
+=> C // The photos are good, but every post is a special offer.
+5. Priya suggests the loyalty cards should be
+A. kept in the cafe.
+B. replaced by an app.
+C. made of plastic.
+=> A // The card stays in a box behind the counter, so customers never carry it.
+== fill:sentence | 2W
+6. The cafe's coffee beans come from a family farm in {{6=Peru}}.
+7. Keeping the loyalty cards in the cafe will help the staff to learn customers' {{7=names}}.
+8. Information about returning customers will come from the {{8=till}}.
+9. The students will measure success by counting {{9=repeat visits}}.
+10. The presentation will be based on a film of the {{10=owner}}.
+## 4 | You will hear part of a lecture about how different animals sleep.
+@C Lecturer male_uk
+C: Good afternoon. Today's subject is sleep, and in particular the remarkable variety of ways in which animals do it. Every animal that has been studied carefully turns out to sleep in some form, which suggests that sleep does something essential. Yet the way it's done differs enormously.
+C: Take the amount. A large bat may sleep for nineteen hours a day, while a giraffe manages on less than two. The best predictor is not the size of the brain, as was once thought, but diet. Animals that eat plants must spend most of the day feeding, and so they have little time left for sleep, whereas meat eaters, such as lions, can afford long rests after a meal.
+C: Then there's the question of safety. A sleeping animal is an easy target. Horses deal with this by sleeping on their feet, thanks to a locking mechanism in the legs. They do need to lie down for the deepest stage of sleep, but only for a few minutes at a time.
+C: Dolphins face a different difficulty. They have to come to the surface to breathe, and they do that consciously. If a dolphin slept as we do, it would drown. Its solution is to rest one half of the brain at a time. The other half stays alert, and one eye remains open.
+C: Some birds do the same thing. Ducks sleeping in a row are a nice example. Those at the ends of the row keep the outward eye open, watching for predators, while those in the middle sleep with both eyes closed.
+C: Birds that migrate raise an even stranger problem. The frigatebird may stay in the air over the ocean for two months without landing. Recordings of its brain show that it does sleep while flying, but for only about forty minutes a day, in bursts of a few seconds. On land, the same bird sleeps for twelve hours.
+C: What about much simpler animals? Fruit flies have been shown to sleep, and if they are kept awake, they sleep longer afterwards, exactly as we do. Even jellyfish, which have no brain at all, become less active at night.
+C: So why do we sleep? One influential idea is that sleep allows the brain to clear away waste produced during the day. Another is that it's needed to fix memories. Young animals, which are learning fastest, sleep the most.
+C: I'll finish with a warning about method. Almost everything we know comes from animals in zoos and laboratories. When sloths were finally studied in the wild, they slept for under ten hours, not sixteen. Captive animals, with nothing to fear and nothing to find, may simply be bored.
+== fill:note | 1W
+Sleep in animals
+How much animals sleep
+- best predicted by an animal's {{11=diet}}, not by the size of its brain
+- plant eaters have to spend a long time {{12=feeding}}
+Staying safe
+- horses can sleep standing because their {{13=legs}} lock
+- dolphins rest one {{14=half}} of the brain at a time and keep one eye open
+- ducks at the ends of a {{15=row}} watch for predators
+- the frigatebird sleeps while flying, for a few {{16=seconds}} at a time
+Simpler animals
+- {{17=jellyfish}} are less active at night, although they have no brain
+Why sleep?
+- to remove {{18=waste}} from the brain
+- to fix {{19=memories}}
+A problem with the research
+- most studies use captive animals, which may be {{20=bored}}

@@ -1,0 +1,365 @@
+# L53 | Craft fair stall booking and a charity run briefing
+## 1 | You will hear a woman phoning the organiser of a craft fair to book a stall.
+@A Organiser male_us
+@B Caller female_uk
+A: Hello, Lakeside Craft Fair. Jerry speaking.
+B: Hello. I make jewellery, and I'd like to have a stall at your fair this year, if there's still space.
+A: There is, though it's filling up. Is this your first time with us?
+B: Yes. I've only sold online until now, so this is all new.
+A: Welcome, then. The fair is on the weekend of the eighth and ninth of November, in the exhibition hall at Lakeside Park. We open to the public from ten until five on both days.
+B: Do I have to do both days?
+A: You can book just one, but most people find that customers look on Saturday and come back to buy on Sunday. I'd recommend both.
+B: Both, then. What sizes of stall are there?
+A: Two. A standard stall is two metres wide, and a large one is three. For jewellery, two metres is plenty.
+B: And the price?
+A: A standard stall is ninety pounds for the weekend. That includes a table and one chair. A large stall is a hundred and thirty.
+B: Ninety is fine. Is there electricity? I use small lamps to light the display.
+A: Sockets are an extra fifteen pounds, and you need to tell me now, because only the stalls along the walls have them.
+B: Yes, please. A stall by the wall, with electricity.
+A: That brings it to a hundred and five. Now, what do you sell exactly? I ask because we limit the number of stalls in each category, so traders aren't all competing.
+B: Silver rings and earrings, mostly. All made by me.
+A: Good. Everything on sale has to be handmade by the stallholder. We don't allow goods bought in from elsewhere. We already have five jewellers, and the limit is six, so you're just in time.
+B: Lucky me. When can I set up?
+A: The hall opens to traders on Friday evening, between five and eight. Or you can come early on Saturday, from seven thirty. Everything has to be ready by nine forty-five.
+B: I'll come on the Friday. Is my stock safe overnight?
+A: There's a security guard in the hall all night. Even so, we advise people to take home anything of high value.
+B: That makes sense. Is there insurance?
+A: That's the one thing you must arrange yourself. Every trader needs public liability insurance, and I'll want to see the certificate before the day. It costs about forty pounds a year.
+B: I didn't know that. I'll look into it. How do I pay?
+A: By bank transfer, within seven days, or the stall is offered to someone else. I'll email you the form. What's the name of your business?
+B: Silverthread. All one word.
+A: And your surname?
+B: Mackie. M, A, C, K, I, E.
+== fill:form | 1WN
+Lakeside Craft Fair: stall booking
+Days booked: {{1=both|2|two}}
+Width of stall: {{2=2|two}} metres
+Position: beside a {{3=wall}}
+Total cost with electricity: £{{4=105|a hundred and five|one hundred and five}}
+Goods: {{5=silver}} rings and earrings
+Maximum number of jewellery stalls: {{6=6|six}}
+Setting up: {{7=Friday}} evening
+Overnight: a security {{8=guard}} is in the hall
+Trader must arrange: public liability {{9=insurance}}
+Surname: {{10=Mackie}}
+## 2 | You will hear an organiser giving a briefing to runners before a charity run.
+@C Organiser female_uk
+C: Good morning, runners. Can everyone hear me at the back? Wonderful. Welcome to the Riverside Ten K. My name's Alison, and I'm the race director.
+C: This is our twelfth year, and we have nine hundred and forty runners, which is a record. All the money goes to the children's ward at the hospital, and I'm told you've raised over thirty thousand pounds between you already.
+C: Now, the important information. The race starts at ten o'clock, here on the playing field. We'll set off in three waves, five minutes apart. Your wave is shown by the colour of your number. Red numbers go first. Those are the faster runners, aiming for under fifty minutes. Blue is next, and green is last. Walkers, please start with green.
+C: The course has changed since last year. We used to cross the river by the old stone bridge, but it's being repaired, so we now cross by the footbridge near the rowing club. That means the route is flatter than before, and you won't have to climb Castle Hill. I can hear some of you cheering.
+C: The first three kilometres are on the road, which is closed to traffic until noon. After that, you join the riverside path. It's narrow in places, so please keep to the left and let faster runners pass on the right.
+C: There are two water stations, at four kilometres and at seven and a half. Please drop your cups in the bins provided, not on the path. There are first aid posts at the same two points, and volunteers in orange jackets along the whole route. If you feel unwell, stop and tell one of them.
+C: Headphones. I know many of you train with music. Today we're asking you not to wear them, because you need to hear instructions from the marshals.
+C: Your number has a timing chip on the back, so don't fold it. Pin it to your front, not your back, or the cameras at the finish won't record you.
+C: The finish is back here on the field. Everyone who completes the course receives a medal and a banana. Results will be on our website by three this afternoon.
+C: Your bags can be left in the white tent. It's staffed, but please don't leave phones or wallets in them.
+C: Finally, the weather. It's going to be warm for October, around nineteen degrees, so drink before you start. If you haven't run this far before, there's no shame in walking part of it.
+C: Red numbers, please make your way to the start line. Good luck, everyone.
+== mc
+11. Which runners start first?
+A. those with blue numbers
+B. those with green numbers
+C. those with red numbers
+=> C // Red numbers are the faster runners and go first.
+12. How is this year's course different?
+A. It is flatter.
+B. It is longer.
+C. It starts in a new place.
+=> A // The route avoids Castle Hill by using the footbridge.
+13. On the riverside path, runners should
+A. overtake on the left.
+B. keep to the left.
+C. run in single file.
+=> B // Keep left and let faster runners pass on the right.
+14. Runners are asked not to wear headphones so that they can
+A. hear the marshals.
+B. talk to other runners.
+C. notice traffic.
+=> A // They need to hear instructions from the marshals.
+15. Why must the number be worn on the front?
+A. so that marshals can read it
+B. so that photographs can be sold
+C. so that the finish is recorded
+=> C // Otherwise the cameras at the finish will not record the runner.
+== fill:note | 1WN
+Riverside 10K
+- number of runners: {{16=940|nine hundred and forty}}
+- the road is closed to traffic until {{17=noon|12}}
+- second water station: at {{18=7.5|seven and a half}} kilometres
+- volunteers are wearing {{19=orange}} jackets
+- bags can be left in the white {{20=tent}}
+
+# L54 | Homework research and the history of the skyscraper
+## 3 | You will hear two education students, Megan and Carlos, discussing research on homework for a seminar paper.
+@A Megan female_uk
+@B Carlos male_us
+A: Carlos, how's the reading going for the homework paper?
+B: I've got through most of it. I have to say, I started with a strong opinion. I assumed homework was simply a good thing. More practice, better results.
+A: And now?
+B: Now I think it depends almost entirely on age. For secondary pupils, the studies show a clear benefit. For children under eleven, the link between homework and achievement is close to zero.
+A: That matches what I found. Although there's one exception for the little ones, which is reading at home with a parent. That does seem to help.
+B: Yes. So it's the worksheets that make no difference, not the reading.
+A: What surprised me was the research on amount. I'd imagined that the more time pupils spent, the better.
+B: It doesn't work like that?
+A: Only up to a point. For teenagers, the benefit increases up to about an hour and a half a night. Beyond two hours, results actually start to fall.
+B: Because they're tired?
+A: That, and they give up sleep. One study in California found that pupils with more than three hours a night reported more stress and more health problems, with no gain in their marks.
+B: So we could argue for a limit. What about the kind of homework?
+A: The strongest finding is about feedback. Homework the teacher marks and discusses has roughly twice the effect of homework that's simply collected and ticked.
+B: Which means that setting less, and marking it properly, might achieve more.
+A: That's going to be my main recommendation.
+B: I'd add something about fairness. Homework assumes that every child has a quiet place to work, and an adult who can help. Plenty don't.
+A: That's an important point. Some schools have responded by opening a homework club after lessons, with a teacher present.
+B: I visited one for my placement. The pupils who went were mostly those who'd have done the work anyway.
+A: So it didn't reach the ones who needed it.
+B: Not unless teachers invited particular pupils personally. Then it did.
+A: We should include that. Now, how do we organise the paper?
+B: By age group first, then amount, then type, then fairness.
+A: And we need to be careful with the word proves. Most of these studies show a connection, not a cause. Pupils who do more homework may simply be more motivated to begin with.
+B: Good point. I'll put that in the introduction as a warning.
+A: The limit is three thousand words. Shall we take two sections each?
+B: I'll take age and fairness. You do amount and type.
+A: Fine. First drafts by the twentieth?
+B: The twentieth. I'll send mine by email.
+== mc
+1. What was Carlos's opinion before he did the reading?
+A. Homework has little value.
+B. Homework always helps.
+C. Homework is only useful for older pupils.
+=> B // He assumed more practice meant better results.
+2. For children under eleven, what kind of homework is beneficial?
+A. worksheets
+B. projects
+C. reading with a parent
+=> C // The link is otherwise close to zero; reading at home is the exception.
+3. For teenagers, results begin to fall when homework takes more than
+A. two hours a night.
+B. one hour a night.
+C. an hour and a half a night.
+=> A // The benefit rises up to about an hour and a half, and results fall beyond two hours.
+4. Megan's main recommendation will be to
+A. abolish homework for young children.
+B. set less homework and give proper feedback on it.
+C. give pupils a choice of tasks.
+=> B // Marked and discussed homework has roughly twice the effect.
+5. What did Carlos notice at the homework club he visited?
+A. It mainly attracted pupils who did not need it.
+B. It was too noisy for pupils to work.
+C. No teacher was present.
+=> A // Those who went would have done the work anyway.
+== fill:sentence | 2WN
+6. Some pupils have no {{6=quiet place}} in which to do homework.
+7. The club reached the right pupils when teachers invited them {{7=personally}}.
+8. Most studies show a connection and not a {{8=cause}}.
+9. The paper must not exceed {{9=3000|3,000|three thousand}} words.
+10. First drafts are due by the {{10=20th|20|twentieth}}.
+## 4 | You will hear part of an architecture lecture about the development of the skyscraper.
+@C Lecturer male_uk
+C: The skyscraper is so much a part of the modern city that it's easy to forget how recently it became possible. Until the eighteen eighties, the tallest ordinary buildings had five or six storeys. Today I'll explain the three inventions that changed that, and what limits remain.
+C: The first obstacle was the wall. In a traditional building, the walls carry the weight of everything above them. The higher you build, the thicker the walls at the bottom must be. The Monadnock Building in Chicago, sixteen storeys of brick, has walls nearly two metres thick at the base, and they take up a great deal of the ground floor.
+C: The solution was the steel frame. In a framed building, a skeleton of steel columns and beams carries the load, and the walls simply hang on it, like a curtain. The first building of this kind went up in Chicago in eighteen eighty-five. It had only ten storeys, but the principle was established.
+C: The second obstacle was human. Nobody will climb twenty flights of stairs. Lifts existed, but people didn't trust them, because the ropes sometimes broke. The breakthrough came from Elisha Otis. At an exhibition in New York in eighteen fifty-four, he stood on a platform high above the crowd and ordered the rope to be cut. His safety brake held. Interestingly, the lift reversed the pattern of rents. Before it, the cheapest rooms were at the top. Afterwards, the top floors became the most expensive.
+C: The third requirement is less obvious. A tall building full of people needs fresh air, and above a certain height you can't simply open a window, because of the wind. So the skyscraper depended on mechanical ventilation, and later on air conditioning.
+C: With those three things in place, buildings rose quickly. But a new enemy appeared, and that was the wind. A very tall tower sways, and although it's perfectly safe, the people on the upper floors feel sick. Engineers now fit a huge weight near the top, which swings in the opposite direction and cancels the movement. The one in Taipei weighs six hundred and sixty tonnes, and it's become a tourist attraction.
+C: So what limits height today? Not structure. Engineers could build far higher. The real limit is the lift. The taller the tower, the more lift shafts it needs, and eventually they occupy so much of each floor that there's too little space left to rent.
+C: A final point. Tall buildings are sometimes defended as green, because they use little land. But they need a great deal of energy to build and run, and several studies suggest that buildings of six to ten storeys are more efficient.
+== fill:note | 1W
+The skyscraper
+Problem 1: walls
+- in traditional buildings the walls carry the {{11=weight}}
+- solution: a steel {{12=frame}}; the walls hang like a {{13=curtain}}
+Problem 2: stairs
+- people distrusted lifts because the {{14=ropes}} could break
+- Otis demonstrated a safety {{15=brake}} in 1854
+- the lift made the {{16=top}} floors the most expensive
+Problem 3: air
+- windows cannot be opened high up because of the {{17=wind}}
+Later developments
+- towers sway, which makes people feel {{18=sick}}
+- a large weight near the top cancels the movement
+- today the main limit on height is the {{19=lift}}
+- buildings need a great deal of {{20=energy}} to build and run
+
+# L55 | Joining a library and growing vegetables on a balcony
+## 1 | You will hear a woman at the desk of a public library asking about membership.
+@A Librarian male_uk
+@B Visitor female_us
+A: Good morning. Can I help?
+B: Hi. I've just moved to the city, and I'd like to join the library.
+A: Of course. It only takes a few minutes. Do you have something with your address on it?
+B: I've brought my tenancy agreement. Will that do?
+A: That's perfect. And some photo identification?
+B: My driving licence.
+A: Lovely. Let me take your details. Surname?
+B: It's Sorensen. S, O, R, E, N, S, E, N.
+A: And your first name?
+B: Karin.
+A: Thank you. And your address?
+B: Flat nine, Wharf House, Canal Road.
+A: Wharf House. I know it. Now, with your card, you can borrow up to twelve items at a time. Books are lent for three weeks.
+B: Three weeks. Can I renew them?
+A: Up to five times, online or with the app, unless another reader has reserved the book.
+B: And films?
+A: We still lend them on disc. Those are for one week. But most people use the streaming service now, which comes free with your card.
+B: I didn't expect that. What happens if I'm late returning something?
+A: We stopped charging fines two years ago. If a book is more than four weeks late, your card is blocked until you bring it back, and that's all.
+B: That's generous. I work from home, and I was hoping to use the library as an office now and then.
+A: Lots of people do. The wireless network is free, and you don't need a password. The study area is on the second floor. If you'd like one of the private study rooms, you can book it for up to two hours a day.
+B: How do I book a room?
+A: On the website, up to a week ahead. They're popular in the afternoons, so book early. They're free.
+B: Wonderful. Is there a printer?
+A: Yes, on the first floor. Printing costs ten pence a page in black and white, and you pay with your library card. You put credit on it at the machine by the stairs.
+B: OK. And what are your opening hours?
+A: Nine until seven, Monday to Friday, and nine until five on Saturdays. We're closed on Sundays, though there's a box at the door for returning books.
+B: Great. Are there any events? I'd like to meet people.
+A: Quite a few. There's a book group on the first Tuesday of each month, and a language cafe every Thursday evening, where people practise speaking.
+B: The language cafe sounds fun. I speak Danish and Swedish.
+A: They'd love to have you. It starts at six. Now, could you choose a four-digit number for your card?
+== fill:form | 1WN
+City Library: new member
+Surname: {{1=Sorensen}}
+Address: Flat 9, {{2=Wharf}} House, Canal Road
+Maximum number of items: {{3=12|twelve}}
+Loan period for books: {{4=3|three}} weeks
+Renewals allowed: {{5=5|five}}
+Card is blocked if a book is more than {{6=4|four}} weeks late
+Study rooms: maximum of {{7=2|two}} hours a day
+Printing: {{8=10|ten}} pence a page
+Closing time on Saturdays: {{9=5|five}} pm
+Language cafe: every {{10=Thursday}} evening
+## 2 | You will hear a gardening expert on the radio giving advice about growing vegetables on a balcony.
+@C Expert male_us
+C: Thanks, Julie. Yes, this week's letter comes from a listener who lives in a flat on the fourth floor and wants to know whether it's worth trying to grow food on a balcony. My answer is a definite yes, as long as you avoid a few common mistakes.
+C: The first thing to check is weight. Wet soil is heavy. A large pot full of compost can weigh as much as an adult, and a balcony has its limits. So before you buy anything, ask the owner of the building how much load the balcony can take. Use plastic or fabric pots, not stone ones, and place the heaviest containers close to the wall, where the structure is strongest.
+C: Second, light. Most vegetables need at least six hours of direct sun. If your balcony faces north, don't despair. You can still grow salad leaves, spinach and herbs such as mint and parsley, which are happy in shade.
+C: The third factor, and it's the one people forget, is wind. On a high balcony, wind dries out plants far faster than sun does, and it can snap tall stems. I'd put up a screen of netting, which filters the wind without blocking the light.
+C: Now, what to grow. Beginners always want tomatoes, and they do well, provided you choose a small bush variety and not one that climbs to two metres. But if you want my top recommendation, it's salad leaves. They're ready in four weeks, and you cut what you need and they grow again.
+C: Chillies are another good choice. They love the heat reflected from a wall. And don't overlook potatoes. You can grow them in a strong bag, adding compost as the shoots appear, and children love tipping out the bag at the end to find the crop.
+C: What I wouldn't bother with is carrots, which need deep soil, or sweetcorn, which has to be planted in a large block if it's to produce anything.
+C: The biggest cause of failure is watering. Pots dry out quickly, and in summer they may need water twice a day. If you're out at work, stand each pot in a deep saucer, or fit a simple drip system with a timer. They cost about twenty pounds.
+C: Feed the plants once a week from midsummer. There's very little goodness in a pot of compost, and it's used up within six weeks.
+C: Finally, think about your neighbours. Water running off your balcony onto the one below is the fastest way to lose friends. Saucers under every pot, please.
+== mc
+11. What should people do before buying anything for a balcony garden?
+A. find out how much weight the balcony can bear
+B. measure the size of the balcony
+C. ask the neighbours' permission
+=> A // Wet soil is heavy; ask the building's owner about the load.
+12. Which factor do people most often forget?
+A. light
+B. temperature
+C. wind
+=> C // Wind dries plants faster than sun and can snap stems.
+13. What is the expert's top recommendation for beginners?
+A. tomatoes
+B. salad leaves
+C. chillies
+=> B // Ready in four weeks, and they grow again after cutting.
+14. Which vegetable does the expert advise against?
+A. carrots
+B. potatoes
+C. spinach
+=> A // Carrots need deep soil.
+15. What is the most common reason for failure?
+A. lack of feeding
+B. poor compost
+C. too little watering
+=> C // Pots dry out quickly and may need water twice a day in summer.
+== fill:sentence | 1WN
+16. Heavy containers should be placed near the {{16=wall}}.
+17. Most vegetables need at least {{17=6|six}} hours of direct sun.
+18. A screen made of {{18=netting}} gives protection.
+19. Potatoes can be grown in a strong {{19=bag}}.
+20. Plants should be fed once a {{20=week}} from midsummer.
+
+# L56 | Documentary film analysis and mangrove forests
+## 3 | You will hear two film studies students, Isla and Ravi, discussing a documentary they have to analyse.
+@A Isla female_uk
+@B Ravi male_uk
+A: Ravi, did you watch the documentary about the fishing village?
+B: Twice. Once for pleasure, and once with a notebook. It's beautifully made.
+A: It is. But I came away feeling slightly manipulated, and I've been trying to work out why.
+B: Go on.
+A: Well, the film presents itself as simply observing. There's no narrator, and no interviews. We just watch the villagers go about their lives.
+B: The fly-on-the-wall style. And you don't believe it?
+A: I believe the footage is real. But think about the storm sequence. It's the emotional centre of the film. And the music starts thirty seconds before the first cloud appears.
+B: So we're told how to feel before anything has happened.
+A: Exactly. Without the music, it's a rather ordinary storm.
+B: I noticed something about the editing. The director was there for eleven months. That must be hundreds of hours of material, cut down to ninety minutes.
+A: And what's left out?
+B: Anything modern. You never see a phone, or a television, or a car. But in one shot, there's a satellite dish on a roof in the background, for about two seconds.
+A: I missed that. So the village isn't as cut off from the world as the film suggests.
+B: The director wanted a timeless place, and he chose his shots to make one.
+A: That's our argument, then. Observation is never neutral. Every decision about where to point the camera and when to cut is a kind of comment.
+B: Should we say the film is dishonest?
+A: I wouldn't go that far. All documentaries select. I'd say it hides its own choices, which a film with a narrator doesn't.
+B: That's fair. We could compare it with the other film on the list, the one about the oil workers, where the director appears on screen and admits what she doesn't know.
+A: Good idea. A contrast would sharpen the point. Which scenes should we analyse closely?
+B: The storm, for the music. And the opening, because it sets up the idea of a place outside time.
+A: And the final shot. The old man looks straight at the camera for the first time. It's as if the film finally admits that someone's been watching.
+B: I hadn't thought of it like that. Brilliant.
+A: Can we get stills for the essay?
+B: The library has the film on disc. I'll take screenshots tomorrow.
+A: Then I'll draft the section on sound tonight.
+B: And I'll do the editing. Two thousand words each?
+A: Fifteen hundred each, and five hundred for a joint conclusion.
+== mc
+1. How does the documentary present itself?
+A. as a personal journey by the director
+B. as pure observation
+C. as an investigation
+=> B // There is no narrator and no interviews; viewers simply watch.
+2. What does Isla point out about the storm sequence?
+A. The music begins before the storm does.
+B. It was filmed in a different place.
+C. It lasts too long.
+=> A // The music starts thirty seconds before the first cloud appears.
+3. What does the satellite dish show, according to the students?
+A. The film was made recently.
+B. The director made a mistake.
+C. The village is less isolated than it appears.
+=> C // Anything modern was left out, but the dish shows the village is not cut off.
+4. What is Isla's view of the film?
+A. It is dishonest.
+B. It conceals the decisions behind it.
+C. It is more truthful than most documentaries.
+=> B // All documentaries select; this one hides its own choices.
+5. Why will the students mention the film about oil workers?
+A. to provide a contrast
+B. because it uses the same music
+C. because it is by the same director
+=> A // Its director appears on screen and admits what she does not know.
+== fill:sentence | 2WN
+6. The director spent {{6=11 months|eleven months}} in the village.
+7. In the final shot, an old man looks directly at the {{7=camera}}.
+8. Ravi will take {{8=screenshots}} from the library's copy of the film.
+9. Isla will write the section on {{9=sound}}.
+10. The joint conclusion will be {{10=500|five hundred}} words long.
+## 4 | You will hear part of a lecture about mangrove forests.
+@C Lecturer female_us
+C: If you stand on a tropical coast where a river meets the sea, you may find yourself facing a wall of tangled roots rising out of the mud. This is a mangrove forest, and although it isn't beautiful in the usual sense, it's among the most valuable ecosystems on earth.
+C: Mangroves are trees that have solved a problem that kills almost every other plant, which is salt water. Different species manage this in different ways. Some filter out the salt at the roots. Others take it in and get rid of it through their leaves, and if you lick a leaf, you can taste it.
+C: The second problem is the mud itself, which contains almost no oxygen. So many mangroves send up roots that stick out of the mud like pencils and take in air directly. Others stand on arching roots that look like stilts.
+C: Their seeds are unusual as well. In most species, the seed begins to grow while it's still attached to the parent tree. When it drops, it's already a young plant, shaped like a spear. If the tide is out, it sticks in the mud. If the tide is in, it floats, sometimes for months, until it reaches a shore.
+C: Now, why do these forests matter? First, as a nursery. The roots give shelter to young fish and shrimps. It's estimated that three quarters of the fish caught commercially in the tropics spend part of their lives among mangroves.
+C: Second, as protection. The roots break the force of the waves. After the tsunami of two thousand and four, studies in India and Sri Lanka found that villages behind intact mangroves suffered far fewer deaths than those where the trees had been cleared.
+C: Third, and this has only been appreciated recently, mangroves store carbon. The mud beneath them holds up to four times as much per hectare as a tropical rainforest, because dead material doesn't rot in mud without oxygen.
+C: Despite all this, we've lost about a third of the world's mangroves in the last fifty years. The greatest single cause has been the farming of shrimps. The trees are cut down to make ponds, and the ponds are often abandoned after five years, when disease sets in.
+C: Can the forests be restored? Early attempts frequently failed. People planted thousands of young trees in neat rows, often of a single species, in places that were flooded too deeply. Most of them died. The more successful approach is to repair the natural flow of water, by opening up blocked channels, and then to let the seeds arrive by themselves on the tide.
+== fill:note | 1W
+Mangrove forests
+How mangroves cope
+- some remove salt through their {{11=leaves}}
+- the mud lacks {{12=oxygen}}, so roots grow up into the air
+- the seed is already a young plant, shaped like a {{13=spear}}
+Why they matter
+- they act as a {{14=nursery}} for young fish and shrimps
+- they protect coasts by reducing the force of {{15=waves}}
+- the mud stores large amounts of {{16=carbon}}
+Losses
+- about a {{17=third}} have been lost in fifty years
+- main cause: farming of {{18=shrimps|shrimp}}
+Restoration
+- planting in neat {{19=rows}} often failed
+- better: restore the natural flow of {{20=water}}

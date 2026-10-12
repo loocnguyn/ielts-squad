@@ -1,0 +1,392 @@
+# L01 | Pottery course enquiry and museum volunteers
+## 1 | You will hear a man phoning an adult education college to ask about an evening course.
+@A Receptionist female_uk
+@B Caller male_us
+A: Good afternoon, Westbrook Adult College, Maria speaking. How can I help you?
+B: Hi there. I picked up a leaflet about your evening classes, and I wondered whether there are still places on the pottery course.
+A: Let me have a look. We actually run two this term. There's a beginners' group and an intermediate one.
+B: I've never touched clay in my life, so beginners, definitely.
+A: That one still has four places left. Shall I take a few details? Could I have your name?
+B: Yes, it's Callum Reyes. Reyes is spelt R, E, Y, E, S.
+A: Thank you, Callum. Now, the leaflet says the course begins on the second of September, but that's a mistake, I'm afraid. The studio is being repainted that week, so the first session is on the ninth of September.
+B: The ninth. That's fine. And it's in the evening?
+A: It is. Classes start at seven, and they used to finish at nine, but the tutor asked for extra time for clearing up, so you'll be out by nine fifteen.
+B: OK. Where do I go when I arrive?
+A: It's in the arts block, which is the building behind the car park. You want room fourteen, on the ground floor. Room twelve next door is the painting studio, and people often walk into that one by accident.
+B: Fourteen, got it. How much does it cost?
+A: The full fee is one hundred and forty pounds for the ten weeks. Do you live in Westbrook itself?
+B: I do, yes, on Canal Street.
+A: Then you qualify for the residents' rate, which is one hundred and twenty-five pounds. That includes all the clay and the firing.
+B: Great. Do I need to buy any tools?
+A: No, tools are provided. The only thing we ask you to bring is an old apron, because it does get messy. Can I ask what made you choose pottery?
+B: Well, my job means I stare at a computer all day, and I really want to get away from screens and make something with my hands. A friend suggested a painting class, but that didn't appeal to me.
+A: You'll enjoy it, then. The tutor, Helen, has been with us for ten years. She used to run sessions for children as well, though she's stopped those now, and she still shows her own work at the gallery in town.
+B: She sounds good. What happens if I have to miss a week? I travel for work now and then.
+A: We can't refund single sessions, and the Thursday group is full, so you couldn't swap. But there's an open studio every Saturday morning where you can catch up on whatever you missed.
+B: That's useful. Can I pay now?
+A: Of course, I can take a card payment over the phone.
+B: Oh, my card's in my jacket downstairs. Could I pay through your website instead?
+A: You can, but we only hold the place for forty-eight hours.
+B: No problem. I'll do it tonight when I get home.
+== fill:form | 1WN
+Westbrook Adult College: course booking
+Course: pottery for beginners
+Surname: {{1=Reyes}}
+First class: {{2=9 September|9th September|September 9|September 9th|ninth of September}}
+Classes finish at: {{3=9.15|9:15|nine fifteen}} pm
+Place: arts block, room {{4=14|fourteen}}
+Fee for local residents: £{{5=125|one hundred and twenty-five}}
+Bring: an old {{6=apron}}
+== mc
+7. Callum wants to take up pottery because
+A. a friend recommended it to him.
+B. he wants a break from looking at screens.
+C. he has enjoyed painting in the past.
+=> B // He stares at a computer all day and wants to get away from screens; the friend suggested painting.
+8. What does Maria say about the tutor?
+A. She exhibits work that she has made herself.
+B. She is new to the college this term.
+C. She also teaches a class for children.
+=> A // She still shows her own work at the gallery; the children's sessions have stopped.
+9. If Callum misses a class, he will be able to
+A. get some of his money back.
+B. join the Thursday group that week.
+C. use the studio at the weekend.
+=> C // No refunds, Thursday is full, but there is an open studio on Saturday mornings.
+10. How is Callum going to pay?
+A. by card on the phone
+B. online later the same day
+C. in person at the first class
+=> B // His card is downstairs, so he will pay through the website tonight.
+## 2 | You will hear a museum manager talking to a group of new volunteers on their first day.
+@C Manager male_uk
+C: Good morning, everybody, and thank you for giving up your time to help at the Harbour Museum. My name's Graham, and I look after the volunteer team. I'll keep this short, because the best way to learn is to get out onto the floor.
+C: First, a little background. People often think the museum has always been here on the quay, but it only moved into this building six years ago. Before that, the collection was squeezed into two rooms above the town library. This building was originally a warehouse for storing grain, and you can still see the old lifting equipment in the roof.
+C: You might wonder why we need volunteers at all. It isn't really about saving money. Our visitor surveys showed that what people remember most is talking to somebody who knows the place, and paid staff simply don't have time for long conversations. So that's where you come in.
+C: You'll each do one shift a week, and a shift lasts three and a half hours. We did try full days when the scheme began, but people found them exhausting. During your first month, you'll always be paired with an experienced volunteer. After that, you'll usually work on your own.
+C: Now, uniform. There isn't one, apart from the blue badge I'm about to hand out. Wear whatever is comfortable, but please choose sensible shoes, because the floors are stone and you'll be standing for a long time.
+C: If a visitor asks something you can't answer, please don't guess. Write the question in the red notebook at the information desk, and one of the curators will reply to the visitor by email. Visitors really appreciate that.
+C: Let me explain what you'll do in each part of the building. In the entrance hall, your job is simply to give out the audio guides. Tickets are checked by the staff at the desk, so you needn't worry about those.
+C: In the maritime gallery, the model ships are very fragile, and I'm afraid people can't resist putting their hands on them. Your main task there is to stop that happening, as politely as you can.
+C: The discovery room is aimed at families. Children can try on sailors' clothes and tie knots, and you'll be supervising those activities and keeping things tidy.
+C: The temporary exhibition changes every three months, so we don't expect you to be an expert on it. We just need you to keep a count of the people going in, using the small clicker by the door, because our funding depends on those figures.
+C: Finally, the garden. In summer, visitors wander out there and can't find their way back to the café or the exit, so volunteers in the garden mostly give directions. Right, let's collect your badges.
+== mc
+11. What does Graham say about the museum building?
+A. It used to be the town library.
+B. It was built to store grain.
+C. It was opened six years ago as a new building.
+=> B // The building was originally a grain warehouse; the collection used to be above the library.
+12. According to Graham, the museum uses volunteers mainly because
+A. visitors value conversations with knowledgeable people.
+B. it cannot afford to employ more staff.
+C. the paid staff asked for extra help.
+=> A // It is not about saving money; surveys showed people remember talking to someone who knows the place.
+13. How long is each volunteer shift?
+A. a full day
+B. two and a half hours
+C. three and a half hours
+=> C // Full days were tried at the start but were exhausting.
+14. Volunteers are asked to wear
+A. a blue uniform.
+B. suitable footwear.
+C. smart clothes.
+=> B // There is no uniform apart from a badge; sensible shoes are needed for the stone floors.
+15. If volunteers cannot answer a visitor's question, they should
+A. fetch one of the curators.
+B. write it down at the information desk.
+C. give the visitor an email address.
+=> B // The question goes in the red notebook and a curator replies by email.
+== match:generic | What is the main task of volunteers in each part of the museum? Choose FIVE answers from the list and write the correct letter, A-G, next to questions 16-20.
+A. checking tickets
+B. counting visitors
+C. giving directions
+D. handing out equipment
+E. explaining the history of objects
+F. protecting the exhibits
+G. looking after activities
+16. entrance hall => D // Volunteers give out the audio guides.
+17. maritime gallery => F // They stop people touching the fragile model ships.
+18. discovery room => G // They supervise dressing up and knot tying.
+19. temporary exhibition => B // They keep a count with the clicker.
+20. garden => C // Visitors cannot find the cafe or the exit.
+
+# L02 | Urban heat presentation and the history of timekeeping
+## 3 | You will hear two geography students, Aisha and Tom, planning a presentation about urban heat islands.
+@A Aisha female_uk
+@B Tom male_us
+A: Right, Tom, we've got two weeks until the presentation. Shall we decide how to divide it up?
+B: Sure. I've been reading about why cities are hotter than the countryside, and honestly I assumed it was all down to traffic and air conditioning pumping out heat.
+A: That's what most people think. But the reading list makes it clear that the biggest factor is the materials. Concrete and tarmac soak up heat all day and release it at night.
+B: Yes, that surprised me. So we should lead with that, not with car exhausts.
+A: Agreed. Now, Doctor Patel said our last presentation was well researched. Her criticism was that we tried to cover too much and ran out of time.
+B: I thought she didn't like the slides.
+A: No, she said the slides were clear. It was the timing. So this time we need to be selective.
+B: Fine. What about a case study? I was going to suggest Phoenix, since there's so much data on it.
+A: Everyone does Phoenix. I'd rather use the study of Leicester, because it's a medium-sized city and it's closer to what our audience knows.
+B: Is there enough information on Leicester?
+A: There's a full temperature map, made by volunteers who fixed sensors to their bicycles.
+B: Oh, I like that. OK, Leicester it is. And for the solutions section, the obvious one is planting trees.
+A: It is, but the article by Santos argues that trees take twenty years to make a real difference. Painting roofs white works almost immediately and costs far less.
+B: Although a white roof doesn't give you shade on the street.
+A: True, and we should say so. But I think the speed is what makes it worth recommending.
+B: All right, I'm persuaded. We'll recommend reflective roofs and mention trees as the long-term measure.
+A: Now, who does what? I'll write the introduction, because I've already drafted most of it.
+B: Then I'll take the causes, since I've done that reading. What about the map of Leicester? Somebody needs to turn the data into a graphic.
+A: Neither of us is much good at that. My flatmate studies design. I'll ask her to do it, and we'll credit her on the slide.
+B: Good idea. And the solutions section?
+A: Let's write that together on Friday, because that's the part we disagree on most.
+B: Fair enough. The questions at the end worry me. Doctor Patel always asks something difficult.
+A: Last year's group told me she gives you the questions in advance if you ask.
+B: Really? Then let's request them from her. I'll send the email today.
+A: Great. And the handout?
+B: Do we need one? It's a lot of printing.
+A: We don't have to print. The department wants everything on the course website now, so we'll just upload it there the night before.
+B: Perfect. Then I think we've got a plan.
+== mc
+1. What surprised Tom in his reading about urban heat islands?
+A. how much heat is produced by traffic
+B. how important building materials are
+C. how little difference air conditioning makes
+=> B // He had assumed traffic and air conditioning were the cause; the biggest factor is concrete and tarmac.
+2. What was the tutor's criticism of their previous presentation?
+A. It contained too little research.
+B. The slides were difficult to follow.
+C. It tried to include too much.
+=> C // She said it was well researched and the slides were clear, but they ran out of time.
+3. Aisha prefers Leicester as a case study because
+A. it will be more familiar to the audience.
+B. more data has been collected there.
+C. no other group has studied a British city.
+=> A // It is medium-sized and closer to what the audience knows; Phoenix has more data.
+4. The temperature map of Leicester was produced using
+A. sensors fixed to public buildings.
+B. images taken from satellites.
+C. equipment carried by cyclists.
+=> C // Volunteers fixed sensors to their bicycles.
+5. The students decide to recommend reflective roofs mainly because they
+A. are quick to have an effect.
+B. also provide shade in the street.
+C. last longer than trees.
+=> A // Trees take twenty years; white roofs work almost immediately.
+== match:generic | What do the students decide about each part of the presentation? Choose FIVE answers from the list and write the correct letter, A-G, next to questions 6-10.
+A. Aisha will do it alone.
+B. Tom will do it alone.
+C. They will do it together.
+D. They will ask another student to do it.
+E. They will ask the tutor for it.
+F. They will put it online.
+G. They will leave it out.
+6. introduction => A // Aisha has already drafted most of it.
+7. graphic of the temperature map => D // Aisha will ask her flatmate, who studies design.
+8. solutions section => C // They will write it together on Friday.
+9. questions for the end => E // They will request the questions from Doctor Patel.
+10. handout => F // It will be uploaded to the course website rather than printed.
+## 4 | You will hear part of a lecture about the history of measuring time.
+@C Lecturer female_us
+C: Today I want to look at how people have measured time, and at how each new method changed the way societies were organised.
+C: The earliest devices were shadow clocks, used in Egypt about three and a half thousand years ago. They divided daylight into twelve parts, but the length of each part changed with the season, so a summer hour was longer than a winter one. Nobody found this strange. And of course a shadow clock had one obvious weakness, which is that it could not be used at night.
+C: The solution was the water clock, in which water dripped at a steady rate from one container into another. These were used in courts of law in ancient Athens to limit how long each speaker could talk. Their drawback was temperature, because in cold weather the water flowed more slowly and the clock lost time.
+C: Mechanical clocks appeared in Europe around the end of the thirteenth century. Interestingly, the first ones had no face and no hands. They simply rang a bell, and the people who needed them most were monks, who had to pray at fixed times of day and night. Early clocks were driven by a falling weight, which meant they had to be placed high up in a tower.
+C: The great leap in accuracy came in sixteen fifty-six, when the Dutch scientist Huygens built a clock controlled by a pendulum. Before that, a good clock might lose fifteen minutes a day. Afterwards, the error fell to about fifteen seconds, and for the first time it made sense to add a minute hand.
+C: Pendulum clocks were useless at sea, however, because of the movement of the ship. This mattered a great deal, since a navigator needed the exact time in order to work out his longitude. The problem was solved by John Harrison, who was trained not as a scientist but as a carpenter. His fourth timekeeper looked like a large pocket watch, and on a voyage to Jamaica it lost only five seconds.
+C: Until the nineteenth century, every town still kept its own local time, set by the sun. Bristol was about ten minutes behind London, and it didn't matter until the arrival of the railways. Timetables were impossible with dozens of local times, so the railway companies imposed a single standard, and the news of the correct time was sent along the lines by telegraph.
+C: Finally, in the twentieth century, the pendulum gave way to the vibrations of a quartz crystal, and then to the atomic clock. And it's worth remembering that the satellite navigation in your phone depends entirely on atomic clocks agreeing with one another.
+== fill:note | 1W
+The history of timekeeping
+Shadow clocks (Egypt)
+- the length of an hour depended on the {{11=season}}
+- could not be used at {{12=night}}
+Water clocks
+- used in Athens in courts of {{13=law}}
+- affected by changes in {{14=temperature}}
+Early mechanical clocks
+- told the time by means of a {{15=bell}}
+- mainly needed by {{16=monks}}
+- powered by a falling {{17=weight}}
+Later developments
+- 1656: the pendulum clock made a {{18=minute}} hand worthwhile
+- Harrison, who had trained as a {{19=carpenter}}, made a clock for use at sea
+- standard time was introduced because of the {{20=railways}}
+
+# L03 | Renting a flat and a city cycle hire scheme
+## 1 | You will hear a woman talking to a letting agent about a flat she wants to rent.
+@A Agent male_uk
+@B Customer female_us
+A: Hello, Dawson Lettings, Peter speaking.
+B: Hi, I'm calling about the one-bedroom flat you've advertised on Marlow Road. Is it still available?
+A: It is, yes. Are you looking for yourself?
+B: Yes, just me. I'm starting a job at the hospital next month.
+A: Lovely. Let me give you the details, and then we can arrange a viewing. The flat's on the second floor. There isn't a lift, I should say, but the stairs are wide.
+B: That's fine. The advert said the rent was eight hundred and fifty pounds a month. Does that include bills?
+A: The eight fifty covers water, but nothing else. You'd pay for electricity and the internet yourself. Heating is electric, so there's no gas bill.
+B: OK. And the deposit?
+A: The deposit is one thousand two hundred pounds. It used to be two months' rent, but the owner reduced it last year.
+B: One thousand two hundred. Right. Is the flat furnished?
+A: Partly. There's a bed, a sofa and a wardrobe. What it doesn't have is a washing machine, although there's space for one in the kitchen. The last tenant took hers when she left.
+B: I've got my own, so that's no problem. What about parking? I'll be driving to work.
+A: There's no private parking, but you can apply to the council for a permit to park on the street. It costs about sixty pounds a year.
+B: A permit. OK. And how long is the contract?
+A: The owner wants a minimum of twelve months. After that it continues month by month.
+B: I was hoping for six, to be honest, but I suppose twelve is all right. Are pets allowed? I have a cat.
+A: A cat should be fine. The owner refused a tenant with a large dog once, but she's told us that cats are acceptable, provided you pay for a professional clean at the end.
+B: That's reasonable. When could I see it?
+A: I've got Wednesday at five, or Friday morning at half past ten.
+B: I'm working on Friday. Wednesday at five, please.
+A: Good. I'll meet you outside. Look for the green door, between the bakery and the pharmacy. The number has fallen off, so people walk straight past it.
+B: Green door, by the bakery. Got it. What do I need to bring if I decide to take it?
+A: A photo ID, and a letter from your employer confirming your salary. We don't need bank statements.
+B: The hospital can give me a letter. And who do I ask for on Wednesday?
+A: It'll be me, Peter Vance. That's V, A, N, C, E.
+B: Thanks, Peter. One last thing. When could I move in?
+A: The flat is being decorated at the moment, so the earliest date would be the third of June.
+B: The third of June would suit me perfectly.
+== fill:form | 1WN
+Dawson Lettings: flat on Marlow Road
+Floor: second (no lift)
+Monthly rent: £850, including {{1=water}}
+Deposit: £{{2=1200|1,200|one thousand two hundred}}
+Not provided: a {{3=washing}} machine
+Parking: on the street with a {{4=permit}}
+Minimum contract: {{5=12|twelve}} months
+Pets: a {{6=cat}} is allowed if the flat is cleaned afterwards
+Viewing: Wednesday at 5 pm; look for the {{7=green}} door
+Documents: photo ID and a letter from her {{8=employer}}
+Agent's surname: {{9=Vance}}
+Earliest moving date: {{10=3 June|3rd June|June 3|June 3rd|third of June}}
+## 2 | You will hear a radio presenter talking about a new bicycle hire scheme in the city of Northfield.
+@C Presenter female_uk
+C: Now, if you've walked through the city centre this week, you'll have noticed rows of bright orange bicycles. They belong to Northfield Wheels, the hire scheme that started on Monday, and I've been finding out how it works.
+C: The idea isn't new, of course. A similar scheme was tried here eight years ago, and it closed within eighteen months. The bikes were fine. The trouble was that there were only five places to collect and return them, so they were never where people needed them. This time, there are forty docking stations, and none is more than four hundred metres from the next.
+C: Who's paying for it? Well, many people assume it comes out of council tax, but in fact the council has only provided the land. The bikes themselves were paid for by a regional transport grant, and the running costs should be covered by the hire charges.
+C: So, how do you use it? You need to register first, and the simplest way is with the phone app, although you can also do it at the tourist office in Market Square. Then you unlock a bike by scanning the code on the handlebars.
+C: The first thirty minutes of every journey are free. After that, you pay one pound for each extra half hour. If you think you'll use the bikes regularly, an annual pass is thirty-five pounds, and that gives you a free hour each time rather than half an hour.
+C: I tried one yesterday. The bike is heavier than my own, but it's comfortable, and it has three gears, which is enough for our hills. There's a basket at the front, big enough for a small bag of shopping, and the lights come on automatically. What you don't get is a helmet, so you'll have to bring your own.
+C: A few rules. You must be at least sixteen to hire a bike. The bikes can be used between five in the morning and midnight, and you have to return them to a docking station, not leave them in the street. Leave one outside a station and you'll be charged a fee of twenty pounds.
+C: Now, there have been complaints already. Several listeners have told us that the station outside the railway station was empty by eight in the morning. The company says a van will move bikes around the city during the day, and that they'll add a second station there before the summer.
+C: And one more date for your diary. On the last Sunday of this month, the scheme is running free guided rides for nervous cyclists, starting from the park gates. Places are limited, so book through the app.
+== mc
+11. Why did the earlier bicycle scheme in Northfield fail?
+A. The bicycles were of poor quality.
+B. There were too few places to pick up a bicycle.
+C. It was too expensive for most people.
+=> B // The bikes were fine, but there were only five places to collect and return them.
+12. The bicycles for the new scheme were paid for by
+A. a transport grant.
+B. the city council.
+C. the people who hire them.
+=> A // The council only provided the land; hire charges cover the running costs.
+13. The presenter says the easiest way to register is
+A. at the tourist office.
+B. at a docking station.
+C. on a mobile phone.
+=> C // The simplest way is with the phone app.
+14. What does an annual pass give users?
+A. unlimited free journeys
+B. a longer free period on each journey
+C. a lower charge for each half hour
+=> B // A free hour each time rather than half an hour.
+== fill:note | 1WN
+Northfield Wheels
+The bicycles
+- have {{15=3|three}} gears
+- have a {{16=basket}} for carrying things
+- do not come with a {{17=helmet}}
+Rules
+- minimum age: {{18=16|sixteen}}
+- charge for not returning a bike to a station: £{{19=20|twenty}}
+Coming soon
+- free guided rides for nervous cyclists, starting at the {{20=park}} gates
+
+# L04 | Bilingual children dissertation and bioluminescence
+## 3 | You will hear a student called Marco talking to his tutor about his dissertation on bilingual children.
+@A Tutor female_uk
+@B Marco male_uk
+A: Come in, Marco. So, I've read your proposal on bilingual children. Tell me how you arrived at the topic.
+B: Well, I'd planned to write about how adults learn a second language. Then last summer I worked at a holiday club where half the children spoke Polish at home, and I got curious about how they moved between the two languages.
+A: So it grew out of experience, not out of the lectures. That's often the best way. Now, your research question is whether bilingual children are better at switching between tasks. What made you focus on that?
+B: A lot of articles claim there's a bilingual advantage in attention. But when I looked closely, the recent, larger studies often fail to find it. I'd like to know which side is right.
+A: Good. That disagreement is exactly what makes it worth doing. How many children are you hoping to test?
+B: My proposal said a hundred, but I'm beginning to think that's unrealistic. Each session takes forty minutes.
+A: I'd aim for sixty. Thirty bilingual and thirty monolingual would be enough for the statistics, and you could finish in a term.
+B: Sixty sounds manageable. I'll use two primary schools where I already have contacts.
+A: Fine. Now, I have a concern about how you're matching the groups. You say the children will be the same age. Is that enough?
+B: I thought so. Should I match them on school results as well?
+A: Not results. Family income. Several of the early studies compared bilingual children from wealthy families with monolingual children from poorer ones, and the so-called advantage may simply have been the effect of income.
+B: I see. I could ask the parents about their jobs on the consent form.
+A: That would work. And the task itself, the card-sorting game. Why that one, and not a computer test?
+B: The computer tests give more precise timings. But the children I worked with got bored in front of a screen, and with cards I can keep them interested.
+A: That's a sensible reason, as long as you record the sessions. Now, let's talk about the order of things. What comes first?
+B: Ethics approval from the department. Nothing can happen until I've got that.
+A: Right. It takes about three weeks, so apply now. And while you're waiting?
+B: I'll run a pilot with a few children from my neighbour's family, to check that the instructions are clear.
+A: Good. After the pilot, you'll need written consent from the parents. Don't leave that late, because the forms come back slowly.
+B: Then the testing itself, in the spring term. And then the analysis.
+A: Before you analyse anything, give me your raw data to check. Students often find mistakes in the coding at that stage. Then book a session with the statistics adviser, and only after that start writing.
+B: Understood. Should I send you a chapter each month?
+A: Just the literature review by the end of January. We'll plan the rest from there.
+== mc
+1. Marco became interested in bilingual children when he
+A. attended a series of lectures.
+B. was working with children.
+C. was learning a second language himself.
+=> B // He worked at a holiday club where half the children spoke Polish at home.
+2. Marco chose his research question because
+A. recent studies disagree with earlier claims.
+B. very little has been written about it.
+C. his tutor suggested it.
+=> A // Many articles claim an advantage, but recent larger studies often fail to find it.
+3. How many children does the tutor advise Marco to test?
+A. thirty
+B. sixty
+C. one hundred
+=> B // Thirty bilingual and thirty monolingual, sixty in all; a hundred is unrealistic.
+4. The tutor says the two groups of children should be matched for
+A. their results at school.
+B. the number of languages spoken at home.
+C. the income of their families.
+=> C // The advantage in early studies may simply have been the effect of income.
+5. Marco prefers a card-sorting task to a computer test because
+A. it holds the children's attention.
+B. it measures time more precisely.
+C. it is easier to record.
+=> A // Children got bored in front of a screen; computer tests give more precise timings.
+== fill:flow_chart | 2W
+Marco's research plan
+Obtain {{6=ethics approval}} from the department
+↓
+Carry out a {{7=pilot}} with a small number of children
+↓
+Collect written consent from the {{8=parents}}
+↓
+Test the children during the spring term
+↓
+Ask the tutor to check the {{9=raw data}}
+↓
+Meet the {{10=statistics adviser}}, then begin writing
+## 4 | You will hear part of a lecture about living things that produce light.
+@C Lecturer male_us
+C: Good morning. This week we turn to bioluminescence, which simply means light produced by living things. On land it's rare. You may know fireflies and a few kinds of fungus. But in the deep ocean it's the normal state of affairs, and it's estimated that three quarters of the animals living there can make light.
+C: Let's start with how it works. The light comes from a chemical reaction. A molecule called luciferin combines with oxygen, and energy is released in the form of light. What's remarkable is the efficiency. An ordinary light bulb wastes most of its energy as heat, whereas this reaction produces almost none, which is why it's sometimes called cold light.
+C: The colour is worth noting too. In the sea, nearly all of it is blue, and there's a good reason. Blue light travels furthest through water, while red light is absorbed within a few metres.
+C: So what is the light for? Biologists have identified several functions. The first is defence. Some squid, when attacked, release a cloud of glowing liquid, which confuses the predator while the squid escapes into the dark.
+C: A second defensive use is harder to spot. Many fish have rows of lights along the belly. Seen from below, the fish would normally appear as a dark shape against the faint light from the surface. By glowing, it hides its own shadow. So here, light is being used as camouflage.
+C: Light is also used for hunting. The best known example is the anglerfish, which has a glowing lure hanging in front of its mouth. Interestingly, the fish doesn't make the light itself. The lure is full of bacteria, and these do the work in exchange for food and shelter.
+C: The third function is communication. Fireflies are the classic case. Each species has its own pattern of flashes, and males and females use it to find a mate. There's even one species that imitates the signal of another, in order to attract males and eat them.
+C: Finally, why should the rest of us care? Well, the genes responsible have become one of the most useful tools in medicine. Researchers attach them to cancer cells, so that a tumour literally glows and its growth can be followed without surgery. The same reaction is used in the food industry, where it shows within minutes whether a surface is contaminated, a test that used to take two days.
+C: There are more playful ideas as well. One company in France is experimenting with bacteria to light shop windows at night, which would need no electricity at all. Whether that can ever be bright enough is another matter, and that's where we'll pick up next week.
+== fill:note | 1W
+Bioluminescence
+Background
+- uncommon on land, e.g. fireflies and some types of {{11=fungus}}
+- produced when luciferin reacts with {{12=oxygen}}
+- gives off very little {{13=heat}}
+- in the sea, the light is usually {{14=blue}} in colour
+Functions
+- defence: some squid release a glowing {{15=liquid}}
+- lights on a fish's belly act as {{16=camouflage}}
+- hunting: the anglerfish's light is made by {{17=bacteria}}
+- communication: fireflies flash to find a {{18=mate}}
+Uses
+- medicine: following the growth of a {{19=tumour}}
+- food industry: testing whether a {{20=surface}} is clean

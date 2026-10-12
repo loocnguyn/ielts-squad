@@ -1,0 +1,131 @@
+# R05 | Desalination
+## Drinking the sea
+[A] Seen from space, the earth is a blue planet, and yet water fit to drink is scarce. About ninety-seven per cent of the world's water is salt, and most of the remainder is locked in ice. As populations grow and rainfall becomes less reliable, a number of countries have turned to a solution that sailors and scientists dreamed of for centuries, which is to remove the salt from sea water. Today some three hundred million people depend, at least in part, on water produced in this way.
+[B] The oldest method simply copies nature. Sea water is heated until it evaporates, and the vapour, which leaves the salt behind, is cooled and collected as fresh water. Ships carried small stills of this kind from the eighteenth century onwards, and the first large plants, built around the Persian Gulf from the 1950s, worked on the same principle. The process is reliable and produces very pure water. Its weakness is that boiling water consumes enormous quantities of energy, which is why it took root in states that had oil and gas to spare.
+[C] The technique that now dominates the industry is quite different. In reverse osmosis, sea water is forced at very high pressure against a membrane, a thin sheet of plastic pierced by holes so small that water molecules can pass through while the larger particles of dissolved salt cannot. The principle was demonstrated in California in the late 1950s, but the early membranes let through only a trickle. Two developments turned it into a practical technology. Chemists learned to make membranes that were both thinner and tougher, and engineers devised machines that recover the pressure remaining in the waste water and use it to help push the next batch through. As a result, the electricity needed to produce a cubic metre of fresh water has fallen to about a quarter of what it was in the 1970s.
+[D] Even so, desalination remains an expensive way of obtaining water. Its cost has come down to perhaps twice that of treating river water, and in most plants energy accounts for a third or more of the bill. Where that energy comes from burning fossil fuels, a technology adopted partly in response to a changing climate ends up contributing to the problem. Several countries have tried to break the link. A large plant near Perth in Australia buys its electricity from a wind farm built for the purpose, and new projects in the Middle East and North Africa are being paired with fields of solar panels.
+[E] The second environmental concern is what is left behind. For every litre of fresh water, a plant produces roughly a litre and a half of brine, which is about twice as salty as the sea and may contain chemicals used to keep the membranes clean. It is usually piped back into the ocean. Because brine is denser than sea water, it tends to sink and spread along the bottom, and in enclosed, shallow seas it can raise salt levels enough to harm the animals living on the sea bed. The damage can be limited by releasing the brine through a line of nozzles that mix it rapidly with the surrounding water, but this adds to the cost. Some researchers see the brine as a resource in its own right, a possible source of magnesium, lithium and other valuable minerals, although no one has yet shown that these can be extracted at a profit.
+[F] There is also a risk at the other end of the pipe. The intakes that draw in sea water can suck in fish eggs, larvae and other small creatures in great numbers. Modern plants reduce the harm by taking water in slowly through fine screens, or by drawing it through wells drilled beneath the beach, so that the sand itself acts as a filter.
+[G] For all these reasons, most water engineers regard desalination as a last resort and not a first choice. Repairing leaking pipes, recycling waste water and persuading farmers to irrigate more efficiently will almost always deliver water more cheaply. Singapore, which has few natural supplies of its own, treats its waste water to such a standard that it can be returned to the taps, and turns to the sea for only a part of its needs. Yet for a coastal city in a dry region, the ocean has one overwhelming advantage. It is the only source of water that does not depend on the weather.
+== tfng
+1. Most of the world's fresh water is in the form of ice. => TRUE // A: most of the remainder is locked in ice.
+2. Distillation was first used on a large scale in countries with plentiful fuel. => TRUE // B: it took root in states that had oil and gas to spare.
+3. The first reverse osmosis membranes produced large amounts of fresh water. => FALSE // C: the early membranes let through only a trickle.
+4. Desalinated water is now cheaper than treated river water. => FALSE // D: its cost is perhaps twice that of treating river water.
+5. The desalination plant near Perth is the largest in Australia. => NOT GIVEN // D calls it a large plant but does not compare it with others.
+== match:information
+6. an example of a country that reuses water it has already used => G // Singapore treats its waste water so that it can be returned to the taps.
+7. a description of how energy is saved within a desalination plant => C // Machines recover the pressure remaining in the waste water.
+8. a way of protecting sea creatures at the point where water enters a plant => F // Fine screens or wells drilled beneath the beach.
+9. a suggestion that a waste product might have commercial value => E // Brine as a possible source of magnesium and lithium.
+== fill:summary | 2W
+The problem of brine
+A desalination plant produces more brine than fresh water. The brine is roughly twice as salty as the sea, and it may also contain {{10=chemicals}} that are used for cleaning. Since it is {{11=denser}} than sea water, it sinks, and in shallow seas it can damage life on the {{12=sea bed}}. One answer is to release it through {{13=nozzles}}, which mix it quickly with the water around it.
+
+# R06 | The printing press
+## The first information revolution
+[A] When people try to convey the scale of the changes brought by the internet, they often reach for a comparison with the invention of printing. The parallel is closer than it might seem. In the middle of the fifteenth century, in the German city of Mainz, a goldsmith named Johannes Gutenberg brought together several existing technologies to create a machine that reproduced text mechanically. Within fifty years, the way that information moved around Europe had been transformed, with consequences that nobody at the time could have foreseen.
+[B] Printing itself was not new. In China, whole pages had been carved into wooden blocks and printed since at least the ninth century, and a craftsman named Bi Sheng had experimented with movable characters made of baked clay around 1040. The method suited Chinese poorly, however, since a printer needed thousands of different characters. An alphabet of two dozen letters made the idea far more practical. Gutenberg's real achievement was a hand-held mould in which identical metal letters could be cast quickly and in great numbers. He combined this with an oil-based ink that would stick to metal, and with a press adapted from those used for crushing grapes.
+[C] The effect on the price and availability of books was dramatic. A scribe copying by hand might complete a few pages a day, and a single large volume could take a year. A printing shop could turn out several hundred copies of the same work in a few weeks. It has been estimated that more books were printed in the fifty years after Gutenberg than had been written out by all the scribes of Europe in the previous thousand. By 1500 there were presses in more than two hundred and fifty towns, and the price of a book had fallen by roughly two thirds.
+[D] The inventor himself did not profit. Gutenberg had borrowed heavily to finance his great Bible, and shortly before it was finished his principal backer, Johann Fust, took him to court to recover the debt. Gutenberg lost the case, along with much of his equipment, and Fust went on to run a successful printing business with one of Gutenberg's former assistants. It is a pattern that has been repeated many times since, in which the person who makes a technology possible is not the one who makes money from it.
+[E] What people chose to print is revealing. The earliest printers relied on products with a guaranteed market, such as religious texts, Latin grammars for schoolboys and calendars. But the press quickly proved to be the ideal instrument for controversy. When Martin Luther challenged the authority of the Church in 1517, his supporters spread his arguments in short, cheap pamphlets, written not in Latin but in everyday German. Hundreds of thousands were in circulation within a few years. Earlier reformers had made similar criticisms and been silenced. Luther's ideas could not be contained, because they could be reproduced faster than they could be destroyed.
+[F] Printing also changed knowledge in less obvious ways. Hand-copied books accumulated errors with every copy, so that no two were quite the same. Print made it possible for scholars in different cities to consult identical texts, diagrams and maps, and to refer one another to a particular page. Mistakes could be reported to the printer and corrected in the next edition. Some historians argue that this ability to fix, compare and gradually improve information was one of the conditions that made the scientific revolution possible.
+[G] It would be a mistake, though, to imagine that the new medium spread only truth. Printers needed to sell their stock, and sensational material sold well. Alongside Bibles and works of astronomy came forged documents, predictions of the end of the world, and lurid accounts of monstrous births and witches. Rulers and churches responded with lists of banned books and with systems of licences for printers, which were evaded almost as soon as they were introduced. The first information revolution, like the one we are living through, gave people access to more knowledge than ever before, and left them with the harder task of deciding what to believe.
+== match:headings | The passage has seven paragraphs, A-G. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. A tool for spreading disagreement
+ii. Unreliable content and failed attempts at control
+iii. Combining earlier ideas in a workable form
+iv. How printing reached the Americas
+v. Rapid growth and falling prices
+vi. A basis for cumulative knowledge
+vii. Invention without reward
+viii. The decline of the scribes' guilds
+1. Paragraph B => iii // Printing existed already; Gutenberg combined a mould, ink and an adapted press.
+2. Paragraph C => v // Output multiplied, presses spread and prices fell by two thirds.
+3. Paragraph D => vii // Gutenberg lost his equipment to his backer and did not profit.
+4. Paragraph E => i // The press proved the ideal instrument for controversy.
+5. Paragraph F => vi // Identical texts could be compared, corrected and improved.
+6. Paragraph G => ii // Sensational and forged material; bans and licences were evaded.
+== tfng
+7. Movable type was first tried in China. => TRUE // B: Bi Sheng experimented with movable characters of baked clay around 1040.
+8. Gutenberg invented a new kind of press for printing. => FALSE // B: the press was adapted from those used for crushing grapes.
+9. Fust had worked as a printer before he lent Gutenberg money. => NOT GIVEN // D says he was the principal backer; his earlier occupation is not mentioned.
+10. Luther's pamphlets were written in Latin. => FALSE // E: written not in Latin but in everyday German.
+== fill:sentence | 1W
+11. Movable type was less suited to Chinese because of the number of {{11=characters}} required.
+12. Before printing, each new copy of a book contained additional {{12=errors}}.
+13. Authorities tried to control printers by requiring them to hold {{13=licences|licenses}}.
+
+# R07 | Trees and urban heat
+## Can trees cool our cities?
+[A] Anyone who has walked from a sunlit car park into a wooded park on a summer afternoon knows that trees make a difference to temperature. As heatwaves become longer and more frequent, city governments around the world have seized on this familiar experience and turned it into policy. Mayors have pledged to plant millions of trees, and the proportion of a city shaded by leaves, known as its canopy cover, has become a standard measure of how well it is prepared for a hotter future. The enthusiasm is understandable. Whether the trees will deliver what is expected of them is a more complicated question.
+[B] Cities are warmer than the countryside around them, often by several degrees and most noticeably at night. The main cause is the materials from which they are built. Asphalt, brick and concrete absorb the sun's energy during the day and release it slowly after dark, while engines and air conditioners add heat of their own. Trees counter this in two ways. The first is shade, which prevents the ground and walls beneath from heating up. The second is less visible. A tree draws water from the soil and releases it as vapour through its leaves, and this evaporation uses up heat from the surrounding air, in the same way that sweat cools the skin.
+[C] Measurements confirm that the combined effect is substantial. Surveys using satellites have found that the surface of a tree-covered district can be ten degrees or more cooler than that of a neighbouring district of bare streets. It is important to be clear about what such figures mean, however. Satellites record the temperature of surfaces such as roofs and roads, not of the air at head height. When researchers carry thermometers through the streets, the difference in air temperature between leafy and treeless areas is usually much smaller, typically between one and three degrees.
+[D] Even a modest reduction matters, because the relationship between heat and health is not gradual. Hospital admissions and deaths rise steeply once temperatures pass a certain point, and a degree or two can determine whether a night is cool enough for the body to recover. Studies in several countries have found that deaths during heatwaves are concentrated in districts with the least greenery. These are very often the poorest districts, where streets are narrow, gardens are rare and fewer households can afford air conditioning. For this reason, where trees are planted may be more important than how many.
+[E] Here the limits of planting campaigns become apparent. A newly planted tree offers almost no shade, and it may take twenty or thirty years to develop a full crown. In the meantime it has to survive conditions that are close to hostile. Its roots are confined to a small pit surrounded by compacted soil and buried pipes, rainwater runs off the paving into drains instead of soaking in, and salt, pollution and passing vehicles all do damage. In some cities, a third of street trees die within a few years of being planted. Counting the trees put in the ground, as most campaigns do, says very little about how much shade will exist a generation later.
+[F] There is a further difficulty. The cooling that comes from evaporation depends on the tree having water. In a severe drought, which is exactly when heatwaves tend to occur, a tree closes the pores in its leaves to protect itself, and the effect largely stops. Shade continues, but the tree behaves more like a parasol than an air conditioner. The choice of species therefore matters a great deal. Trees that cope with dry conditions keep their leaves in a hot summer, but they often have small leaves and thin crowns, and so cast less shade than the broad-leaved species traditionally favoured for avenues.
+[G] None of this is an argument against planting. It is an argument for doing it carefully. The cities that have had most success tend to share certain habits. They protect the mature trees they already have, since a large tree lost to a building project cannot be replaced within a lifetime. They give new trees room, breaking up paving so that rain can reach the roots. They budget for watering and maintenance over many years, not just for the planting itself. And they combine trees with other measures, such as pale roofs and road surfaces that reflect sunlight, on the understanding that no single remedy will be enough.
+== ynng
+1. City governments are right to regard trees as a complete answer to rising temperatures. => NO // A and G: whether trees deliver is complicated, and no single remedy will be enough.
+2. Figures obtained from satellites give a misleading impression of how much trees cool the air. => YES // C: satellites record surface temperature; the difference in air temperature is much smaller.
+3. A fall in temperature of one or two degrees is too small to affect people's health. => NO // D: even a modest reduction matters, because deaths rise steeply past a certain point.
+4. Planting campaigns should give priority to poorer districts. => YES // D: where trees are planted may be more important than how many.
+5. Trees native to a region survive better in cities than imported species. => NOT GIVEN // The passage discusses drought tolerance, not whether species are native.
+== mc
+6. According to paragraph B, cities are hotter than the countryside mainly because of
+A. the heat given off by vehicles.
+B. the lack of wind between tall buildings.
+C. the substances used in construction.
+D. the use of air conditioning.
+=> C // B: the main cause is the materials from which they are built.
+7. What point does the writer make about counting the number of trees planted?
+A. It exaggerates the cost of planting campaigns.
+B. It is a poor guide to the shade that will eventually be provided.
+C. It is the only reliable way to compare cities.
+D. It ignores trees growing in private gardens.
+=> B // E: it says very little about how much shade will exist a generation later.
+8. During a severe drought, a tree
+A. loses its leaves and gives no shade.
+B. takes more water from the soil.
+C. cools the air more effectively.
+D. continues to provide shade but little cooling by evaporation.
+=> D // F: the pores close and the effect largely stops; shade continues.
+9. What disadvantage of drought-resistant trees is mentioned?
+A. They grow more slowly.
+B. They damage paving with their roots.
+C. They tend to give less shade.
+D. They are more expensive to buy.
+=> C // F: small leaves and thin crowns cast less shade than broad-leaved species.
+== fill:summary | 1W
+Why young street trees die
+A young tree's roots have to grow in a small {{10=pit}}, and the soil around it is compacted. Rain flows over the paving and into {{11=drains}} before it can reach the roots. Further harm is done by {{12=salt}}, pollution and vehicles. Successful cities set aside money for watering and {{13=maintenance}} for many years after planting.
+
+# R08 | Boredom
+## What is boredom for?
+[A] Boredom has a poor reputation. Parents regard it as a problem to be solved, employers as a threat to productivity, and most of us as a state to be escaped as quickly as possible, usually by reaching for a phone. For a long time psychologists paid it little attention, perhaps because it seemed too trivial to study. In the past twenty years that has changed, and the picture emerging from their research is of an emotion that is both more harmful and more useful than was assumed.
+[B] The first task was to define it. Boredom is not the same as relaxation, which is pleasant, or as apathy, in which a person wants nothing. The bored person very much wants to be engaged in something satisfying and finds that nothing available will do. Researchers describe it as a failure of attention combined with a sense that the present activity lacks meaning. Time appears to pass slowly, and there is a restless urge to be somewhere else. It can arise when a task is too easy, but also, less obviously, when it is too hard, since in both cases the mind is unable to take hold.
+[C] How far people will go to avoid this state was shown by an experiment at the University of Virginia in 2014. Volunteers were left alone in an empty room for fifteen minutes with nothing to do but think. The only object available was a device that delivered a mild electric shock, which they had already tried and had said they would pay to avoid. Two thirds of the men, and a quarter of the women, nevertheless pressed the button at least once. For many of them, an unpleasant sensation was evidently preferable to none at all.
+[D] The costs of boredom are well documented. People who say they are frequently bored are more likely to drink heavily, to gamble, to eat when they are not hungry and to take risks when driving. In schools, boredom predicts poor results at least as reliably as anxiety does. At work, it has been linked with mistakes in tasks that require long periods of monitoring, such as watching security screens or supervising automated machinery, where very little happens for most of the time and a lapse of attention can be disastrous.
+[E] Why, then, would evolution have equipped us with such an emotion? The most persuasive answer is that boredom works as a signal, much as pain does. Pain tells us that the body is being damaged and prompts us to withdraw. Boredom tells us that our current activity is not worth the time and energy we are giving it, and pushes us to look for something better. An animal that was content to repeat the same unrewarding behaviour indefinitely would never have discovered new sources of food. On this view, boredom is not a defect but a mechanism that keeps us exploring.
+[F] Some researchers go further and claim that boredom encourages creativity. In one frequently cited study, people who had first spent fifteen minutes copying numbers out of a telephone directory went on to think of more uses for a plastic cup than people who had not. The suggestion is that an unoccupied mind begins to wander, and that a wandering mind makes unexpected connections. The evidence here is thinner than popular articles imply. Attempts to repeat such experiments have produced mixed results, and it may be that what helps is not boredom itself but the daydreaming that sometimes follows it.
+[G] What does seem clear is that the outcome depends on how a person responds. Boredom creates a demand for change without specifying what the change should be. It can be satisfied by starting a project or by picking a quarrel. This is where the constant availability of entertainment on a screen becomes relevant. Scrolling removes the discomfort instantly, but it does so without supplying the sense of meaning whose absence caused the boredom in the first place. Several studies have found that people who turn to their phones whenever they feel bored report feeling more bored afterwards, not less. The emotion may be best treated neither as an enemy nor as a gift, but as a question that deserves a better answer than the nearest distraction.
+== tfng
+1. Psychologists have studied boredom intensively for more than a century. => FALSE // A: for a long time they paid it little attention; this changed in the past twenty years.
+2. A bored person has no wish to do anything. => FALSE // B: the bored person very much wants to be engaged in something satisfying.
+3. A task that is too difficult can produce boredom. => TRUE // B: also when it is too hard.
+4. In the Virginia experiment, men were more likely than women to give themselves a shock. => TRUE // C: two thirds of the men and a quarter of the women pressed the button.
+5. Students who are often bored tend to choose science subjects. => NOT GIVEN // D mentions poor results but nothing about subject choice.
+== match:sentence_endings
+A. prompts us to search for a more rewarding activity.
+B. removes the feeling without providing any sense of purpose.
+C. may be the real cause of any gain in creativity.
+D. is most common among people who work alone.
+E. can lead to serious errors when attention fails.
+F. shows that boredom is a form of physical pain.
+6. Work that involves watching for rare events => E // D: monitoring tasks where a lapse of attention can be disastrous.
+7. According to the signal theory, boredom => A // E: it pushes us to look for something better.
+8. The daydreaming that follows boredom => C // F: it may be the daydreaming, not boredom itself, that helps.
+9. Using a phone to escape boredom => B // G: scrolling removes the discomfort without supplying meaning.
+== fill:summary | 2W
+The Virginia experiment
+Volunteers spent {{10=fifteen minutes|15 minutes}} alone in an {{11=empty room}} with nothing to do. Earlier, they had experienced a mild {{12=electric shock}} and stated that they would {{13=pay}} to avoid another. In spite of this, many chose to press the button.

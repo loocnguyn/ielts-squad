@@ -1,0 +1,159 @@
+# S101 | A crowded place you have been to
+P1 Work or study: Is the place where you work or study crowded? | How do you get there at busy times? | Do you prefer quiet days? | Where do you go for some space?
+P1 Shopping centres: Do you go to shopping centres? | When are they busiest? | Do you go there just to walk around? | Do you prefer smaller shops?
+P1 Festivals: Do you go to festivals? | Do you like big events? | Have you been to an outdoor concert? | Do you avoid crowds at holiday times?
+P2 Describe a crowded place you have been to. | where it was | why you went there | what you did | and explain how you felt about being in a crowd.
+R Would you go there again? | Is it always so crowded?
+P3 Crowds and public space: Why do people go to crowded places by choice? | How can large events be made safe? | Are city centres too crowded? | Do people behave differently in a crowd? | Will cities need to limit visitor numbers in the future?
+
+# S102 | An app you find useful
+P1 Hometown: Do people in your hometown use apps for local services? | Can you pay by phone in shops there? | Is there free wireless internet in public places? | Do older residents use smartphones?
+P1 Apps: How many apps do you use regularly? | Which do you open first in the morning? | Do you pay for any? | Have you deleted any recently?
+P1 Screens: How much time do you spend looking at a screen? | Do your eyes get tired? | Do you use your phone in bed? | Do you ever have a day without screens?
+P2 Describe an app you find useful. | what the app is | how you found out about it | what you use it for | and explain why it is useful to you.
+R Is it free? | Would older people find it easy to use?
+P3 Apps and attention: Why are some apps so hard to stop using? | Should technology companies be responsible for the time people spend on their products? | Do apps make people more or less organised? | How much personal information should apps be allowed to collect? | What kind of app would improve society if someone built it?
+
+# S103 | A time you enjoyed a visit to a relative or friend
+P1 Home: Do friends or relatives live near you? | How often do they visit? | Do you visit without calling first? | Do you take something when you visit someone?
+P1 Hospitality: How do people in your country welcome guests? | What do you offer visitors? | Do you like having guests? | Is it polite to refuse food?
+P1 Keeping in touch: How do you keep in touch with relatives far away? | Do you use video calls? | Do you send cards? | Who do you speak to most often?
+P2 Describe a visit to a relative or friend that you enjoyed. | who you visited | where they live | what you did during the visit | and explain why you enjoyed it.
+R How long did you stay? | Will they visit you in return?
+P3 Family ties and hospitality: Why is hospitality so important in many cultures? | Are people visiting each other less than they used to? | How does living far from relatives affect a family? | Can video calls replace visits? | Should adult children live close to their parents?
+
+# S104 | A science topic that interests you
+P1 Work or study: Is science part of your work or studies? | Did you do experiments at school? | Do you enjoy solving technical problems? | Would you like to work in a laboratory?
+P1 Science at school: Which science subject did you like best? | Did you have a good science teacher? | Did you go on science trips? | Is science taught well in your country?
+P1 Documentaries: Do you watch documentaries? | What subjects interest you? | Do you prefer documentaries or drama? | Have you learned something surprising from one?
+P2 Describe a science topic that interests you. | what the topic is | how you became interested in it | how you learn more about it | and explain why it interests you.
+R Is it relevant to your daily life? | Do your friends share your interest?
+P3 Science and the public: Why do some people distrust scientists? | Should scientists explain their work to the general public? | Is there research that should not be carried out? | Do the media report science accurately? | How should a society decide which scientific questions deserve funding?
+
+# S105 | A time you had to change your mind
+P1 Hometown: Have you changed your opinion of your hometown over the years? | What did you dislike as a teenager? | What do you appreciate now? | Would you raise children there?
+P1 Opinions and choices: Do you make up your mind quickly? | Do you ask others before deciding? | Do you regret any choices? | Are you stubborn?
+P1 Tastes: Have your tastes in food changed? | Do you like things now that you disliked as a child? | Has your taste in music changed? | Do you still like the same colours?
+P2 Describe a time when you changed your mind about something. | what you originally thought | what made you change your mind | who or what influenced you | and explain how you felt about changing your opinion.
+R Was it difficult to admit? | Have you changed your mind back?
+P3 Changing opinions: Why is it hard for people to admit they were wrong? | Do people become more fixed in their views as they get older? | Should politicians be criticised for changing their position? | How much do friends influence what we think? | Is an open mind always a strength?
+
+# S106 | An island or coastal place you would like to visit
+P1 Home: Do you live near the sea? | Would you like to? | Have you ever lived by the water? | Do you like the sound of waves?
+P1 The sea: Do you like the sea? | Did you go to the beach as a child? | What do you do at the seaside? | Are you a strong swimmer?
+P1 Boats and fishing: Have you ever been fishing? | Would you like to sail? | Is seafood popular in your country? | Have you taken a ferry?
+P2 Describe an island or coastal place you would like to visit. | where it is | how you know about it | what you would do there | and explain why you would like to go.
+R How would you get there? | Who would you take?
+P3 Coasts and islands: Why do islands attract so many visitors? | What problems do island communities face? | How does tourism affect marine life? | Should some natural places be closed to tourists? | What will happen to low-lying islands as the climate changes?
+
+# S107 | A time you received a compliment
+P1 Work or study: Do you receive much feedback on your work? | Do you prefer praise or honest criticism? | Do you praise others? | How do you react when someone corrects you?
+P1 Compliments: Do you often compliment people? | What kinds of compliment do you like? | Is it easy to accept a compliment? | Do people in your country compliment strangers?
+P1 Appearance: Do you care about your appearance? | How long do you take to get ready? | Do you dress up for special occasions? | Do you follow advice about clothes?
+P2 Describe a time when you received a compliment. | who gave it | what they said | what you had done | and explain how you felt.
+R Did you say anything in reply? | Do you remember compliments for a long time?
+P3 Praise and motivation: Why does praise matter to people? | Can too much praise be harmful to children? | Is money or recognition the better way to motivate employees? | Do people today depend too much on approval from others online? | How should teachers balance encouragement with honest criticism?
+
+# S108 | A period of history you would like to know more about
+P1 Hometown: What was your hometown like a hundred years ago? | Are there old photographs of it? | Do older people tell stories about the past? | Has its name always been the same?
+P1 The past: Do you think life was better in the past? | What would you miss if you lived a century ago? | Do you keep old family photographs? | Do you know your family history?
+P1 Museums and films: Do you watch historical dramas? | Do you visit history museums? | Do you read historical novels? | Did school trips make history interesting?
+P2 Describe a period of history you would like to know more about. | which period it is | what you already know about it | how you could find out more | and explain why you are interested in it.
+R Would you have liked to live then? | Is it taught in schools?
+P3 Studying the past: Why do people disagree about historical events? | Should history lessons focus on one's own country or on the world? | Can we judge people of the past by today's standards? | What can leaders learn from history? | How will future historians see our own time?
+
+# S109 | A time you shared something with others
+P1 Home: What do you share with the people you live with? | Do you share a bathroom or a kitchen? | Do you share bills? | Is there anything you keep for yourself?
+P1 Sharing online: Do you share photos online? | Do you share articles or videos? | Are you careful about what you share? | Do you read what friends share?
+P1 Food: Do you share dishes when you eat out? | Do you take food to friends' homes? | Did you share lunch at school? | Is sharing food important in your culture?
+P2 Describe a time when you shared something with other people. | what you shared | who you shared it with | why you shared it | and explain how you felt about sharing.
+R Did they share something with you? | Do you find sharing easy?
+P3 Sharing and ownership: Why do children find sharing difficult? | Is society becoming more individualistic? | What are the benefits of sharing resources such as cars or workspaces? | Should wealthy people be expected to give more to others? | Is private ownership necessary for a society to function?
+
+# S110 | A noisy place you have been to
+P1 Work or study: Is your workplace or college noisy? | Can you work with background noise? | Do you wear headphones? | Where do you go for quiet?
+P1 Headphones: Do you use headphones often? | What do you listen to? | Do you wear them in the street? | Is it rude to wear them when someone is talking to you?
+P1 Traffic: Is there much traffic near your home? | Does it keep you awake? | Do you cross busy roads on foot? | Would you ban cars from the centre of your town?
+P2 Describe a noisy place you have been to. | where it was | what was making the noise | what you were doing there | and explain how the noise affected you.
+R Did you stay long? | Could anything be done about the noise?
+P3 Noise in modern life: What are the main sources of noise in cities? | Why do people tolerate noise differently? | Should there be quiet zones on public transport and in parks? | How does noise affect children's learning? | Is silence becoming a luxury?
+
+# S111 | A business you would like to start
+P1 Hometown: Are there many small businesses in your hometown? | What kind of business is missing? | Do people support local shops? | Is it a good place to start a company?
+P1 Money and work: Would you like to be your own boss? | Are you good with money? | Do you take risks? | Did you earn money as a teenager?
+P1 Ideas: Do you often have new ideas? | Do you write them down? | Who do you tell first? | Have you ever turned an idea into something real?
+P2 Describe a business you would like to start. | what kind of business it would be | where it would be | who your customers would be | and explain why you think it would succeed.
+R Would you need a partner? | How much money would you need?
+P3 Business and enterprise: Why do people dream of running their own business? | Why do so many new businesses fail? | Should governments give financial support to small firms? | Do large companies have too much influence over people's lives? | Can a business be both profitable and good for society?
+
+# S112 | A time you received something you had been waiting for
+P1 Home: Do you have parcels delivered to your home? | Who collects the post? | Do you track deliveries? | Have you ever had something lost in the post?
+P1 Online shopping: What do you buy online? | Do you ever return things? | Do you pay extra for fast delivery? | Do you read the reviews?
+P1 Anticipation: Do you enjoy looking forward to things? | Are you impatient for holidays? | Do you count the days before an event? | Is waiting part of the pleasure?
+P2 Describe a time when you received something you had been waiting for. | what it was | how long you had waited | how it arrived | and explain how you felt when you finally got it.
+R Was it what you expected? | Did you tell anyone?
+P3 Expectation and reward: Why is waiting for something sometimes better than having it? | Has fast delivery changed people's attitude to shopping? | Should children be made to wait for things they want? | Are people today less satisfied with what they have? | Does an economy built on instant satisfaction have a future?
+
+# S113 | A person who dresses well
+P1 Work or study: Do people dress smartly where you work or study? | Do you think about what to wear each morning? | Do you own formal clothes? | Does your style change with the season?
+P1 Fashion: Are you interested in fashion? | Where do you buy clothes? | Do you keep clothes for a long time? | Who influences what you wear?
+P1 Colours and style: What colours suit you? | Do you prefer plain or patterned clothes? | Do you wear the same style as your friends? | Have you ever copied someone's style?
+P2 Describe a person you know who dresses well. | who this person is | what kind of clothes they wear | where they get their clothes | and explain why you think they dress well.
+R Do you ask them for advice? | Do they spend a lot on clothes?
+P3 Appearance and judgement: Why do people judge others by their clothes? | Is it worth paying more for well-made clothes? | How does social media affect the way young people dress? | Should there be rules about what people wear in public? | Will concern for the environment change fashion?
+
+# S114 | A law that you think is a good one
+P1 Hometown: Are there any local rules in your hometown that visitors should know? | Do people obey traffic rules? | Is the town safe? | Are there rules about noise or litter?
+P1 Rules: Do you usually follow rules? | Which rule do you find annoying? | Were school rules strict? | Have you ever been fined?
+P1 Driving and roads: Do drivers in your country drive carefully? | Do people use seat belts? | Are cyclists respected? | Is the speed limit sensible?
+P2 Describe a law that you think is a good one. | what the law is | how you learned about it | who it affects | and explain why you think it is a good law.
+R Do most people obey it? | Would you change it in any way?
+P3 Law and society: Why do people obey laws? | Should the punishment for a crime depend on the offender's circumstances? | Are there too many laws controlling people's private behaviour? | Should the same laws apply in every country? | How should the law deal with new technology?
+
+# S115 | A time you enjoyed being alone
+P1 Home: Do you have your own room? | Do you like spending time alone at home? | What do you do when nobody else is in? | Do you ever feel lonely?
+P1 Being alone: Do you prefer company or solitude? | When do you most need to be alone? | Do you eat alone sometimes? | Would you travel alone?
+P1 Relaxing: How do you relax? | Do you relax better alone? | Do you have enough time to rest? | What did you do to relax as a child?
+P2 Describe a time when you enjoyed being alone. | when it was | where you were | what you did | and explain why you enjoyed being alone.
+R Do you often spend time alone? | Did anyone wonder where you were?
+P3 Solitude and society: Why do some people need more time alone than others? | Is loneliness a growing problem? | Are people who live alone less happy? | Has technology made it harder to be truly alone? | Should schools teach children to be comfortable in their own company?
+
+# S116 | A tourist attraction in your country
+P1 Work or study: Does tourism create jobs in your area? | Have you worked with tourists? | Do visitors come to your college or workplace? | Would you like a job in tourism?
+P1 Tourists: Do many tourists visit your country? | What do they come to see? | Are local people welcoming? | Do tourists cause any problems?
+P1 Souvenirs: Do you buy souvenirs? | What do visitors buy in your country? | Do you keep things from your trips? | Have you been given a souvenir you did not like?
+P2 Describe a tourist attraction in your country. | what it is | where it is | what visitors can do there | and explain why it is popular.
+R Have you been there yourself? | Is it expensive to visit?
+P3 Tourism: What are the benefits of tourism for a country? | Can a place have too many tourists? | Should local people pay less than foreign visitors at attractions? | Does tourism help people understand other cultures? | How will tourism need to change in order to be sustainable?
+
+# S117 | A time you kept a promise
+P1 Hometown: Do people in your hometown trust one another? | Do neighbours keep their word? | Are business deals made on a handshake? | Is your word important there?
+P1 Promises: Do you make many promises? | Have you broken one? | Did your parents keep their promises to you? | Is a promise to a child different?
+P1 Reliability: Are you a reliable person? | Who do you rely on? | Do you arrive when you say you will? | Do you finish what you start?
+P2 Describe a time when you kept a promise. | what you promised | who you made the promise to | how difficult it was to keep | and explain why it was important to keep it.
+R Did the person thank you? | Do you always keep your promises?
+P3 Trust and responsibility: Why do people break promises? | Is it ever right to break one? | Do politicians keep their promises? | How is trust built between colleagues? | Are people less trusting of institutions than they used to be?
+
+# S118 | A musical instrument you would like to play
+P1 Home: Is there an instrument in your home? | Does anyone practise? | Do you sing at home? | Do you play music when guests come?
+P1 Music lessons: Did you have music lessons at school? | Did you enjoy them? | Can you read music? | Should lessons be free?
+P1 Hobbies: What hobby would you take up if you had time? | Did you give up a hobby? | Do you practise anything regularly? | Do you prefer creative or active hobbies?
+P2 Describe a musical instrument you would like to be able to play. | what the instrument is | how it sounds | how you would learn it | and explain why you would like to play it.
+R Do you know anyone who plays it? | Is it difficult to learn?
+P3 Music and learning: Why do so many children give up learning an instrument? | Does learning music help with other subjects? | Is talent or practice more important in music? | Should governments fund music education? | Can people learn an instrument properly from online lessons?
+
+# S119 | A piece of advice you would give to a younger person
+P1 Work or study: What advice would you give someone starting your job or course? | What do you wish you had known? | Who guided you? | Do you help newcomers?
+P1 Teenagers: What do teenagers in your country do in their free time? | Was being a teenager easy for you? | Do teenagers listen to adults? | What is the best age to be?
+P1 Experience: What is the most useful thing you have learned from experience? | Do you learn more from success or from failure? | Have you ever ignored good advice? | Do you keep a diary?
+P2 Describe a piece of advice you would give to a younger person. | what the advice is | who you would give it to | how you learned it yourself | and explain why you think it is important.
+R Did anyone give you this advice? | Would they listen?
+P3 Generations: What do older and younger generations misunderstand about each other? | Is experience worth less in a fast-changing world? | Should young people have more say in political decisions? | How has growing up changed since you were a child? | What responsibilities does each generation have to the next?
+
+# S120 | An achievement you are proud of
+P1 Home: Do you keep certificates or prizes at home? | Do your family celebrate successes? | Who do you tell first when something goes well? | How do you reward yourself?
+P1 Success: What does success mean to you? | Are you a hard worker? | Do you compare yourself with others? | What would you like to be good at?
+P1 School days: What were you good at in school? | Did you win any awards? | Which teacher encouraged you most? | What was your proudest moment as a child?
+P2 Describe an achievement you are proud of. | what you achieved | when it happened | how you prepared for it | and explain why you are proud of it.
+R Did you celebrate? | What would you like to achieve next?
+P3 Achievement: How do people in your country measure achievement? | Is it possible to achieve a great deal and still be unhappy? | Do schools reward the right kinds of achievement? | Why do some people not get credit for what they achieve? | Which achievements of this century will be remembered in a hundred years?

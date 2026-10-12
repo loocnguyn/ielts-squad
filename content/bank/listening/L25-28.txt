@@ -1,0 +1,352 @@
+# L25 | Furniture delivery problem and a nature reserve
+## 1 | You will hear a man phoning a furniture shop about a problem with a delivery.
+@A Agent female_uk
+@B Customer male_uk
+A: Good morning, Hartwell Furniture, customer services. Sophie speaking.
+B: Good morning. I'm ringing about a sofa that was delivered yesterday. I'm afraid there are a couple of problems with it.
+A: I'm sorry to hear that. Do you have your order number?
+B: Yes, it's on the receipt. H F, two seven, nine three five.
+A: Two seven, nine three five. Thank you. And you're Mister Dalby?
+B: That's right. D, A, L, B, Y.
+A: I can see the order. A three-seat sofa. What seems to be wrong?
+B: Well, first, it's the wrong colour. I ordered it in grey, and the one that arrived is blue. Quite a nice blue, but it doesn't go with anything in the room.
+A: Oh dear. Let me check what was on the order. Yes, it clearly says grey. That's our mistake at the warehouse.
+B: And second, one of the legs is damaged. There's a crack right through it. I don't know whether that happened in the van.
+A: The back legs or the front?
+B: A front one, on the left as you look at it.
+A: I'll note that. Did the delivery men ask you to sign anything?
+B: They did, and I wrote on the form that the packaging was torn. I'm glad I did now.
+A: That's very helpful. Now, we'll certainly replace the sofa. The question is when. Grey is our most popular colour, and I'm afraid it's out of stock until the end of the month.
+B: The end of the month? We've got family coming to stay on the fourteenth.
+A: I understand. Let me see what else I can do. There's a grey one in our Leeds branch, which was a display model. It's been sat on, but it's in perfect condition, and I could offer it to you with fifteen per cent off.
+B: Hmm. I'd rather have a new one, really. What if I keep the blue one until the grey arrives?
+A: You're welcome to do that. We'd send a carpenter to fit a new leg this week, so that it's safe to use, and then exchange the sofa when the stock comes in.
+B: That sounds like the best plan. When could the carpenter come?
+A: I can offer Wednesday or Thursday.
+B: Thursday, please. I'm out on Wednesday.
+A: Thursday, between nine and twelve. And for the inconvenience, I'd like to refund your delivery charge, which was forty pounds.
+B: That's kind. Thank you.
+A: It'll go back onto your card within three days. And the exchange itself will be free, of course. We'll telephone you as soon as the grey sofas arrive, to arrange a date.
+B: Could you email as well? I don't always hear the phone.
+A: Certainly. I have your address here. And if you have any questions, ask for me by name. My surname's Pruett. P, R, U, E, double T.
+== fill:form | 1WN
+Hartwell Furniture: complaint record
+Customer's surname: {{1=Dalby}}
+Item: three-seat sofa
+Colour ordered: {{2=grey|gray}}
+Colour delivered: {{3=blue}}
+Damage: a {{4=crack}} in one front leg
+Customer noted on the delivery form that the {{5=packaging}} was torn
+Action agreed
+- a {{6=carpenter}} will repair the leg
+- day of visit: {{7=Thursday}}
+- refund of delivery charge: £{{8=40|forty}}
+- customer to be contacted by phone and {{9=email}} when stock arrives
+Staff member's surname: {{10=Pruett}}
+## 2 | You will hear a warden welcoming visitors to a nature reserve.
+@C Warden female_us
+C: Good morning, and welcome to Saltmarsh Nature Reserve. My name's Erin, and I'm one of the wardens. I'll take a few minutes to tell you about the reserve, and then you're free to explore.
+C: Forty years ago, the land you're standing on was a gravel quarry. When the gravel ran out, the pits filled with water, and the company intended to sell the site for housing. It was a local bird-watching society that raised the money to buy it, and it has been managed for wildlife ever since.
+C: The reserve covers about ninety hectares, and roughly half of that is open water. We've recorded two hundred and thirty species of bird here. What most visitors hope to see is the kingfisher. I have to be honest. They're here all year, but they're small and fast, and plenty of people go home disappointed. Your best chance is early in the morning, from the hide beside the stream.
+C: There are three marked trails. The green trail is the shortest. It takes about half an hour and it's suitable for pushchairs. The blue trail goes all the way round the main lake and takes ninety minutes. And the red trail leads out across the marsh to the sea wall. Please note that part of the red trail is closed at the moment. That isn't because of flooding, as the sign in the car park suggests. A pair of rare birds is nesting right beside the path, and we don't want them disturbed.
+C: We have five hides, which are wooden shelters where you can watch the birds without being seen. Please keep your voices down inside, and close the windows when you leave, or the swallows fly in and can't get out.
+C: Dogs are welcome on the green trail only, and they must be on a lead. I know that disappoints some people, but a single loose dog can empty a lake of birds in seconds.
+C: The visitor centre has a cafe and a small shop. You can also hire binoculars there for three pounds, which I'd recommend if you haven't brought your own.
+C: A few events are coming up. This Saturday there's a walk at dusk to look for bats. Next month we're running a photography workshop. And every Wednesday morning, volunteers meet to cut back the reeds. No experience is needed, and we provide boots and gloves.
+C: Lastly, entry to the reserve is free, but it costs us a thousand pounds a day to run. If you've enjoyed your visit, there's a donation box by the door.
+== mc
+11. Who bought the site of the reserve after the quarry closed?
+A. a housing company
+B. a society of bird-watchers
+C. the local council
+=> B // The company intended to sell it for housing; a bird-watching society raised the money.
+12. What does Erin say about kingfishers?
+A. Many visitors fail to see one.
+B. They only visit in the summer.
+C. They can be seen from every hide.
+=> A // They are present all year but small and fast, and plenty of people go home disappointed.
+13. Part of the red trail is closed because of
+A. flooding.
+B. repairs to the sea wall.
+C. nesting birds.
+=> C // The car park sign blames flooding, but rare birds are nesting beside the path.
+14. Visitors are asked to close the windows of the hides so that
+A. the hides stay dry.
+B. birds do not become trapped inside.
+C. other visitors are not disturbed.
+=> B // Swallows fly in and cannot get out.
+== fill:note | 1WN
+Saltmarsh Nature Reserve
+- the shortest trail takes about {{15=30|thirty|half an hour}} minutes
+- the {{16=blue}} trail goes round the main lake
+- dogs are only allowed on the {{17=green}} trail
+- {{18=binoculars}} can be hired for £3
+- Saturday: an evening walk to look for {{19=bats}}
+- Wednesday mornings: volunteers cut back the {{20=reeds}}
+
+# L26 | Island tourism project and the placebo effect
+## 3 | You will hear two economics students, Olivia and Marcus, discussing a project about tourism on a small island.
+@A Olivia female_uk
+@B Marcus male_us
+A: Marcus, I've finished reading the data on Kerrin Island. Shall we decide what our argument is?
+B: Go ahead. My first impression was that tourism has been a great success there. Visitor numbers have tripled in ten years.
+A: The numbers have, yes. But look at the income of the islanders themselves. It's risen by only eight per cent over the same period.
+B: Eight per cent, against a tripling of visitors? Where's the money going?
+A: Mostly off the island. The three big hotels belong to a company on the mainland, and so do the ferries. The profits leave on the same boat as the tourists.
+B: Economists call that leakage. We should use the term. So what do local people actually get?
+A: Jobs, but mainly cleaning and waiting at tables, and only from May to September. In winter, unemployment is higher now than it was before tourism took off.
+B: Why higher?
+A: Because fishing has declined. Young people left the boats for hotel work, and the skills weren't passed on.
+B: That's a strong point. What about housing? I saw something in the council report.
+A: A third of the houses are now holiday homes, empty for most of the year. Prices have doubled, and local families can't afford to buy.
+B: So we argue that growth in tourism hasn't meant development for the islanders. I'm convinced. But we need to offer solutions, not just criticism.
+A: I've found two examples. On one Scottish island, the community bought the land and runs its own hostel and cafe, so the profits stay.
+B: Community ownership. That needs capital, though. Where did they get it?
+A: A national lottery grant, plus small loans from residents.
+B: And the second example?
+A: A visitor tax. An island in Spain charges two euros per person per night and spends it on water and waste services.
+B: I'm less keen on that. Kerrin's visitors mostly come for a day, and a tax per night would miss them.
+A: Then it could be collected on the ferry ticket.
+B: That would work. OK, structure. I think we open with the figures, the tripling against the eight per cent. That contrast is the whole story.
+A: Yes. Then leakage, seasonal work, housing, and finally the two solutions.
+B: How do we divide the writing?
+A: I'll take leakage and housing. Could you do employment and the solutions?
+B: Sure. And the graphs?
+A: I'll make them, since I've got the spreadsheet. We should meet again on Tuesday to put it together.
+B: Tuesday morning suits me. In the library cafe?
+A: Perfect.
+== mc
+1. What was Marcus's first impression of tourism on the island?
+A. It had damaged the environment.
+B. It had been very successful.
+C. It had grown too slowly.
+=> B // Visitor numbers have tripled in ten years.
+2. Most of the profit from tourism goes to
+A. businesses based on the mainland.
+B. the island's council.
+C. local hotel owners.
+=> A // The big hotels and the ferries belong to a mainland company.
+3. Winter unemployment has increased because
+A. the hotels close earlier than before.
+B. the population has grown.
+C. the fishing industry has shrunk.
+=> C // Young people left the boats for hotel work and the skills were not passed on.
+4. What does Olivia say about housing on the island?
+A. Many houses are empty for most of the year.
+B. Too few new houses are being built.
+C. Rents have fallen.
+=> A // A third of the houses are holiday homes, and prices have doubled.
+5. Marcus thinks a tax per night would be unsuitable because
+A. it would be unpopular with hotels.
+B. most visitors do not stay overnight.
+C. it would be expensive to collect.
+=> B // Most visitors come for a day, so a nightly tax would miss them.
+== fill:sentence | 2W
+6. Economists use the term {{6=leakage}} for money leaving a local economy.
+7. On a Scottish island, the community paid for its hostel partly with a lottery {{7=grant}}.
+8. The students suggest collecting the visitor tax on the {{8=ferry ticket}}.
+9. The presentation will begin with the {{9=figures}}.
+10. Olivia will produce the {{10=graphs}}.
+## 4 | You will hear part of a lecture about the placebo effect in medicine.
+@C Lecturer male_uk
+C: This afternoon's topic is one of the strangest in medicine. A placebo is a treatment with no active ingredient, a sugar pill, for instance, and yet patients who take one very often improve. I want to look at what we know about this, and at what it does and doesn't mean.
+C: The modern study of the subject is usually traced to the Second World War. An American army doctor, Henry Beecher, ran short of morphine. A nurse, according to the story, injected a wounded soldier with salt water and told him it was a powerful painkiller. To Beecher's amazement, the soldier's pain eased.
+C: After the war, Beecher argued that every new drug should be tested against a placebo, and that's now the standard. In a proper trial, neither the patients nor the doctors know who is receiving the real drug. We call that a double-blind trial.
+C: What have such trials taught us about placebos themselves? First, the form of the treatment matters. Two pills work better than one. An injection works better than a pill. Even the colour has an influence. In several studies, blue pills were better at helping people sleep, while red ones were more effective as stimulants.
+C: Second, the price matters. In one experiment, volunteers were given the same dummy painkiller. Half were told it cost two and a half dollars a pill, and half were told it cost ten cents. The supposedly expensive pill relieved pain much more effectively.
+C: Third, the relationship with the doctor matters. Patients who are given time, and who feel that they've been listened to, improve more than those who are hurried through.
+C: Now, an important caution. Placebos change how patients feel. They affect symptoms such as pain, nausea and tiredness. They don't shrink tumours or mend broken bones. Asthma patients given a dummy inhaler reported feeling much better, but when their breathing was measured, it hadn't improved at all.
+C: Is a placebo simply imagination? Not entirely. Brain scans show that when people expect relief from pain, the brain releases its own natural painkillers. So the effect is real, in the sense that it has a physical basis.
+C: The most surprising recent finding concerns honesty. Researchers at Harvard gave patients pills in a bottle with a label that clearly said placebo, and explained that they contained no medicine. Those patients still did better than a group who received no treatment.
+C: Finally, there's a darker side, known as the nocebo effect. If patients are warned that a pill may cause headaches, a good number will develop headaches, even when the pill is made of sugar. That raises a real dilemma about how much doctors should say about side effects.
+== fill:note | 1W
+The placebo effect
+Background
+- in wartime, a wounded soldier was injected with {{11=salt}} water
+- in a double-blind trial, neither patients nor {{12=doctors}} know who gets the drug
+What influences the effect
+- form: an {{13=injection}} works better than a pill
+- colour: {{14=blue}} pills helped people to sleep
+- a pill that patients believed was {{15=expensive}} relieved more pain
+- patients do better when they feel a doctor has {{16=listened}} to them
+Limits
+- placebos affect symptoms, e.g. pain, but do not shrink {{17=tumours|tumors}}
+- asthma patients felt better, but their {{18=breathing}} had not improved
+Recent research
+- placebos worked even when the bottle carried an honest {{19=label}}
+- nocebo effect: a warning about headaches can produce {{20=headaches}}
+
+# L27 | After-school club enquiry and a new sports centre
+## 1 | You will hear a father phoning an after-school club to ask about a place for his daughter.
+@A Manager female_uk
+@B Parent male_us
+A: Sunflower After-School Club, Beth speaking.
+B: Hi. I'm starting a new job next month, and I need somewhere for my daughter to go after school. Do you have any places?
+A: We might. How old is she?
+B: She's seven. Her name's Maya.
+A: Seven. We take children from five to eleven, and at the moment there are spaces in her age group on every day but Thursday.
+B: I only need Monday, Tuesday and Wednesday. I work from home at the end of the week.
+A: Then that's no problem. Which school is she at?
+B: Elm Park Primary.
+A: Good, that's one of the three schools we collect from. One of our staff meets the children at the gate, and they come here on foot. It takes about ten minutes.
+B: On foot? I'd imagined a minibus.
+A: We had one until last year. But it was always stuck in traffic, and the children arrive in a better mood after some fresh air.
+B: I can believe that. What time does the club finish?
+A: We're open until six. If you're late, there's a charge of five pounds for every ten minutes, because we have to pay the staff to stay.
+B: Understood. And what do the children do?
+A: When they arrive, they have a snack, usually fruit and a sandwich. Then there's half an hour for homework, if they have any. After that, they choose. There's a craft room, board games, and when it's dry they can play outside. On Tuesdays, a coach comes in to teach gymnastics.
+B: She'd love that. Is the gymnastics extra?
+A: No, it's included. The only thing we charge extra for is the trips in the school holidays.
+B: So what's the cost of a normal session?
+A: Fourteen pounds per afternoon. For three afternoons a week, that's forty-two pounds, and we send the bill at the start of each month.
+B: Forty-two. That's less than I expected. Maya has an allergy, by the way. She can't have eggs.
+A: Thank you for telling me. We'll need that in writing on the registration form, and you'll be asked to sign it.
+B: Of course. Could we visit before she starts?
+A: I'd encourage it. Come on Friday at half past four. The children will be here, and Maya can meet her group leader. Her name is Niamh. I'd better spell that for you. N, I, A, M, H.
+B: Thanks. I wouldn't have got that right.
+A: Nobody does. And could you bring a recent photograph of Maya? We keep one on file, so that staff know who they're collecting.
+B: Sure. And my name's Aaron Castellano. C, A, S, T, E, double L, A, N, O.
+== fill:form | 1WN
+Sunflower After-School Club: enquiry
+Child's age: {{1=7|seven}}
+Days needed: Monday, Tuesday and {{2=Wednesday}}
+School: Elm {{3=Park}} Primary
+Children travel to the club on {{4=foot}}
+Club closes at: {{5=6|six}} pm
+Tuesday activity: {{6=gymnastics}}
+Cost per week: £{{7=42|forty-two}}
+Allergy: {{8=eggs}}
+Group leader's first name: {{9=Niamh}}
+Bring to the visit: a {{10=photograph|photo}} of the child
+## 2 | You will hear the manager of a new sports centre talking to local residents at an open evening.
+@C Manager male_uk
+C: Good evening, and thank you all for coming to see the new Kingsway Sports Centre. I'm Tom Ridley, the manager. I'll run through what we offer, and then my staff will show you round in small groups.
+C: The old centre, as many of you know, closed three years ago. This building stands on the same site, but it's twice the size, and I'm proud to say it uses less than half the energy. The roof is covered with solar panels, and the heat from the changing-room showers is recovered to warm the pool.
+C: Let me start with that pool. It's twenty-five metres long, with eight lanes. The feature I'm most pleased with is the floor at the shallow end, which can be raised and lowered. That means we can make the water suitable for small children in the morning, and deep enough for diving in the evening.
+C: Next to the pool is the sports hall, marked out for basketball, badminton and five-a-side football. It can be divided in two by a curtain, so that two groups can use it at once.
+C: Upstairs, there's a gym with sixty machines, and beside it, two studios for classes such as yoga and dance. We've put in a special floor that absorbs sound, so the people below aren't disturbed.
+C: Outside, the old tennis courts have gone, I'm afraid. I know that will disappoint some of you. They were used by very few people, and in their place we've built an all-weather football pitch with lights, which can be booked until ten at night.
+C: Now, cost. You don't have to be a member. Anyone can pay for a single visit. But if you come more than once a week, membership is better value. It's thirty-four pounds a month for adults, and the first month is free if you join before the end of June.
+C: People who live in the three nearest streets have asked me about noise and parking. On noise, the building has no windows that open on the side facing the houses. On parking, we have a hundred and fifty spaces, and residents' streets will become permit-only from next month, so visitors won't be able to park outside your homes.
+C: Finally, a request. We're looking for volunteers to help with the junior athletics club on Saturday mornings. You don't need to be a sportsperson. We need people to time races, measure jumps and encourage the children. If that appeals, leave your name at the desk.
+== mc
+11. What does the manager say about the new building?
+A. It is on a different site from the old centre.
+B. It is the same size as the old centre.
+C. It uses much less energy than the old centre.
+=> C // It stands on the same site, is twice the size, and uses less than half the energy.
+12. Which feature of the pool is the manager most pleased with?
+A. the number of lanes
+B. the adjustable floor
+C. the diving boards
+=> B // The floor at the shallow end can be raised and lowered.
+13. The tennis courts were removed because
+A. hardly anyone played on them.
+B. they were too expensive to repair.
+C. residents complained about the lights.
+=> A // They were used by very few people.
+14. What special offer is available to new members?
+A. a free first month
+B. a reduced price for families
+C. free classes until June
+=> A // The first month is free for those who join before the end of June.
+== fill:note | 1WN
+Kingsway Sports Centre
+- the pool's heat comes partly from the {{15=showers}} in the changing rooms
+- the sports hall can be divided by a {{16=curtain}}
+- the studio floor absorbs {{17=sound}}
+- the football pitch can be booked until {{18=10|ten}} at night
+- number of parking spaces: {{19=150|a hundred and fifty|one hundred and fifty}}
+- volunteers are needed for the junior {{20=athletics}} club
+
+# L28 | App usability testing and the history of concrete
+## 3 | You will hear two computing students, Zara and Finn, discussing the testing of a mobile app they have designed.
+@A Zara female_uk
+@B Finn male_uk
+A: Finn, I've got the results from the first round of testing. Have you got ten minutes?
+B: Sure. How many people tried the app in the end?
+A: Only six. I'd invited ten, but four cancelled.
+B: Is six enough?
+A: According to the textbook, five users reveal most of the serious problems. What matters more is who they are. And that's my worry. All six were students on our course.
+B: So they're good with technology. Not exactly typical of people who'll use an app for booking doctor's appointments.
+A: Exactly. For the second round, I'd like to recruit older people. My aunt runs a community centre, and she's offered to ask her lunch club.
+B: That would be much more realistic. So what did the first round show?
+A: The good news is that everybody managed to book an appointment. The bad news is how long it took. We'd designed it to take under a minute. The average was nearly three.
+B: Three minutes? Where did they get stuck?
+A: On the calendar. People didn't realise they had to swipe sideways to see the following week. Four of them thought there were no appointments left.
+B: I told you we needed arrows.
+A: You did, and I should have listened. I wanted the screen to look clean.
+B: We'll add arrows. Anything else?
+A: The confirmation. After you book, the app shows a green tick, and that's all. Three people booked twice, because they weren't sure it had worked.
+B: So we need a proper message, with the date and time repeated.
+A: And a text message sent to their phone. People trust a text.
+B: Agreed. What did they like?
+A: The reminder feature. Everyone mentioned it. And the fact that you don't have to create a password. Signing in with a code sent to your phone was popular.
+B: That's a relief. It took me two weeks to build. How did you record the sessions?
+A: I filmed the screen, and I asked people to say aloud what they were thinking as they went.
+B: Did that work? I'd feel silly.
+A: Some went quiet. I had to keep prompting them. Next time I'll show a short example video first, so they know what's expected.
+B: Good idea. When's the second round?
+A: The lunch club meets on Fridays. If you can make the changes by the twelfth, I'll test on the fourteenth.
+B: The twelfth is tight, but I'll manage the calendar and the confirmation. The text message may have to wait.
+A: That's fine. The calendar is the priority.
+== mc
+1. Zara is concerned that the first group of testers
+A. was too small.
+B. was not typical of future users.
+C. did not take the test seriously.
+=> B // Six is enough, but all were computing students, good with technology.
+2. Where will the testers for the second round come from?
+A. a doctor's surgery
+B. another university course
+C. a club at a community centre
+=> C // Her aunt will ask the lunch club at the community centre she runs.
+3. What was the main finding of the first round?
+A. Booking took much longer than intended.
+B. Several people failed to make a booking.
+C. The app stopped working twice.
+=> A // Everybody managed to book, but it took nearly three minutes, not under one.
+4. Why did some testers think there were no appointments?
+A. The calendar loaded slowly.
+B. The dates were shown in the wrong order.
+C. They did not know how to see the next week.
+=> C // They did not realise they had to swipe sideways.
+5. Some people booked twice because
+A. the first booking was not saved.
+B. the confirmation was not clear enough.
+C. they pressed the button by mistake.
+=> B // The app only showed a green tick, so they were not sure it had worked.
+== fill:sentence | 2W
+6. The feature that every tester praised was the {{6=reminder}}.
+7. Testers liked signing in without a {{7=password}}.
+8. During the sessions, Zara filmed the {{8=screen}}.
+9. Next time, Zara will show testers an example {{9=video}} first.
+10. The most urgent change is to the {{10=calendar}}.
+## 4 | You will hear part of an engineering lecture about the history of concrete.
+@C Lecturer female_us
+C: Concrete is the most widely used man-made material on the planet. We pour enough of it each year to build a wall around the equator. Yet most people know almost nothing about it, so today I'll sketch its history and then look at the problem it now poses.
+C: First, a definition, because people confuse concrete with cement. Cement is a grey powder, and it's only one ingredient. Mix it with water, sand and small stones, and you get concrete. The cement is the glue that binds the rest.
+C: The Romans were the first great builders in concrete. Their recipe used lime and a volcanic ash found near Naples. This produced a material that would even set under water, which let them build harbours. Their most famous concrete structure is the Pantheon in Rome. Its dome, almost two thousand years old, is still the largest in the world made of concrete without steel inside it.
+C: How did they keep such a dome from collapsing under its own weight? By varying the mix. At the base, the concrete contains heavy stone. Near the top, they used pumice, a volcanic rock so light that it floats.
+C: When the Roman empire fell, the recipe was lost for over a thousand years. Modern concrete dates from eighteen twenty-four, when an English bricklayer, Joseph Aspdin, patented what he called Portland cement, because its colour reminded him of a stone quarried at Portland on the south coast.
+C: Concrete has one great weakness. It's enormously strong when you squeeze it, but it cracks easily when it's stretched or bent. The solution, discovered in France, came from an unlikely source. A gardener named Joseph Monier was tired of his clay flowerpots breaking, and in the eighteen sixties he made pots of concrete with a mesh of iron wire inside. The idea of reinforced concrete was born, and it made tall buildings and long bridges possible.
+C: Ironically, the steel is also the reason modern concrete doesn't last as long as Roman concrete. Water slowly gets in, the steel rusts, and as it rusts it expands and breaks the concrete from within.
+C: And there's a larger problem. Making cement means heating limestone to about fourteen hundred degrees, and the process releases carbon dioxide. Cement production is responsible for roughly eight per cent of the world's emissions, more than aviation.
+C: So researchers are looking for alternatives. Some replace part of the cement with ash, a waste product from power stations. Others are developing concrete that absorbs carbon dioxide as it hardens. And one team has gone back to the Romans, whose concrete, we've learned, could heal its own cracks.
+== fill:note | 1W
+Concrete
+What it is
+- cement is the {{11=glue}} that binds water, sand and stones
+Roman concrete
+- made with lime and volcanic {{12=ash}}
+- could set under {{13=water}}, so was used for harbours
+- the Pantheon's dome: lighter towards the top, where {{14=pumice}} was used
+Modern concrete
+- Portland cement (1824) was named after a kind of {{15=stone}}
+- concrete breaks easily when {{16=stretched}} or bent
+- reinforced concrete was invented by a {{17=gardener}}, who put iron wire in pots
+Problems
+- water gets in and the steel {{18=rusts}}
+- cement is made by heating {{19=limestone}}, which releases carbon dioxide
+New ideas
+- concrete that can {{20=heal}} its own cracks, like Roman concrete

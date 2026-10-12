@@ -1,0 +1,372 @@
+# L57 | Driving lessons enquiry and a beginners' running group
+## 1 | You will hear a young man phoning a driving school to ask about lessons.
+@A Instructor female_uk
+@B Caller male_us
+A: Hello, Greenlight Driving School. Sandra speaking.
+B: Hi. I'd like to start learning to drive. I've never had a lesson.
+A: That's no problem at all. How old are you?
+B: I turned seventeen last month.
+A: Perfect. Have you got your provisional licence yet?
+B: I applied online two weeks ago, and it came on Monday.
+A: Good, because I can't take you on the road without it. Bring it to your first lesson, please. Now, would you like to learn in a manual car or an automatic?
+B: What's the difference, in terms of the test?
+A: If you pass in a manual, you can drive both. If you pass in an automatic, you can only drive automatics. Automatic is easier to learn, and people usually need fewer lessons.
+B: My parents' car is a manual, and I'll want to borrow it. So manual.
+A: Manual, then. Lessons are thirty-four pounds an hour. Most people take two hours at a time, because one hour disappears very quickly at the beginning.
+B: Is there a discount if I pay for several?
+A: If you pay for ten hours in advance, it's three hundred and ten pounds. So you'd save thirty.
+B: I'll do that. How many lessons will I need altogether?
+A: It varies a lot. The national average is around forty-five hours with an instructor, plus practice with family. Some people need thirty. I've had pupils who needed seventy.
+B: Forty-five. That's more than I'd thought. Can I practise with my dad in between?
+A: I'd encourage it, once you've had about ten hours with me and can control the car. He must be over twenty-one and have held a licence for three years, and the car needs L plates and the right insurance.
+B: He's fifty, so that's fine. When could I start?
+A: I've got space on Saturday mornings, or Wednesdays after four.
+B: I play football on Saturdays. Wednesday would be better.
+A: Wednesday at four thirty. I'll pick you up from home. What's the address?
+B: Twenty-two Linton Avenue. L, I, N, T, O, N.
+A: Linton Avenue. And your name?
+B: Jake Mallory.
+A: Thank you, Jake. One thing you can do before we start is study for the theory test. You must pass that before you can book the practical one.
+B: What's in it?
+A: Fifty multiple-choice questions, and a video section where you spot hazards as they develop. There's an official app with practice questions.
+B: I'll download it tonight. Anything else I should bring on Wednesday?
+A: Wear flat shoes with thin soles, so that you can feel the pedals. And if you need glasses, bring them. I'll ask you to read a number plate from twenty metres before we set off.
+== fill:form | 1WN
+Greenlight Driving School: new pupil
+Age: {{1=17|seventeen}}
+Type of car: {{2=manual}}
+Price for ten hours paid in advance: £{{3=310|three hundred and ten}}
+Average number of hours needed: {{4=45|forty-five}}
+Private practice: after about {{5=10|ten}} hours of lessons
+Lesson day: {{6=Wednesday}} at 4.30
+Address: 22 {{7=Linton}} Avenue
+Theory test: {{8=50|fifty}} multiple-choice questions and a video section
+Wear: {{9=flat}} shoes
+Eyesight check: read a number plate from {{10=20|twenty}} metres
+## 2 | You will hear a coach talking to people who have come to the first meeting of a running group for beginners.
+@C Coach male_uk
+C: Evening, everybody. It's great to see so many of you. I count twenty-three, which is the biggest group we've ever started with. My name's Pete, and I'll be your coach for the next nine weeks.
+C: Let me explain the idea. The programme takes people who do no running at all and gets them to the point where they can run for thirty minutes without stopping. We don't talk about distance at this stage, only time. For most people, half an hour works out at something between four and five kilometres.
+C: We do it gradually. Tonight, you'll run for one minute and walk for a minute and a half, and repeat that eight times. That's all. I promise you'll go home thinking it was too easy. That's deliberate. The people who get injured are nearly always the ones who do too much in the first fortnight.
+C: We meet here at the park gates every Tuesday at half past six. But one session a week isn't enough. You need to do two more by yourselves, with at least a day's rest in between. I'll send the plan for each week by email.
+C: A word about speed. Please forget about it. The right pace is one at which you could hold a conversation. If you can't speak a full sentence, you're going too fast. I'd honestly prefer to see you jog slower than you walk than see you sprint and stop.
+C: Now, what do you need? Not much. Comfortable clothes, and a proper pair of running shoes. They don't have to be expensive. What matters is that they fit, with a thumb's width of space in front of your toes, and that they aren't worn out. The shop on Mill Street will watch you run and advise you, and they give members of this group ten per cent off.
+C: As the evenings get darker, wear something bright, or a reflective band.
+C: You will ache. Some stiffness in the legs the day after is normal, and it fades. Sharp pain in a joint is different. If that happens, stop, rest for a few days, and tell me.
+C: Eat something light about two hours before you run, not immediately before. And drink water during the day, so that you don't need to carry a bottle for a session as short as these.
+C: In week nine, we all run together in the Saturday morning event here in the park. It's free, it's five kilometres, and nobody comes last, because a volunteer always walks at the back.
+C: Right. Let's warm up with five minutes of brisk walking.
+== mc
+11. What is the aim of the programme?
+A. to run five kilometres in thirty minutes
+B. to run continuously for half an hour
+C. to run every day
+=> B // Only time matters at this stage, not distance.
+12. Why is the first session easy?
+A. to reduce the risk of injury
+B. because the group is so large
+C. to check how fit people are
+=> A // Those who get injured usually do too much in the first fortnight.
+13. How often should members run each week?
+A. once
+B. twice
+C. three times
+=> C // The group session plus two more runs alone.
+14. What does the coach say about speed?
+A. Runners should be able to talk as they run.
+B. Runners should aim to go faster each week.
+C. Runners should never go slower than walking pace.
+=> A // If you cannot speak a full sentence, you are going too fast.
+15. What should members do if they feel a sharp pain in a joint?
+A. run more slowly
+B. carry on and see a doctor afterwards
+C. stop and rest
+=> C // Stiffness is normal, but sharp pain means stop, rest and tell the coach.
+== fill:note | 1WN
+Beginners' running group
+- length of the programme: {{16=9|nine}} weeks
+- weekly meeting: every {{17=Tuesday}} at 6.30
+- running shoes: a discount of {{18=10|ten}} per cent at the shop on Mill Street
+- eat a light meal about {{19=2|two}} hours before running
+- final event: {{20=5|five}} kilometres in the park
+
+# L58 | Caffeine experiment and the history of the potato
+## 3 | You will hear two sports science students, Holly and Ahmed, discussing an experiment on caffeine and exercise.
+@A Holly female_us
+@B Ahmed male_uk
+A: Ahmed, I've had the comments back from Doctor Brandt on our caffeine proposal.
+B: Was she happy?
+A: Mostly. She likes the question, whether caffeine improves performance in a cycling test. But she's picked up three problems in the design.
+B: Go on.
+A: First, our volunteers. We planned to use the university cycling club.
+B: Because they're easy to find, and they'll take it seriously.
+A: Right. But she points out that they're all trained athletes. The effect of caffeine may be different in ordinary people, so we can only draw conclusions about trained cyclists.
+B: That's a limitation we can state. I don't think we need to change it.
+A: Agreed. The second point is more serious. We said one group would drink coffee and the other would drink water.
+B: And they'd know which they'd had. So any improvement could be due to expectation.
+A: Exactly. She suggests capsules. One set containing caffeine, the other containing flour. They look identical.
+B: And we shouldn't know who gets which, either.
+A: No. She'll ask a technician to label them with codes. We only find out at the end.
+B: Good. What's the third problem?
+A: Habit. Someone who drinks five cups of coffee a day responds less to caffeine than someone who never touches it.
+B: So we ask people about their normal intake.
+A: More than that. She'd like everyone to avoid caffeine entirely for forty-eight hours before each test.
+B: The cyclists won't enjoy that. Tea, cola, chocolate, all of it?
+A: All of it. We'll give them a list.
+B: Fine. What about the test itself? We planned a ride to exhaustion.
+A: She prefers a time trial over a fixed distance. Ten kilometres, as fast as possible. It's closer to a real race, and the results are more consistent.
+B: That makes sense. And each person does it twice?
+A: Yes, once with caffeine and once without, a week apart, at the same time of day. Half of them get the caffeine first, and half get it second.
+B: So that any effect of practice cancels out.
+A: Right. How many volunteers have we got?
+B: Sixteen have signed up. I'd expect two or three to drop out.
+A: Sixteen should be enough. Now, the dose. We said three hundred milligrams for everyone.
+B: Shouldn't it depend on body weight?
+A: That's what the literature does. Three milligrams per kilo. I'll change it.
+B: And we need to screen people. Anyone with a heart condition must be excluded.
+A: I'll write a health questionnaire. Can you book the lab?
+B: For which dates?
+A: The first two Wednesdays in March.
+== mc
+1. What limitation of using the cycling club do the students accept?
+A. The members may not take the tests seriously.
+B. There are too few members.
+C. The results will only apply to trained athletes.
+=> C // The effect may differ in ordinary people; they will state this as a limitation.
+2. Why will capsules be used?
+A. so that volunteers do not know what they have taken
+B. because coffee varies in strength
+C. because some volunteers dislike coffee
+=> A // With coffee and water, any improvement could be due to expectation.
+3. Who will know which capsules contain caffeine during the experiment?
+A. the two students
+B. a technician
+C. the volunteers
+=> B // The technician will label them with codes.
+4. Before each test, volunteers must
+A. drink their usual amount of coffee.
+B. record what they eat.
+C. avoid caffeine for two days.
+=> C // Forty-eight hours without tea, cola, chocolate or coffee.
+5. Why does the tutor prefer a time trial?
+A. It takes less time.
+B. It gives more reliable results.
+C. It is safer for the volunteers.
+=> B // It is closer to a real race and the results are more consistent.
+== fill:sentence | 2WN
+6. The time trial will be over a distance of {{6=10 kilometres|ten kilometres|10 kilometers|ten kilometers}}.
+7. The two tests will take place a {{7=week}} apart.
+8. So far, {{8=16|sixteen}} volunteers have signed up.
+9. The dose of caffeine will depend on each person's body {{9=weight}}.
+10. Volunteers with a {{10=heart condition}} cannot take part.
+## 4 | You will hear part of a history lecture about the potato.
+@C Lecturer female_uk
+C: It would be hard to find a more ordinary food than the potato. Yet its arrival in Europe changed the continent's history, and this afternoon I'll explain how.
+C: The potato was first grown about eight thousand years ago, high in the Andes, in what is now Peru and Bolivia. The farmers there developed thousands of varieties, and they invented a way of preserving them. They left the potatoes out to freeze at night, and trampled them by day to squeeze out the water. The result could be stored for ten years.
+C: Spanish sailors brought the plant to Europe in about fifteen seventy. They carried it not as a treasure but simply as cheap food for the voyage home. And for nearly two centuries, most Europeans refused to eat it. There were several reasons. It wasn't mentioned in the Bible. It grew underground, which seemed unnatural. And it belongs to the same family as some poisonous plants, so people believed it caused disease.
+C: Governments, however, saw its value. An acre of potatoes fed three or four times as many people as an acre of wheat. And potatoes had a military advantage. An army marching through could seize or burn a field of grain, but potatoes stayed hidden in the ground.
+C: So rulers tried persuasion. In Prussia, the king ordered peasants to plant them. In France, a scientist named Parmentier used a cleverer method. He planted a field near Paris and had it guarded by soldiers during the day. At night, the guards were withdrawn. Local people, assuming that anything guarded must be valuable, crept in and stole the plants.
+C: By eighteen hundred, the potato had been accepted, and its effect was dramatic. The population of Europe roughly doubled in a century, and many historians give the potato much of the credit. It fed the workers who moved to the new industrial cities.
+C: But there was a hidden danger. Unlike the farmers of the Andes, Europeans grew only a few varieties. In Ireland, a third of the population depended on a single type. When a disease called blight arrived from America in eighteen forty-five, it destroyed the crop three years out of four. About a million people died, and a million more left the country.
+C: The lesson has not been forgotten. Scientists now keep collections of wild and traditional potatoes, so that their genes can be used to breed resistance. The largest is in Peru, where the story began. It holds more than four thousand varieties.
+== fill:note | 1W
+The potato
+Origins
+- first grown in the {{11=Andes}}, about 8,000 years ago
+- preserved by freezing and removing the {{12=water}}
+Arrival in Europe
+- brought as cheap food for a {{13=voyage}}
+- distrusted: not in the Bible; grew underground; thought to cause {{14=disease}}
+Why governments liked it
+- produced far more food per acre than {{15=wheat}}
+- hidden in the ground, so safe from an {{16=army}}
+- Parmentier had his field guarded by {{17=soldiers}} to make it seem valuable
+Effects
+- Europe's {{18=population}} doubled in a century
+- Ireland depended on a single type; the disease called {{19=blight}} arrived in 1845
+Today
+- collections of varieties are kept; the largest is in {{20=Peru}}
+
+# L59 | Holiday cottage booking and flood preparation
+## 1 | You will hear a woman phoning an agency to book a holiday cottage.
+@A Agent male_uk
+@B Customer female_uk
+A: Good afternoon, Coast and Country Cottages. David speaking.
+B: Hello. I'm looking for a cottage for a week in August, somewhere near the sea. There'll be six of us.
+A: Six. August is our busiest month, but let me see what's left. Which week?
+B: The week beginning Saturday the ninth.
+A: I've got two that sleep six. The first is Rose Cottage, in the village of Trennick. It's five minutes' walk from the beach.
+B: That sounds ideal. What's it like?
+A: Three bedrooms, one bathroom, and a small garden. It's an old fisherman's house, so the rooms are cosy. I should mention that the stairs are steep.
+B: My father's eighty, and stairs are difficult for him. What's the other one?
+A: Harbour View. It's a mile from the sea, on a hill, so you'd need the car to reach the beach. But it has a bedroom and a shower room on the ground floor.
+B: That would suit Dad much better. How many bedrooms altogether?
+A: Three. One downstairs and two up. There are two bathrooms.
+B: And outside?
+A: A large garden with a barbecue, and parking for two cars.
+B: We'll have two cars, so that's good. Does it have a washing machine?
+A: It does, and a dishwasher. There's no tumble dryer, but there's a washing line in the garden.
+B: Fine. What about the internet? The teenagers will ask.
+A: There is wireless internet. The owner warns that it's slow, because the house is quite remote. Fine for messages, not for films.
+B: That might be a good thing. How much is it?
+A: For that week, nine hundred and eighty pounds. Rose Cottage would have been eleven hundred and fifty, as it's nearer the beach.
+B: Nine eighty. Does that include everything?
+A: Electricity and bed linen are included. You'd need to bring your own towels.
+B: Towels. I'll make a note. We have a small dog. Is that allowed?
+A: One dog is permitted at Harbour View, for an extra twenty-five pounds, to cover cleaning.
+B: That's fair. What time can we arrive?
+A: Any time after four on the Saturday. You must leave by ten on the following Saturday.
+B: And how do we get in?
+A: There's a key safe by the front door. I'll send you the code a week before.
+B: Lovely. I'd like to book it. What do you need from me?
+A: A deposit of a quarter of the cost now, and the balance eight weeks before your stay. Can I take your surname?
+B: It's Wetherall. W, E, T, H, E, R, A, double L.
+A: Thank you. And I'd suggest taking out cancellation insurance. We can't give refunds within eight weeks of the holiday.
+== fill:form | 1WN
+Coast and Country Cottages: booking
+Cottage: Harbour {{1=View}}
+Distance from the sea: one {{2=mile}}
+Ground floor: a bedroom and a {{3=shower}} room
+Garden has a {{4=barbecue}}
+Internet: available but {{5=slow}}
+Price for the week: £{{6=980|nine hundred and eighty}}
+Guests must bring their own {{7=towels}}
+Extra charge for the dog: £{{8=25|twenty-five}}
+Arrival: after {{9=4|four}} pm on Saturday
+Surname: {{10=Wetherall}}
+## 2 | You will hear a council officer talking to residents about preparing for floods.
+@C Officer female_us
+C: Good evening, and thank you for coming. I'm Renee Alvarez, from the council's emergency planning team. After last winter, I don't need to persuade anyone in this room that flooding is a real risk. What I'd like to do is explain what's being done, and what you can do yourselves.
+C: First, the cause. Many of you blamed the river, and it did overflow. But our investigation found that two thirds of the homes affected were flooded from another source, which was the drains. The rain fell faster than the drains could carry it away, and water came up through the covers in the road.
+C: So the council is spending four million pounds over three years. The largest share goes on bigger drains under Mill Lane and Station Road. We're also turning the playing field into a storage area. In a storm, it'll be allowed to fill with water, which will then be released slowly. It'll remain a playing field for the rest of the year.
+C: Now, what you can do. Sign up for the free flood warning service. You'll get a text or a phone call when a warning is issued, usually several hours ahead.
+C: Second, make a plan. Know how to turn off your gas, electricity and water. You'd be surprised how many people don't know where the switches are.
+C: Third, prepare a bag. It should contain your insurance documents, any medicines, a torch, a phone charger, and warm clothes. Keep it upstairs, not under the stairs, which is the first place to flood.
+C: When a warning comes, move your car to higher ground straight away. The car park at the sports centre will be open free of charge. Take valuables and electrical items upstairs. And put the plugs in your sinks and bath, and weigh them down, because dirty water can come up through the pipes.
+C: A word about sandbags. The council no longer hands them out. They're slow to fill and they don't seal well. Barriers that clip across a doorway are far more effective, and there's a grant of up to five hundred pounds per household towards the cost. The form is at the back of the hall.
+C: If your home does flood, don't walk through the water if you can avoid it. Fifteen centimetres of fast-flowing water will knock an adult over, and it's usually contaminated.
+C: Afterwards, take photographs of everything before you clean up, for the insurance claim. And please check on your neighbours, particularly anyone elderly or living alone.
+== mc
+11. What caused most of the flooding last winter?
+A. the river overflowing
+B. water rising from the drains
+C. a burst water main
+=> B // Two thirds of the affected homes were flooded from the drains.
+12. What will happen to the playing field?
+A. It will store water during storms.
+B. It will be replaced by a reservoir.
+C. It will be raised above the flood level.
+=> A // It will fill with water in a storm and remain a playing field the rest of the year.
+13. Where should the emergency bag be kept?
+A. under the stairs
+B. in the car
+C. upstairs
+=> C // Under the stairs is the first place to flood.
+14. Why should plugs be put in sinks and baths?
+A. to save clean water
+B. to stop dirty water coming up
+C. to protect the pipes
+=> B // Dirty water can come up through the pipes.
+15. What does the officer say about sandbags?
+A. The council no longer supplies them.
+B. They are available from the sports centre.
+C. They work better than door barriers.
+=> A // They are slow to fill and do not seal well.
+== fill:note | 1WN
+Preparing for floods
+- total council spending: £{{16=4|four}} million
+- the warning service sends a text or a phone {{17=call}}
+- move the car to the car park at the {{18=sports}} centre
+- grant towards door barriers: up to £{{19=500|five hundred}}
+- afterwards: take {{20=photographs|photos}} before cleaning up
+
+# L60 | Wind farm survey and the human microbiome
+## 3 | You will hear two environmental studies students, Kate and Liam, discussing a survey of opinions about a proposed wind farm.
+@A Kate female_uk
+@B Liam male_us
+A: Liam, I've been through the responses to our wind farm survey. There are some surprises.
+B: Good ones, I hope. How many replies?
+A: Two hundred and six, from the three villages nearest the site.
+B: And the headline? I'm guessing most people are against it.
+A: That's what the local paper suggests. But in our survey, fifty-eight per cent are in favour, and only twenty-four per cent are opposed. The rest are undecided.
+B: So the opposition is louder than it is large.
+A: It seems so. The public meeting last month was packed with objectors, but those who approve tend not to go to meetings.
+B: What reasons do the opponents give? Noise?
+A: Noise is mentioned, but it's well down the list. The main objection, by far, is the effect on the view.
+B: And the supporters?
+A: This is interesting. I expected them to talk about the climate. Some do. But the most common reason is the community fund. The developer has promised to pay eighty thousand pounds a year to the villages.
+B: So people support it because of a local benefit, not a global one.
+A: Yes. And when we asked what the fund should be spent on, the top answer was a bus service, which the villages lost three years ago.
+B: Did age make a difference?
+A: Less than I'd assumed. Young and old were about equally in favour. What did matter was how long people had lived there. Those who'd moved in during the last ten years were much more likely to object.
+B: Perhaps because they chose the area for its scenery.
+A: That's my guess, but we didn't ask, so we can't claim it.
+B: Fair. Is there anything we got wrong in the design?
+A: One question was badly worded. We asked, do you agree that wind farms are ugly and noisy? That's two questions in one.
+B: Someone might think they're ugly but quiet.
+A: Exactly. I think we have to leave that question out of the analysis.
+B: Agreed. And for the report, should we name the villages?
+A: Yes, but not individuals. Some of the written comments are quite personal.
+B: Could we present the findings to the parish council? They'd be interested.
+A: I've already been asked. They meet on the second Thursday of the month.
+B: Then let's aim for that. I'll make the charts.
+A: And I'll write a one-page summary for people who won't read the full report.
+== mc
+1. What did the survey show about opinions on the wind farm?
+A. Most people are against it.
+B. Opinion is evenly divided.
+C. A majority support it.
+=> C // Fifty-eight per cent in favour and twenty-four per cent opposed.
+2. Why does opposition appear greater than it is?
+A. Opponents are more likely to attend meetings.
+B. The newspaper is owned by an opponent.
+C. Supporters did not answer the survey.
+=> A // The public meeting was packed with objectors; those who approve tend not to go.
+3. What is the main objection to the wind farm?
+A. the noise
+B. the appearance of the landscape
+C. the danger to birds
+=> B // Noise is well down the list; the main objection is the effect on the view.
+4. What is the most common reason for supporting it?
+A. concern about the climate
+B. the promise of local jobs
+C. the money offered to the villages
+=> C // The developer has promised a community fund of eighty thousand pounds a year.
+5. Which factor was most closely linked to people's opinions?
+A. how long they had lived in the area
+B. their age
+C. how close they lived to the site
+=> A // People who had moved in during the last ten years were more likely to object.
+== fill:sentence | 2WN
+6. The survey received {{6=206|two hundred and six}} replies.
+7. Most people would like the fund to pay for a {{7=bus service}}.
+8. One question will be left out because it was badly {{8=worded}}.
+9. The students will present their findings to the {{9=parish council}}.
+10. Kate will write a summary that is {{10=1 page|one page}} long.
+## 4 | You will hear part of a biology lecture about the microbes that live in the human body.
+@C Lecturer male_uk
+C: You probably think of yourself as an individual. A biologist might describe you differently, as a community. The human body contains about as many bacterial cells as human ones, most of them in the gut, and together they weigh about as much as the brain. This collection is known as the microbiome, and it's the subject of today's lecture.
+C: For most of the twentieth century, medicine regarded bacteria almost entirely as enemies. That view has changed. The vast majority of our microbes are harmless, and many are essential.
+C: What do they do for us? First, digestion. We can't break down many of the fibres in plants. Our gut bacteria can, and in the process they release substances that feed the cells lining the gut. Second, they manufacture certain vitamins. Third, simply by occupying the space, they prevent harmful species from settling.
+C: And fourth, they train the immune system. A baby's immune system has to learn the difference between a threat and a friend, and it learns by meeting microbes. This may explain a striking pattern. Allergies and asthma have become far more common in wealthy countries. Children who grow up on farms, around animals, have much lower rates than children raised in cities.
+C: Where do our microbes come from? The first arrive at birth, from the mother. More come from milk, from food, from pets and from soil. By the age of about three, a child's microbiome resembles an adult's.
+C: Diet has a powerful influence. In a famous comparison, researchers studied children in a village in West Africa, who ate mainly grains and vegetables, and children in an Italian city. The African children had a far wider variety of gut bacteria. Variety seems to be a sign of health, and it's reduced by a diet that's low in fibre.
+C: It's also reduced by antibiotics. These drugs save lives, and I'm not suggesting anyone refuse them. But they kill useful bacteria along with harmful ones, and after a course of treatment, the gut can take months to recover.
+C: One of the most remarkable treatments to emerge from this research is the transplant of gut bacteria from a healthy donor. For one serious infection of the bowel, which kills thousands of patients in hospital every year, it cures about nine cases in ten, far more than any drug.
+C: A caution to finish. You'll see claims that the microbiome explains everything from depression to obesity. Most of that evidence comes from experiments on mice, and it shows a link, not a cause. It's an exciting field, but a young one.
+== fill:note | 1W
+The human microbiome
+- most of the body's bacteria live in the {{11=gut}}
+- together they weigh about the same as the {{12=brain}}
+What microbes do
+- break down plant {{13=fibres|fibers}}
+- produce some {{14=vitamins}}
+- train the immune system: children raised on {{15=farms}} have fewer allergies
+Influences
+- a child's microbiome is like an adult's by about the age of {{16=three|3}}
+- {{17=variety}} of bacteria appears to be a sign of health
+- {{18=antibiotics}} kill useful bacteria as well as harmful ones
+Treatment
+- bacteria can be transplanted from a healthy {{19=donor}}
+Caution
+- much of the evidence comes from experiments on {{20=mice}}

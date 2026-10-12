@@ -1,0 +1,148 @@
+# R09 | The bicycle
+## The machine that set people free
+[A] The bicycle looks so obvious that it is tempting to assume it has always existed. In fact, it is younger than the steam locomotive, and it took most of the nineteenth century to reach the form we know. Its development is a useful corrective to the idea that inventions appear fully formed in the mind of a single genius. The bicycle was arrived at by trial and error, through a series of machines that were by turns absurd, dangerous and brilliant.
+[B] The story begins in Germany in 1817, when Baron Karl von Drais demonstrated what he called a running machine. It had two wheels in a line, a wooden frame and a handlebar for steering, but no pedals. The rider sat astride it and pushed against the ground with his feet. One theory holds that Drais was responding to a shortage of horses. A volcanic eruption in Indonesia two years earlier had darkened skies across the northern hemisphere, harvests had failed, and with oats too expensive to buy, many horses had starved or been slaughtered. Whether or not that was his motive, the machine was briefly fashionable among wealthy young men before being banned from the pavements of several cities.
+[C] Pedals arrived in Paris in the 1860s, fixed directly to the hub of the front wheel. This machine, with its iron tyres, was known in England as the boneshaker, and the name was earned. It also had a built-in limitation. Because one turn of the pedals produced exactly one turn of the wheel, the only way to travel faster was to make the wheel larger. The result was the high-wheeler of the 1870s, with a front wheel as tall as a man's chest and a tiny wheel behind. It was fast, and on the rough roads of the time its large wheel rolled easily over stones and ruts. It was also perilous. The rider sat almost directly above the axle, and a sudden stop could pitch him forward over the handlebars.
+[D] The solution, which appeared in the 1880s, was the so-called safety bicycle. Its two wheels were of equal and moderate size, and the rider sat between them, driving the rear wheel by means of a chain. Because the chain ran over a large toothed wheel at the pedals and a smaller one at the hub, a single turn of the pedals now carried the machine as far as a turn of the high-wheeler's giant wheel had done. Enthusiasts for the older machine mocked the newcomer as slow and undignified. They were silenced in 1888, when a Scottish vet living in Belfast, John Boyd Dunlop, fitted his young son's tricycle with tyres filled with air. The pneumatic tyre made the safety bicycle both more comfortable and faster than anything before it.
+[E] What followed in the 1890s was a craze. Mass production brought prices down, and for the first time working people could afford a private means of transport that needed neither feeding nor stabling. The effects reached far beyond leisure. Clerks and factory hands could live further from their workplaces. Villagers could look for work, or for a husband or wife, beyond walking distance, and one geneticist has suggested that the bicycle did more than any other invention to widen the pool from which rural people chose their partners. Cyclists' organisations, meanwhile, campaigned loudly for smoother roads, and so prepared the way for the motor car that would later push them aside.
+[F] The bicycle's most celebrated social effect was on women. A machine that could not be ridden in a floor-length skirt and tight corset forced a change in what respectable women wore, and one that could be ridden alone allowed them to travel without a companion. Not everyone approved. Doctors warned of damage to health, and some writers of the day predicted moral collapse. The American campaigner Susan B. Anthony took a different view. Bicycling, she said in 1896, had done more to free women than anything else in the world.
+[G] In wealthy countries the bicycle went into decline once cars became affordable, and for decades it was regarded as a toy for children or a vehicle for those who could manage nothing better. Elsewhere it never lost its importance, and today well over a billion are in use around the world. In recent years it has returned to favour in the cities that once abandoned it, promoted as an answer to congestion, pollution and inactivity. The technology of the frame, the chain and the air-filled tyre has changed remarkably little since the 1890s. It would be hard to name another machine that was so nearly right so early.
+== match:information
+1. a mention of predictions that turned out to be unfounded => F // Doctors warned of harm and writers predicted moral collapse.
+2. an explanation of why one design required a very large wheel => C // One turn of the pedals gave one turn of the wheel, so speed needed a larger wheel.
+3. a possible link between a natural disaster and an invention => B // The eruption led to a shortage of horses, which may have prompted Drais.
+4. a claim that cycling affected whom people married => E // It widened the pool from which rural people chose their partners.
+5. a statement that a design has altered very little over time => G // The frame, chain and tyre have changed remarkably little since the 1890s.
+== tfng
+6. The bicycle was invented before the steam locomotive. => FALSE // A: it is younger than the steam locomotive.
+7. The running machine of 1817 was steered with the feet. => FALSE // B: it had a handlebar for steering; the feet pushed against the ground.
+8. The high-wheeler coped well with poor road surfaces. => TRUE // C: its large wheel rolled easily over stones and ruts.
+9. Dunlop intended to sell his air-filled tyres from the start. => NOT GIVEN // D says only that he fitted them to his son's tricycle.
+10. Campaigns by cyclists led to better roads. => TRUE // E: they campaigned for smoother roads and prepared the way for the car.
+== fill:sentence | 1W
+11. The first pedal-driven machine was nicknamed the boneshaker, partly because its tyres were made of {{11=iron}}.
+12. On the safety bicycle, power reached the rear wheel through a {{12=chain}}.
+13. Cycling obliged women to give up the long skirt and the tight {{13=corset}}.
+
+# R10 | The Atlantic conveyor
+## The current that warms a continent
+[A] London lies further north than Calgary, and Oslo further north than the southern tip of Greenland, yet the winters of north-western Europe are mild. Part of the explanation is simply that the prevailing winds blow in from the sea. But part of it lies in the ocean itself, in a vast system of currents that carries heat from the tropics towards the Arctic. Scientists know this system by a cumbersome technical name, and more informally as the Atlantic conveyor. There are signs that it is slowing down, and the question of what would happen if it weakened sharply has become one of the most closely watched in climate science.
+[B] The conveyor works because sea water is not all the same. Near the surface, a current that includes the Gulf Stream carries warm water northwards from the Caribbean. As it travels, it gives up heat to the air, and evaporation leaves it saltier. By the time it reaches the seas between Greenland, Iceland and Norway, the water is both cold and salty, which makes it unusually dense. It sinks, in places to a depth of several kilometres, and flows back towards the south along the ocean floor. Fresh surface water is drawn north to replace it, and so the circulation continues. The volume involved is enormous, about a hundred times the flow of the Amazon.
+[C] The weak point of this arrangement is the sinking. If the surface water in the far north becomes less salty, it becomes lighter, and it may no longer sink. That is exactly what a warming climate threatens to bring about. The ice sheet covering Greenland is melting at an increasing rate, and rainfall over the northern seas is growing, so that more and more fresh water is being added just where the conveyor is most sensitive.
+[D] Evidence that this is no mere theory comes from the past. Layers of ice drilled from Greenland show that, as the last ice age was ending, temperatures there fell abruptly by as much as ten degrees within a few decades and stayed low for more than a thousand years. The most widely accepted explanation is that a huge lake of meltwater, held back by ice in North America, suddenly drained into the Atlantic and brought the conveyor almost to a halt. Mud from the sea bed supports the story. The size of the grains laid down on the ocean floor reflects the speed of the water passing over it, and at that period the grains become finer.
+[E] Measuring what is happening today is harder than it sounds. Since 2004, an array of instruments moored across the Atlantic between Florida and the coast of Africa has recorded the flow continuously. The readings show a decline, but they also show large swings from one year to the next, and two decades is too short a period to distinguish a lasting trend from natural variation. Researchers have therefore turned to indirect evidence. One clue is a patch of ocean south of Greenland that has cooled over the past century while almost everywhere else on the planet has warmed. If less warm water is arriving, this is precisely where a chill would be expected. On the basis of such evidence, several studies conclude that the conveyor is weaker now than at any time in the last thousand years.
+[F] How far the weakening will go is disputed. The computer models used by international climate bodies generally predict a gradual slowing over this century, not a collapse. However, a number of specialists argue that those models make the system appear more stable than it really is, and a statistical analysis published in 2023 caused a stir by suggesting that a tipping point could be reached before the middle of the century. Other experts replied that the data were too limited to support any date, and the matter remains unsettled.
+[G] The consequences of a collapse would be severe. Northern Europe would cool by several degrees even as the rest of the world went on warming, with harsher winters and far less rain for farming. Sea level along the east coast of North America would rise, because the current at present draws water away from that shore. The belt of tropical rain on which hundreds of millions of people in West Africa and South Asia depend would shift southwards. And such a change could not easily be undone. Once the sinking has stopped, the models suggest, cooling the planet again would not be enough to restart it for centuries.
+== mc
+1. Why does the writer mention Calgary and Greenland in paragraph A?
+A. to show how unusual Europe's climate is for its position
+B. to identify where the Atlantic conveyor begins
+C. to compare the effects of wind in different regions
+D. to explain why European winters are becoming colder
+=> A // London and Oslo lie further north yet have mild winters.
+2. According to paragraph B, the water sinks in the northern seas because it is
+A. warm and salty.
+B. moving very fast.
+C. cold and salty.
+D. mixed with melted ice.
+=> C // Cold and salty water is unusually dense.
+3. What is said about the measurements made since 2004?
+A. They prove that the conveyor is about to stop.
+B. They cover too short a time to establish a long-term trend.
+C. They show no change in the flow.
+D. They contradict the indirect evidence.
+=> B // E: two decades is too short to separate a trend from natural variation.
+4. The cool patch south of Greenland is significant because it
+A. was predicted by computer models in 2004.
+B. shows that the ice sheet is growing again.
+C. is the place where the Gulf Stream begins.
+D. is what a reduced supply of warm water would produce.
+=> D // E: if less warm water is arriving, this is where a chill would be expected.
+== tfng
+5. The Atlantic conveyor moves more water than the Amazon. => TRUE // B: about a hundred times the flow of the Amazon.
+6. Adding fresh water to the northern seas makes the surface water heavier. => FALSE // C: less salty water becomes lighter and may no longer sink.
+7. At the end of the last ice age, Greenland's temperature dropped over several thousand years. => FALSE // D: it fell abruptly within a few decades.
+8. Most climate models predict that the conveyor will collapse this century. => FALSE // F: they generally predict a gradual slowing, not a collapse.
+9. The 2023 analysis was carried out by scientists based in Denmark. => NOT GIVEN // F does not say who carried it out.
+== fill:summary | 1W
+What a collapse would mean
+If the conveyor stopped, northern Europe would become colder and would receive much less {{10=rain}}, with serious effects on {{11=farming}}. On the eastern side of North America, the level of the {{12=sea}} would go up. The tropical rain belt would move towards the south. Models indicate that the change would last for {{13=centuries}}, even if the planet were cooled again.
+
+# R11 | Polynesian navigation
+## Finding islands in an empty ocean
+[A] The Pacific covers a third of the surface of the earth, and the islands scattered across its central and eastern parts are tiny and far apart. When European sailors first entered these waters in the sixteenth century, they were astonished to find almost every habitable island already occupied, by people who shared related languages and customs from New Zealand in the south-west to Hawaii in the north and Easter Island in the east. The Europeans themselves could cross the ocean only with compasses and charts, and many of them could not believe that others had done so without instruments. For a long time the favoured explanation was that the islands had been settled by accident, by fishermen blown off course in storms.
+[B] That view is no longer taken seriously. Archaeology and genetics show that the settlers came from the west, moving out from the islands near New Guinea some three thousand years ago and reaching the most distant corners of the Pacific within the last thousand. They travelled against the prevailing winds, which is hardly the direction in which a drifting canoe would be carried. And they brought with them the plants and animals needed to start a new life, including taro, breadfruit, pigs and chickens. People who are blown out to sea by a storm do not usually have a farm on board.
+[C] A computer simulation carried out in the 1970s put the matter beyond doubt. Researchers released thousands of imaginary canoes from various islands and let them drift with the recorded winds and currents. Hardly any reached Hawaii, New Zealand or Easter Island. The settlement of those places must have been intentional. Sailing into the wind was in fact a sensible strategy for explorers. If no land was found before supplies ran low, the canoe could turn and be carried quickly home.
+[D] How, then, did the navigators find their way? Much of what we know comes from a handful of men in the islands of Micronesia who still practised the old methods in the twentieth century. The foundation was the stars. A navigator memorised the points on the horizon at which particular stars rise and set, and steered towards each in turn as it appeared, replacing it with the next when it climbed too high to be useful. A single night's course might require ten such stars, and a master navigator carried in his head the sequences for voyages to dozens of islands.
+[E] By day, and under cloud, other signs were used. Ocean swells generated by distant weather systems keep a constant direction for days, and a skilled navigator could hold a course by the feel of the canoe as it rode over them, sometimes, it is said, lying down in the hull to sense the motion more exactly. Swells also bend around an island and bounce back from it, creating patterns of disturbed water that can be detected long before land is in sight.
+[F] Finding a small island at the end of a long passage was made easier by what has been called expanding the target. Certain seabirds fish at sea by day and return to land every night, so that birds seen flying purposefully at dusk point the way to shore from as far as fifty kilometres. Clouds gather and remain stationary over high islands. The underside of a cloud may take on a greenish tint above a shallow lagoon. By reading such signs, a navigator needed only to steer for a group of islands as a whole, a far larger objective than any single speck of land.
+[G] By the middle of the twentieth century this knowledge had almost vanished from Polynesia itself. Its revival began in 1976, when a double-hulled canoe built in Hawaii to a traditional design sailed four thousand kilometres to Tahiti without instruments. No Hawaiian remembered the techniques, so the voyage was guided by Mau Piailug, a navigator from a tiny Micronesian island, who agreed to break with custom and teach outsiders because he feared the art would die with him. The canoe was met in Tahiti by a crowd of more than half the island's population. Its success ended the old argument, and it inspired a new generation across the Pacific to learn the skills of their ancestors.
+== match:headings | The passage has seven paragraphs, A-G. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. Signs that reveal land beyond the horizon
+ii. A demonstration that restored a lost tradition
+iii. Steering by the movement of the sea
+iv. The materials used to build ocean-going canoes
+v. Evidence that the voyages were planned
+vi. A memorised map of the night sky
+vii. A test that ruled out chance
+viii. Why Europeans reached the Pacific so late
+1. Paragraph B => v // They sailed against the wind and carried plants and animals.
+2. Paragraph C => vii // A simulation showed drifting canoes hardly ever arrived.
+3. Paragraph D => vi // Navigators memorised where stars rise and set.
+4. Paragraph E => iii // Swells and the feel of the canoe gave direction.
+5. Paragraph F => i // Birds and clouds 'expand the target'.
+6. Paragraph G => ii // The 1976 voyage revived the knowledge.
+== tfng
+7. Early European sailors doubted that Pacific islanders could navigate long distances deliberately. => TRUE // A: many could not believe others had crossed without instruments.
+8. The first settlers of the Pacific islands came from South America. => FALSE // B: they came from the west, from islands near New Guinea.
+9. Sailing against the wind made it easier for explorers to return home. => TRUE // C: the canoe could turn and be carried quickly home.
+10. Mau Piailug had made the voyage from Hawaii to Tahiti before 1976. => NOT GIVEN // G does not say whether he had sailed that route before.
+== fill:summary | 1W
+Locating an island
+Navigators did not have to aim directly at a single island. They looked for {{11=seabirds}} returning to land in the evening, and for {{12=clouds}} that stayed in one place above high ground. A green colour beneath a cloud could indicate a {{13=lagoon}}.
+
+# R12 | The power of free
+## Why nothing costs so much
+[A] Standard economic theory treats price as a continuous scale. A reduction from two dollars to one is supposed to have much the same effect on buyers as a reduction from one dollar to nothing. Shopkeepers have long suspected otherwise, and in the last two decades experiments have confirmed that zero is not just another price. Remove the final cent, and people behave as if a different set of rules applied.
+[B] The best-known demonstration was carried out by the behavioural economist Dan Ariely and his colleagues. At a stall in a university building they offered passers-by a choice between two chocolates, a luxury truffle at fifteen cents, far below its normal price, and an ordinary chocolate at one cent. Nearly three quarters chose the truffle, which was by any reasonable calculation the better bargain. The experimenters then lowered both prices by a single cent, so that the truffle cost fourteen cents and the ordinary chocolate was free. The difference in price between the two was exactly as before. Yet the preferences reversed, and more than two thirds of customers now took the free one.
+[C] Several explanations have been put forward. One is that every purchase, however small, carries a risk of regret, and that a free item appears to carry none. Another is that paying involves a moment of effort, in finding coins and weighing up value, which zero allows us to skip. A third is social. When money changes hands, we apply the standards of the market and ask whether we are getting a fair deal. When something is given, we shift to the standards that govern relations between friends, and calculation seems out of place.
+[D] The third explanation is supported by a study of what happens when the two sets of standards collide. A group of nurseries in Israel, troubled by parents who arrived late to collect their children, introduced a small fine. The number of late arrivals did not fall. It roughly doubled. Before the fine, parents who were late had felt guilty about inconveniencing the staff. The fine turned lateness into a service that could be bought, and at a very reasonable price. Most tellingly, when the nurseries abolished the fine after twelve weeks, the parents' behaviour did not return to what it had been. The sense of obligation, once replaced by a price, did not come back.
+[E] Businesses have learned to exploit the attraction of zero. An online retailer that offers free delivery on orders above a certain value finds that customers add items they do not need in order to qualify. When one such company introduced the offer across Europe, sales rose everywhere except in France, where, because of a local decision, delivery had been priced at the equivalent of a few cents instead of nothing. Sales there remained flat until the charge was removed. The few cents themselves were trivial. It was the difference between almost free and free that mattered.
+[F] The same logic underlies much of the digital economy. Services that cost billions to run are offered to users without charge, and the users, pleased with the bargain, seldom ask how the provider makes its money. The answer in most cases is that their attention and personal data are being sold to advertisers. Critics summarise the arrangement in a phrase that has become a commonplace, which is that if you are not paying for the product, you are the product. Whether people would make the same choice if the true exchange were stated plainly at the outset is a question the industry has shown little interest in testing.
+[G] None of this means that free is always a trap. Public health campaigns have used the effect to good purpose. In parts of Africa, charging even a small sum for mosquito nets treated with insecticide was found to reduce the number of families who obtained them by more than half, without making those who did pay any more likely to use them. Giving the nets away protected far more children. The lesson for policy is the same as the lesson for shoppers. A price of zero is a powerful tool, and it is worth asking, each time we meet it, whose purposes it is serving.
+== ynng
+1. Conventional economic theory accurately predicts how people respond to a price of zero. => NO // A: experiments have confirmed that zero is not just another price.
+2. In the first stage of Ariely's experiment, the truffle offered better value than the ordinary chocolate. => YES // B: by any reasonable calculation the better bargain.
+3. The nurseries' fine failed because it was set too low. => NOT GIVEN // D says the fine was small but attributes the effect to replacing guilt with a price.
+4. Technology companies are eager to find out whether users understand what they give in return for free services. => NO // F: the industry has shown little interest in testing this.
+5. It is always a mistake to accept something that is offered free. => NO // G: none of this means that free is always a trap.
+== mc
+6. What happened when both chocolates were reduced by one cent?
+A. Most people continued to choose the truffle.
+B. Most people now chose the ordinary chocolate.
+C. Sales of both chocolates increased equally.
+D. People bought one of each.
+=> B // B: the preferences reversed and more than two thirds took the free one.
+7. The 'social' explanation in paragraph C is that when something is free, people
+A. assume it must be of poor quality.
+B. feel obliged to give something back.
+C. stop judging the exchange as a commercial one.
+D. worry about what others will think.
+=> C // C: we shift to the standards between friends, and calculation seems out of place.
+8. What happened when the nurseries abolished the fine?
+A. Parents continued to arrive late as often as with the fine.
+B. Parents began to arrive on time again.
+C. Parents complained to the staff.
+D. Parents asked for the fine to be restored.
+=> A // D: their behaviour did not return to what it had been.
+9. The example of France in paragraph E shows that
+A. French customers buy less online.
+B. free delivery is unprofitable.
+C. a tiny charge can cancel the effect of free.
+D. delivery costs more in France.
+=> C // E: the difference between almost free and free mattered.
+== fill:sentence | 2W
+10. One theory is that buying anything involves a risk of {{10=regret}}.
+11. Before the fine was introduced, late parents had experienced a feeling of {{11=obligation|guilt}}.
+12. Free online services earn money by selling users' attention and {{12=personal data}} to advertisers.
+13. In Africa, charging a small amount for {{13=mosquito nets}} greatly reduced the number of families obtaining them.

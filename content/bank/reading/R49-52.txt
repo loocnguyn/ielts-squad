@@ -1,0 +1,145 @@
+# R49 | Dust from the Sahara
+## The desert that feeds a rainforest
+[A] The Amazon rainforest and the Sahara desert could hardly be more different. One is the wettest and most densely living region on earth, the other among the driest and emptiest, and they are separated by the width of the Atlantic Ocean. Yet research over the past three decades has shown that they are connected. Every year, winds lift hundreds of millions of tonnes of dust from the surface of the Sahara and carry it westwards, and part of that dust falls on the Amazon, where it supplies the forest with something it cannot do without.
+[B] To understand why, one must begin with a paradox about tropical soil. The luxuriant growth of a rainforest suggests rich ground beneath it. In fact, Amazonian soils are among the poorest in the world. Heavy rain, falling for millions of years, has washed most of the soluble minerals out of them. The forest survives by recycling. When a leaf falls, fungi and insects break it down within weeks, and the roots of living trees, which spread in a dense mat just below the surface, absorb the nutrients almost before they reach the soil. Very little is stored in the ground. This is why land cleared of forest for farming so often becomes useless after a few harvests.
+[C] Even an efficient system leaks. Each year some nutrients are carried away by the rivers, and of these the most critical is phosphorus, which every living cell requires and which, unlike nitrogen, cannot be drawn from the air. If the losses were not made good, the forest would slowly starve. For a long time nobody knew where the replacement came from.
+[D] The answer began to emerge when scientists analysed the chemistry of dust collected in South America and matched it to a particular source. It is a depression in the country of Chad, on the southern edge of the Sahara, known as the Bodele. Thousands of years ago, when the climate of North Africa was wetter, the depression lay at the bottom of an enormous lake. As the lake dried, it left behind a thick layer of the remains of microscopic organisms that had lived in its waters, and these remains are rich in phosphorus. Today the Bodele is the dustiest place on the planet. The surrounding mountains funnel the wind across it at high speed, and on about a hundred days a year great plumes rise from its surface.
+[E] The scale of the transfer has been measured from space. Between 2007 and 2013, a satellite equipped with a laser recorded the quantity of dust in the air across the Atlantic at different heights. From these observations, a team in the United States calculated that on average about a hundred and eighty million tonnes of dust leave Africa each year, of which some twenty-eight million tonnes reach the Amazon basin. The phosphorus this contains amounts to about twenty-two thousand tonnes, which is roughly equal to the amount the forest loses each year to its rivers. The two figures, in other words, appear to balance.
+[F] The quantity varies greatly from one year to the next, and the variation is linked to rainfall in the Sahel, the belt of dry grassland along the desert's southern margin. When the Sahel has a wet year, less dust crosses the ocean in the following year, perhaps because more vegetation holds the soil in place, or because rain washes the dust out of the air before it can travel far. This raises a question about the future. Some climate models predict that a warmer world will bring more rain to the Sahel. If so, the supply of dust could fall, with consequences for the forest that are difficult to foresee.
+[G] The Amazon is not the only beneficiary. Much of the dust falls into the Atlantic on the way, where the iron it contains feeds the growth of plankton, the microscopic plants at the base of the ocean's food chain. Further north, Saharan dust builds up the soils of Caribbean islands, and it is thought to have supplied much of the red earth of Bermuda and the Bahamas. Nor is the influence wholly benign. Thick dust lowers the quality of the air in the Caribbean and the southern United States, and it has been blamed for outbreaks of asthma. It also has a curious effect on the weather. Dry, dusty air over the Atlantic tends to suppress the formation of hurricanes, so that seasons with heavy dust are often seasons with fewer storms.
+[H] The connection between the desert and the forest is a striking illustration of a principle that ecologists have come to appreciate, which is that no ecosystem is self-contained. A forest in Brazil depends on a dried lake bed in Chad that happens to lie in the path of the wind. It is also a reminder of how such links can go unnoticed. The dust has been crossing the ocean for thousands of years, and until instruments were placed in orbit, nobody could say how much there was.
+== tfng
+1. The soils of the Amazon are rich in minerals. => FALSE // B: among the poorest in the world.
+2. Dead leaves in the rainforest decompose quickly. => TRUE // B: fungi and insects break a leaf down within weeks.
+3. Plants are able to obtain phosphorus from the air. => FALSE // C: unlike nitrogen, it cannot be drawn from the air.
+4. The Bodele depression was once covered by a lake. => TRUE // D: it lay at the bottom of an enormous lake.
+5. Dust rises from the Bodele on roughly a hundred days each year. => TRUE // D: on about a hundred days a year great plumes rise.
+6. The satellite used to measure the dust was built in France. => NOT GIVEN // E does not say where it was built.
+7. The amount of phosphorus arriving in dust is far smaller than the amount the forest loses. => FALSE // E: the two figures appear to balance.
+== match:information
+8. a reason why the supply of dust to the Amazon might decrease => F // More rain in the Sahel could reduce the dust.
+9. harmful effects of Saharan dust on people => G // It lowers air quality and has been blamed for asthma.
+10. an explanation of why farmland cut from the forest soon fails => B // Very little is stored in the ground.
+== fill:summary | 1W
+Other effects of the dust
+Dust that falls into the ocean supplies {{11=iron}}, which helps plankton to grow. In the Caribbean, it has contributed to the red {{12=earth}} of some islands. It also affects the weather, since dusty air reduces the number of {{13=hurricanes}}.
+
+# R50 | Third places
+## The spaces between home and work
+[A] In 1989, the American sociologist Ray Oldenburg published a book with an unusually long subtitle, listing cafes, coffee shops, bookshops, bars and hair salons. His argument was that a healthy community needs places of a particular kind. Home, he said, is the first place in a person's life and work is the second. The third place is somewhere else, where people gather informally, regularly and by choice. The French have the cafe, the English the pub, the Italians the piazza. In the suburbs of post-war America, where houses were separated from shops by miles of road and almost every journey was made by car, such places had all but disappeared, and Oldenburg believed that social life had suffered as a result.
+[B] He identified several features that true third places share. They stand on neutral ground, where nobody is host and nobody guest, and people may come and go as they please. They are levellers, in which a person's rank or wealth counts for little. The main activity is conversation. They are close to hand and open for long hours, so that a visit needs no planning. They have regulars, whose presence gives the place its character and who make newcomers feel that they have joined something. And they are plain. An establishment that is too smart makes people self-conscious and discourages them from lingering.
+[C] The value of such places, Oldenburg suggested, lies in the kind of relationships they make possible. At home and at work, we deal with people to whom we are bound by strong ties of family or duty. In a third place, we meet acquaintances whom we might not invite to our homes but are glad to see. Sociologists call these weak ties, and research has repeatedly shown that they matter more than might be expected. In a famous study of how people found jobs, most had heard of the vacancy not from close friends, who tend to know the same things we do, but from someone they saw only occasionally. More recently, psychologists have found that brief exchanges with people we barely know, such as the person who serves us coffee, make a measurable contribution to how happy we feel on a given day.
+[D] There is a civic argument as well. A third place is one of the few settings in which people of different ages, occupations and opinions talk to one another without having chosen to. Oldenburg saw in this an informal school of democracy. Problems of the neighbourhood are aired, rumours are corrected, and those who disagree learn that their opponents are human.
+[E] The idea was taken up enthusiastically by business. The head of one very large chain of coffee shops adopted the phrase to describe what his company sold, which was not so much coffee as somewhere to sit. Oldenburg was unimpressed. A branch of a global chain, in which customers queue in silence, work alone at laptops with headphones on, and are encouraged to leave when they have finished, lacked almost everything he had described. The regulars do not know one another, and the staff are too busy to talk.
+[F] Critics have raised objections to the concept itself. Oldenburg's examples were places where men had traditionally gathered, and for much of history the tavern and the barber's shop were closed to women, who were expected to find their company at home. Access also depends on money. The price of a coffee is a small barrier to some people and a real one to others, and a cafe will not tolerate for long a customer who buys nothing. For this reason, some writers argue that the most valuable third places are those that charge no admission at all, such as public libraries, parks and playgrounds, and that their closure through cuts in public spending is more damaging than the loss of any cafe.
+[G] Whether the internet can provide third places has been much debated. Online forums and games do allow strangers to converse on equal terms, and for people who are isolated by illness, disability or distance, they can be a lifeline. But they differ in an important respect. Online, we choose whom we talk to with great precision and can leave at the first sign of disagreement. A physical third place obliges us to rub along with whoever happens to be there.
+[H] The question has taken on new urgency. Surveys in many countries report that people have fewer close friends than a generation ago and spend more time alone. Working from home has removed, for many, even the daily contact of the office. In response, a number of cities have begun to treat third places as a form of infrastructure, as worthy of public investment as roads or drains. One practical lesson has emerged from their experiments. Such places cannot simply be designed and installed. They grow where people are allowed to stay without a reason, and they are created less by architects than by those who use them.
+== ynng
+1. American suburbs built after the war were well provided with informal meeting places. => NO // A: such places had all but disappeared.
+2. A third place works best when it is luxuriously furnished. => NO // B: they are plain; a place that is too smart discourages lingering.
+3. Casual acquaintances can be more useful than close friends when looking for work. => YES // C: most heard of the vacancy from someone they saw only occasionally.
+4. Oldenburg approved of the way a large coffee chain applied his idea. => NO // E: Oldenburg was unimpressed.
+5. Libraries and parks may be more important third places than cafes. => YES // F: the most valuable are those that charge no admission at all.
+6. People who use online forums have fewer friends in real life. => NOT GIVEN // G compares online and physical places but makes no such claim.
+== mc
+7. What does the writer mean by describing third places as 'levellers' in paragraph B?
+A. They are built on flat ground.
+B. Social status is unimportant there.
+C. Prices are the same for everyone.
+D. All customers are of similar age.
+=> B // A person's rank or wealth counts for little.
+8. According to paragraph D, third places support democracy because
+A. politicians visit them to meet voters.
+B. local elections are held there.
+C. people encounter views different from their own.
+D. newspapers are available free of charge.
+=> C // People of different opinions talk to one another without having chosen to.
+9. What criticism of Oldenburg's concept is made in paragraph F?
+A. His examples came only from Europe.
+B. It ignores the importance of the workplace.
+C. It has never been tested by research.
+D. The places he described often excluded women.
+=> D // The tavern and the barber's shop were closed to women for much of history.
+10. How do online communities differ from physical third places, according to paragraph G?
+A. People can avoid those they disagree with more easily.
+B. They are open for fewer hours.
+C. They are used mainly by young people.
+D. They cost more to join.
+=> A // Online we choose whom we talk to and can leave at the first sign of disagreement.
+== fill:sentence | 1W
+11. In a third place, the main activity is {{11=conversation}}.
+12. People who visit a third place often are known as {{12=regulars}}.
+13. Some cities now regard third places as a kind of {{13=infrastructure}}.
+
+# R51 | The mind of the octopus
+## An alien intelligence
+[A] If we were to meet an intelligent being from another planet, it would presumably be the product of an evolutionary history entirely separate from our own. In one sense, we already have. The octopus and its relatives, the squid and the cuttlefish, are molluscs, more closely related to snails and oysters than to any animal with a backbone. The last ancestor that we share with them lived more than five hundred million years ago and was probably a small worm-like creature with, at most, a few simple light-sensitive spots. Everything that an octopus has in the way of a brain evolved independently of ours.
+[B] And it has a great deal. A common octopus possesses about five hundred million nerve cells, a number comparable to that of a dog and far beyond that of any other animal without a backbone. Their arrangement, however, is utterly unlike a mammal's. Only about a third are in the head. The rest are distributed along the eight arms, each of which contains a thick cord of nerves and thousands of suckers that can taste as well as touch. The arms have considerable independence. An arm that has been cut off will continue for some time to reach for food and pass it towards where the mouth would be. Researchers describe the animal as having a central brain that issues general instructions and eight subsidiary ones that work out the details.
+[C] The evidence of what this nervous system can do is abundant. Octopuses in laboratories learn to find their way through mazes, to unscrew the lids of jars, and to tell apart shapes and patterns. They are notorious for escaping. There are well-attested accounts of animals leaving their tanks at night, crossing the floor to another tank, eating the fish in it, and returning before morning. One octopus in a New Zealand aquarium squeezed through a gap at the top of its enclosure, slid across the floor and disappeared down a drainpipe that led to the sea.
+[D] Many keepers are convinced that individual octopuses have distinct characters, some bold and some shy, and that they recognise particular people. In one experiment, two members of staff dressed identically visited a group of octopuses each day. One always fed the animals, and the other always touched them with a bristly stick. Within two weeks, the octopuses behaved quite differently towards each of them, approaching the first and squirting water at the second. They also appear to play. Octopuses given an empty plastic bottle have been seen to blow it with a jet of water towards the current from a pump and to catch it when it floats back, over and over again, for no evident reward.
+[E] In the wild, the most striking discovery has been of tool use. Off the coast of Indonesia, a species known as the veined octopus collects the halves of coconut shells that people have thrown into the sea. It stacks them, carries them beneath its body while walking awkwardly on stiffened arms, and later assembles them into a shelter. Since the shells are of no use while they are being carried, and in fact make the animal more vulnerable, this is taken as evidence that it is planning for a future need.
+[F] Why should a mollusc have evolved such abilities? The favoured explanation begins with the loss of the shell. The ancestors of the octopus were protected by a hard casing, as snails are. At some point this was abandoned, which allowed the animal to move fast and to squeeze into crevices, but left a soft, nutritious body exposed to every predator in the sea. Survival came to depend on wits, on hiding, deceiving and hunting flexibly. The same pressure produced the animal's extraordinary skin, which can change colour and texture in a fraction of a second to match its surroundings.
+[G] This account has an interesting consequence. In mammals and birds, high intelligence is associated with long lives and with living in groups, where there is an advantage in remembering who did what to whom. The octopus has neither. Most species are solitary, and most live for only a year or two. The female lays a single batch of eggs, guards them without eating until they hatch, and then dies. Each generation must learn everything afresh, with no parent to teach it. That so much mental capacity should be invested in so brief a life remains a puzzle.
+[H] The question of what, if anything, an octopus experiences has moved from philosophy into law. In 2021, after a review of more than three hundred scientific studies, the British government accepted that octopuses, along with crabs and lobsters, are capable of feeling pain and included them in legislation on animal welfare. Proposals to farm octopuses for food on an industrial scale have met strong opposition on the same grounds. Whatever one concludes, the animal has changed the terms of an old debate. Minds, it turns out, have arisen on this planet more than once.
+== tfng
+1. Octopuses are more closely related to snails than to fish. => TRUE // A: more closely related to snails and oysters than to any animal with a backbone.
+2. Most of an octopus's nerve cells are located in its head. => FALSE // B: only about a third are in the head.
+3. The suckers on an octopus's arms can detect taste. => TRUE // B: suckers that can taste as well as touch.
+4. The octopus that escaped from the New Zealand aquarium was later recaptured. => NOT GIVEN // C says it disappeared down a drainpipe; nothing is said about recapture.
+5. Octopuses in one experiment learned to distinguish between two people. => TRUE // D: they behaved quite differently towards each of them.
+6. Carrying coconut shells makes the veined octopus safer from predators. => FALSE // E: it makes the animal more vulnerable.
+7. Most octopus species live in large groups. => FALSE // G: most species are solitary.
+== match:information
+8. a theory about what drove the development of the octopus's intelligence => F // The loss of the shell left survival dependent on wits.
+9. a description of behaviour that seems to have no practical purpose => D // Blowing a bottle towards the pump current and catching it.
+10. an example of a government responding to scientific evidence => H // Britain included octopuses in animal welfare legislation.
+== fill:summary | 1W
+A short life
+Unlike intelligent mammals and birds, the octopus does not live long. The female produces one batch of {{11=eggs}}, protects them without {{12=eating}} until they hatch, and then dies. The young have no {{13=parent}} to teach them.
+
+# R52 | The Stradivarius question
+## Are old violins really better?
+[A] A violin made in the workshop of Antonio Stradivari, who worked in the Italian city of Cremona until his death in 1737, can sell for more than ten million dollars. About six hundred of his instruments survive, and the world's leading soloists compete for the chance to play them. For two centuries it has been taken for granted that they possess a quality of sound that no later maker has equalled, and a small industry of scientists and craftsmen has devoted itself to finding out why. Recently, a more awkward question has been asked, which is whether the superiority exists at all.
+[B] The attempts to explain the secret make a long list. An early favourite was the varnish, which was said to contain some lost ingredient. Chemical analysis has since shown it to be a fairly ordinary mixture of oil and resin, of a kind used by furniture makers of the period. Attention then turned to the wood. Stradivari worked during an unusually cold period in European history, when trees in the Alps grew slowly and laid down narrow, even rings, and it was proposed that this dense timber gave his instruments their resonance. Another theory holds that the wood was soaked in a solution of minerals to protect it against woodworm, and that this treatment altered its acoustic properties. Others point to the geometry, to the precise curve of the front and back plates and the shape of the sound holes.
+[C] Each of these ideas has its supporters, and none has been shown to be decisive. Modern makers have at their disposal medical scanners that reveal the thickness of every part of an old instrument to a fraction of a millimetre, and they can produce copies that match the originals in every measurable dimension. If there is a secret, it is not for want of information that it remains one.
+[D] The more radical challenge has come from experiments on listeners and players. The difficulty with any comparison of violins is that those taking part usually know which instrument is which, and knowing that one is holding a priceless antique is likely to colour one's impression of it. In 2010, a team led by the French researcher Claudia Fritz set out to remove that knowledge. At an international violin competition in the American city of Indianapolis, twenty-one experienced players were invited to a hotel room and asked to try six instruments, three of them new and three old, including two by Stradivari. The lights were dimmed, the players wore welding goggles so that they could not see what they were holding, and a touch of perfume was applied to the chin rest of each violin to disguise the smell of old wood.
+[E] The result caused a sensation. Asked which instrument they would most like to take home, thirteen of the twenty-one chose a new one. The least popular of the six was a Stradivarius. And when the players were asked to say whether the instrument they were holding was old or new, their answers were no better than guesses.
+[F] Critics objected that a hotel room is not a concert hall, and that the test had been brief. The team therefore repeated it in Paris on a larger scale. Ten renowned soloists each spent more than an hour with twelve violins, six new and six old, first in a rehearsal room and then in a concert hall with three hundred seats, playing alone and with an orchestra. Again the players wore goggles. Six of the ten chose a new violin as their favourite. In a further study, audiences in halls in Paris and New York were asked to judge which of two instruments, played behind a screen, carried better to the back of the room. They consistently preferred the new ones, and they too were unable to tell which was which.
+[G] These findings have not been universally accepted. Some musicians argue that a great old instrument takes months to get to know, and that its particular strengths, a wider range of tone colours perhaps, would not show in an afternoon. Others point out that the new violins in the tests were made by the finest living craftsmen and selected with care, whereas an old instrument may not be in the best condition. It has also been observed that almost every old violin has been substantially altered since it left its maker's bench, fitted with a longer neck and stronger internal parts to produce the louder sound that large modern halls demand. What we hear today is not quite what Stradivari made.
+[H] None of this diminishes his achievement. He established the form of the instrument so successfully that makers have copied it for three hundred years, and the best of them are judged by how close they come. But the experiments suggest that part of what listeners hear in a Stradivarius is its reputation. Expectation shapes perception, in music as in the tasting of wine, and a belief repeated for long enough can come to feel like the evidence of the senses.
+== ynng
+1. It has long been assumed that Stradivari's violins sound better than modern ones. => YES // A: for two centuries it has been taken for granted.
+2. The varnish used by Stradivari contained an ingredient that cannot now be identified. => NO // B: analysis showed an ordinary mixture of oil and resin.
+3. Modern makers lack the technical means to copy old violins accurately. => NO // C: they can match the originals in every measurable dimension.
+4. Knowing that an instrument is valuable probably affects how a player judges it. => YES // D: it is likely to colour one's impression.
+5. The players in the Indianapolis test were paid for taking part. => NOT GIVEN // D does not mention payment.
+6. The results of the experiments take nothing away from what Stradivari accomplished. => YES // H: none of this diminishes his achievement.
+== mc
+7. Why was perfume put on the chin rests in the Indianapolis experiment?
+A. to prevent players from identifying old instruments by smell
+B. to protect the varnish
+C. to make the players more comfortable
+D. to mark which violins were new
+=> A // D: to disguise the smell of old wood.
+8. In the Indianapolis test, how did the players perform when asked whether a violin was old or new?
+A. They were usually right about the old ones.
+B. They were usually right about the new ones.
+C. They did no better than chance.
+D. They refused to answer.
+=> C // E: their answers were no better than guesses.
+9. How did the Paris experiment respond to criticism of the first test?
+A. It used only old violins.
+B. It allowed the players to see the instruments.
+C. It was carried out by a different research team.
+D. It gave players more time and used a concert hall.
+=> D // F: more than an hour each, in a rehearsal room and a concert hall.
+10. What point is made about old violins in paragraph G?
+A. They are louder than new ones.
+B. They have been modified since they were made.
+C. They are easier to play.
+D. They are usually in better condition.
+=> B // Almost every old violin has been substantially altered.
+== fill:sentence | 1W
+11. Trees in the Alps during Stradivari's lifetime grew slowly and had narrow {{11=rings}}.
+12. One theory is that the wood was treated with minerals as a defence against {{12=woodworm}}.
+13. In the experiments, players wore {{13=goggles}} so that they could not see the violins.

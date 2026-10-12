@@ -1,0 +1,151 @@
+# R37 | The gig economy
+## Work without a job
+[A] For most of the twentieth century, the normal way to earn a living in industrial countries was to hold a job. A worker was hired by an employer, turned up at fixed hours, and in return received a wage, paid holidays, sick pay and, eventually, a pension. Over the past fifteen years, a different arrangement has spread, in which people are paid not for their time but for each task they complete, whether a car journey, a meal delivered or a piece of translation. The tasks are distributed by software, usually through an app on a phone. This has become known as the gig economy, a term borrowed from musicians, who have always been paid by the performance.
+[B] Its growth has been rapid, though measuring it is harder than might be supposed. Official statistics were designed for a world of employees and the self-employed, and people who do a few hours of app-based work alongside a regular job are easily missed. Surveys in Europe and North America suggest that between one in twenty and one in ten adults does some work of this kind in a given year, but that only a small fraction rely on it for most of their income. For the majority, it is a supplement.
+[C] The companies that run the platforms describe themselves not as employers but as marketplaces that bring customers and independent workers together. The distinction matters a great deal. Someone who is classed as an independent contractor has no right to a minimum wage, to paid leave or to compensation if dismissed, and the company pays no contributions towards their health care or retirement. In exchange, it is argued, the worker enjoys freedom. There is no boss, no shift pattern and no obligation to accept any particular task.
+[D] Surveys of workers lend some support to this picture. Asked what they value most, a large majority mention flexibility. Students, parents of young children and people caring for elderly relatives can fit paid work around their other commitments in a way that few conventional jobs allow. For those shut out of ordinary employment, because of a gap in their record or a lack of qualifications, platform work offers an income with almost no barrier to entry.
+[E] Critics reply that the freedom is more apparent than real. A driver may choose when to log in, but once logged in, the app decides which jobs are offered and at what price, and it monitors the driver's speed, route and rate of acceptance. Those who decline too many requests may find that fewer are offered, or that their account is suspended, often without explanation or appeal. The role of manager has not disappeared. It has been taken over by a set of rules that the worker cannot see and cannot question. Researchers have also drawn attention to earnings. When the cost of fuel, insurance and wear on a vehicle is subtracted, and the unpaid time spent waiting for work is counted, the hourly income of many drivers falls close to, or below, the legal minimum for employees.
+[F] The question of status has been fought out in the courts of many countries, with varying results. In 2021, the highest court in Britain ruled that drivers for one of the largest ride-hailing firms were not independent contractors but workers, a category in British law that carries the right to the minimum wage and holiday pay. The judges observed that the company set the fares, dictated the terms and controlled the drivers' performance through ratings, and that it was hard to see what business the drivers were supposedly running on their own account. In California, by contrast, voters approved a measure, heavily funded by the platforms themselves, that kept drivers as contractors while granting them a limited set of benefits.
+[G] Some economists believe the debate has been framed too narrowly, as a choice between two categories devised a century ago. They propose a third status, with protections that are attached to the individual and not to the job. Under such a scheme, every platform for which a person worked would pay a small percentage of their earnings into a personal account, which could be drawn on for sickness, holidays or retirement. Experiments along these lines are under way in several places, though trade unions tend to regard them with suspicion, fearing that employers of all kinds would use an intermediate category to reduce the rights of existing staff.
+[H] It is worth noting, finally, that the arrangement is not as new as it seems. In nineteenth-century ports, dockworkers gathered at the gates each morning in the hope of being picked for a day's labour, and in the cloth trade, weavers were paid by the piece for work done at home. Regular employment with its attached protections was a later invention, won over decades. Seen in that light, the gig economy is less a product of technology than the return of a much older pattern, and the question it raises is the old one of how the risks of working life should be shared.
+== ynng
+1. Official figures give an accurate picture of how many people do gig work. => NO // B: people who do a few hours alongside a regular job are easily missed.
+2. Most people who do gig work depend on it as their main source of income. => NO // B: only a small fraction rely on it for most of their income.
+3. Flexibility is a genuine attraction of gig work for many people. => YES // D: a large majority mention flexibility; it fits around other commitments.
+4. Drivers who refuse many jobs may be penalised by the platform. => YES // E: fewer jobs may be offered, or the account suspended.
+5. The California measure was fairer to drivers than the British court ruling. => NOT GIVEN // F reports both outcomes without judging which was fairer.
+6. The gig economy is an entirely new way of organising work. => NO // H: it is the return of a much older pattern.
+== mc
+7. Where does the term 'gig economy' come from?
+A. the way musicians are paid
+B. a type of computer software
+C. an early delivery company
+D. a nineteenth-century trade
+=> A // A: borrowed from musicians, who have always been paid by the performance.
+8. According to paragraph C, what do platform companies claim to be?
+A. employers of a new kind
+B. agencies supplying temporary staff
+C. marketplaces linking customers and workers
+D. technology firms with no workers
+=> C // They describe themselves as marketplaces that bring customers and independent workers together.
+9. Why did the British court decide that the drivers were workers?
+A. They worked more than forty hours a week.
+B. The company controlled the fares, the terms and their performance.
+C. They had signed contracts of employment.
+D. They owned shares in the company.
+=> B // F: the company set the fares, dictated the terms and controlled performance through ratings.
+10. Why are trade unions wary of a third employment status?
+A. It would be too expensive for platforms.
+B. It would exclude part-time workers.
+C. It would be difficult to enforce.
+D. It might be used to weaken the rights of ordinary employees.
+=> D // G: employers might use an intermediate category to reduce the rights of existing staff.
+== fill:summary | 1W
+The real earnings of drivers
+Researchers point out that a driver's income must cover the cost of {{11=fuel}}, insurance and wear on the vehicle. Time spent {{12=waiting}} for work is not paid. Once these are taken into account, hourly earnings may be near or under the legal {{13=minimum}} for employees.
+
+# R38 | Kelp forests
+## The forests beneath the waves
+[A] Along cold, rocky coasts from Norway to New Zealand grow forests that few people ever see. They are made not of trees but of kelp, a group of large brown seaweeds. A kelp has no roots. It grips the rock with a tangle of finger-like growths, and from this base a flexible stalk rises towards the surface, bearing long blades that are held up in some species by gas-filled floats. The largest, the giant kelp of the Pacific, can reach forty-five metres and may grow half a metre in a single day, faster than almost any other living thing.
+[B] Like a forest on land, a kelp forest has layers. The blades at the surface form a canopy that shades the water below. Beneath it, smaller seaweeds make up an understorey, and the sea floor is carpeted with sponges, anemones and encrusting algae. This structure provides food and shelter for an extraordinary variety of animals. Young fish hide among the blades. Snails and crabs graze on them. Seals and sea lions hunt in the shadows, and sea otters wrap themselves in the floating fronds before sleeping, so as not to drift away.
+[C] The forests matter to people as well. They slow the waves that strike the shore, reducing erosion. They are nurseries for species on which commercial fisheries depend. Substances extracted from kelp are used to thicken ice cream, toothpaste and many other products. And because kelp grows so fast, it absorbs large amounts of carbon dioxide. How much of that carbon is locked away for the long term is still debated. Unlike a tree, kelp does not store carbon in wood or soil. Some pieces break off and sink into the deep ocean, where the carbon may remain for centuries, but much of the plant is eaten or decays and returns its carbon to the water.
+[D] For all their vigour, kelp forests can vanish with astonishing speed. The classic case comes from the Pacific coast of North America. Sea urchins, spiny animals the size of a tennis ball, feed on kelp. In a healthy forest they stay hidden in crevices and eat fragments that drift down. Their numbers are held in check by predators, the most important of which is the sea otter. In the eighteenth and nineteenth centuries, otters were hunted almost to extinction for their fur. Freed from control, urchins multiplied, came out into the open, and chewed through the bases of the kelp. What remained was bare rock covered with urchins, a condition known as an urchin barren.
+[E] Where otters were later protected and returned, the kelp generally came back, and the story became a textbook example of how the loss of a single predator can transform an ecosystem. It has, however, proved to be only part of the picture. In northern California, more than nine tenths of the kelp disappeared between 2014 and 2019, although there had been no otters on that stretch of coast for well over a century. The cause was a combination of events. A disease wiped out a large starfish that also eats urchins. At the same time, a prolonged marine heatwave weakened the kelp, which needs cold, nutrient-rich water. The urchins, with no predators left and a struggling forest before them, did the rest.
+[F] Warming seas are now the greatest threat. Kelp forests have retreated along the coasts of Western Australia, Tasmania, Japan and southern Europe, in some places replaced by low, turf-like algae that support far less life. A barren, once established, is difficult to reverse. Urchins can survive for years on almost nothing, shrinking their bodies and waiting, and they consume any young kelp that tries to settle. Simply removing the original cause is therefore not enough to bring the forest back.
+[G] Efforts at restoration take several forms. In California and Norway, divers have been employed to remove or crush urchins by hand, which works on a small scale but is slow and costly. A Norwegian company has experimented with collecting the starved urchins from barrens and fattening them in tanks for sale as a delicacy, in the hope of turning a pest into a product. In Australia, scientists have identified individual kelp plants that tolerate warmer water and are breeding from them for replanting. And in South Korea and Japan, where seaweed has long been farmed for food, artificial reefs seeded with kelp have been laid over large areas.
+[H] There is growing interest, too, in farming kelp in the open sea, for food, for animal feed and as a way of capturing carbon. Supporters point out that it needs no land, fresh water or fertiliser. Sceptics caution that the quantities required to make any difference to the climate would be immense, and that the effects of sinking vast amounts of seaweed into the deep ocean are unknown. What is not in doubt is that the natural forests are worth far more standing than lost, and that protecting those which remain is cheaper than trying to rebuild them.
+== tfng
+1. Kelp takes in nutrients through its roots. => FALSE // A: a kelp has no roots.
+2. Giant kelp is among the fastest-growing organisms known. => TRUE // A: faster than almost any other living thing.
+3. Sea otters use kelp to stay in one place while they sleep. => TRUE // B: they wrap themselves in the fronds so as not to drift away.
+4. Scientists agree on how much carbon kelp stores permanently. => FALSE // C: how much is locked away for the long term is still debated.
+5. In a healthy forest, sea urchins mostly remain concealed. => TRUE // D: they stay hidden in crevices.
+6. Sea otters were reintroduced to northern California in 2014. => FALSE // E: there had been no otters on that coast for well over a century.
+7. Urchins from barrens taste better than those from healthy forests. => NOT GIVEN // G mentions fattening them for sale but makes no comparison of taste.
+== match:information
+8. a reason why an urchin barren tends to persist => F // Urchins survive for years on almost nothing and eat any young kelp.
+9. a description of the different levels within a kelp forest => B // A canopy, an understorey and a carpeted sea floor.
+10. doubts about a proposed large-scale use of kelp => H // Sceptics caution about the quantities needed and unknown effects.
+== fill:summary | 1W
+The collapse in northern California
+Between 2014 and 2019, most of the kelp was lost. A {{11=disease}} had killed a large starfish that preys on urchins. In addition, a long marine {{12=heatwave}} had weakened the kelp, which requires cold water rich in nutrients. With no {{13=predators}} to control them, the urchins destroyed what was left.
+
+# R39 | The origins of money
+## Where did money come from?
+[A] Ask most people how money began, and they will tell a story that goes something like this. Once, people exchanged goods directly. A farmer with grain to spare would look for a potter who wanted grain and had pots to offer. This was inconvenient, since each had to want exactly what the other possessed. So people settled on a single commodity, such as salt, shells or eventually gold, that everyone would accept, and money was born. The account appears in the opening chapters of countless economics textbooks, and it can be traced back to the eighteenth-century philosopher Adam Smith.
+[B] The difficulty is that there is almost no evidence that it ever happened. Anthropologists who have studied societies without money have looked hard for economies based on barter and have not found them. The Cambridge anthropologist Caroline Humphrey, who reviewed the research in the 1980s, concluded that no example of a pure barter economy had ever been described, let alone one from which money emerged. Barter certainly occurs, but typically between strangers or enemies who do not expect to meet again, or among people who are used to money and find themselves without it, such as prisoners.
+[C] How, then, did people in small communities obtain what they needed from one another? The answer suggested by the evidence is that they did so on credit. If a neighbour needed a pot, the potter gave him one, and it was understood that something was owed in return, at some later time and in some other form. Everyone in a village knew, roughly, who owed what to whom. Such obligations were not precisely measured, and that was part of their purpose, since a debt that is never quite settled keeps a relationship alive. On this view, money did not replace barter. It grew out of the attempt to put numbers on debts.
+[D] The earliest written records support the idea. In the cities of Mesopotamia five thousand years ago, the temples and palaces that ran much of the economy kept detailed accounts on clay tablets. They recorded rents, loans and rations in terms of standard units, a weight of silver and a measure of barley that were treated as equivalent. Yet silver seldom changed hands. It sat in the treasuries, while ordinary people paid what they owed in barley, wool or labour at harvest time. Money existed as a way of reckoning long before it existed as an object in the pocket.
+[E] The first true coins were struck much later, around 600 BC, in the kingdom of Lydia in what is now western Turkey. They were lumps of a natural mixture of gold and silver, stamped with the image of a lion to guarantee their weight. Within a couple of centuries the practice had spread across the Greek world, and coins appeared independently in India and China at about the same period. Why then, and why in those places? One influential answer links coins to war. A ruler who needed to pay and feed a large army far from home could hardly do so in promises. He paid the soldiers in stamped metal, and then demanded that his subjects pay their taxes in the same metal. The population was thus obliged to supply the soldiers with food and goods in order to obtain the coins they needed, and markets grew up wherever armies went.
+[F] The contrast between the two forms of money, credit and coin, runs through later history. Credit depends on trust and works well within a community where people know one another and expect to deal again. Coin requires no trust at all, which is why it is favoured in dealings with strangers, and why it flourishes in times of violence, when it can be stolen as easily as spent. Some historians see a long alternation between the two. Periods dominated by great empires and their armies were ages of coin. After the fall of Rome, coins largely vanished from Europe, yet trade did not stop. Accounts were kept, in the old imperial units, by monasteries and merchants, and debts were settled at periodic fairs with very little metal changing hands.
+[G] Seen in this way, the present is less of a departure than it appears. Most of the money in a modern economy has no physical existence. It consists of entries in the records of banks, created when a loan is made and cancelled when it is repaid. Payment by card or phone has made coins and notes rarer still. We tend to think of this as a recent and rather abstract development. It may be better understood as a return to what money was in the beginning, a system for keeping track of what people owe one another.
+== match:headings | The passage has seven paragraphs, A-G. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. Metal money and the needs of armies
+ii. Accounts kept in units that were rarely handed over
+iii. A familiar account of how money began
+iv. Modern money as a revival of an old idea
+v. The absence of proof for the standard story
+vi. Two kinds of money suited to different conditions
+vii. Exchange based on what neighbours owed each other
+viii. The first banks in medieval Italy
+1. Paragraph B => v // Anthropologists have not found barter economies.
+2. Paragraph C => vii // Goods were given on credit; everyone knew who owed what.
+3. Paragraph D => ii // Silver was a unit of account but seldom changed hands.
+4. Paragraph E => i // Rulers paid soldiers in coin and demanded taxes in it.
+5. Paragraph F => vi // Credit depends on trust; coin requires none.
+6. Paragraph G => iv // Modern money is a return to keeping track of debts.
+== tfng
+7. The barter story of money's origin is found in many economics textbooks. => TRUE // A: it appears in the opening chapters of countless textbooks.
+8. Barter is most likely to occur between people who trust each other. => FALSE // B: typically between strangers or enemies.
+9. In Mesopotamia, ordinary people usually paid their debts in silver. => FALSE // D: they paid in barley, wool or labour.
+10. The first Lydian coins were made of pure gold. => FALSE // E: a natural mixture of gold and silver.
+== fill:sentence | 1W
+11. Caroline Humphrey reported that barter may take place among {{11=prisoners}}, who are used to money but have none.
+12. The first coins carried a picture of a {{12=lion}}.
+13. After the fall of Rome, European debts were often settled at {{13=fairs}}.
+
+# R40 | The art of memory
+## Building palaces in the mind
+[A] At the annual World Memory Championships, competitors perform feats that seem to belong to science fiction. They memorise the order of a shuffled pack of cards in under twenty seconds, or recite a thousand random digits after studying them for an hour. It would be natural to assume that these people were born with exceptional minds. They insist that they were not, and research supports them. What they have is a technique, and it is one of the oldest known.
+[B] Its invention is credited, in a story told by the Roman writer Cicero, to a Greek poet named Simonides, who lived about two and a half thousand years ago. Simonides was performing at a banquet when he was called outside. While he was gone, the roof of the hall collapsed, crushing the other guests so badly that their relatives could not tell the bodies apart. Simonides found that he could identify each one by recalling where it had been sitting. From this he drew a general principle. The mind remembers places and images far more easily than words or numbers, so the way to remember anything is to convert it into images and arrange them in a place.
+[C] The method that grew from this insight is known as the memory palace. The first step is to choose a building or a route that one knows intimately, such as one's own home or the walk to work. The second is to turn each item to be remembered into a vivid picture, the more absurd, comic or shocking the better, since ordinary things are easily forgotten. The third is to place the pictures, one by one, at fixed points along the route, by the front door, on the stairs, in the bath. To recall the list, one simply takes the walk again in imagination and observes what is there.
+[D] For the orators of Greece and Rome, who spoke for hours without notes, the technique was a standard part of education. In the Middle Ages, when books were rare and costly, scholars and preachers used it to store entire texts, and treated a trained memory as a mark of character as much as of intellect. The art declined after the invention of printing made it less necessary, and by the twentieth century it survived mainly among stage performers.
+[E] Scientific interest revived when psychologists began to study the champions. Brain scans showed nothing unusual in the structure of their brains, and on tests of general ability they scored no higher than other people. What distinguished them was which regions were active while they memorised. In addition to the areas everyone uses, they recruited those involved in spatial navigation, the same regions that are enlarged in London taxi drivers, who must learn the layout of twenty-five thousand streets.
+[F] The decisive experiment was published in 2017 by a team in the Netherlands. They recruited volunteers with ordinary memories and gave one group half an hour of daily training in the memory palace for six weeks. A second group practised a different kind of memory exercise, and a third did nothing. At the start, the volunteers could recall on average about twenty-six words from a list of seventy-two. After training, the memory palace group recalled sixty-two, and four months later, without further practice, they could still manage nearly fifty. The other groups improved only slightly. Moreover, scans showed that the patterns of connection in the trained volunteers' brains had come to resemble those of the champions.
+[G] If the technique is so powerful, why is it not taught in every school? Part of the answer is that it has limits. It is well suited to lists, sequences and facts that have no inner logic, such as vocabulary, dates or the bones of the hand. It is of little help with material that has to be understood, where the connections between ideas matter more than the ideas in isolation. A student who memorised a physics textbook by this method would be able to recite it and still be unable to solve a problem. It also demands effort. Composing images takes time, and for a shopping list most people reasonably prefer a piece of paper.
+[H] There is a further point, which the champions themselves often make. The method works because it forces the learner to pay attention, to do something active and inventive with each item instead of reading it passively and hoping it will stay. That, more than the palace itself, may be its lasting lesson. Several competitors have remarked that outside the hall their memories are as unreliable as anyone's, and that they still lose their keys.
+== tfng
+1. Memory champions claim to have been born with unusual abilities. => FALSE // A: they insist that they were not.
+2. Simonides was able to say where each guest had been sitting. => TRUE // B: he identified each body by recalling where it had been sitting.
+3. The memory palace works best when the images are as ordinary as possible. => FALSE // C: the more absurd, comic or shocking the better.
+4. In the Middle Ages, a well-trained memory was regarded as a sign of good character. => TRUE // D: a mark of character as much as of intellect.
+5. Memory champions have larger brains than other people. => FALSE // E: scans showed nothing unusual in the structure of their brains.
+6. London taxi drivers often take part in memory competitions. => NOT GIVEN // E mentions taxi drivers' brains but nothing about competitions.
+== mc
+7. In the Dutch experiment, what happened four months after training ended?
+A. The memory palace group had returned to their starting level.
+B. All three groups performed equally.
+C. The memory palace group still recalled far more words than at the start.
+D. The memory palace group had improved further.
+=> C // F: they could still manage nearly fifty, against about twenty-six at the start.
+8. What did the scans in the Dutch experiment show?
+A. The trained volunteers' brains had become more like the champions'.
+B. Training had increased the size of the brain.
+C. The untrained volunteers had lost connections.
+D. No change could be detected.
+=> A // F: patterns of connection had come to resemble those of the champions.
+9. According to paragraph G, the technique is least useful for
+A. learning foreign words.
+B. remembering dates.
+C. learning the names of bones.
+D. subjects that depend on understanding.
+=> D // It is of little help with material that has to be understood.
+10. What do the champions say is the real reason the method works?
+A. It relies on places that are familiar.
+B. It makes the learner engage actively with the material.
+C. It can be practised anywhere.
+D. It uses both sides of the brain.
+=> B // H: it forces the learner to pay attention and do something active.
+== fill:summary | 1W
+Using a memory palace
+First, choose a building or {{11=route}} that you know very well. Next, turn each thing you want to remember into a striking {{12=picture}}. Finally, put these at fixed points, for example on the {{13=stairs}}. To remember, walk through the place again in your imagination.

@@ -1,0 +1,151 @@
+# R13 | Handwriting and learning
+## Is the pen mightier than the keyboard?
+[A] In lecture halls around the world, the sound of pens on paper has largely been replaced by the tapping of keys. Students type faster than they write, their notes are easier to read and search, and nothing gets lost at the bottom of a bag. It seems an obvious improvement. Over the past decade, however, a series of studies has raised the possibility that something is lost when writing by hand disappears, both for adults taking notes and for children learning to read.
+[B] The study that started the debate was published in 2014 by two American psychologists, Pam Mueller and Daniel Oppenheimer. They asked students to watch recorded talks and take notes, some on laptops and some on paper, and then tested them. On questions of simple fact, the two groups did equally well. On questions that required an understanding of ideas, those who had written by hand did significantly better. When the researchers examined the notes, they found a likely reason. The typists had recorded far more words, and much of what they wrote was a word-for-word copy of what the speaker had said. The hand writers, unable to keep up, had been forced to select and to rephrase.
+[C] The interpretation was that slowness can be a virtue. To summarise an argument in your own words, you have to understand it first, and that effort of understanding fixes it in the memory. Taking down every word requires almost no thought at all. Strikingly, when a new group of laptop users was warned not to copy the speaker's words, they went on doing so anyway. The ease of typing seemed to invite it.
+[D] The finding was widely reported, and some lecturers banned laptops as a result. Later research has complicated the picture. Several teams that repeated the experiment with larger numbers of students found a smaller advantage for handwriting, or none. They also pointed out that the original tests were given shortly after the talks. When students are allowed to go back over their notes before an examination, as happens in real courses, the fuller record produced by typing may be more useful than a brief summary. The fairest conclusion is perhaps that the way notes are taken matters more than the tool. A student who types a thoughtful summary will probably do as well as one who writes it.
+[E] The evidence concerning young children is a good deal stronger. In experiments in the United States, children who had not yet learned to read were taught letters in one of three ways, by copying them with a pencil, by tracing over them, or by pressing the right key on a keyboard. Afterwards, those who had formed the letters freehand recognised them most accurately. Brain scans pointed in the same direction. When the children who had written the letters were later shown them, regions of the brain used by adults in reading became active. In the children who had typed, they did not.
+[F] Why should the movement of the hand make such a difference? One suggestion is that each letter drawn by a child is slightly different from the last. Seeing many imperfect versions of a letter may teach the child what all of them have in common, and so what makes an A an A whatever the handwriting or typeface. A keyboard, by contrast, produces an identical letter every time, and pressing one key feels much like pressing another. A Norwegian team has reported that writing by hand produces more widespread patterns of electrical activity across the brain than typing does, of a kind thought to help in the formation of memories.
+[G] These results have had practical effects. Several countries and American states that had dropped the teaching of joined-up handwriting have reintroduced it. In Norway, where many schools issued tablets to pupils from the age of six, researchers have urged that children receive a minimum amount of instruction with pencil and paper. Not everyone is convinced the worry is justified. Critics observe that the long-term studies needed to show lasting harm have not been done, and that some children with difficulties in controlling a pen are liberated by a keyboard.
+[H] It is worth remembering that fears about the tools of writing are very old. Socrates is reported to have complained that writing itself would weaken the memory, since people would no longer need to carry knowledge in their heads. He was not entirely wrong, and yet few would wish writing uninvented. The sensible response to the keyboard is probably not to reject it but to be clear about what each tool is good for, and to make sure that children acquire both.
+== tfng
+1. In the 2014 study, students using laptops remembered fewer facts than those writing by hand. => FALSE // B: on questions of simple fact, the two groups did equally well.
+2. Laptop users in the 2014 study wrote down more words than hand writers. => TRUE // B: the typists had recorded far more words.
+3. Telling laptop users not to copy word for word changed the way they took notes. => FALSE // C: they went on doing so anyway.
+4. Later studies always confirmed the advantage of handwriting for adults. => FALSE // D: they found a smaller advantage, or none.
+5. The children in the American experiments were all the same age. => NOT GIVEN // E says they had not yet learned to read but gives no ages.
+6. Some places have brought back handwriting lessons that had been abandoned. => TRUE // G: countries and states have reintroduced joined-up handwriting.
+== mc
+7. According to paragraph C, why might slow note-taking help understanding?
+A. It obliges the writer to process the ideas.
+B. It gives the speaker time to explain.
+C. It produces notes that are easier to read.
+D. It reduces the amount to be revised later.
+=> A // To summarise in your own words you have to understand first.
+8. What point is made in paragraph D about the timing of the original tests?
+A. They were held too long after the talks.
+B. They were held at different times for the two groups.
+C. They did not allow students to review their notes, as real courses do.
+D. They were too short to measure understanding.
+=> C // The tests came shortly after the talks; in real courses students go back over notes.
+9. The suggestion in paragraph F is that children learn letters better by hand because
+A. they spend longer on each letter.
+B. writing is more enjoyable than typing.
+C. their teachers correct them more often.
+D. they see many slightly different versions of each letter.
+=> D // Seeing imperfect versions teaches what all of them have in common.
+10. Why does the writer mention Socrates?
+A. to show that handwriting has always been valued
+B. to show that anxiety about new writing technology is not new
+C. to prove that memory has declined since ancient times
+D. to argue that keyboards should be rejected
+=> B // H: fears about the tools of writing are very old.
+== fill:summary | 1W
+Experiments with young children
+Children were taught letters by copying them freehand, by {{11=tracing}} them, or by using a keyboard. Those who had copied freehand were best at recognising the letters. In addition, {{12=scans}} showed activity in the parts of the brain associated with {{13=reading}} when these children looked at letters.
+
+# R14 | Wolves in Yellowstone
+## The wolf, the elk and the willow
+[A] In the winter of 1995, fourteen grey wolves captured in Canada were released in Yellowstone National Park in the western United States. The species had been absent for almost seventy years, having been trapped, shot and poisoned out of existence by the park's own managers in the 1920s. Seventeen more animals followed the next year. The return of the wolf was the most closely studied experiment in the restoration of a predator ever attempted, and it gave rise to one of the best-loved stories in modern ecology. That story has since been questioned, and the argument over it shows how hard it is to establish cause and effect in the living world.
+[B] The story runs as follows. During the decades without wolves, the population of elk, a large deer, grew unchecked. In winter the elk gathered along the valley bottoms and ate the young willow, aspen and cottonwood trees until scarcely any survived to grow tall. When the wolves came back, they not only killed elk but frightened them. The elk began to avoid places where they could easily be trapped, such as river banks. Released from constant browsing, the trees recovered. Songbirds returned to nest in them. Beavers, which need willow for food and for building, came back and dammed the streams, creating ponds for fish and frogs. In the most popular version of the tale, the wolves even changed the course of the rivers, since banks held together by roots were less easily worn away.
+[C] Ecologists call a chain reaction of this kind a trophic cascade, and Yellowstone became its textbook example. A short film describing the changes has been watched more than forty million times. The appeal is obvious. The account suggests that nature, damaged by human interference, can repair itself if a single missing piece is restored.
+[D] Parts of the story are well supported. Elk numbers in the northern part of the park fell from around seventeen thousand in 1995 to fewer than five thousand fifteen years later, and in some places willows and aspens have indeed grown taller. The difficulties begin with the explanation. Wolves were not the only thing that changed. The number of grizzly bears and mountain lions, both of which kill elk calves, was rising over the same period. Hunters outside the park's boundary shot large numbers of elk until the rules were tightened in the mid-2000s. And a run of dry years reduced the growth of the grass on which the animals depend. Separating the influence of the wolves from all these other factors is far from simple.
+[E] The idea that fear alone altered the elk's behaviour has fared particularly badly. When researchers fitted elk with collars that recorded their position, they found that the animals did not in fact keep away from the areas where wolves were most active. They merely used them at times of day when the wolves were resting. Nor has the recovery of the trees been as general as early reports implied. One long-running study fenced off plots of willow to exclude elk completely. Even with no browsing at all, the willows grew well only where the researchers also built artificial dams to raise the level of water in the soil. Without beavers, the streams had cut deep channels, the ground had dried out, and removing the elk was not enough to reverse the change.
+[F] A further criticism concerns method. Some of the most quoted measurements were made by selecting the five tallest young aspens in each stand and recording their height. Since the tallest stems are, by definition, the ones that have escaped being eaten, sampling them was bound to exaggerate the recovery. When other teams measured stems chosen at random, the improvement they found was far more modest.
+[G] The scientists who first described the cascade continue to defend it, arguing that recovery is real but patchy, and slower than the popular version suggests. Their critics do not deny that predators matter. Their point is that an ecosystem which has been altered for seventy years may not simply spring back when one species is returned, because the damage has changed the landscape itself. Both sides tend to agree on a broader lesson. It is far easier to prevent the loss of a large predator than to undo the consequences afterwards.
+== match:headings | The passage has seven paragraphs, A-G. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. Tracking evidence that contradicts an assumption
+ii. Why a simple account became so popular
+iii. A flaw in the way the trees were measured
+iv. The financial cost of bringing wolves back
+v. A widely told sequence of events
+vi. Agreement on a wider conclusion
+vii. Several possible causes of the same change
+viii. The effect of wolves on local farmers
+1. Paragraph B => v // The story of elk, trees, birds, beavers and rivers.
+2. Paragraph C => ii // The appeal: nature can repair itself if one missing piece is restored.
+3. Paragraph D => vii // Bears, mountain lions, hunters and drought changed at the same time.
+4. Paragraph E => i // Collared elk did not keep away from areas used by wolves.
+5. Paragraph F => iii // Measuring only the five tallest aspens exaggerated recovery.
+6. Paragraph G => vi // Both sides agree that prevention is easier than repair.
+== tfng
+7. Wolves disappeared from Yellowstone as a result of deliberate action by the park's managers. => TRUE // A: trapped, shot and poisoned by the park's own managers.
+8. All the wolves released in Yellowstone came from Canada. => NOT GIVEN // A says the first fourteen were captured in Canada; the origin of the next seventeen is not stated.
+9. The number of elk in the northern part of the park fell after 1995. => TRUE // D: from around seventeen thousand to fewer than five thousand.
+10. Fenced plots of willow recovered fully once elk were kept out. => FALSE // E: they grew well only where artificial dams raised the water level.
+== fill:summary | 1W
+Other influences on the elk
+Wolves were not the only predators whose numbers were changing. Elk calves were also being killed by bears and mountain lions. Beyond the park's boundary, many elk were shot by {{11=hunters}}. In addition, several dry years limited the growth of {{12=grass}}. According to critics, long-term damage may alter the {{13=landscape}} itself, so that restoring one species is not enough.
+
+# R15 | The telegraph
+## The network that shrank the world
+[A] On the morning of 24 May 1844, Samuel Morse sat in the chamber of the Supreme Court in Washington and tapped out a short message on a metal key. Sixty kilometres away in Baltimore, his assistant received it almost at once and sent it back. For the whole of human history until that moment, with trivial exceptions such as signal fires and flags, information had been able to travel no faster than a horse or a ship. Within a generation, it would circle the globe in minutes. The electric telegraph has some claim to be the most disruptive communications technology ever introduced, more so than the telephone or the internet that followed it.
+[B] Morse was not a scientist. He was a portrait painter who had become interested in electricity during a sea voyage, and the idea that a current could carry a signal along a wire had occurred to several people before him. In Britain, William Cooke and Charles Wheatstone had a working system a few years earlier, in which needles on a dial pointed to letters. What Morse and his collaborator Alfred Vail contributed was simplicity. Their apparatus needed only a single wire, and their code represented each letter by a combination of short and long pulses. Vail is said to have visited a printer's workshop and counted the pieces of type in each compartment, in order to give the shortest codes to the letters used most often.
+[C] The first customers were the railways, which needed to know where their trains were, and the wires were strung along the tracks. Newspapers and merchants soon followed. Before the telegraph, the price of wheat or cotton in one city could differ greatly from the price in another, and a trader who received news a day ahead of his rivals could make a fortune. Afterwards, prices in distant markets moved together. Newspapers that had filled their columns with reports weeks old began to compete to print events of the previous day, and agencies were founded to gather news and sell it by wire to many papers at once.
+[D] The greatest challenge was the ocean. In 1858, after several failed attempts, a cable was laid across the bed of the Atlantic between Ireland and Newfoundland, and Queen Victoria exchanged greetings with the American president. The celebrations were premature. The signal was so weak that the queen's message of ninety-eight words took sixteen hours to transmit, and when an engineer tried to improve matters by raising the voltage, he burned through the insulation. The cable went dead after three weeks. A lasting connection was not made until 1866, using a heavier cable and the largest ship then afloat to carry it.
+[E] Contemporaries greeted the new network with the kind of hope that would later be attached to the internet. Instant communication between nations, it was said, would make misunderstanding impossible and war a thing of the past. The reality was less tidy. Governments quickly grasped that control of the cables meant power. Britain, whose companies owned most of the world's undersea lines, used them to direct its empire and, in wartime, to read or cut the messages of its enemies. The network also created new kinds of crime. Fraudsters bribed operators to delay or alter messages about prices, and codes had to be devised to keep commercial information secret.
+[F] The telegraph changed language, too. Because messages were charged by the word, senders learned to strip out everything unnecessary, producing a clipped style that left its mark on journalism. It has been suggested that the plain, compact prose of some twentieth-century novelists, several of whom began as reporters, owes something to the discipline of the wire.
+[G] There was also a social dimension that is easily forgotten. The operators who worked the lines formed a community of their own. They recognised one another by the rhythm of their tapping, exchanged gossip and jokes during quiet hours, played chess over the wire, and occasionally fell in love with colleagues they had never met. A good number of them were women, for whom telegraphy was among the first technical occupations open. The network they served was replaced in its turn, by the telephone and then by newer systems. But the pattern it established, of exaggerated hopes, commercial upheaval, new crimes and new forms of friendship, has been repeated with every communications technology since.
+== tfng
+1. Before 1844, there was no means at all of sending information faster than a messenger could travel. => FALSE // A: with trivial exceptions such as signal fires and flags.
+2. Morse was the first person to think of sending signals by electricity. => FALSE // B: the idea had occurred to several people before him.
+3. The British system of Cooke and Wheatstone was more expensive to build than Morse's. => NOT GIVEN // B describes how it worked but says nothing about cost.
+4. The telegraph reduced the differences in prices between distant markets. => TRUE // C: afterwards, prices in distant markets moved together.
+5. The 1858 Atlantic cable worked reliably for several years. => FALSE // D: the cable went dead after three weeks.
+== match:information
+6. a comparison between expectations of the telegraph and of a later technology => E // The kind of hope later attached to the internet.
+7. an account of how the code was designed to save time => B // Vail counted pieces of type to give the shortest codes to common letters.
+8. a description of personal relationships formed through the network => G // Operators gossiped, played chess and fell in love over the wire.
+9. a mention of an effect on literary style => F // The compact prose of some novelists may owe something to the wire.
+10. a reference to a mistake that destroyed a piece of equipment => D // An engineer raised the voltage and burned through the insulation.
+== fill:sentence | 1W
+11. The earliest commercial users of the telegraph were the {{11=railways}}.
+12. News began to be collected and sold to many newspapers by {{12=agencies}}.
+13. Because telegrams were paid for by the {{13=word}}, people wrote them as briefly as possible.
+
+# R16 | Colour words
+## Do we all see the same rainbow?
+[A] English speakers divide the visible spectrum into about eleven basic colours, and it is easy to assume that these divisions are facts about the world. They are not. Russian has two separate words where English has only blue, one for the light shade and one for the dark, and a Russian speaker would no more call them varieties of one colour than an English speaker would describe pink as a kind of red. Some languages make far fewer distinctions. The question of why languages differ in this way, and whether the differences affect what their speakers actually see, has occupied linguists and psychologists for more than a century.
+[B] For much of the twentieth century, the prevailing view was that the spectrum is a continuous band which each language cuts up as it pleases. This was taken as strong support for the theory that language shapes thought. If the lines between colours are drawn by vocabulary and not by nature, then people who speak different languages might be said to inhabit different visual worlds.
+[C] That view was challenged in 1969 by two American researchers, Brent Berlin and Paul Kay. They showed speakers of twenty languages a chart of several hundred coloured chips and asked them to pick out the best example of each basic colour word in their language. The boundaries between colours varied a good deal from one language to another. The best examples, however, were remarkably similar. Whatever the language, the purest red or the purest green fell on nearly the same chips.
+[D] Berlin and Kay made a second and more surprising claim. Languages, they said, acquire colour words in a fixed order. A language with only two terms divides colours into roughly dark and light. If it has a third, the third is always red. Next come green and yellow, in either order, and then blue. Only after that do terms such as brown, purple, pink and orange appear. A language with a word for purple but none for red is, on this account, never found. The original study was based on a small number of speakers, most of them living in California, and it was heavily criticised. But a much larger survey of over a hundred languages spoken in non-industrial societies broadly confirmed the pattern, though with more exceptions than the authors had first allowed.
+[E] Why should red come first? One explanation appeals to biology. The human eye is particularly sensitive to red, which is the colour of blood, ripe fruit and the faces of people who are angry or embarrassed. A more recent proposal looks to usefulness. Analysing thousands of photographs, researchers found that objects people want to talk about, such as food, animals and tools, tend to be warm in colour, while backgrounds such as sky, water and foliage tend to be cool. Languages may therefore develop precise words for reds and yellows before they bother to separate green from blue. Supporting this, it is in industrial societies, where manufactured objects come in every imaginable colour, that vocabularies are largest.
+[F] None of this settles whether words influence perception, and here the Russian blues have proved useful. In an experiment at an American university, volunteers were shown three blue squares and asked which of the lower two matched the one above. When the two squares fell on opposite sides of the boundary between the Russian words, Russian speakers answered faster than when both belonged to the same category. English speakers showed no such difference. The advantage disappeared when the Russians were asked to repeat a string of numbers silently while doing the task, which suggests that they were, without realising it, using language to help them judge.
+[G] The effect is real, but it should not be exaggerated. It amounts to a fraction of a second, and it does not mean that English speakers are unable to see the difference between light and dark blue. The Himba people of Namibia, whose language groups certain greens with blue, were said in a television documentary to be unable to pick out a blue square among green ones. The claim spread widely online, but the test shown in the film was a dramatisation, and published studies of the Himba report only that they are somewhat slower at such tasks, not blind to the difference.
+[H] The picture that has emerged satisfies neither extreme. Colour vocabulary is not arbitrary, since it is limited by the eye and shaped by what communities need to discuss. Nor is it irrelevant to thought. The words we learn as children seem to nudge our attention, making some differences a little easier to notice than others. We all see the same rainbow, but we do not all draw its stripes in the same places.
+== ynng
+1. The colour categories of English reflect natural divisions in the spectrum. => NO // A: it is easy to assume they are facts about the world; they are not.
+2. Berlin and Kay's first study had weaknesses in the way it was carried out. => YES // D: a small number of speakers, most living in California, and heavily criticised.
+3. The larger survey showed that Berlin and Kay's order had no exceptions. => NO // D: it broadly confirmed the pattern, though with more exceptions.
+4. Russian speakers are consciously aware of using words when they compare shades of blue. => NO // F: they were, without realising it, using language.
+5. Television documentaries generally present linguistic research accurately. => NOT GIVEN // G criticises one documentary only.
+6. Language has a slight influence on which colour differences people notice. => YES // H: words nudge our attention, making some differences a little easier to notice.
+== mc
+7. What did Berlin and Kay discover about the 'best examples' of colours?
+A. They were much the same across languages.
+B. They differed more than the boundaries did.
+C. They could not be identified in some languages.
+D. They depended on the speaker's age.
+=> A // C: the best examples were remarkably similar.
+8. According to Berlin and Kay, a language with exactly three basic colour terms will have words for
+A. red, green and blue.
+B. dark, light and blue.
+C. red, yellow and green.
+D. dark, light and red.
+=> D // D: two terms for dark and light; the third is always red.
+9. The study of photographs suggested that
+A. warm colours are more common in nature than cool ones.
+B. things people wish to mention are usually warm in colour.
+C. people prefer photographs with warm colours.
+D. cool colours are harder for the eye to detect.
+=> B // E: objects people want to talk about tend to be warm in colour.
+10. What happened when Russian speakers had to repeat numbers silently during the task?
+A. They made more mistakes than English speakers.
+B. They could no longer tell the shades apart.
+C. They lost their speed advantage.
+D. They became faster.
+=> C // F: the advantage disappeared.
+== fill:sentence | 1W
+11. Russian uses two different words for what English calls {{11=blue}}.
+12. Vocabularies for colour are largest in {{12=industrial}} societies.
+13. The test of the Himba shown on television was only a {{13=dramatisation}}.

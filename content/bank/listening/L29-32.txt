@@ -1,0 +1,360 @@
+# L29 | Travel insurance claim and a conference venue
+## 1 | You will hear a woman phoning an insurance company to make a claim after a holiday.
+@A Adviser male_uk
+@B Customer female_uk
+A: Good afternoon, Beacon Travel Insurance, claims department. My name is Rashid.
+B: Hello. I need to make a claim. My camera was stolen while I was on holiday last week.
+A: I'm sorry to hear that. Could I have your policy number, please?
+B: Yes. It's B T, six six, zero four, one nine.
+A: Six six, zero four, one nine. Thank you. And your surname?
+B: Abbott. A, double B, O, double T.
+A: Thank you, Mrs Abbott. Where were you when it happened?
+B: In Lisbon. We were there for five days.
+A: And can you tell me what happened?
+B: We were having lunch outside a cafe. I'd put my bag on the chair next to me, and when we got up to leave, it had gone. I didn't see anyone take it.
+A: So the bag was taken, with the camera inside. What else was in it?
+B: My sunglasses, and a guidebook. My purse and my passport were in my coat pocket, luckily.
+A: That is lucky. On what date did this happen?
+B: The ninth of June. It was our last full day.
+A: And did you report it to the police?
+B: I did, the same afternoon. They gave me a report with a number on it. It's all in Portuguese, I'm afraid.
+A: That's no problem. We need a copy, and we arrange a translation ourselves. Now, the camera. What make was it?
+B: A Lumina. L, U, M, I, N, A. It was about two years old.
+A: Do you remember what you paid for it?
+B: Six hundred and forty pounds. I still have the receipt at home.
+A: That's very useful. I should explain that we don't pay the full price of a two-year-old item. We take off a percentage for age, so you'd receive roughly four hundred and fifty. There's also an excess of fifty pounds, which you pay towards any claim.
+B: So about four hundred. I suppose that's fair. What about the bag and the sunglasses?
+A: You can claim for those too, but for anything worth over a hundred pounds, we need proof that you owned it.
+B: The sunglasses were cheap. The bag was leather, a present. I've got photographs of me carrying it, if that helps.
+A: Photographs are accepted. Now, I'll email you a claim form today. Please send it back with the police report, the receipt and the photographs.
+B: Do they have to be posted? I'm not keen on sending originals.
+A: No, you can upload scans on our website. It's quicker, too. The deadline is thirty days from the date of the theft.
+B: Thirty days. And how long before I hear?
+A: Usually within ten working days. Payment goes directly into your bank account.
+B: Thank you. You've been very helpful.
+== fill:form | 1WN
+Beacon Travel Insurance: claim
+Surname: {{1=Abbott}}
+City where the theft happened: {{2=Lisbon}}
+Place: outside a {{3=cafe|café}}
+Date of theft: {{4=9 June|9th June|June 9|June 9th|ninth of June}}
+Main item stolen: a camera (make: {{5=Lumina}})
+Price paid: £{{6=640|six hundred and forty}}
+Excess to be paid by the customer: £{{7=50|fifty}}
+Proof of ownership of the bag: {{8=photographs|photos}}
+Documents can be sent through the company's {{9=website}}
+Deadline: {{10=30|thirty}} days after the theft
+## 2 | You will hear an organiser giving information to people attending a conference.
+@C Organiser female_us
+C: Good morning, everyone, and welcome to the Riverside Conference Centre. I'm Paula, from the organising team. Before the first talk, I'd like to explain a few arrangements.
+C: You should each have collected a badge at the door. Please wear it at all times. It isn't simply so that we know your names. The badge also opens the doors between the two buildings, and without it you won't get through.
+C: There's been one change to the printed programme. The opening lecture was due to be given by Professor Lang, but her flight from Chicago was cancelled last night. She'll now speak tomorrow at nine. In her place this morning, Doctor Mensah has kindly agreed to bring his talk forward.
+C: Let me describe the layout. We're in the main hall, on the ground floor of the east building. The smaller sessions take place upstairs, in rooms one to six. The exhibition of posters is in the west building, which you reach by the glass bridge on the first floor.
+C: Coffee will be served at half past ten, in the foyer outside this hall. Lunch is at one o'clock. Lunch is not served in the foyer, please note, but in the restaurant on the ground floor of the west building. If you told us about a special diet when you registered, your meal will be at the table marked with a green flag.
+C: The wireless network is called Riverside Guest, and the password is printed on the back of your badge. It's rather slow when everyone connects at once, so please don't download large files during the talks.
+C: A word about questions. After each talk there'll be ten minutes for discussion. Please wait for the microphone before you speak. The sessions are being recorded, and without the microphone, your question won't be heard on the recording.
+C: This evening, there's a reception at the city museum, starting at seven. It's fifteen minutes away on foot. For anyone who'd prefer not to walk, a bus will leave from the front entrance at a quarter to seven. The conference dinner, tomorrow night, is for those who booked in advance, and I'm sorry to say that there are no tickets left.
+C: If you have a problem at any point, come to the help desk. It's beside the cloakroom, and it's staffed until six. We can print documents and look after luggage, and we hold a small supply of phone chargers.
+C: Finally, in the unlikely event of a fire alarm, leave by the nearest exit and gather in the car park by the river. Thank you, and enjoy the day.
+== mc
+11. Apart from showing a name, what is the purpose of the badge?
+A. It gives access to the wireless network.
+B. It opens certain doors.
+C. It must be shown at lunch.
+=> B // The badge opens the doors between the two buildings.
+12. Why is the opening lecture being given by a different speaker?
+A. The original speaker has been delayed by a travel problem.
+B. The original speaker is unwell.
+C. The original speaker asked to speak later.
+=> A // Professor Lang's flight was cancelled.
+13. Where will lunch be served?
+A. in the foyer
+B. in the main hall
+C. in a restaurant in the other building
+=> C // In the restaurant on the ground floor of the west building.
+14. People asking questions must use a microphone because
+A. the hall is very large.
+B. the talks are being recorded.
+C. some speakers are joining online.
+=> B // Without it the question will not be heard on the recording.
+15. What does Paula say about the conference dinner?
+A. It is fully booked.
+B. It will be held at the museum.
+C. Tickets are on sale at the help desk.
+=> A // It is for those who booked in advance, and there are no tickets left.
+== fill:note | 1WN
+Conference arrangements
+- posters: in the west building, reached by a glass {{16=bridge}}
+- special diets: table with a {{17=green}} flag
+- network password: on the {{18=back}} of the badge
+- evening reception: at the city {{19=museum}}, at 7 pm
+- fire: meet in the car {{20=park}} by the river
+
+# L30 | Commuting survey and the science of taste
+## 3 | You will hear two sociology students, Imogen and Dev, discussing a survey they carried out on how people travel to work.
+@A Imogen female_uk
+@B Dev male_us
+A: Dev, the survey closed last night. We got three hundred and twelve replies.
+B: That's more than I expected. I thought we'd be lucky to reach two hundred.
+A: The link was shared on the city council's page, which helped enormously. But there's a catch. Nearly two thirds of the people who replied work in offices in the centre.
+B: So people in factories and shops on the edge of town are missing.
+A: Largely. We'll have to say clearly that the sample isn't representative.
+B: Fine. So what are the headline results?
+A: The car is still the most common way to get to work, at forty-one per cent. But five years ago, in the council's own survey, it was fifty-eight.
+B: That's a big drop. Where have the drivers gone? To the buses?
+A: That's what I assumed. Bus use has barely changed, though. The growth is in cycling, which has doubled, and in people who don't commute at all on some days because they work from home.
+B: Interesting. Did we ask why people chose the way they travel?
+A: We did. I expected cost to come first. It came third. The top reason, by a long way, was the time the journey takes. Second was reliability, knowing when you'll arrive.
+B: That makes sense. A cheap bus is no use if it doesn't turn up. What did drivers say would persuade them to switch?
+A: Most said nothing would. But among those who'd consider it, the most popular answer was a direct bus route that doesn't go through the centre.
+B: Not lower fares?
+A: Lower fares came well down the list.
+B: The council should hear that. Now, the open question at the end. Did anyone write anything useful?
+A: Over a hundred people did. I've started sorting the comments into themes. The biggest theme among cyclists is safety at junctions. And among bus users, it's the lack of shelters. People hate waiting in the rain.
+B: We could quote a few of those. They'd bring the numbers to life.
+A: Yes, but anonymously. We promised that nobody would be identified.
+B: Of course. Now, how do we present the figures? A table for each question would be dull.
+A: I'd use bar charts for the main comparisons. And a map, to show where people travel from. We collected the first half of everyone's postcode.
+B: A map would be great. I can make that. I've used the mapping software before.
+A: Then I'll do the charts and write up the method. Shall we aim to have a draft by the end of next week?
+B: Friday. Send me the postcode data tonight, and I'll start.
+== mc
+1. Why did the survey receive more replies than expected?
+A. It stayed open longer than planned.
+B. It was shared on a council web page.
+C. People were offered a prize.
+=> B // The link on the city council's page helped enormously.
+2. What is the weakness of the sample?
+A. Too many of those who replied work in city-centre offices.
+B. Too few of those who replied have jobs.
+C. Most of those who replied are cyclists.
+=> A // Nearly two thirds work in offices in the centre.
+3. Compared with five years ago, the proportion of people driving to work
+A. has stayed the same.
+B. has risen slightly.
+C. has fallen considerably.
+=> C // Forty-one per cent now, against fifty-eight.
+4. What was the most important factor in people's choice of transport?
+A. cost
+B. journey time
+C. reliability
+=> B // Time came first, reliability second, and cost third.
+5. What would be most likely to persuade drivers to use buses?
+A. routes that avoid the city centre
+B. cheaper fares
+C. more frequent services
+=> A // A direct route that does not go through the centre; lower fares came well down the list.
+== fill:sentence | 2W
+6. The use of one form of transport, {{6=cycling}}, has doubled.
+7. Cyclists are most concerned about safety at {{7=junctions}}.
+8. Bus users complain that there are too few {{8=shelters}}.
+9. Comments from the survey will be quoted {{9=anonymously}}.
+10. Dev will produce a {{10=map}} of where people travel from.
+## 4 | You will hear part of a lecture about the science of taste.
+@C Lecturer female_uk
+C: Most of us learned at school that the tongue has a map, with sweetness tasted at the tip and bitterness at the back. It's a neat picture, and it's wrong. It came from the mistranslation of a German paper published in nineteen hundred and one. In reality, every part of the tongue can detect every taste. Today I'll go through what science now says.
+C: There are five basic tastes that everyone accepts. Sweet, sour, salty and bitter you know. The fifth is umami, a Japanese word meaning roughly a pleasant savoury taste. It was identified in nineteen hundred and eight by a chemist in Tokyo, who wondered why a soup made from seaweed was so satisfying.
+C: Each taste seems to have a purpose. Sweetness signals energy. Saltiness signals minerals the body needs. Umami indicates protein. Sourness can warn that fruit isn't ripe, or that food has gone off. And bitterness is above all a warning of poison, since many toxic plants are bitter. That's why young children refuse bitter vegetables. It's an instinct, and they generally grow out of it.
+C: People differ a great deal. About a quarter of the population are what researchers call supertasters. They have far more taste buds than average, and they experience bitterness, in particular, much more intensely. They often dislike coffee and strong cheese.
+C: But here's the essential point. Most of what we call taste isn't taste at all. It's smell. When you chew, air carries the scent of the food up the back of the throat to the nose. Try holding your nose while you eat a piece of apple and a piece of raw onion. You'll find them surprisingly hard to tell apart.
+C: The other senses join in too. In a well-known experiment, wine experts were given a white wine that had been coloured red. They described it in the language normally used for red wine. Sound matters as well. People judge crisps to be fresher when the crunch they hear is made louder.
+C: Even the plate has an effect. A dessert served on a white plate is rated sweeter than the same dessert on a black one. And heavy cutlery makes people think a meal is of higher quality and worth paying more for.
+C: Airlines have learned a practical lesson from all this. In a cabin, the dry air and the constant noise of the engines dull our sense of sweetness and saltiness by up to thirty per cent, which is why airline food is so heavily seasoned. Umami, curiously, isn't affected, and that may explain why tomato juice is so popular on planes.
+== fill:note | 1W
+The science of taste
+- the 'tongue map' resulted from a {{11=mistranslation}}
+The five tastes
+- umami was identified by a chemist studying a soup made from {{12=seaweed}}
+- sweetness signals {{13=energy}}
+- umami indicates {{14=protein}}
+- bitterness warns of {{15=poison}}
+Differences between people
+- supertasters: about a {{16=quarter}} of people; often dislike coffee
+Other senses
+- most of what we call taste is in fact {{17=smell}}
+- crisps seem fresher when the {{18=crunch}} is louder
+- a dessert seems sweeter on a {{19=white}} plate
+On aircraft
+- sweetness and saltiness are reduced by dry air and {{20=noise}}
+
+# L31 | Removal company booking and a zoo education programme
+## 1 | You will hear a man phoning a removal company to arrange a house move.
+@A Agent female_us
+@B Customer male_uk
+A: Good morning, Swift Removals. This is Angela. How can I help?
+B: Morning. I'm moving house next month, and I'd like a quotation.
+A: Certainly. Where are you moving from?
+B: From a flat in Bristol to a house in Exeter.
+A: Bristol to Exeter. That's about eighty miles, so one day's work. What size is the flat?
+B: Two bedrooms. It's on the third floor, I should warn you.
+A: Is there a lift?
+B: There is, but it's small. I doubt the wardrobe would fit in it.
+A: Our team can carry large items down the stairs. It just means sending a crew of three, not two. And the new house?
+B: It's a normal two-storey house, with a drive, so the van can park right outside.
+A: That makes things easier. Do you have any very heavy or delicate items? A piano, for example.
+B: No piano. There's a large fish tank, though. It's about a metre and a half long.
+A: A fish tank. We can move the tank itself, but it has to be empty. I'm afraid we can't transport the fish.
+B: My brother's going to take the fish in his car, so that's fine.
+A: Good. Now, would you like us to do the packing, or will you pack yourselves?
+B: What's the difference in price?
+A: If you pack, the move would cost six hundred and eighty pounds. With our packing service, where we come the day before and pack everything, it's nine hundred and fifty.
+B: That's quite a jump. I think we'll pack ourselves. Can you supply boxes?
+A: Yes. We deliver thirty boxes free of charge a fortnight before the move. Extra ones are two pounds each.
+B: Thirty should be enough. What about insurance?
+A: Everything is covered up to a total of twenty thousand pounds. But there's one condition. We're only responsible for breakages in boxes we've packed ourselves. So wrap your glasses and plates carefully.
+B: I'll remember that. Now, the date. We were hoping for Friday the twenty-eighth.
+A: Fridays are our busiest day, and the twenty-eighth is already full. I could do Thursday the twenty-seventh, or the following Monday.
+B: We have to be out by the weekend. It'll have to be the Thursday.
+A: Thursday the twenty-seventh, then. The crew will arrive at eight in the morning. You should be unloaded by about five.
+B: And how do I confirm?
+A: I'll email the quotation now. To secure the date, we ask for a deposit of twenty per cent. The balance is paid on the day, when the job is finished.
+B: Great. My email is under my surname, which is Trevelyan. T, R, E, V, E, L, Y, A, N.
+A: Thank you, Mister Trevelyan. One last question. Is there anything in a garage or a loft?
+B: Only a bicycle and some garden chairs.
+== fill:form | 1WN
+Swift Removals: quotation
+Moving to: a house in {{1=Exeter}}
+Present home: flat on the {{2=third|3rd}} floor
+Crew size: {{3=3|three}} people
+Special item: a fish {{4=tank}}, which must be empty
+Price without packing: £{{5=680|six hundred and eighty}}
+Free boxes: {{6=30|thirty}}
+Insurance: total cover of £{{7=20000|20,000|twenty thousand}}
+Day of move: {{8=Thursday}} 27th
+Crew arrives at: {{9=8|eight}} am
+Customer's surname: {{10=Trevelyan}}
+## 2 | You will hear an education officer at a zoo talking to a group of teachers about school visits.
+@C Officer male_us
+C: Good afternoon, and thank you for coming to our teachers' evening at Fenwick Zoo. I'm Luis, and I run the education department. I'd like to explain what we can offer your pupils, and how to get the most out of a visit.
+C: Let me deal with a common question first. Some teachers ask whether a zoo is the right place to learn about animals at all. It's a fair question. Our answer is that the zoo today is a conservation organisation. Eleven of the species here are extinct in the wild or close to it, and money from every ticket supports projects in the countries those animals come from.
+C: Last year, forty thousand schoolchildren visited us. Our research shows something interesting. Pupils who simply walked round remembered very little a month later. Those who took part in a workshop remembered a great deal. So I'd urge you to book one.
+C: We offer four workshops. For the youngest children, there's Animal Coverings, where they handle real feathers, fur and snake skin. For ages seven to eleven, we have Rainforest Detectives, which takes place inside the tropical house. For secondary pupils, there's a session on animal behaviour, in which they observe the monkeys and record data. And finally there's Careers at the Zoo, for older students, with a vet and a keeper.
+C: Each workshop lasts fifty minutes and costs forty pounds per class, on top of the entrance fee. They get booked up early, particularly in June and July. If you can come in the autumn term, you'll have far more choice, and the animals are often more active in cooler weather.
+C: Some practical advice. Please make sure you have one adult for every six children under eight. Those adults come in free. Lunch can be eaten in the picnic barn, which is under cover, but you need to reserve a time when you book. And we'd ask you not to schedule the gift shop for the end of the day. Thirty children in the shop at half past two means a missed coach.
+C: Before your trip, do come for a free planning visit. Any teacher who has made a booking can come in without charge, to walk the route and check the facilities.
+C: And on our website you'll find worksheets for every age group. Please don't give out too many. A child who spends the whole day filling in a sheet hardly looks at the animals. One good question is worth twenty boxes to tick.
+== mc
+11. How does Luis answer teachers who doubt the value of zoos?
+A. He says the zoo's main work is conservation.
+B. He says children enjoy seeing the animals.
+C. He says the animals are well treated.
+=> A // The zoo is a conservation organisation and ticket money supports projects abroad.
+12. The zoo's research showed that pupils remembered most when they
+A. had visited more than once.
+B. had filled in a worksheet.
+C. had taken part in a workshop.
+=> C // Those who simply walked round remembered very little a month later.
+13. Why does Luis recommend visiting in the autumn?
+A. The entrance fee is lower.
+B. More workshops are available.
+C. There are more young animals.
+=> B // Workshops are booked up early in June and July; there is far more choice in autumn.
+14. What does Luis say about the gift shop?
+A. It should not be left until the end of the visit.
+B. It is too small for school groups.
+C. It gives a discount to schools.
+=> A // Thirty children in the shop at half past two means a missed coach.
+== match:features | Which workshop is described in each of the following ways? Choose the correct letter, A-D, for questions 15-17.
+A. Animal Coverings
+B. Rainforest Detectives
+C. Animal Behaviour
+D. Careers at the Zoo
+15. It involves collecting information by watching animals. => C // Pupils observe the monkeys and record data.
+16. It allows children to touch things. => A // They handle real feathers, fur and snake skin.
+17. It is held in a heated building. => B // It takes place inside the tropical house.
+== fill:sentence | 1WN
+18. A workshop costs £{{18=40|forty}} for each class.
+19. Lunch can be eaten in the picnic {{19=barn}}.
+20. The zoo's website provides {{20=worksheets}} for all ages.
+
+# L32 | Student art exhibition and monitoring volcanoes
+## 3 | You will hear two art history students, Clara and Theo, planning a small exhibition with their tutor.
+@A Tutor male_uk
+@B Clara female_us
+@C Theo male_uk
+A: So, the exhibition. You have the small gallery for two weeks in May. What's your theme?
+B: We've called it The Working Hand. It's about how artists have shown manual labour, from the eighteen fifties to today.
+C: We started with a much wider idea, work in general, but there was far too much material.
+A: Narrowing it was wise. How many pieces?
+B: Twenty-two. Mostly prints and photographs from the university collection, plus four paintings.
+A: And how will you arrange them? By date?
+C: That was my first thought. But Clara persuaded me that by date, you just get a history lesson.
+B: We're grouping them by the kind of work instead. Farming, factories, the home. Then visitors can compare how a Victorian painter and a modern photographer treat the same subject.
+A: I think that's the right choice. Now, the room has one very large wall, opposite the door. What goes there?
+C: I wanted the biggest painting, the harvest scene.
+B: But it's quite dark, and from the door it looks like a brown rectangle. We've decided to put the series of six photographs of hands there. They're striking even from a distance.
+A: Good. First impressions matter. What about the labels?
+B: We disagree a little. I'd like long labels, explaining the context.
+C: And I think people don't read more than fifty words standing up.
+A: Theo's right about that, I'm afraid. Keep the labels short, and put the longer texts in a printed guide that people can carry round.
+B: That's a good compromise. I'll write the guide.
+A: Lighting. The prints are sensitive, remember.
+C: The conservator told us the light on works on paper must be kept low. So that side of the room will be dim, and we'll explain why on a sign, or visitors will think a bulb has failed.
+A: Sensible. Have you thought about who'll come?
+B: Students, obviously. But we'd like to bring in people from the town. We've invited a retired steelworkers' group to the opening.
+A: Excellent. Could they contribute something?
+C: We're recording interviews with three of them, talking about one picture each. Visitors can listen through headphones.
+A: That will make the show. Now, money. You have three hundred pounds.
+B: Most of it is going on frames. The printing of the guide is being done free by the department.
+A: And the opening?
+C: The art society has offered to pay for drinks.
+A: Then you're in good shape. Send me the label texts by the end of April.
+== mc
+1. Why did the students narrow their original theme?
+A. Their tutor advised them to.
+B. The gallery was too small.
+C. The first idea covered too much.
+=> C // Work in general produced far too much material.
+2. The pictures will be arranged according to
+A. the type of work shown.
+B. the date they were made.
+C. the medium used.
+=> A // Arranging by date would just give a history lesson.
+3. What will hang on the large wall opposite the door?
+A. the largest painting
+B. a set of photographs
+C. a group of prints
+=> B // The harvest painting looks dark from the door; the six photographs of hands are striking.
+4. What is decided about the labels?
+A. They will be brief.
+B. They will explain the context in detail.
+C. They will be written by Theo.
+=> A // People do not read more than fifty words standing up; longer texts go in a guide.
+5. Part of the room will be dimly lit because
+A. the photographs look better.
+B. the gallery has too few lamps.
+C. works on paper can be damaged by light.
+=> C // The conservator said the light on works on paper must be kept low.
+== fill:sentence | 2W
+6. Longer texts will appear in a printed {{6=guide}}.
+7. A group of retired {{7=steelworkers}} has been invited to the opening.
+8. Visitors will hear the interviews through {{8=headphones}}.
+9. Most of the budget will be spent on {{9=frames}}.
+10. Drinks at the opening will be paid for by the {{10=art society}}.
+## 4 | You will hear part of a lecture about how scientists monitor volcanoes.
+@D Lecturer female_us
+D: About eight hundred million people live within a hundred kilometres of an active volcano. We can't prevent eruptions, but we're increasingly able to see them coming. Today I'll describe the main techniques, and I'll finish with a case where they saved many lives.
+D: The oldest and still the most important tool is the seismometer, which records vibrations in the ground. Before an eruption, molten rock, or magma, forces its way upward, cracking the rock around it, and this produces swarms of small earthquakes. What scientists watch for is not their strength but their depth. If the earthquakes become shallower day by day, the magma is rising.
+D: The second sign is a change in shape. As magma collects beneath it, a volcano swells, rather like a balloon. The movement may be only a few centimetres, far too small to see, but it can be measured from satellites using radar.
+D: Third, gas. Magma contains dissolved gases, and they escape as it nears the surface. A sudden rise in sulphur dioxide is one of the most reliable warnings. Collecting samples by hand at the crater is dangerous, so nowadays the job is often done by drones.
+D: Fourth, temperature. Cameras that detect heat can show ground warming up weeks before anything is visible. Lakes inside craters are monitored too. If the water changes colour or becomes more acidic, something is happening below.
+D: Now, none of these signs is enough alone. Many volcanoes swell and shake and then go quiet again. The skill lies in combining the evidence, and in knowing the history of the particular mountain.
+D: Let me turn to my example. In nineteen ninety-one, Mount Pinatubo in the Philippines had been silent for five hundred years. In April, small explosions began. A team installed instruments within days. Crucially, they also studied the deposits left by ancient eruptions, and realised that when this volcano erupted, it erupted on an enormous scale.
+D: As the earthquakes multiplied, the alert level was raised step by step, and some sixty thousand people were moved. The eruption, on the fifteenth of June, was the second largest of the century. Several hundred people died, mostly when roofs collapsed under wet ash. Without the evacuation, the figure would have been in the tens of thousands.
+D: The hardest part of the job, though, isn't the science. It's communication. A warning that proves to be a false alarm costs money and destroys trust, so that people may refuse to leave the next time. Volcanologists must give clear advice while being honest about uncertainty, and that's a skill no instrument can provide.
+== fill:note | 1W
+Monitoring volcanoes
+Signs of a coming eruption
+- earthquakes: the key factor is their {{11=depth}}, not their strength
+- swelling of the volcano, measured from satellites by {{12=radar}}
+- gas: a rise in sulphur dioxide; samples now often collected by {{13=drones}}
+- heat: cameras detect the ground {{14=warming}} up
+- crater {{15=lakes}}: changes in colour or acidity
+Mount Pinatubo, 1991
+- had been quiet for 500 years
+- scientists examined {{16=deposits}} from ancient eruptions
+- about 60,000 people were moved
+- most deaths were caused by {{17=roofs}} collapsing under wet {{18=ash}}
+The main difficulty
+- {{19=communication}}, not science
+- a false alarm destroys {{20=trust}}

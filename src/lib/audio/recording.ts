@@ -114,3 +114,55 @@ export function shouldUseLiveRecognition() {
   const memory = (navigator as { deviceMemory?: number }).deviceMemory ?? 8;
   return !("gpu" in navigator) && memory < 4;
 }
+
+/**
+ * Transcribes several clips with one Whisper worker, so the model loads once.
+ * A clip that fails or times out comes back as an empty string.
+ */
+export async function transcribeMany(
+  clips: Float32Array[],
+  onProgress: (done: number, total: number, status?: string) => void,
+  timeoutPerClipMs = 3 * 60_000,
+): Promise<string[]> {
+  const worker = new Worker(new URL("../../workers/stt.worker.ts", import.meta.url), { type: "module" });
+  const texts: string[] = [];
+  try {
+    for (const [index, audio] of clips.entries()) {
+      onProgress(index, clips.length);
+      const text = await new Promise<string>((resolve) => {
+        // The first clip also waits for the model to download.
+        const timer = setTimeout(() => resolve(""), index === 0 ? timeoutPerClipMs * 2 : timeoutPerClipMs);
+        worker.onmessage = (event: MessageEvent<SttMessage>) => {
+          const message = event.data;
+          if (message.type === "status") onProgress(index, clips.length, message.message);
+          if (message.type === "done" || message.type === "error") {
+            clearTimeout(timer);
+            resolve(message.type === "done" ? message.text : "");
+          }
+        };
+        worker.onerror = () => {
+          clearTimeout(timer);
+          resolve("");
+        };
+        worker.postMessage({ audio } satisfies SttRequest, [audio.buffer]);
+      });
+      texts.push(text);
+    }
+    onProgress(clips.length, clips.length);
+    return texts;
+  } finally {
+    worker.terminate();
+  }
+}
+
+/** Seconds of a 16 kHz clip in which someone is actually speaking (a simple energy gate). */
+export function voicedSeconds(pcm: Float32Array, sampleRate = 16000) {
+  const frame = Math.round(sampleRate * 0.03);
+  let voiced = 0;
+  for (let start = 0; start + frame <= pcm.length; start += frame) {
+    let energy = 0;
+    for (let i = start; i < start + frame; i++) energy += pcm[i] * pcm[i];
+    if (Math.sqrt(energy / frame) > 0.012) voiced += 1;
+  }
+  return (voiced * frame) / sampleRate;
+}

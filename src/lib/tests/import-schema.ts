@@ -174,6 +174,18 @@ const speakingSchema = z.discriminatedUnion("part", [
     theme: text,
     questions: questionList,
   }),
+  // A whole mock test for the speaking room.
+  z.object({
+    skill: z.literal("speaking"),
+    part: z.literal("full"),
+    title: text,
+    part1: z.object({ topics: z.array(z.object({ topic: text, questions: questionList })).min(2).max(3) }),
+    part2: z.object({
+      cue_card: z.object({ prompt: text, bullets: z.array(text).min(2).max(5), closing: z.string().optional() }),
+      rounding_off: z.array(text).max(3).default([]),
+    }),
+    part3: z.object({ theme: text, questions: questionList }),
+  }),
 ]);
 
 // ---------------------------------------------------------------------------
@@ -450,15 +462,17 @@ function importOne(raw: unknown, where: string, errors: string[]): ImportableTes
         ? { part: 1, topics: data.topics }
         : data.part === 2
           ? { part: 2, cue_card: data.cue_card, rounding_off: data.rounding_off }
-          : { part: 3, theme: data.theme, questions: data.questions };
+          : data.part === 3
+            ? { part: 3, theme: data.theme, questions: data.questions }
+            : { part: "full", part1: data.part1, part2: data.part2, part3: data.part3 };
     return {
       skill: "speaking",
-      part: `part${data.part}`,
+      part: data.part === "full" ? "full" : `part${data.part}`,
       title: data.title,
-      question_types: [`part${data.part}`],
+      question_types: [data.part === "full" ? "full" : `part${data.part}`],
       content,
       // Part 2 is 1 min preparation + 2 min talk; the others are a short interview.
-      duration_sec: data.part === 2 ? 4 * 60 : 5 * 60,
+      duration_sec: data.part === "full" ? 14 * 60 : data.part === 2 ? 4 * 60 : 5 * 60,
       answer_key: null,
       transcript: null,
     };

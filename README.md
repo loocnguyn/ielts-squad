@@ -78,7 +78,8 @@ và `http://localhost:3000/**`. Nếu đổi domain, cập nhật lại hai ch�
   vượt quá giờ chốt ngày. Nộp trễ thì bài được tính theo bản lưu tự động gần nhất, đóng dấu tại hạn nộp.
 - **Phát đề ngày.** `pg_cron` chạy `private.deal_all_groups()` lúc 00:00 giờ Việt Nam (17:00 UTC). Khi
   một thành viên mở bảng ngày, `ensure_daily_set` cũng tự phát đề nếu chưa có, nên nhóm mới tạo có đề
-  ngay. Writing: ngày lẻ Task 1, ngày chẵn Task 2. Speaking: xoay vòng Part 1, 2, 3.
+  ngay. Writing: ngày lẻ Task 1, ngày chẵn Task 2. Speaking không phát theo ngày: thi theo cặp trong
+  phòng nói (xem bên dưới).
 - **Ai thấy gì.** Tiến độ (ai đang làm, ai đã nộp) cả nhóm luôn thấy. Bài làm và điểm của người khác
   chỉ mở khi bạn đã nộp cùng kỹ năng đó, hoặc sau giờ chốt.
 - **Realtime.** Kênh broadcast riêng tư `group:{id}`; bảng ngày cũng tự làm mới mỗi phút.
@@ -95,6 +96,44 @@ lời thoại nhiều giọng ngay trên máy, nén MP3 rồi lưu lên Storage.
 
 `src/content/starter-tests.json` là bộ 7 đề mẫu (nút **Dùng bộ đề mẫu**), cũng là dữ liệu cho unit test.
 
+### Bộ đề soạn sẵn
+
+`content/bank/` chứa 302 đề viết sẵn: 60 Listening (2 part, 20 câu), 60 Reading (1 passage, 13 câu),
+62 Writing (32 Task 1, 30 Task 2) và 120 đề Speaking đủ Part 1 + 2 + 3. Listening, Reading và Speaking
+viết bằng một định dạng gọn (mô tả ở đầu `scripts/bank/dsl.mts`), Writing là JSON mỗi dòng một đề.
+
+- `npm run bank:check` đưa từng đề qua đúng bộ kiểm tra của app, cộng thêm vài kiểm tra riêng (giới
+  hạn số từ của đáp án, thứ tự đáp án trong bài nghe, độ dài bài).
+- `npm run bank:build` ghi `src/content/bank/*.json`. Các file này chỉ được đọc ở server vì có đáp án.
+- Trưởng nhóm vào **Ngân hàng đề** bấm **Nạp đề soạn sẵn**. Đề soạn sẵn không thuộc về ai
+  (`created_by` rỗng, có `bank_key`), nên không thành viên nào đọc được trước khi đề được phát. Nạp
+  lại nhiều lần không sao: đề đã có được bỏ qua.
+- Audio Listening được đọc sẵn trên máy: chạy `npx tsx scripts/bank/cli.mts serve-audio`, mở
+  `http://localhost:3000/auth/dev-tts` trong `npm run dev` (trang này không tồn tại ở production), file
+  MP3 ra thư mục `bank-audio/` (không commit). Sau đó ở **Ngân hàng đề** bấm **Tải audio**, chọn tất
+  cả file trong thư mục đó.
+
+## Phòng nói
+
+Speaking là một bài thi thử đầy đủ làm theo cặp qua video, ở `/room/{groupId}` (thẻ Speaking trên bảng
+ngày, hoặc tab **Buổi nói**).
+
+- Vào phòng là bật camera và micro. Video nối thẳng giữa các máy (WebRTC), tín hiệu đi qua kênh
+  Realtime riêng tư `group:{id}:room`. Mặc định chỉ dùng STUN công cộng; mạng chặn kết nối trực tiếp
+  cần máy chủ chuyển tiếp, đặt bằng `NEXT_PUBLIC_TURN_URL`, `NEXT_PUBLIC_TURN_USERNAME` và
+  `NEXT_PUBLIC_TURN_CREDENTIAL`.
+- Một người bấm **Hỏi …** để làm giám khảo. `claim_speaking_turn` phát cho thí sinh một đề mà nhóm chưa
+  ai gặp; chỉ máy giám khảo nhận nội dung đề. Giám khảo đọc câu hỏi và bấm **Câu tiếp**. Tới Part 2,
+  cue card hiện ở máy thí sinh với 1 phút chuẩn bị rồi 2 phút nói.
+- Máy thí sinh ghi âm micro của chính họ. Khi giám khảo kết thúc, bản ghi được cắt theo từng câu hỏi,
+  Whisper chuyển thành chữ ngay trên máy, rồi `finish_speaking_turn` lưu thành bài Speaking của ngày.
+  Transcript có dạng hỏi đáp theo từng Part, xem và chấm ở tab **Buổi nói** (copy gói chấm cho Claude,
+  bạn bè chấm Pronunciation, tải transcript).
+- **Ghi hình** tạo một video gồm các camera, câu hỏi đang hỏi và đồng hồ, ghép ngay trong trình duyệt
+  của người bấm. Chrome và Edge cho chọn nơi lưu ngay từ đầu (chọn thư mục Google Drive trên máy là
+  video tự lên Drive); trình duyệt khác tải file về khi dừng.
+- Lượt thi trong phòng không tính vào streak, để một người không mất chuỗi chỉ vì bạn thi cùng vắng mặt.
+
 ## Khác với bản thiết kế ban đầu
 
 - Phát đề bằng `pg_cron` trong Supabase thay cho Vercel Cron (gói Hobby của Vercel không bảo đảm đúng
@@ -102,3 +141,6 @@ lời thoại nhiều giọng ngay trên máy, nén MP3 rồi lưu lên Storage.
 - Thêm bảng `test_secrets` tách đáp án khỏi `tests`, và cột `daily_sets.closes_at`.
 - Dạng map/plan labelling của Listening mô tả sơ đồ bằng chữ (chưa có hình).
 - Full test Chủ nhật mới có công tắc trong cài đặt nhóm, chưa có bộ đề.
+- Speaking chuyển từ làm một mình theo từng Part sang thi theo cặp trong phòng nói, mỗi người một đề
+  riêng. Đề Speaking từng Part (bộ đề mẫu) không còn được phát theo ngày.
+- Thêm bảng `speaking_turns` và cột `attempts.test_id`, `tests.bank_key`.

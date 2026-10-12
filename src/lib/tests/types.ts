@@ -87,7 +87,16 @@ export type SpeakingContent =
       cue_card: { prompt: string; bullets: string[]; closing?: string };
       rounding_off: string[];
     }
-  | { part: 3; theme: string; questions: string[] };
+  | { part: 3; theme: string; questions: string[] }
+  | FullSpeakingContent;
+
+/** A whole mock test, taken with a partner in the group's speaking room. */
+export type FullSpeakingContent = {
+  part: "full";
+  part1: { topics: { topic: string; questions: string[] }[] };
+  part2: { cue_card: { prompt: string; bullets: string[]; closing?: string }; rounding_off: string[] };
+  part3: { theme: string; questions: string[] };
+};
 
 export type Speaker = { id: string; name: string; voice: VoiceKind };
 export const VOICE_KINDS = ["female_uk", "male_uk", "female_us", "male_us"] as const;

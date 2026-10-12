@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { AudioLines, CircleAlert } from "lucide-react";
 import { BankComposer } from "@/components/bank/bank-composer";
+import { BankLoader } from "@/components/bank/bank-loader";
 import { DeleteTestButton } from "@/components/bank/delete-test-button";
 import { requireProfile } from "@/lib/auth";
-import { getBankSummary, getMyTests } from "@/lib/data/bank";
+import { getBankStatus, getBankSummary, getMyTests } from "@/lib/data/bank";
 import { SKILLS, SKILL_META } from "@/lib/skills";
 import type { Skill } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -13,7 +14,11 @@ export const metadata: Metadata = { title: "Ngân hàng đề" };
 
 export default async function BankPage() {
   const profile = await requireProfile("/bank");
-  const [summary, myTests] = await Promise.all([getBankSummary(), getMyTests(profile.id)]);
+  const [summary, myTests, bankStatus] = await Promise.all([
+    getBankSummary(),
+    getMyTests(profile.id),
+    getBankStatus(),
+  ]);
 
   const existingTitles = Object.fromEntries(
     SKILLS.map((skill) => [skill, myTests.filter((t) => t.skill === skill).map((t) => t.title)]),
@@ -51,6 +56,8 @@ export default async function BankPage() {
           );
         })}
       </ul>
+
+      {bankStatus && <BankLoader status={bankStatus} />}
 
       <BankComposer existingTitles={existingTitles} />
 

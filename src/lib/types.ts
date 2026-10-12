@@ -42,6 +42,7 @@ export type TestRow = {
   content: unknown;
   duration_sec: number;
   audio_path: string | null;
+  bank_key: string | null;
   created_by: string | null;
   created_at: string;
 };
@@ -68,6 +69,8 @@ export type Attempt = {
   transcript: string | null;
   audio_path: string | null;
   speaking_seconds: number | null;
+  /** Set for speaking room attempts, where each member has a test of their own. */
+  test_id: string | null;
   started_at: string;
   submitted_at: string | null;
 };

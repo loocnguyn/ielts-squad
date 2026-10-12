@@ -13,17 +13,19 @@ import {
 } from "@/lib/audio/recording";
 import { createClient } from "@/lib/supabase/client";
 import type { SubmitPayload } from "@/lib/attempt-client";
-import type { SpeakingContent } from "@/lib/tests/types";
+import type { FullSpeakingContent, SpeakingContent } from "@/lib/tests/types";
 import { AttemptShell } from "./attempt-shell";
 import { formatClock, useAttemptClock, useSubmit, type AttemptContext } from "./use-attempt";
 
-type Props = { ctx: AttemptContext; title: string; content: SpeakingContent };
+/** One part, answered alone. A full mock test is taken in the speaking room instead. */
+type SoloContent = Exclude<SpeakingContent, FullSpeakingContent>;
+type Props = { ctx: AttemptContext; title: string; content: SoloContent };
 type Phase = "ready" | "prep" | "recording" | "processing";
 
 const PREP_SECONDS = 60;
 const LONG_TURN_SECONDS = 120;
 
-function questionsOf(content: SpeakingContent) {
+function questionsOf(content: SoloContent) {
   if (content.part === 1) return content.topics.flatMap((t) => t.questions.map((q) => ({ topic: t.topic, q })));
   if (content.part === 3) return content.questions.map((q) => ({ topic: content.theme, q }));
   return [];

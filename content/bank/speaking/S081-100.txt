@@ -1,0 +1,159 @@
+# S081 | A leader you admire
+P1 Work or study: Who is in charge where you work or study? | What is that person like? | Would you like to manage other people? | Have you ever led a project?
+P1 Meetings and groups: Do you speak up in groups? | Do you prefer to lead or to follow? | Were you a class leader at school? | What makes a discussion go well?
+P1 History: Which historical figure interests you? | Did you learn about leaders at school? | Do you read biographies? | Do you watch documentaries?
+P2 Describe a leader you admire. | who this person is | what they lead or led | what they have achieved | and explain why you admire them.
+R Would you like to meet this person? | Do other people share your view?
+P3 Leadership: What qualities does a good leader need? | Are leaders in business different from leaders in politics? | Why are there still fewer women than men in senior positions? | Do leaders have to be popular to be effective? | How should leaders be held responsible for their mistakes?
+
+# S082 | A street market you have been to
+P1 Home: Where does your household buy its food? | Is there a market near you? | Do you shop every day or once a week? | Do you carry your own bags?
+P1 Bargains: Do you look for special offers? | Do you enjoy bargaining? | Have you bought something because it was cheap and regretted it? | Do you shop in the sales?
+P1 Fruit and vegetables: Where do you buy fresh food? | Do you eat what is in season? | Is fresh food expensive? | Do you check where it comes from?
+P2 Describe a street market you have been to. | where it was | what was sold there | what the atmosphere was like | and explain whether you enjoyed going there.
+R Did you buy anything? | Are markets like this common in your country?
+P3 Markets and trade: Why do people still enjoy shopping at markets? | Can small traders compete with supermarkets? | Is it important to buy food that is produced locally? | How does tourism change local markets? | Will physical markets survive in an age of online shopping?
+
+# S083 | A time you learned something from a failure
+P1 Work or study: Have you ever done badly in an exam or at work? | How did you react? | Who do you talk to when things go wrong? | Do you set high standards for yourself?
+P1 Exams: How do you prepare for exams? | Do you get nervous? | Are there too many exams in your country? | What do you do after a test?
+P1 Trying again: Do you give up easily? | What have you tried more than once before succeeding? | Do you like challenges? | Were you determined as a child?
+P2 Describe a time when you learned something from a failure. | what you were trying to do | what went wrong | how you reacted | and explain what you learned from the experience.
+R Did you try again? | Did other people know about it?
+P3 Failure and success: Why is failure seen so negatively in many societies? | Should students who fail be made to repeat a year? | Do successful people fail more often than others? | How should managers respond when an employee's project fails? | Can a whole society learn from its failures?
+
+# S084 | A garden or balcony you know
+P1 Hometown: Do most homes in your hometown have gardens? | What do people grow? | Are there public gardens? | Is gardening popular?
+P1 Gardening: Have you ever grown anything? | Did your parents or grandparents garden? | Would you like to grow your own food? | Is it relaxing?
+P1 Outdoor space: Where do you sit outside? | Do you eat outdoors? | Do you have somewhere to dry washing? | What would you do with a large garden?
+P2 Describe a garden or balcony you know. | where it is | whose it is | what is in it | and explain why you like or dislike it.
+R Who looks after it? | Do you spend much time there?
+P3 Gardens and nature: Why is gardening so popular with older people? | Should every home have access to some outdoor space? | Can growing food in cities make a real difference? | How does contact with plants affect people's well-being? | Will private gardens become a luxury as cities grow?
+
+# S085 | A person you met recently and would like to know better
+P1 Home: Have you got to know anyone new in your area? | How do people meet their neighbours? | Do you invite people to your home? | Are you shy with new people?
+P1 Meeting people: Where do you usually meet new people? | Is it easy for you to start a conversation? | What do you talk about first? | Do you remember names?
+P1 First impressions: Do you form opinions of people quickly? | Have you ever been wrong about someone? | What do you notice first? | Do you worry about what people think of you?
+P2 Describe a person you met recently and would like to know better. | who the person is | where you met | what you talked about | and explain why you would like to know them better.
+R Do you think you will see them again? | Do you have anything in common?
+P3 Meeting and knowing people: How do people make friends in a new place? | Are first impressions usually accurate? | Has technology made it easier or harder to form real relationships? | Why do some people prefer a small circle of friends? | Are people lonelier now than in the past?
+
+# S086 | A machine in your home that you could not live without
+P1 Work or study: What machines do you use every day? | What would happen if they broke down? | Can you repair things? | Do you read instruction manuals?
+P1 Household appliances: Which appliance do you use most? | Is there one you never use? | Who chose them? | Would you like a newer model of anything?
+P1 Repairs: Do you repair things or replace them? | Who fixes things in your home? | Have you ever mended clothes? | Is it easy to find someone to repair things where you live?
+P2 Describe a machine in your home that you could not live without. | what it is | how often you use it | how long you have had it | and explain why it is so important to you.
+R What would you do if it broke? | Did your grandparents have one?
+P3 Machines and daily life: How have household machines changed family life? | Why are products today often not built to last? | Should manufacturers be forced to make things repairable? | Do labour-saving devices really give people more free time? | Would you welcome a home run entirely by intelligent machines?
+
+# S087 | A time you took part in a discussion or debate
+P1 Hometown: What do people in your hometown like to discuss? | Are there public meetings? | Do people talk openly about problems? | Are young people's opinions heard?
+P1 Opinions: Do you like sharing your opinions? | Do you change your mind easily? | Do you argue with friends? | Do you post your views online?
+P1 Class discussions: Did you have discussions in class at school? | Did you enjoy them? | Were you confident speaking? | Should schools teach debating?
+P2 Describe a time when you took part in a discussion or debate. | what the topic was | who was involved | what you said | and explain how the discussion ended.
+R Did anyone change their mind? | Do you enjoy debates?
+P3 Discussion and disagreement: Why do people find it hard to change their opinions? | Is it possible to disagree without damaging a relationship? | Do online discussions bring people together or push them apart? | Should schools teach pupils how to argue well? | Is there less tolerance of different views than there used to be?
+
+# S088 | A hotel or place you stayed away from home
+P1 Home: Do you sleep well away from home? | What do you take with you when you stay somewhere? | Do you like having guests to stay? | Is your home comfortable for visitors?
+P1 Staying away: When did you last stay away from home? | Do you prefer hotels or staying with relatives? | Have you ever been camping? | Did you stay away from home as a child?
+P1 Packing: Are you good at packing? | Do you take too much? | Have you ever forgotten something important? | Do you make a list?
+P2 Describe a hotel or other place where you stayed away from home. | where it was | why you stayed there | what it was like | and explain what you liked or disliked about staying there.
+R How long did you stay? | Would you recommend it?
+P3 Accommodation and tourism: What do travellers look for in a place to stay? | How have websites that let people rent out their homes affected cities? | Do luxury hotels benefit the local population? | Should tourists pay extra taxes? | How might holiday accommodation change in the future?
+
+# S089 | A piece of equipment you use for your hobby or work
+P1 Work or study: What equipment do you need for your job or course? | Was it expensive? | Did you have to learn to use it? | Do you look after it carefully?
+P1 Hobbies: What do you do in your free time? | Does your hobby need special equipment? | How long have you been doing it? | Would you like to take up something new?
+P1 Cameras: Do you own a camera? | Do you use your phone to take pictures? | Have you ever taken a photography course? | Do you print your photos?
+P2 Describe a piece of equipment you use for your hobby or your work. | what it is | how you got it | how you use it | and explain why it is useful to you.
+R Was it difficult to learn to use? | Would you like a better one?
+P3 Tools and skills: Does having good equipment make someone better at an activity? | Why do people spend so much money on their hobbies? | Are traditional tools still worth learning to use? | How do new tools change the skills that workers need? | Are people becoming too dependent on equipment?
+
+# S090 | A time you watched the sky
+P1 Hometown: Can you see the stars from your hometown? | Is there light pollution? | Where is the best view? | Do people go out at night?
+P1 Night: Do you like going out at night? | Is your area safe after dark? | Do you stay up late? | Did you like the dark as a child?
+P1 The moon and stars: Do you know any constellations? | Have you ever used a telescope? | Do stars have any meaning in your culture? | Have you seen a shooting star?
+P2 Describe a time when you watched the sky. | where you were | what you saw | who was with you | and explain why you remember it.
+R Do you often look at the sky? | Did you take any pictures?
+P3 Space and science: Why are people fascinated by the night sky? | Is space exploration worth the money? | Should private companies be allowed to operate in space? | What could humans gain from travelling to other planets? | Does studying the universe change how people think about life on earth?
+
+# S091 | An older building in your town that should be preserved
+P1 Home: How old is the building you live in? | Do you prefer old or new buildings? | Has your home been modernised? | Are there historic buildings on your street?
+P1 Old things: Do you keep old things? | Is there anything old in your home that you value? | Do you buy second-hand goods? | Do you like antiques?
+P1 Change: Has your area changed much? | Do you like change? | What do you miss from the past? | What change would you welcome?
+P2 Describe an older building in your town that you think should be preserved. | what the building is | where it is | what it is used for now | and explain why it should be preserved.
+R Is it open to the public? | Is it in danger?
+P3 Preservation: Why do some people care so much about old buildings? | Who should pay to maintain them? | Is it right to demolish old areas to build modern housing? | How can old buildings be given new uses? | Do modern buildings deserve to be protected too?
+
+# S092 | A time you read or heard an interesting story in the news
+P1 Work or study: Do you follow news about your field? | Where do you find it? | Do you discuss the news with colleagues or classmates? | Has a news story ever affected your work or studies?
+P1 Newspapers: Does your family buy a newspaper? | Do you read news on your phone? | Which sections interest you? | Will printed newspapers disappear?
+P1 Local news: Do you follow local news? | How do you find out what is happening nearby? | Has anything interesting happened in your area recently? | Do you know your local journalists?
+P2 Describe an interesting story you read or heard in the news. | what the story was | where you read or heard it | who was involved | and explain why you found it interesting.
+R Did you tell anyone about it? | Did you look for more information?
+P3 The news: Why do some news stories attract far more attention than others? | Is there a difference between what the public wants to know and what it needs to know? | How can people protect themselves against false information? | Should journalists be allowed to keep their sources secret? | Who will pay for serious journalism in the future?
+
+# S093 | Something you would like to replace
+P1 Home: Is there anything in your home that needs replacing? | How long do you keep things? | Do you buy new things when the old ones still work? | Who decides what to buy?
+P1 Old and new: Do you like having the latest things? | How often do you change your phone? | Do you keep things for sentimental reasons? | Do you throw much away?
+P1 Shopping for the home: Do you enjoy choosing things for your home? | Do you read reviews first? | Do you buy second-hand? | What was the last thing you bought for your home?
+P2 Describe something you own that you would like to replace. | what it is | how long you have had it | what is wrong with it | and explain what you would replace it with.
+R Why have you not replaced it yet? | What will you do with the old one?
+P3 Consumption and waste: Why do people replace things that still work? | Are products designed to wear out too quickly? | What should be done with old electronic goods? | Is repairing things a realistic alternative to buying new? | Can economic growth continue if people buy less?
+
+# S094 | A time you performed or spoke in front of people
+P1 Work or study: Do you have to give presentations? | How do you prepare? | Do you get nervous? | Do you prefer speaking or writing?
+P1 Performing: Did you perform in school plays or concerts? | Do you like being the centre of attention? | Have you ever sung in public? | Would you like to act?
+P1 Confidence: Are you a confident person? | When do you feel most confident? | Were you shy as a child? | What gives people confidence?
+P2 Describe a time when you performed or spoke in front of a group of people. | what the occasion was | who was in the audience | what you did | and explain how you felt before and after.
+R Would you do it again? | Did anyone give you feedback?
+P3 Public speaking: Why are so many people afraid of speaking in public? | Should public speaking be taught in schools? | What makes a speaker persuasive? | Are politicians judged too much on how they speak and too little on what they do? | Will the ability to speak well matter less in a digital world?
+
+# S095 | A person who has an unusual job
+P1 Hometown: What unusual jobs are there in your region? | What did your grandparents do? | Have traditional jobs disappeared? | What new jobs have appeared?
+P1 Jobs: What jobs are popular among young people? | Is it easy to find work? | What job would you never do? | Is job security important to you?
+P1 Uniforms and tools: Do people in your family wear uniforms for work? | Do you associate any tools with a relative's job? | Did you visit a parent's workplace as a child? | Did you dress up as a worker when you were small?
+P2 Describe a person who has an unusual job. | who this person is | what the job is | how they came to do it | and explain why you think the job is unusual.
+R Would you like to do it? | Does the person enjoy it?
+P3 Work in a changing world: Why do some people choose unusual careers? | Which traditional jobs are disappearing, and does it matter? | Should young people follow their interests or choose a secure profession? | How do people find meaning in routine work? | What kinds of work will always need a human being?
+
+# S096 | A time you solved a problem
+P1 Work or study: What kinds of problems do you deal with at work or college? | Do you ask for help or work it out alone? | Do you enjoy solving problems? | What was the last thing you had to fix?
+P1 Maths and logic: Were you good at maths? | Do you like logic puzzles? | Do you use maths in daily life? | Should everyone study maths until eighteen?
+P1 Fixing things: Are you practical? | Who do you call when something breaks? | Have you followed an online video to repair something? | Do you own a set of tools?
+P2 Describe a time when you solved a problem. | what the problem was | how it arose | what you did to solve it | and explain how you felt once it was solved.
+R Did anyone help you? | Has the problem come back?
+P3 Problem solving: Are some people naturally better at solving problems? | Is it better to solve problems alone or in a group? | Do schools teach children to think for themselves? | Why do governments find some problems so hard to solve? | Will machines solve humanity's biggest problems?
+
+# S097 | A place in the countryside you have visited
+P1 Home: Would you like to live in the countryside? | How far is the countryside from your home? | Do you ever leave the city at weekends? | Did you grow up near fields or forests?
+P1 Countryside: What do you like about the countryside? | What would you miss if you lived there? | Do young people in your country want to live in villages? | Have you stayed on a farm?
+P1 Fresh air: Where do you go for fresh air? | Do you spend enough time outdoors? | Do you open your windows much? | Do you feel better after being outside?
+P2 Describe a place in the countryside you have visited. | where it is | when you went there | what you did | and explain what you liked about it.
+R Would you like to live there? | How did you get there?
+P3 Rural and urban life: Why are young people leaving the countryside? | What can be done to keep villages alive? | Is life healthier in rural areas? | Should city dwellers be free to buy holiday homes in villages? | How might technology make rural life more attractive?
+
+# S098 | A time you had to follow instructions
+P1 Work or study: Do you receive many instructions at work or college? | Are they usually clear? | Do you prefer to be told exactly what to do? | Do you give instructions to others?
+P1 Recipes and manuals: Do you follow recipes exactly? | Do you read manuals? | Have you assembled furniture from instructions? | Do you watch tutorial videos?
+P1 Rules at home: Were your parents strict? | What rules did you have as a child? | Did you always obey them? | Would you have the same rules for your own children?
+P2 Describe a time when you had to follow instructions carefully. | what you were doing | who or what gave the instructions | how easy they were to follow | and explain what happened in the end.
+R Did you make any mistakes? | Do you prefer written or spoken instructions?
+P3 Instructions and independence: Why do some people dislike being told what to do? | Is it more important for employees to follow instructions or to use their initiative? | Why are official forms and instructions often so hard to understand? | Should children be taught to question instructions? | Will people need less knowledge if machines can instruct them step by step?
+
+# S099 | A toy or game from your childhood
+P1 Hometown: Where did children play in your hometown? | Was it safe to play outside? | Did you know the other children in your street? | Are there playgrounds now?
+P1 Childhood games: What games did you play? | Who did you play with? | Did you play indoors or outdoors more? | Do children still play those games?
+P1 Collecting: Did you collect anything as a child? | Do you collect anything now? | Why do people collect things? | Would you keep a collection for your children?
+P2 Describe a toy or game you enjoyed in your childhood. | what it was | who gave it to you or taught it to you | how you played with it | and explain why you enjoyed it.
+R Do you still have it? | Would children today like it?
+P3 Play and childhood: Why is play important for children? | Are toys today too closely tied to films and advertising? | Do children spend too much time on electronic games? | Should boys and girls be given the same toys? | How does the way a child plays shape the adult they become?
+
+# S100 | A plan you have for the future that is not about work or study
+P1 Home: Where would you like to be living in ten years? | Would you like to build your own house? | Do you want to stay near your family? | What would your dream home be like?
+P1 Free time: How much free time do you have? | What would you do with more? | Do you plan your free time? | Do you ever feel bored?
+P1 Hopes: What are you looking forward to this year? | Is there something you have always wanted to try? | Do you write down your goals? | Do you talk about your hopes with anyone?
+P2 Describe a plan you have for the future that is not related to work or study. | what the plan is | when you thought of it | what you need to do to carry it out | and explain why it matters to you.
+R Who else is involved? | How likely is it to happen?
+P3 Planning and the future: Is it wise to plan far ahead? | Why do many personal plans never happen? | Are young people today more worried about the future than earlier generations? | Should people save for the future or enjoy the present? | How do you think daily life will have changed by the time you are old?

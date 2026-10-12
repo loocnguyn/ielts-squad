@@ -1,0 +1,146 @@
+# R01 | The shipping container
+## The box that changed the world
+[A] Few inventions have altered daily life as much as the steel shipping container, and few have received so little attention. It has no engine, no moving parts and no obvious ingenuity. Yet without it, the cheap clothes, electronics and out-of-season fruit that fill the shops of the world would cost far more, and many of the factories that make them would stand in different countries.
+[B] Until the middle of the twentieth century, cargo was handled much as it had been for hundreds of years. Goods arrived at the quay in sacks, barrels, crates and bales of every size, and each item was carried into the hold by gangs of dockworkers and stacked by hand. A ship could spend more time tied up in port than at sea. Breakages were frequent, and theft was so routine that dockers joked about being paid twenty dollars a day and all the whisky they could carry home. For many products, the expense of getting on and off the ship was greater than the cost of crossing the ocean.
+[C] The man usually credited with changing this was not a shipowner but an American trucking entrepreneur, Malcolm McLean. Waiting for hours at a New Jersey pier in the 1930s while his lorry was unloaded piece by piece, he had wondered why the whole trailer could not simply be lifted on board. Twenty years later he bought a shipping company in order to try. In April 1956 a converted oil tanker, the Ideal X, sailed from Newark to Houston carrying fifty-eight metal boxes on a specially built deck. When the accounts were done, loading had cost less than sixteen cents a ton, compared with nearly six dollars for loose cargo.
+[D] The idea did not spread at once. Early containers came in a confusion of lengths, and a box designed for one company's ships and cranes would not fit another's. It took more than a decade of argument between shipping lines, railway companies and governments before international standards were agreed in the late 1960s. Crucially, McLean chose to release his patent on the corner fittings that allow boxes to be locked together and lifted, so that any manufacturer could use the design without payment. Only once every crane, lorry and railway wagon in the world could handle the same box did the system begin to show its real power.
+[E] The consequences for ports were brutal. Container ships needed deep water, enormous cranes and acres of flat land for stacking, none of which the old city docks could offer. London and Liverpool, once among the busiest ports on earth, lost their trade to new terminals such as Felixstowe, a small harbour that had barely featured on the map. Manhattan's piers emptied as business moved across the bay to New Jersey. The workforce shrank as well. A gang that had needed a week to unload a ship was replaced by a handful of crane operators who could do it in a day, and tens of thousands of dockworkers lost their livelihoods despite strikes on both sides of the Atlantic.
+[F] The effect on manufacturing was slower but more profound. When transport was expensive, factories had to be near either their customers or their suppliers. As the cost of moving goods fell towards zero, that logic dissolved. A company could now design a product in one country, make its components in three others and assemble it in a fifth, choosing each location for its wages and skills. Economists who have tried to measure the impact suggest that the container did more to increase world trade than all the agreements on tariffs signed in the second half of the century.
+[G] The system is not without costs. Because inspecting every box would bring trade to a halt, only a small percentage are ever opened, which makes containers attractive to smugglers. Trade between regions is rarely balanced, so vast numbers of empty boxes must be shipped back to where they are needed. Each year some are washed overboard in storms and left to drift or sink. And the largest vessels, which now carry more than twenty thousand containers each, burn a heavy fuel that makes shipping a significant source of air pollution. The box solved the problem its inventor set out to solve. It also created a world that he could hardly have imagined.
+== match:headings | The passage has seven paragraphs, A-G. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. A decision that allowed a single design to be shared
+ii. Winners and losers on the waterfront
+iii. Why governments opposed the container
+iv. The drawbacks of an efficient system
+v. An outsider's experiment
+vi. A slow and costly way of working
+vii. The first container ports in Asia
+viii. Production freed from geography
+1. Paragraph B => vi // Cargo was loaded by hand; ships spent more time in port than at sea.
+2. Paragraph C => v // McLean was a trucking entrepreneur, not a shipowner, and tried the idea in 1956.
+3. Paragraph D => i // Standards were agreed and McLean released his patent on the corner fittings.
+4. Paragraph E => ii // New terminals gained the trade; old docks and dockworkers lost it.
+5. Paragraph F => viii // Factories no longer had to be near customers or suppliers.
+6. Paragraph G => iv // Smuggling, empty boxes, losses at sea and pollution.
+== tfng
+7. Before containers, moving goods on and off a ship could cost more than the sea voyage. => TRUE // B: the expense of getting on and off the ship was greater than the cost of crossing the ocean.
+8. Malcolm McLean had worked for a shipping company before 1956. => FALSE // C: he was a trucking entrepreneur who bought a shipping company in order to try his idea.
+9. The Ideal X was built specifically to carry containers. => FALSE // C: it was a converted oil tanker.
+10. Felixstowe was chosen as a container terminal because it was close to London. => NOT GIVEN // E says it was a small harbour that gained the trade, but gives no reason for choosing it.
+== fill:summary | 1W
+The wider effects of the container
+Once the price of transport had fallen, manufacturers were free to locate each stage of production wherever {{11=wages}} and skills were most suitable. According to economists, this did more for trade than international agreements on {{12=tariffs}}. However, because so few boxes are opened for inspection, the system is useful to {{13=smugglers}}.
+
+# R02 | Fungal networks in forests
+## The conversation beneath the forest floor
+[A] Walk through a forest and it is natural to see the trees as individuals, each competing with its neighbours for light and water. Over the past three decades, a body of research has suggested a very different picture, in which trees are linked below ground by fungi into networks that carry food and chemical signals from one plant to another. The idea has captured the public imagination. It has also provoked a sharp argument among scientists about how much of it is actually proven.
+[B] The partnership between trees and fungi is not in doubt, and it is ancient. The fine threads of certain fungi wrap around or enter the roots of a tree and spread out through the soil, reaching far beyond the roots themselves. The fungus is much better than the tree at collecting water and minerals such as phosphorus, and it passes some of these to its host. In return it receives sugars that the tree makes by photosynthesis, something the fungus cannot do. Around nine tenths of land plants are thought to depend on relationships of this kind.
+[C] The controversial step came in 1997, when the Canadian ecologist Suzanne Simard published the results of an experiment in the forests of British Columbia. She had exposed young birch trees to carbon dioxide containing a rare, traceable form of carbon, and later detected that carbon in neighbouring fir trees. Since a single fungus can be attached to many trees at once, the obvious explanation was that sugars were travelling through the fungal threads. The journal that published the paper put the story on its cover under a phrase that has been repeated ever since, the wood-wide web.
+[D] Later studies by Simard and others went further. Mapping the connections in one stand of fir, they found that the oldest and largest trees were linked to far more neighbours than the rest, and they came to be known as mother trees. It was proposed that these giants supported seedlings growing in deep shade, and even that they favoured their own offspring. Other researchers reported that a plant attacked by insects could send a warning through the network, prompting its neighbours to produce defensive chemicals before they were themselves attacked.
+[E] These claims have travelled a long way from the laboratory. They have featured in best-selling books and films, and they have been used to argue against the practice of felling the largest trees in managed forests. For many readers, the appeal lies in the suggestion that a forest is a cooperative community and not simply a battleground. Some foresters have changed their methods as a result, leaving old trees standing in the belief that they will nurture the next generation.
+[F] In 2023, however, three ecologists who had themselves worked on fungal networks published a review of the evidence, and their conclusions were sobering. They accepted that carbon can move between trees, but pointed out that in most experiments the quantities were small, and that it was rarely possible to rule out other routes, such as movement through the soil. They found that the idea of large trees feeding seedlings was supported in fewer than a fifth of the field studies that had tested it, and that in some cases seedlings linked to a network actually grew worse. Most strikingly, by tracing how the original studies had been quoted in later papers, they showed that results described cautiously by their authors were often repeated by others as established fact.
+[G] None of this means the networks are unimportant. Simard has replied that her critics underestimate the weight of the evidence, and that the benefits to seedlings may appear only in harsh conditions such as drought. The technical difficulty is real. Fungal threads are far thinner than a human hair, and a handful of forest soil may contain kilometres of them, so following a single molecule from one tree to another remains close to impossible. What the dispute illustrates is how readily an attractive scientific story can outrun the data, especially when it tells us what we would like to believe about nature.
+== tfng
+1. Scientists disagree about whether trees and fungi exchange water, minerals and sugars. => FALSE // B: the partnership between trees and fungi is not in doubt.
+2. Fungi are unable to produce sugars by photosynthesis. => TRUE // B: sugars the tree makes by photosynthesis, something the fungus cannot do.
+3. Simard's 1997 experiment showed that fir trees passed carbon to birch trees. => NOT GIVEN // C only reports carbon given to birch being detected in fir; the opposite direction is not mentioned.
+4. The phrase 'wood-wide web' was first used by a scientific journal. => TRUE // C: the journal put the story on its cover under that phrase.
+5. Some foresters now avoid cutting down old trees because of this research. => TRUE // E: some have changed their methods, leaving old trees standing.
+== mc
+6. What was the purpose of the unusual form of carbon in Simard's experiment?
+A. to speed up the growth of the birch trees
+B. to make the fungus easier to see
+C. to allow the movement of carbon to be followed
+D. to protect the fir trees from disease
+=> C // C: a rare, traceable form of carbon, later detected in neighbouring fir trees.
+7. According to paragraph D, 'mother trees' are trees that
+A. produce the largest number of seeds.
+B. have the most connections to other trees.
+C. grow in the deepest shade.
+D. are most often attacked by insects.
+=> B // D: the oldest and largest trees were linked to far more neighbours than the rest.
+8. The 2023 review found that the claim that large trees feed seedlings
+A. had never been tested in the field.
+B. was true only for fir trees.
+C. was supported by a minority of studies.
+D. had been invented by journalists.
+=> C // F: supported in fewer than a fifth of the field studies that had tested it.
+9. What does the writer conclude from the dispute?
+A. Research on fungal networks should be abandoned.
+B. Appealing ideas can be accepted before the evidence justifies it.
+C. Simard's critics have been proved right.
+D. Forests are more competitive than was once thought.
+=> B // G: an attractive scientific story can outrun the data.
+== fill:summary | 1W
+Doubts about the evidence
+The authors of the 2023 review agreed that carbon can pass between trees, but noted that the {{10=quantities}} involved were usually small and that the carbon might have travelled through the {{11=soil}}. They also showed that cautious findings were frequently presented in later papers as {{12=fact}}. Simard argues that seedlings may benefit only in difficult conditions, for example during a {{13=drought}}.
+
+# R03 | Decision fatigue
+## Does making choices wear us out?
+[A] In 2011, a study of Israeli judges became one of the most widely quoted findings in psychology. Researchers analysed more than a thousand rulings made by parole boards and found a remarkable pattern. At the start of a session, prisoners were granted parole in about two thirds of cases. As the session went on, the rate fell steadily until it was close to zero, and then, after the judges had stopped for a meal, it jumped back to its starting level. The suggestion was that people who make one decision after another grow mentally tired, and that tired judges fall back on the safest option, which is to say no.
+[B] The study seemed to confirm a theory that had been developing since the 1990s. The psychologist Roy Baumeister had proposed that self-control draws on a limited store of mental energy, rather as a muscle tires with use. In his best-known experiment, hungry students were seated in front of freshly baked chocolate biscuits and a bowl of radishes. Some were allowed the biscuits. Others were told to eat only the radishes. All were then given a puzzle which, unknown to them, had no solution. Those who had been made to resist the biscuits gave up on the puzzle in less than half the time. Resisting temptation, it appeared, had used up something they then lacked.
+[C] The idea had obvious attractions. It offered a scientific explanation for experiences everyone recognises, such as the shopper who compares prices carefully in the first aisle and throws anything into the trolley by the last. It was soon being applied to doctors, who were reported to prescribe unnecessary antibiotics more often late in a shift, and it was popularised by executives who said they wore the same clothes every day in order to save their mental energy for decisions that mattered.
+[D] Then the foundations began to crack. Psychology as a whole was discovering that many of its famous results could not be reproduced, and in 2016 a team coordinated across twenty-three laboratories repeated a standard test of Baumeister's theory with more than two thousand participants. They found an effect that was close to nothing. Baumeister objected that the task chosen was not the one he would have used, but a second large project, designed with the involvement of supporters of the theory, produced a result that was scarcely more encouraging.
+[E] The judges, too, came under scrutiny. Critics pointed out that the order in which cases were heard was not random. Prisoners without a lawyer, whose applications were weaker and more likely to fail, tended to be dealt with at the end of a session. Moreover, a judge who can see that the next case will be long and complicated may choose to stop for a break before it, so that sessions tend to end on quick refusals. A computer simulation showed that this kind of scheduling alone could generate the dramatic fall that the original authors had attributed to fatigue.
+[F] Where does this leave the idea? Few researchers now defend the notion of willpower as a fuel that simply runs out. But it would be a mistake to conclude that nothing is going on. Studies of real behaviour over long periods, as opposed to brief laboratory tasks, do find that the quality of decisions changes through the day. One explanation that has gained ground is that the issue is motivation. After sustained effort, people do not lose the ability to concentrate. They become less willing to do so, and their attention drifts towards more rewarding activities. This would explain why experimental subjects who are paid, or who are told that willpower is unlimited, show no decline at all.
+[G] The episode carries a lesson that goes beyond one theory. The finding about the judges spread so quickly because it was vivid, easy to retell and consistent with what people already suspected about themselves. Those are precisely the qualities that ought to make us cautious. A result that is too neat, the story suggests, deserves more examination, not less.
+== ynng
+1. The fall in the number of prisoners granted parole during a session was gradual. => YES // A: the rate fell steadily until it was close to zero.
+2. Baumeister's theory was developed in order to explain the behaviour of the Israeli judges. => NO // B: the theory had been developing since the 1990s, before the 2011 study.
+3. The students in the biscuit experiment knew that the puzzle could not be solved. => NO // B: unknown to them, it had no solution.
+4. Executives who wear identical clothes every day make better business decisions. => NOT GIVEN // C says only that they claimed to save mental energy this way.
+5. A finding that is simple and memorable should be examined with particular care. => YES // G: those qualities ought to make us cautious; a neat result deserves more examination.
+== mc
+6. What did the 2016 project involving twenty-three laboratories find?
+A. The effect predicted by the theory was almost absent.
+B. The effect was stronger than Baumeister had claimed.
+C. The effect appeared only in some countries.
+D. The effect could not be measured with the task used.
+=> A // D: they found an effect that was close to nothing.
+7. Critics of the study of judges argued that
+A. the judges had been aware that they were being studied.
+B. the number of rulings analysed was too small.
+C. weaker applications were more likely to be heard late in a session.
+D. the judges did not in fact take meal breaks.
+=> C // E: prisoners without a lawyer tended to be dealt with at the end of a session.
+8. What was the purpose of the computer simulation mentioned in paragraph E?
+A. to predict the decisions of individual judges
+B. to show that scheduling could produce the same pattern
+C. to test whether judges become tired
+D. to design a fairer order of cases
+=> B // E: scheduling alone could generate the dramatic fall.
+9. According to paragraph F, an increasingly popular explanation is that after long effort people
+A. are no longer able to concentrate.
+B. need food in order to recover.
+C. become less inclined to make an effort.
+D. make faster but equally good decisions.
+=> C // F: they do not lose the ability to concentrate; they become less willing to do so.
+== fill:sentence | 2W
+10. In Baumeister's experiment, some students had to eat {{10=radishes}} while looking at biscuits.
+11. Doctors were said to give out too many {{11=antibiotics}} towards the end of a shift.
+12. Research into real behaviour is contrasted with short {{12=laboratory tasks}}.
+13. No decline is seen in subjects who believe that {{13=willpower}} has no limit.
+
+# R04 | The domestication of the dog
+## How the wolf came in from the cold
+[A] The dog was the first animal that humans domesticated, long before sheep, cattle or horses, and it is the only one that was tamed by people who had not yet begun to farm. Beyond those two statements, almost everything about its origins has been disputed. When did it happen, where, and above all how did one of the most feared predators of the northern world become a creature that sleeps at the foot of the bed?
+[B] Genetic studies have settled one question. Every modern dog, from the smallest lapdog to the largest hound, descends from wolves, and not from jackals or some unknown wild dog as nineteenth-century naturalists supposed. The ancestor, however, was not the grey wolf that survives today but a population that has since died out. That makes dating the split difficult. Estimates based on DNA range from fifteen thousand to forty thousand years ago. The oldest remains that all experts accept as a dog come from a grave in Germany, about fourteen thousand years old, in which the animal was buried alongside a man and a woman.
+[C] The traditional explanation of what happened is that hunters took wolf cubs from the den, raised them, and bred from the most obedient. There are reasons to doubt it. Wolves reared by people remain unpredictable as adults, and a band of hunters would have had little reason to feed a large carnivore through a hard winter. Many researchers now prefer a second account, in which the wolves took the first step. Human camps produced bones and scraps. The animals bold enough to scavenge close to people, yet calm enough not to be driven away, ate better and left more offspring. On this view, the wolf domesticated itself, and only later did people take control of its breeding.
+[D] Support for the second account comes from a famous experiment that had nothing to do with wolves. In 1959, on a fur farm in Siberia, the Soviet geneticist Dmitri Belyaev began breeding silver foxes, choosing in each generation only the animals that showed least fear of a human hand. He selected for nothing else. Within ten generations, some foxes were wagging their tails and seeking out their keepers. More surprisingly, their bodies had changed as well. Patches of white appeared in the coat, ears drooped, and tails curled, features that are common in domestic animals of many species and almost unknown in their wild relatives. Tameness, it seemed, brought a whole set of other traits with it.
+[E] Life beside people changed dogs in further ways. As farming spread, dogs came to eat what humans ate, and researchers have found that most dogs carry several extra copies of a gene involved in digesting starch, whereas wolves have only two. Their social intelligence altered too. In a much-repeated test, food is hidden under one of two cups and a person points to the correct one. Dogs, even young puppies, follow the gesture at once. Wolves raised by humans generally do not, and neither do chimpanzees, our own closest relatives.
+[F] A study published in 2019 added a curious detail. Dissecting the heads of dogs and wolves, anatomists discovered that dogs possess a small muscle that raises the inner eyebrow, and that in wolves this muscle is barely present. The movement makes the eyes look larger and gives the face an expression that people read as sad or appealing. Dogs in rescue shelters that made the movement more often were chosen by new owners more quickly. It is possible that, without knowing it, humans have for thousands of years favoured the animals whose faces they found hardest to resist.
+[G] It would be wrong, though, to imagine the partnership as one-sided. Early dogs gave warning of strangers and predators, helped to track and hold wounded game, and in the far north pulled loads across the snow. Some archaeologists have gone so far as to suggest that the alliance with dogs gave modern humans an advantage over the Neanderthals, who appear never to have formed one. That claim is far from proven. But it is a reminder that domestication changed both parties, and that the question of who tamed whom has no simple answer.
+== match:information
+1. a reference to a physical feature that affects how quickly an animal finds a home => F // Shelter dogs that raised the eyebrow more often were chosen more quickly.
+2. reasons why one theory of domestication is considered unlikely => C // Reared wolves stay unpredictable, and hunters had little reason to feed them.
+3. an explanation of why the date of domestication is hard to establish => B // The ancestor population has died out, which makes dating the split difficult.
+4. a claim about human evolution that the writer treats with caution => G // The suggested advantage over Neanderthals is far from proven.
+5. evidence that a change in diet affected dogs' biology => E // Extra copies of a gene involved in digesting starch.
+== tfng
+6. People domesticated the dog after they had started farming. => FALSE // A: it was tamed by people who had not yet begun to farm.
+7. Nineteenth-century naturalists believed that dogs might be descended from jackals. => TRUE // B: not from jackals or an unknown wild dog as nineteenth-century naturalists supposed.
+8. Belyaev selected foxes for the colour of their coats. => FALSE // D: he chose only for lack of fear and selected for nothing else.
+9. Belyaev's foxes were later sold as pets. => NOT GIVEN // The passage does not say what happened to the foxes.
+== fill:summary | 1W
+Two accounts of how dogs were domesticated
+In the older account, hunters removed {{10=cubs}} from wolf dens and brought them up. The more recent account holds that wolves were drawn to human camps by {{11=scraps}} and bones, and that the animals which were both bold and {{12=calm}} had the most young. In experiments on social intelligence, dogs understand when a person {{13=points}} at a cup, while wolves usually do not.

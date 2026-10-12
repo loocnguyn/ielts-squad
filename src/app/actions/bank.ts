@@ -14,6 +14,7 @@ const RPC_ERRORS: Record<string, string> = {
   import_limit: "Bạn đã nhập quá 100 đề trong 24 giờ. Nghỉ một chút nhé.",
   test_in_use: "Đề này đã được phát cho một nhóm nên không xóa được.",
   not_found: "Không tìm thấy đề, hoặc đề không phải của bạn.",
+  not_owner: "Chỉ trưởng nhóm mới nạp được bộ đề soạn sẵn.",
 };
 
 function describeError(message: string | undefined, fallback: string) {
@@ -63,4 +64,28 @@ export async function deleteTest(testId: string): Promise<{ error?: string }> {
   if (error) return { error: describeError(error.message, "Không xóa được đề.") };
   refresh();
   return {};
+}
+
+/** Loads the pre-written bank that ships with the app. Safe to run again: loaded tests are skipped. */
+export async function loadBank(): Promise<{ error?: string; imported?: number }> {
+  await requireUser();
+  const supabase = await createClient();
+  const { data: status, error: statusError } = await supabase.rpc("bank_status");
+  if (statusError || !status) return { error: RPC_ERRORS.not_owner };
+
+  const { bankTests } = await import("@/lib/data/bank-content");
+  const loaded = new Set((status as { keys: string[] }).keys);
+  const todo = bankTests.filter((test) => !loaded.has(test.key));
+
+  let imported = 0;
+  for (let i = 0; i < todo.length; i += 15) {
+    const { data, error } = await supabase.rpc("import_bank", { p_tests: todo.slice(i, i + 15) });
+    if (error) {
+      refresh();
+      return { imported, error: describeError(error.message, "Không nạp được bộ đề.") };
+    }
+    imported += Number(data);
+  }
+  refresh();
+  return { imported };
 }

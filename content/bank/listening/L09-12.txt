@@ -1,0 +1,367 @@
+# L09 | Car hire booking and a library reopening
+## 1 | You will hear a woman phoning a car hire company to arrange a rental.
+@A Agent male_us
+@B Customer female_uk
+A: Good afternoon, Coastline Car Hire. This is Marcus.
+B: Hello. I need to hire a car for a few days next week, and I'd like to check some details before I book.
+A: Sure. Where would you like to collect it?
+B: Well, I'm flying in, so I assumed the airport. But your website says there's an extra charge for that.
+A: There is, yes, twenty pounds. If you can get to our office at the railway station, there's no fee, and it's only ten minutes from the airport by shuttle bus.
+B: Then I'll collect it at the station. I land at midday on Tuesday, so shall we say one o'clock?
+A: One o'clock on Tuesday. And when will you bring it back?
+B: On Saturday morning. Actually, no. My flight home isn't until the evening, so I'd like to keep it until Saturday afternoon. Say four o'clock.
+A: That's fine, it's still four days' hire. What size of car do you need?
+B: There are four of us with luggage, so not the smallest one.
+A: I'd suggest a medium car, then. The small ones are twenty-nine pounds a day, and the medium ones are thirty-six.
+B: Thirty-six is fine. Is it manual or automatic?
+A: Our medium cars are all manual. If you want an automatic, you'd have to take a large car at fifty-two a day.
+B: No, I'm happy with a manual. What about insurance?
+A: Basic insurance is included. But with the basic cover, if the car is damaged, you pay the first eight hundred pounds yourself. For six pounds a day you can reduce that to zero.
+B: Eight hundred is a lot. I'll take the extra cover. Is there a limit on how far I can drive?
+A: No, mileage is unlimited. And the car comes with a full tank. Just return it full, or we charge for the fuel.
+B: Understood. My husband might drive as well. Does that cost more?
+A: A second driver is five pounds a day, and he'd need to show his licence too.
+B: Hmm. It's not really worth it for four days. I'll do all the driving myself.
+A: OK. Do you need a child seat?
+B: Yes, one, please. My daughter is three.
+A: No problem, there's no charge for that. Can I take your name?
+B: It's Helen Brandt. B, R, A, N, D, T.
+A: Thank you. When you come to collect the car, please bring your driving licence and a credit card in your own name. We can't accept cash or a debit card for the deposit.
+B: And how much is the deposit?
+A: Two hundred pounds. It's returned within five days, provided the car comes back undamaged.
+B: Lovely. And if my flight is delayed?
+A: Call this number, and we'll hold the car until six, when the office closes.
+== fill:form | 1WN
+Coastline Car Hire: booking
+Collect from: the office at the {{1=station|railway station}}
+Collection: Tuesday at 1 pm
+Return: Saturday at {{2=4|four}} pm
+Car size: {{3=medium}}
+Daily rate: £{{4=36|thirty-six}}
+Gears: {{5=manual}}
+Extra insurance: £{{6=6|six}} per day
+Extras: one child {{7=seat}}
+Surname: {{8=Brandt}}
+Bring: driving licence and a {{9=credit}} card
+Deposit: £{{10=200|two hundred}}
+## 2 | You will hear a librarian speaking to visitors at the reopening of a city library.
+@C Librarian female_us
+C: Good morning, and welcome to the new Ashby Central Library. I'm Joanne, the head librarian, and before you explore, I'd like to tell you what has changed and help you find your way around.
+C: As you know, the library has been closed for fourteen months. We'd planned for ten, but when the builders lifted the old floor, they discovered part of a Roman road underneath, and work had to stop while the archaeologists recorded it. You can now see a section of that road under a glass panel in the entrance hall.
+C: The first thing regular visitors will notice is that there are fewer books on the shelves. Please don't be alarmed. We haven't thrown anything away. The less popular titles are in a store in the basement, and if you request one at the desk, a member of staff will bring it up within fifteen minutes.
+C: Opening hours have changed as well. We used to close at five. From today we're open until eight on weekdays, though on Saturdays we still close at five, and we remain closed on Sundays.
+C: Borrowing is simpler too. You no longer need to queue at the desk. Scan your card and your books at one of the machines by the door. And we've scrapped fines for late returns. Our research showed that fines didn't bring books back any faster. They just stopped people coming in.
+C: Now, let me describe the ground floor. You're standing in the entrance hall, with the main doors behind you. Immediately on your left is the cafe, which is run by a local bakery. On your right, where the old newspaper room used to be, is the children's library, with its own small garden.
+C: Straight ahead of you, in the centre of the building, is the information desk. Behind the desk, at the very back of the building, you'll find the quiet study room. Please note that phones and conversation aren't allowed in there.
+C: To the left of the information desk, beyond the cafe, is the computer suite. There are forty machines, and you can book one for up to two hours.
+C: Finally, to the right of the desk, next to the stairs, is our local history collection, with maps and photographs of the city going back two hundred years.
+C: Upstairs you'll find fiction and the meeting rooms, but I'll let you discover those yourselves. Enjoy your visit.
+== mc
+11. The reopening of the library was delayed because
+A. the builders ran out of money.
+B. something historical was found on the site.
+C. the old floor was unsafe.
+=> B // Part of a Roman road was discovered and archaeologists had to record it.
+12. What has happened to the less popular books?
+A. They are kept in another part of the building.
+B. They have been given to other libraries.
+C. They have been sold.
+=> A // They are in a store in the basement and can be requested at the desk.
+13. On weekdays the library now closes at
+A. five o'clock.
+B. six o'clock.
+C. eight o'clock.
+=> C // It used to close at five and still does on Saturdays.
+14. Why has the library stopped charging fines?
+A. They were expensive to collect.
+B. They did not make people return books sooner.
+C. Too many people refused to pay them.
+=> B // Research showed fines did not bring books back faster and stopped people coming in.
+== match:map_labelling | The librarian describes the ground floor as seen from the entrance hall, with the main doors behind the visitor. Where is each of the following? Choose the correct letter, A-H, for questions 15-20.
+A. immediately to the left of the entrance hall
+B. immediately to the right of the entrance hall
+C. in the centre of the building
+D. at the back of the building, behind the desk
+E. to the left of the desk, beyond the cafe
+F. to the right of the desk, next to the stairs
+G. in the basement
+H. under the floor of the entrance hall
+15. the Roman road => H // It can be seen under a glass panel in the entrance hall.
+16. the cafe => A // Immediately on the left.
+17. the children's library => B // On the right, where the newspaper room used to be.
+18. the quiet study room => D // Behind the desk, at the very back of the building.
+19. the computer suite => E // To the left of the information desk, beyond the cafe.
+20. the local history collection => F // To the right of the desk, next to the stairs.
+
+# L10 | School redesign project and the history of salt
+## 3 | You will hear two architecture students, Nadia and Owen, talking to their tutor about a project to redesign a primary school.
+@A Tutor male_uk
+@B Nadia female_uk
+@C Owen male_us
+A: Come in, both of you. So, the primary school project. How did the site visit go?
+B: Really well. We spent a whole day there, and the head teacher gave us a tour.
+C: The building is from the nineteen sixties. I was expecting it to be in poor condition, but structurally it's sound. What struck us was how dark it is. The corridors have no windows at all.
+A: And what did the teachers tell you they wanted?
+B: We thought they'd ask for bigger classrooms. In fact, nearly all of them said the classrooms were fine. What they complained about was the noise. The hall is right in the middle, and when one class is doing music, nobody else can concentrate.
+A: Interesting. Did you speak to the children?
+C: We did better than that. We gave them paper and asked them to draw their favourite place in the school.
+B: And hardly anyone drew a classroom, or even the playground. Most of them drew the library corner, which is really just a few cushions under the stairs.
+A: So children want small, enclosed spaces. That's a useful finding. Now, what's your main idea for the design?
+C: I wanted to knock down the hall and rebuild it at the edge of the site.
+B: But the budget wouldn't allow that. So we've agreed to keep the hall where it is and wrap a new corridor around it, with glass in the roof. That brings light in, and the corridor acts as a barrier against the noise.
+A: Good. That solves two problems with one move. What about materials?
+B: We'd like to use timber for the new parts. It's warmer than concrete, and children can see how it's put together.
+A: Timber needs maintaining, remember. Schools have very little money for that.
+C: We've thought about that. We'd leave it unpainted, so it simply turns grey over time and never needs repainting.
+A: Fine. Now, your drawings. I looked at the plans you sent, and they're accurate, but they're difficult for a client to read. A head teacher doesn't think in plans.
+B: Should we make a model?
+A: A model takes a week you haven't got. What I'd do is draw three or four views at a child's eye level. Show what a seven-year-old would actually see.
+C: I can do those. I enjoy that kind of drawing.
+A: And Nadia, I'd like you to work out the costs properly. At the moment your figures are guesses.
+B: I'll ask the quantity surveying students to check them. They owe me a favour.
+A: Excellent. One more thing. When you present, don't begin with the building. Begin with the children's drawings. That's your evidence.
+C: That's a great idea. We'll put them on the first slide.
+== mc
+1. What did the students notice most about the school building?
+A. It is in poor structural condition.
+B. It has very little natural light.
+C. It is too small for the number of pupils.
+=> B // It is structurally sound, but the corridors have no windows at all.
+2. The teachers' main complaint was about
+A. the size of the classrooms.
+B. the lack of storage.
+C. the noise from the hall.
+=> C // Nearly all said the classrooms were fine; music in the central hall disturbs everyone.
+3. What did most children draw as their favourite place?
+A. a corner used for reading
+B. the playground
+C. their own classroom
+=> A // Most drew the library corner, a few cushions under the stairs.
+4. The students have decided to
+A. rebuild the hall at the edge of the site.
+B. build a corridor around the existing hall.
+C. add windows to the hall.
+=> B // Moving the hall is beyond the budget; a glass-roofed corridor brings in light and blocks noise.
+5. How do the students answer the tutor's concern about timber?
+A. It will be left without paint.
+B. It will only be used indoors.
+C. It will be paid for by a grant.
+=> A // Unpainted timber turns grey and never needs repainting.
+== fill:sentence | 2W
+6. The new corridor will have {{6=glass}} in its roof.
+7. Over the years, the unpainted wood will become {{7=grey}} in colour.
+8. The tutor advises the students to draw views at a child's {{8=eye level}}.
+9. The cost figures will be checked by students of {{9=quantity surveying}}.
+10. The presentation will open with the children's {{10=drawings}}.
+## 4 | You will hear part of a history lecture about the importance of salt.
+@D Lecturer female_us
+D: It's hard for us to imagine now, when salt costs almost nothing, but for most of human history it was one of the most valuable substances on earth. In today's lecture I want to explain why, and to show how salt shaped trade, taxation and even language.
+D: The reason is simple. Before refrigeration, salt was the main way of preserving food. Meat and fish packed in salt could be kept through the winter or carried on a long voyage. A community without salt could not store food, and a community that could not store food could not survive a bad harvest.
+D: Salt was produced in two ways. Near the coast, sea water was run into shallow ponds and left to evaporate in the sun. Inland, it had to be mined. The mine at Hallstatt in Austria was being worked seven thousand years ago, and the miners' leather bags and wooden tools have survived, preserved by the salt itself.
+D: Because everyone needed it, salt was easy to tax. In China, a tax on salt was introduced more than two thousand years ago, and at times it provided half of the government's income. In France, a hated salt tax was one of the grievances that led to the revolution.
+D: Salt also built roads. In Italy, a very early road, the Via Salaria, was laid out to carry salt from the coast to Rome. And it's often said that Roman soldiers were paid in salt. The evidence for that is actually weak. What we can say is that the word salary comes from the Latin word for salt, probably because soldiers received an allowance to buy it.
+D: In West Africa, the salt trade crossed the Sahara. Slabs of salt were cut from the desert floor and carried south by camel, and according to Arab travellers, in some markets salt was exchanged for an equal weight of gold.
+D: So what ended salt's importance? Not refrigeration at first, but canning, which was developed in the early nineteenth century to feed armies. Then, with modern drilling, vast underground deposits were discovered, and the price collapsed.
+D: Today, less than a tenth of the salt produced is eaten. Most goes to the chemical industry, and in cold countries a huge quantity is spread on roads in winter to melt ice.
+D: Ironically, the modern problem is that we eat too much. Doctors link a high intake of salt with raised blood pressure, and most of what we consume is hidden in processed food, especially bread, not added at the table.
+== fill:note | 1W
+Salt in history
+Why salt mattered
+- the main method of preserving {{11=food}} before refrigeration
+Production
+- on the coast: sea water evaporated in shallow {{12=ponds}}
+- inland: mined, e.g. at Hallstatt, where leather bags and {{13=wooden}} tools have survived
+Government and trade
+- China: a salt {{14=tax}} once supplied half the state's income
+- Italy: an early {{15=road}} was built to bring salt to Rome
+- the word '{{16=salary}}' comes from the Latin for salt
+- West Africa: salt was traded for the same weight of {{17=gold}}
+Decline and modern use
+- preserving food by {{18=canning}} reduced the need for salt
+- most salt now goes to the {{19=chemical}} industry
+- in the diet, much of the salt we eat is hidden in {{20=bread}}
+
+# L11 | Photography club enquiry and a harbour tour
+## 1 | You will hear a man asking the secretary of a photography club about joining.
+@A Secretary female_uk
+@B Caller male_uk
+A: Hello, Diane speaking.
+B: Oh, hello. Is that the Elmstead Photography Club? I found this number on a poster in the camera shop.
+A: It is, yes. I'm the club secretary. Are you thinking of joining us?
+B: I am. I've just retired, and my daughter gave me a camera for my birthday. I've no idea how to use it properly.
+A: Then you're exactly the sort of person we like. About half our members are beginners. Shall I tell you how it works?
+B: Please.
+A: We meet every Thursday evening, from half past seven until about half past nine. We used to meet in the church hall, but it got too small for us, so since January we've been in the community centre on Bridge Street.
+B: Bridge Street. I know it. Is there parking?
+A: There's a car park at the back, and it's free after six.
+B: Good. And what happens at the meetings?
+A: It varies. On the first Thursday of the month, we have a guest speaker. Next month it's a wildlife photographer. On the second Thursday, there's a practical workshop. The other weeks, members bring their own pictures, and we discuss them.
+B: That sounds a bit frightening, having my pictures discussed.
+A: Everyone says that. Nobody is unkind, I promise. And you needn't show anything until you feel ready.
+B: All right. How much does it cost?
+A: The annual subscription is forty-five pounds. For retired people, it's reduced to thirty.
+B: Thirty pounds. That's very reasonable. Can I come along once before I decide?
+A: Of course. Your first two visits are free. After that, we'd ask you to join.
+B: Fair enough. Do I need any special equipment? My camera's quite basic.
+A: Just the camera, and its instruction book if you still have it. People do ask whether they need a tripod, and the answer is not yet. We have a few that members can borrow.
+B: I do have the instruction book, though I can't make sense of it.
+A: Bring it along, and someone will go through it with you. We also run outings. The next one is to Farley Castle, on the twelfth of October.
+B: Is that by coach?
+A: We share cars, to keep the cost down. You'd just pay for your own entrance ticket.
+B: Lovely. Who should I ask for when I arrive?
+A: Ask for Colin. He looks after new members. He'll be wearing a red badge. And could I take your name, so I can tell him to expect you?
+B: Yes, it's Arthur Pym. That's P, Y, M.
+A: Thank you, Arthur. We'll see you on Thursday.
+== fill:note | 1WN
+Elmstead Photography Club
+Meetings
+- every {{1=Thursday}} evening, starting at 7.30
+- held at the community {{2=centre|center}} on Bridge Street
+- first meeting of the month: a talk by a guest {{3=speaker}}
+- second meeting of the month: a practical {{4=workshop}}
+Cost
+- reduced subscription for retired people: £{{5=30|thirty}}
+- number of free visits: {{6=2|two}}
+Equipment
+- bring a camera and its instruction {{7=book}}
+Outing
+- to Farley {{8=Castle}} on 12 October
+- travel by {{9=cars|car}}
+New members
+- ask for Colin, who will have a {{10=red}} badge
+## 2 | You will hear a guide talking to a group of tourists at the start of a walking tour of an old harbour.
+@C Guide male_us
+C: Good morning, everyone, and welcome to Port Lowen. My name's Ben, and I'll be your guide for the next hour and a half. We'll walk right round the harbour, and I'll explain a little of its history as we go.
+C: Let me begin with the name. Many visitors think Lowen was the family who owned the land. Actually, it comes from an old local word meaning happy, though whether the fishermen who worked here were happy is another question.
+C: The harbour you can see was built in seventeen ninety, and not for fishing, as you might expect. It was built to export copper from the mines in the hills behind us. Fishing only became important a century later, when the copper ran out.
+C: Now, a word about safety. The harbour wall is perfectly safe to walk on, but the stone steps down to the water are covered in seaweed and extremely slippery. Please don't use them, however good the photograph might be.
+C: Let me tell you what we'll see. Our first stop is the customs house, the tall white building on the corner. It's the oldest building in the port, and today it houses a small museum, which you're welcome to visit after the tour.
+C: From there, we'll walk along to the fish market. I'm afraid you won't see any fish being sold. The market closed twenty years ago, and the building is now used by a group of artists as their studios. Several of them will be at work this morning.
+C: Next to the market is the ice house. Before electricity, ice was brought here by ship from Norway and stored underground. It's the one place on the tour where you'll be glad of a jacket, because even in August it's cold in there.
+C: Then we come to the lifeboat station. The crew are all volunteers, and if we're lucky, they'll be carrying out their weekly training exercise. They launch the boat at eleven, and it's quite a sight.
+C: At the far end of the harbour wall stands the lighthouse. It's no longer in use, and I'm sorry to say that you can't go up, because the staircase is being repaired. But it's the best spot for a view back over the town.
+C: We finish at the Old Sail Loft, where sails were once made and mended. It's now a restaurant, and they've kindly offered everyone on the tour a ten per cent discount on lunch. Just show them your ticket.
+C: Right, if everyone's ready, let's set off.
+== mc
+11. How long will the tour last?
+A. one hour
+B. an hour and a half
+C. two hours
+=> B
+12. The name Lowen comes from
+A. a family who owned the land.
+B. a word in the local language.
+C. the name of a ship.
+=> B // It comes from an old local word meaning happy.
+13. The harbour was originally built for
+A. the fishing industry.
+B. passenger ships.
+C. transporting a metal.
+=> C // It was built to export copper; fishing became important a century later.
+14. The guide warns the group not to
+A. go down the steps.
+B. walk on the harbour wall.
+C. take photographs near the water.
+=> A // The wall is safe, but the steps are covered in slippery seaweed.
+== match:features | What does the guide say about each of the following places? Choose SIX answers from the list and write the correct letter, A-H, next to questions 15-20.
+A. It is still used for its original purpose.
+B. It is colder than everywhere else.
+C. It offers a reduced price to the group.
+D. It is used by artists.
+E. It contains a museum.
+F. It may be the scene of a practice session.
+G. It sells fresh fish.
+H. It gives a good view.
+15. the customs house => E // It houses a small museum.
+16. the fish market => D // Artists now use it as studios.
+17. the ice house => B // It is cold in there even in August.
+18. the lifeboat station => F // The crew may be carrying out their weekly training exercise.
+19. the lighthouse => H // It is no longer in use, but it is the best spot for a view over the town.
+20. the Old Sail Loft => C // The restaurant offers a ten per cent discount.
+
+# L12 | Music and memory experiment and coral reef restoration
+## 3 | You will hear two psychology students, Yuki and Sam, discussing an experiment on music and memory.
+@A Yuki female_us
+@B Sam male_uk
+A: Sam, shall we go through the design for our experiment? Doctor Reyes wants the plan by Friday.
+B: Good idea. So the basic question is whether listening to music helps people remember a list of words.
+A: Yes. And I've been reading the background. There was a famous study in the nineties claiming that classical music makes you cleverer.
+B: The one about Mozart. Everybody's heard of that.
+A: Right, but when other researchers repeated it, the effect mostly disappeared. What they found is that any music you enjoy puts you in a better mood, and it's the mood that improves performance for a short time.
+B: So it's not really about the music at all. Interesting. Then our experiment should compare different conditions.
+A: I thought three groups. One learns the words in silence, one with instrumental music, and one with songs that have lyrics.
+B: I'd predict the songs will be worst. If you're trying to learn words and someone's singing other words at you, they'll interfere.
+A: That's my guess too. Now, the participants. I was going to ask people in our seminar group.
+B: They all know what we're testing. I'd rather use first-year students from another department, who have no idea what the study is about.
+A: Fair point. Engineering students, maybe. How many do we need?
+B: Doctor Reyes said at least fifteen in each group, so forty-five.
+A: And the word list. I'd assumed we'd write our own.
+B: We could, but then nobody can compare our results with anyone else's. There's a standard list that's been used for decades. Let's use that.
+A: Fine. How long do we give them to learn it?
+B: Two minutes is usual. Then they do an unrelated task, some simple arithmetic, to stop them repeating the words in their heads. Then they write down what they remember.
+A: One thing worries me. Suppose the people in the music groups just happen to have better memories.
+B: That's why we give everyone a short memory test at the start, before any music. Then we can check that the three groups are equal.
+A: Good. And volume? If it's too loud, it becomes a different experiment.
+B: We'll play it through headphones at a fixed level, the same for everyone.
+A: What about the ethics form? We're not doing anything harmful.
+B: We still need it. And we have to tell people at the end what the study was really about.
+A: Of course. I'll draft the form tonight. Can you book the lab?
+B: I'll do it now. Room four has the best headphones.
+== mc
+1. What did later researchers conclude about the 'Mozart' study?
+A. The effect is produced by an improved mood.
+B. The effect only occurs with classical music.
+C. The effect lasts for several days.
+=> A // Any music people enjoy improves mood, and mood improves performance for a short time.
+2. Both students expect the worst results from the group that
+A. works in silence.
+B. hears songs with words.
+C. hears instrumental music.
+=> B // Sung words will interfere with the words being learned.
+3. Sam wants to use students from another department because they
+A. are easier to contact.
+B. have better memories.
+C. will not know the purpose of the study.
+=> C // The seminar group all know what is being tested.
+4. Why do the students decide to use a standard word list?
+A. It allows comparison with other research.
+B. It saves them time.
+C. Their tutor recommended it.
+=> A // With their own list nobody could compare the results with anyone else's.
+5. Participants will do arithmetic in order to
+A. measure their general ability.
+B. prevent them from rehearsing the words.
+C. make the experiment seem more natural.
+=> B // The unrelated task stops them repeating the words in their heads.
+== fill:sentence | 2WN
+6. The total number of participants needed is {{6=45|forty-five}}.
+7. Participants will have {{7=2 minutes|two minutes}} to learn the words.
+8. A short {{8=memory test}} at the start will show whether the groups are equal.
+9. The music will be played through {{9=headphones}}.
+10. Sam is going to book the {{10=lab}}.
+## 4 | You will hear part of a lecture about attempts to restore damaged coral reefs.
+@C Lecturer female_uk
+C: Coral reefs cover less than one per cent of the ocean floor, yet they are home to roughly a quarter of all marine species. Over the last thirty years, about half of the world's coral has been lost. Today I'm going to describe some of the methods being used to bring reefs back, and to be honest with you about their limits.
+C: First, a reminder of what coral is. It looks like rock or a plant, but it is in fact an animal, or rather a colony of thousands of tiny animals. Inside their tissue live microscopic algae, and it's these that give coral both its colour and most of its food. When the water becomes too warm, the coral expels the algae and turns white. This is known as bleaching, and if it lasts more than a few weeks, the coral starves.
+C: The oldest method of restoration is often called coral gardening. Divers break small pieces from a healthy colony and hang them on underwater frames that look rather like trees. After a year or so, the pieces are large enough to be attached to the damaged reef, traditionally with cement, although nowadays a simple clip is often used.
+C: A discovery made by accident has speeded this up. A researcher in Florida broke a piece of coral while cleaning a tank and noticed that the fragments grew far faster than the original. Cutting coral into very small pieces, it turns out, makes it grow up to forty times more quickly.
+C: A second approach uses sound. A dead reef is silent, and young fish avoid it. In one experiment in Australia, scientists placed speakers on damaged reef and played recordings of a healthy one. The number of fish settling there doubled, and fish matter, because they eat the seaweed that would otherwise smother young coral.
+C: A third method works with breeding. Most corals release their eggs on just one or two nights a year, shortly after a full moon. Teams now collect the eggs in fine nets, raise the young in floating pools, and release millions of them over the reef.
+C: More controversially, some laboratories are breeding coral selected for its tolerance of heat, in the hope that it will survive in warmer seas.
+C: Now for the limits. Restoration is extremely expensive, and so far the largest projects have covered only a few hectares, whereas the Great Barrier Reef alone is the size of Italy. Gardening cannot keep pace with losses on that scale. Most scientists therefore see restoration as a way of buying time, and nothing more, unless the warming of the oceans is slowed.
+== fill:note | 1W
+Restoring coral reefs
+Background
+- reefs support about a {{11=quarter}} of marine species
+- coral is an {{12=animal}}, not a plant
+- coral gets its colour and food from {{13=algae}}
+Methods
+- coral gardening: pieces are grown on frames shaped like {{14=trees}}
+- fixed to the reef with cement or a {{15=clip}}
+- very small pieces grow much faster (found by {{16=accident}})
+- recorded {{17=sound}} attracts young fish, which eat seaweed
+- eggs are collected after a full {{18=moon}}
+- some coral is bred to tolerate {{19=heat}}
+Limits
+- high cost; projects cover only a few hectares
+- most scientists see restoration as a way of buying {{20=time}}

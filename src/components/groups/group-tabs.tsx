@@ -9,6 +9,7 @@ export function GroupTabs({ groupId }: { groupId: string }) {
   const base = `/groups/${groupId}`;
   const tabs = [
     { href: base, label: "Hôm nay", active: pathname === base || pathname.startsWith(`${base}/results`) },
+    { href: `${base}/speaking`, label: "Buổi nói", active: pathname.startsWith(`${base}/speaking`) },
     { href: `${base}/leaderboard`, label: "Xếp hạng", active: pathname.startsWith(`${base}/leaderboard`) },
     { href: `${base}/members`, label: "Thành viên", active: pathname.startsWith(`${base}/members`) },
   ];

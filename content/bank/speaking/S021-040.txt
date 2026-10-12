@@ -1,0 +1,159 @@
+# S021 | A long walk you went on
+P1 Work or study: Do you work or study? | What was your first day like? | What do you find most rewarding about it? | Is there a subject or task you try to avoid?
+P1 Trees: Are there many trees where you live? | Did you climb trees as a child? | Have you ever planted one? | Why do you think trees are important in cities?
+P1 Emails: How often do you write emails? | Do you prefer email or messaging apps? | Is it hard to keep up with your inbox? | Do you ever write letters by hand?
+P2 Describe a long walk you went on. | where you walked | who you were with | what you saw on the way | and explain why you remember this walk.
+R Would you do the same walk again? | Do you walk for exercise?
+P3 Walking and lifestyle: Why has walking become popular as a leisure activity? | Do people in your country walk less than they used to? | How can city planners encourage people to walk? | Are organised outdoor activities better than exercising alone? | What does a society lose when people spend most of their time indoors?
+
+# S022 | A piece of good news you received
+P1 Home: Where are you living at the moment? | Do you live alone? | How do you get from your home to the city centre? | What makes a place feel like home to you?
+P1 News: How do you usually get the news? | Do you follow local or international news more closely? | Did you read newspapers when you were younger? | Do you ever avoid the news?
+P1 Smiling: Do you smile a lot? | When do people in your country smile for photographs? | Can you tell when a smile is not real? | Do you smile at strangers?
+P2 Describe a piece of good news you received. | what the news was | how you received it | who you told about it | and explain why it was good news for you.
+R Did you celebrate? | Do you like sharing good news?
+P3 News and information: Why do people enjoy sharing good news with others? | Does the media report too much bad news? | How can people judge whether a news story is reliable? | Has social media made people better or worse informed? | Should governments be able to control what is published online?
+
+# S023 | A sport you would like to try
+P1 Hometown: What part of your country are you from? | What is the landscape like? | Is it a good place to grow up? | What would you show a visitor first?
+P1 Exercise: Do you take regular exercise? | What kind do you prefer? | Did you exercise more as a child? | Do you think you are fit enough?
+P1 Numbers: Are you good with numbers? | Do you have a lucky number? | What numbers do you need to remember every day? | Did you like maths at school?
+P2 Describe a sport you would like to try. | what the sport is | how you know about it | what equipment or place it needs | and explain why you would like to try it.
+R Is it popular in your country? | Do you think it would be difficult?
+P3 Sport and society: Why do some sports become popular while others do not? | Should sport be a compulsory school subject? | Are professional sportspeople paid too much? | Do international sporting events bring countries together? | How might technology change sport for players and spectators?
+
+# S024 | A photograph you like
+P1 Work or study: Is your job or course popular in your country? | What qualifications do you need for it? | Do you have much free time? | What would you do if you could take a year off?
+P1 Birds: Are there many birds where you live? | Have you ever fed wild birds? | Is any bird special in your culture? | Would you keep a bird as a pet?
+P1 Housework: What housework do you do? | Is there any you dislike? | Did you help at home as a child? | Should children be paid for doing chores?
+P2 Describe a photograph you like. | what is in the photograph | who took it | where and when it was taken | and explain why you like it.
+R Where do you keep this photograph? | Have you shown it to many people?
+P3 Images and memory: Why do people take so many photographs nowadays? | Are photographs a reliable record of the past? | Should people ask permission before posting photos of others online? | How has photography changed as a profession? | Do images influence public opinion more than words?
+
+# S025 | A time you were very busy
+P1 Home: What kind of building do you live in? | How many rooms are there? | Which room is the quietest? | Do you spend more time at home now than a few years ago?
+P1 Chocolate: Do you like chocolate? | How often do you eat it? | Did you eat more of it as a child? | Is chocolate a popular gift in your country?
+P1 Stars: Do you ever look at the stars? | Can you see them clearly where you live? | Did you learn about space at school? | Would you like to travel into space?
+P2 Describe a time when you were very busy. | when it was | what you had to do | how you managed your time | and explain how you felt during this period.
+R Would you like to be that busy again? | Did anyone help you?
+P3 Work and pressure: Why do many people seem busier now than in the past? | Is being busy a sign of success? | What are the effects of long working hours on family life? | Should employers be allowed to contact staff outside working hours? | Would a four-day working week be good for society?
+
+# S026 | A shop you often go to
+P1 Hometown: Do you still live in the place where you were born? | What is the oldest part of it? | Are people there friendly to newcomers? | What facilities does it lack?
+P1 Pets: Have you ever had a pet? | What animals are popular as pets in your country? | Would you like one now? | Why do people keep pets?
+P1 Being on time: Are you usually on time? | How do you feel when others are late? | Do you wear a watch? | Is being punctual important in your country?
+P2 Describe a shop you often go to. | where it is | what it sells | how often you go there | and explain why you choose this shop.
+R Do you know the people who work there? | Has the shop changed over time?
+P3 Shops and communities: Why are small local shops closing in many places? | Do large shopping centres benefit a town? | How has online shopping changed city centres? | Is good customer service more important than low prices? | What will shops be like in the future?
+
+# S027 | A time you received helpful advice
+P1 Work or study: What do you do? | Did your family influence your choice? | Which part of the week do you enjoy most? | What are your colleagues or classmates like?
+P1 Languages: How many languages can you speak? | When did you start learning English? | What do you find hardest about it? | Is there another language you would like to learn?
+P1 Flowers: Do you like flowers? | When do people give flowers in your country? | Do you ever buy them for your home? | Is any flower special in your culture?
+P2 Describe a time when you received helpful advice. | who gave you the advice | what the advice was | what the situation was | and explain how the advice helped you.
+R Do you often ask this person for advice? | Have you passed the same advice on to anyone?
+P3 Advice and experience: Who do young people usually turn to for advice? | Is advice from older people always relevant today? | Why do some people ignore good advice? | Is it better to learn from your own mistakes or from other people's? | Can advice from professionals be trusted more than advice from friends?
+
+# S028 | A park or garden you like
+P1 Home: What do you like about the area you live in? | Is it close to nature? | Where do you go when you want fresh air? | Would you prefer a home with more outdoor space?
+P1 Television: How much television do you watch? | What kinds of programme do you prefer? | Do you watch with your family? | Has the way you watch changed in recent years?
+P1 Hats: Do you ever wear a hat? | When do people wear hats in your country? | Did you wear one as a child? | Do hats suit you?
+P2 Describe a park or garden you like. | where it is | what it looks like | what people do there | and explain why you like it.
+R How often do you go there? | Is it crowded?
+P3 Green space: Why are parks important in cities? | Should people pay to enter public gardens? | What problems arise when green areas are built on? | Do children today spend enough time in nature? | How could cities create more green space where land is scarce?
+
+# S029 | A mistake you learned from
+P1 Hometown: Is your hometown famous for any food? | What is there for children to do? | How do people get to work? | Would you move back if you left?
+P1 Daily routine: What is the busiest part of your day? | Do you like having a routine? | What would you change about your daily schedule? | Is your routine the same every day?
+P1 Insects: Are there many insects where you live? | Are you afraid of any? | Did you learn about insects at school? | Do you think insects are useful?
+P2 Describe a mistake you made that you learned from. | what the mistake was | when it happened | what the result was | and explain what you learned from it.
+R Did anyone help you put it right? | Have you made the same mistake again?
+P3 Mistakes and learning: Why are people often afraid of making mistakes? | Should children be allowed to fail at school? | Do employers value people who admit their errors? | Are public figures judged too harshly for their mistakes? | How does a culture's attitude to failure affect innovation?
+
+# S030 | A piece of clothing you enjoy wearing
+P1 Work or study: What time do you start work or classes? | Do you take anything with you every day? | Do you eat lunch there? | What would make your working or studying day better?
+P1 Seasons: Which season do you like best? | What do you do in that season? | Is there a season you dislike? | Do the seasons affect what you eat?
+P1 Keys: Do you carry many keys? | Have you ever lost them? | Do you ever forget to lock the door? | Would you give a spare key to a neighbour?
+P2 Describe a piece of clothing you enjoy wearing. | what it is | where you got it | how often you wear it | and explain why you enjoy wearing it.
+R Was it expensive? | Do other people comment on it?
+P3 Clothes and identity: What do clothes say about a person? | Why do fashions change so quickly? | Should employees have to follow a dress code? | What are the environmental costs of cheap clothing? | Will people in the future own fewer clothes?
+
+# S031 | A neighbour you know well
+P1 Home: What is the street you live in like? | Are there many families nearby? | Is it noisy at night? | What would your ideal neighbourhood have?
+P1 Cafes: Do you often go to cafes? | What do you usually order? | Do you go there to work or to meet people? | Are cafes popular with young people in your country?
+P1 Teamwork: Do you like working in a team? | What makes a good team member? | Did you do group projects at school? | Would you rather lead a team or be a member of one?
+P2 Describe a neighbour you know well. | who this person is | how long you have known them | what kind of person they are | and explain how you got to know them.
+R Do you ever help each other? | Do you think you will stay in touch if one of you moves?
+P3 Neighbours and community: What are the qualities of a good neighbour? | Why do people in cities often not know their neighbours? | How can local councils encourage a sense of community? | Do online groups strengthen or weaken real communities? | Is a strong community more important than personal privacy?
+
+# S032 | A subject you enjoyed at school
+P1 Hometown: What was it like growing up in your hometown? | Was your school close to your home? | Where did you play as a child? | Are you proud of where you come from?
+P1 Drawing: Did you like drawing as a child? | Do you ever draw now? | Is drawing taught in schools in your country? | Would you like to draw better?
+P1 Water: How much water do you drink each day? | Do you prefer bottled or tap water? | Do you try to save water at home? | Is clean water easy to get where you live?
+P2 Describe a subject you enjoyed at school. | what the subject was | who taught it | what you did in the lessons | and explain why you enjoyed it.
+R Do you still use what you learned? | Were you good at it?
+P3 Schools and subjects: Which school subjects are most useful in adult life? | Should art and music have the same status as science? | Why do students lose interest in some subjects? | Should pupils be able to choose all their own subjects? | How should schools prepare young people for jobs that do not yet exist?
+
+# S033 | A time the weather changed your plans
+P1 Work or study: What do you like least about your job or studies? | How do you deal with stress there? | Do you work better alone or with others? | What have you learned recently?
+P1 Taxis: How often do you take taxis? | Are they expensive where you live? | Do you talk to the driver? | Do you use an app to book them?
+P1 Laughing: What makes you laugh? | Do you like watching comedies? | Are you good at telling jokes? | Is it important to laugh with friends?
+P2 Describe a time when the weather changed your plans. | what your plans were | what the weather was like | what you did instead | and explain how you felt about the change.
+R Were other people affected? | Do you usually check the forecast before making plans?
+P3 Weather and climate: How does the weather affect people's mood and behaviour? | Are weather forecasts reliable enough? | Has the climate in your country changed noticeably? | Who should take the lead on climate change, individuals or governments? | How will extreme weather change where and how people live?
+
+# S034 | An interesting conversation you had
+P1 Home: Do you have many visitors at home? | Where do you usually sit and talk? | Do you eat together as a household? | Is your home a good place for parties?
+P1 Voices: Do you like the sound of your own voice? | Has your voice changed since you were young? | Do you sound like anyone in your family? | Do you prefer phone calls or text messages?
+P1 Trains: Do you often travel by train? | What do you do on a train journey? | Are trains reliable in your country? | Do you prefer trains to planes?
+P2 Describe an interesting conversation you had. | who you talked to | where you were | what you talked about | and explain why you found the conversation interesting.
+R Have you spoken to this person since? | Do you enjoy talking to people you have just met?
+P3 Communication: Are people losing the ability to have long conversations? | Why are some people better listeners than others? | How do men and women differ in the way they communicate, if at all? | Is it easier to be honest in writing than in person? | How might communication between people change as machines learn to speak?
+
+# S035 | A historical place you visited
+P1 Hometown: Does your hometown have a long history? | Are old buildings well looked after there? | Is there a museum? | Do young people care about local history?
+P1 History: Did you like history at school? | Which period interests you most? | Do you watch historical films? | How do you learn about the past now?
+P1 Cars: Can you drive? | Is a car necessary where you live? | What kind of car would you like? | Do you enjoy long car journeys?
+P2 Describe a historical place you visited. | where it was | when you went | what you saw there | and explain what you learned from the visit.
+R Would you recommend it to others? | Were there many tourists?
+P3 History and heritage: Why should people know about their country's history? | Is too much money spent on preserving old sites? | Should tourists be limited at fragile historical places? | Can films and games teach history effectively? | Who decides which parts of history a nation remembers?
+
+# S036 | Something you made yourself
+P1 Work or study: Is your work or study mostly practical or theoretical? | Do you use your hands much? | What tools or equipment do you need? | Would you like a more creative job?
+P1 Crafts: Did you make things as a child? | Are handmade things popular in your country? | Have you ever given a handmade present? | Would you take a craft class?
+P1 Lists: Do you make lists? | What kind? | Do you write them on paper or on your phone? | Do you always finish what is on them?
+P2 Describe something you made yourself. | what you made | how you made it | how long it took | and explain how you felt when it was finished.
+R Did anyone help you? | Would you make it again?
+P3 Making and buying: Why do people enjoy making things by hand? | Are handmade products better than those made in factories? | Should schools teach practical skills such as woodwork and sewing? | What happens to traditional crafts when machines can do the same work? | Will creativity become more or less valuable as automation increases?
+
+# S037 | A time you worked in a team
+P1 Home: Do you share any household tasks? | Who decides how the home is organised? | Do you ever disagree about housework? | What is the best thing about living with others, or alone?
+P1 Games: Did you play board games as a child? | Do you play any games now? | Do you prefer games of luck or of skill? | Are video games popular among your friends?
+P1 Mountains: Have you ever been to the mountains? | Would you like to live near them? | Do you prefer mountains or the sea? | Are there famous mountains in your country?
+P2 Describe a time when you worked in a team. | what the team had to do | who was in the team | what your role was | and explain how successful the team was.
+R Would you work with the same people again? | Were there any disagreements?
+P3 Teamwork and leadership: What makes a team work well together? | Why do some groups fail even when their members are talented? | Is competition between colleagues healthy? | Are leaders born or made? | Will working in teams become more or less common as more people work from home?
+
+# S038 | A website you use often
+P1 Hometown: How good is the internet connection in your hometown? | Where do people go to study or work quietly? | Are there many young people? | Is it an expensive place to live?
+P1 The internet: How many hours a day are you online? | What do you mostly do online? | Could you manage without the internet for a week? | Did you use it much as a child?
+P1 Vegetables: Do you eat many vegetables? | Which ones do you dislike? | Do you ever grow your own? | Did your parents make you eat them?
+P2 Describe a website you use often. | what the website is | how you found it | what you use it for | and explain why you find it useful.
+R Do you pay to use it? | Would you recommend it to others?
+P3 The online world: How has the internet changed the way people find information? | Can people trust what they read online? | Should children's use of the internet be restricted? | Do a few large technology companies have too much power? | How might the internet be different in twenty years?
+
+# S039 | A person who taught you something outside school
+P1 Work or study: Who has helped you most in your job or studies? | Do you prefer learning from books or from people? | What was the last thing you learned? | Do you find it easy to ask for help?
+P1 Family: Do you have a large family? | Who are you closest to? | How often do you see your relatives? | What do you enjoy doing together?
+P1 Boats: Have you ever travelled by boat? | Would you like to own one? | Are boats an important form of transport in your country? | Do you get seasick?
+P2 Describe a person who taught you something outside school. | who this person was | what they taught you | how they taught you | and explain why this was important to you.
+R Do you still use what they taught you? | Have you thanked them?
+P3 Learning beyond school: What do children learn from their grandparents that they cannot learn at school? | Is experience a better teacher than books? | Should work experience be part of every degree? | Why do some adults stop learning new things? | How can societies encourage learning throughout life?
+
+# S040 | A place you would like to visit for a short time
+P1 Home: Do you travel far from home often? | What do you miss most when you are away? | Do you like coming home after a trip? | Where would you choose to live for one year?
+P1 Holidays: How do you usually spend your holidays? | Do you prefer the beach or the city? | Who do you travel with? | What was your best holiday as a child?
+P1 Hotels: Have you stayed in many hotels? | What matters most to you in a hotel? | Do you prefer hotels or staying with friends? | Would you like to work in one?
+P2 Describe a place you would like to visit for a short time. | where it is | how you know about it | what you would do there | and explain why you would only stay for a short time.
+R Who would you go with? | When do you think you will go?
+P3 Travel and tourism: Why do people want to see places they have only heard about? | Is it better to visit many places briefly or one place in depth? | What damage can mass tourism do? | Should people fly less for the sake of the environment? | Will virtual reality ever replace real travel?

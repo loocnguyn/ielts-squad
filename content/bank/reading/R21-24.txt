@@ -1,0 +1,153 @@
+# R21 | Risk in children's play
+## The case for dangerous playgrounds
+[A] A playground built today in most wealthy countries looks very different from one built fifty years ago. The tall metal slide, the roundabout that could be spun until children flew off, and the climbing frame set in concrete have gone. In their place are low platforms, enclosed tube slides and a carpet of rubber. The change was made with the best of intentions, to protect children from injury. A growing number of researchers now argue that it has gone too far, and that in removing risk from play we have removed something children need.
+[B] The modern safety movement can be dated with some precision. In the United States in the late 1970s, a series of lawsuits brought by the parents of injured children resulted in very large payments, and official guidelines followed, specifying the maximum height of equipment and the surfaces to be laid beneath it. Local councils, schools and manufacturers, anxious to avoid being sued, complied. Similar standards spread to Britain, Australia and much of Europe. One consequence was that playgrounds everywhere began to look alike, since few designers dared to depart from the catalogue.
+[C] Whether children became safer is less clear than might be expected. Rubber surfaces do reduce head injuries from short falls. But in several countries the overall number of children treated in hospital after playground accidents has not fallen since the standards were introduced, and for broken arms it has in some places risen. One explanation offered is that a soft surface makes both children and the adults watching them less careful. Another is boredom. Children who find the equipment too tame use it in ways that were never intended, climbing on the outside of the tube slide or onto the roof of the playhouse.
+[D] The most influential critic has been the Norwegian psychologist Ellen Sandseter. After observing and interviewing children in nurseries, she identified six kinds of risky play that children everywhere seek out. They are play at great heights, play at high speed, play with dangerous tools, play near dangerous elements such as fire or water, rough-and-tumble play such as wrestling, and play where there is a chance of getting lost. In each case, she observed, children approach the danger gradually. A child climbs a little higher each day, feeling a mixture of fear and excitement, and stops at the point where the fear becomes too great.
+[E] Sandseter's argument is that this is precisely how fears are overcome. Almost all young children are afraid of heights, and most are not by the time they are adults. What happens in between is repeated, self-directed exposure. In support of this, a long-running study in New Zealand found that children who had been injured in a fall before the age of nine were less likely, not more, to be afraid of heights at eighteen. A child who is never allowed to climb, on this view, is not protected from fear but left alone with it. There is evidence, too, that rough-and-tumble play teaches children to control aggression, since a game of wrestling continues only as long as both players hold back.
+[F] These ideas have found practical expression in the adventure playground, a type that first appeared in Denmark in the 1940s. A landscape architect had noticed that children ignored the playgrounds he designed and played on building sites instead, and he proposed giving them a plot of land, a pile of scrap timber and some tools. Trained staff are present, but their job is to intervene as little as possible. At one such playground in Wales, children build dens, light fires and roll down a hill inside old tyres. Researchers who have compared accident records report that injury rates at adventure playgrounds are no higher than at conventional ones, and some insurers charge them lower premiums.
+[G] None of the researchers in this field argue that children should be exposed to real hazards. The distinction they draw is between a risk, which a child can see and judge, and a hazard, which is hidden. A high branch is a risk. A rotten branch is a hazard. The task of adults is to remove the second while leaving the first. A number of official bodies have accepted the point. Guidance issued in Britain now asks those who provide playgrounds to weigh the benefits of an activity against its dangers, instead of simply eliminating danger.
+[H] Change on the ground has been slower. Parents who accept the argument in principle may still be reluctant to let their own child climb a tree, and a school that permits it risks being blamed if something goes wrong. The deeper difficulty is that an injury in the playground is visible and immediate, while the cost of a childhood without challenge, whether in anxiety, in physical inactivity or in a lack of confidence, is spread over many years and cannot be traced to any one decision.
+== ynng
+1. The people who redesigned playgrounds were indifferent to children's welfare. => NO // A: the change was made with the best of intentions.
+2. Safety standards have clearly reduced the total number of playground injuries. => NO // C: the overall number treated in hospital has not fallen in several countries.
+3. Children deliberately choose activities that frighten them a little. => YES // D: a mixture of fear and excitement; they approach the danger gradually.
+4. Boys seek out risky play more often than girls. => NOT GIVEN // The passage does not compare boys and girls.
+5. Adults should remove dangers that a child is unable to recognise. => YES // G: remove the hazard, which is hidden, while leaving the risk.
+6. The benefits of risky play are easier to demonstrate than its dangers. => NO // H: an injury is visible and immediate, while the cost of no challenge cannot be traced.
+== mc
+7. According to paragraph B, playgrounds came to look similar because
+A. designers feared legal action if they tried something new.
+B. one company made most of the equipment.
+C. children preferred the standard designs.
+D. governments paid for identical playgrounds.
+=> A // Anxious to avoid being sued, few designers dared to depart from the catalogue.
+8. What does the New Zealand study suggest?
+A. Children who fall are likely to fall again.
+B. Fear of heights increases with age.
+C. An early fall does not lead to a fear of heights later.
+D. Most injuries happen before the age of nine.
+=> C // E: those injured in a fall before nine were less likely to fear heights at eighteen.
+9. What is the role of staff at an adventure playground?
+A. to teach children how to use tools
+B. to organise games
+C. to keep written records of accidents
+D. to be present but to interfere very little
+=> D // F: their job is to intervene as little as possible.
+10. The writer uses the example of a rotten branch to illustrate
+A. a danger that cannot be seen and judged.
+B. a risk that benefits children.
+C. the poor condition of many playgrounds.
+D. an activity that insurers refuse to cover.
+=> A // G: a rotten branch is a hazard, which is hidden.
+== fill:summary | 1W
+The origin of the adventure playground
+The idea came from a landscape architect in Denmark, who saw that children preferred to play on building {{11=sites}}. He suggested providing land, scrap {{12=timber}} and tools. Research indicates that such playgrounds have no more accidents than ordinary ones, and they may pay lower {{13=premiums}} for insurance.
+
+# R22 | Thawing permafrost
+## The ground that is no longer frozen
+[A] Across the far north of Russia, Canada and Alaska, and on the high plateau of Tibet, lies ground that has not thawed for thousands of years. It is known as permafrost, and it underlies roughly a quarter of the land in the northern hemisphere. In places it is more than a kilometre deep. For as long as people have lived on it, it has been treated as solid rock. Roads, pipelines, airports and entire cities have been built on the assumption that it would stay hard. That assumption is beginning to fail.
+[B] Permafrost is defined simply as ground that remains at or below freezing for at least two years in a row. It is not all ice. It is a mixture of soil, gravel and sand held together by ice, and above it lies a shallower layer that thaws each summer and freezes again each winter. Plants grow in this upper layer, and when they die their remains decay only partly before the cold preserves them. Over tens of thousands of years, an enormous store of dead plant material has accumulated in the frozen ground beneath. Scientists estimate that it contains about twice as much carbon as the whole of the atmosphere.
+[C] The Arctic is now warming three to four times faster than the planet as a whole, and the frozen ground is responding. As the summer thaw reaches deeper, material that has been locked away since the last ice age is exposed to microbes, which begin to digest it. Where oxygen is present, they release carbon dioxide. In waterlogged ground, where it is absent, they release methane, a gas that traps far more heat over the short term. The gases warm the climate, the warming thaws more ground, and so the process feeds itself. This is what researchers mean when they describe permafrost as a feedback.
+[D] How large the effect will be is one of the major uncertainties in forecasts of the climate. Early alarm centred on the idea of a sudden, catastrophic release, sometimes called a methane bomb. Most specialists now think this unlikely. Their concern is a steady leak that continues for centuries and cannot be switched off. Current estimates suggest that thawing permafrost could release as much greenhouse gas over this century as a large industrial country. A complication is that warmer conditions also allow more plants to grow in the north, and growing plants absorb carbon. For a time, in some regions, this may offset part of the loss.
+[E] Recent fieldwork has revealed that thaw does not always proceed gradually from the top down. Where the ground contains large bodies of ice, melting causes the surface to collapse, forming pits and slumps that can deepen by several metres in a few years. Water gathers in the hollows and speeds the thaw beneath. Such abrupt collapse affects only a small part of the permafrost region, but because it exposes deep, ancient material so quickly, it may account for a large share of the gases released. The models used for global projections have until recently left it out.
+[F] For the four million people who live on permafrost, the consequences are immediate. Buildings in Siberian cities stand on concrete piles driven into the frozen ground, and as it softens they tilt and crack. A survey has suggested that most buildings in some Russian Arctic towns are already damaged. In 2020, a fuel tank at a power station near the city of Norilsk collapsed when its supports sank, spilling twenty thousand tonnes of diesel into nearby rivers. In Alaska, villages on eroding coasts are being moved inland at great expense. Engineers can keep the ground cold beneath a structure by installing devices that draw heat out of the soil in winter, but these are costly and protect only what stands directly above them.
+[G] The thaw is also uncovering the past. Frozen carcasses of mammoths and other ice-age animals emerge from river banks, and a trade in mammoth tusks has grown up in Siberia. More disturbingly, microbes can survive in a frozen state for a very long time. In 2016, an outbreak of anthrax on a peninsula in northern Russia, which killed a child and thousands of reindeer, was traced to the body of a reindeer that had died of the disease decades earlier and had been exposed by an unusually hot summer.
+[H] Unlike the burning of coal and oil, the release of carbon from permafrost cannot be regulated by any government. The only way to limit it is to limit the warming that causes it. That is why many scientists argue that the frozen north, remote as it is, should be given far more weight when international targets for emissions are set.
+== match:information
+1. a reason why the loss of carbon from the north may be partly balanced for a while => D // More plants grow in warmer conditions and absorb carbon.
+2. an account of a disease returning after many years => G // The 2016 anthrax outbreak traced to a reindeer that died decades earlier.
+3. a description of what permafrost consists of => B // A mixture of soil, gravel and sand held together by ice.
+4. a type of thaw that forecasting models have tended to ignore => E // Abrupt collapse has until recently been left out of the models.
+5. a method of preventing the ground under a building from thawing => F // Devices that draw heat out of the soil in winter.
+== tfng
+6. Permafrost is found beneath about a quarter of the northern hemisphere's land. => TRUE // A: it underlies roughly a quarter of the land.
+7. The frozen ground holds less carbon than the atmosphere. => FALSE // B: about twice as much carbon as the whole of the atmosphere.
+8. Microbes produce methane where there is plenty of oxygen. => FALSE // C: in waterlogged ground, where oxygen is absent, they release methane.
+9. Most specialists now expect a sudden, massive release of methane. => FALSE // D: most now think this unlikely; the concern is a steady leak.
+10. The Norilsk fuel spill was the largest in Russian history. => NOT GIVEN // F gives the quantity but makes no comparison.
+== fill:sentence | 1W
+11. The layer above the permafrost thaws every {{11=summer}}.
+12. Buildings in Siberian cities are supported on concrete {{12=piles}}.
+13. In Siberia, people now trade in the {{13=tusks}} of mammoths.
+
+# R23 | The Antikythera mechanism
+## A computer from the ancient world
+[A] In the spring of 1900, a party of Greek sponge divers sheltering from a storm off the small island of Antikythera discovered the wreck of a Roman cargo ship. It had gone down in about 60 BC, loaded with bronze and marble statues, glassware and coins. Among the treasures brought to the surface over the following months was a shapeless lump of corroded bronze and wood, about the size of a large book. It attracted little notice until, as it dried, it split apart to reveal the remains of toothed wheels. Nothing remotely like it had ever been found from the ancient world, and for half a century most scholars did not know what to make of it.
+[B] The first serious study was made in the 1950s by a British historian of science, Derek de Solla Price. Using X-ray photographs, he counted the teeth on the surviving wheels and concluded that the device was a kind of mechanical calculator for following the movements of the sun and moon. His claim was greeted with scepticism. It was widely believed that the Greeks, for all their brilliance in mathematics, had lacked the practical skill to build precise machinery, and gearing of this complexity is not otherwise known in Europe until the cathedral clocks of the fourteenth century. A few writers even suggested that the object must have fallen onto the wreck from a much later ship.
+[C] The doubts were settled in the first decade of the present century, when an international team examined the eighty-two surviving fragments with two new techniques. One was a powerful X-ray scanner, weighing eight tonnes, which had to be transported to the museum in Athens because the fragments were too fragile to be moved. It produced three-dimensional images of the interior. The other was a method of photographing surfaces under light from many different angles, which made faint scratches readable. Together they revealed thousands of tiny Greek letters, hidden for two thousand years, which amounted to an instruction manual engraved on the machine itself.
+[D] From this evidence the function of the mechanism has been reconstructed in detail. It was housed in a wooden case with a handle on the side. Turning the handle moved the date forward on a dial at the front, and at least thirty interlocking bronze wheels drove pointers showing the position of the sun and moon in the sky and the phase of the moon. On the back, two spiral dials followed longer cycles. One was a calendar of nineteen years, the period after which the phases of the moon fall on the same days of the year. The other predicted eclipses, and indicated the time of day at which each would occur.
+[E] Two features have particularly impressed modern engineers. The Greeks knew that the moon appears to move across the sky at a varying speed, faster at some points in the month than at others. The maker reproduced this by mounting one gear slightly off-centre on another and linking them with a pin sliding in a slot, so that the output speeded up and slowed down in the correct rhythm. And a small dial among the others had nothing to do with astronomy at all. It showed the four-year cycle of the athletic games, including those at Olympia, which were the basis of the Greek system for numbering years.
+[F] Whether the device also displayed the movements of the five planets known in antiquity is less certain, since the relevant wheels are lost. The inscriptions, however, name the planets and give the periods of their cycles, and in 2021 a team in London published a design showing how the necessary gears could have fitted in the space available. Their model works, but it remains a proposal and not a proven reconstruction.
+[G] Who made the mechanism is unknown. The style of the lettering suggests a date in the second century BC. The names of the months on the calendar are those used in Corinth and its colonies, which has led some researchers to link it with the tradition of Archimedes, who lived in the Corinthian colony of Syracuse and is reported by Roman writers to have built a model of the heavens. Others favour the island of Rhodes, a centre of astronomy from which the ship may have sailed.
+[H] The deepest puzzle is why so sophisticated an object stands alone. A machine of this quality cannot have been the first of its kind, and ancient authors do mention similar devices. Yet none has survived. The likeliest explanation is mundane. Bronze was valuable and was routinely melted down for reuse, so that an instrument which was no longer wanted simply became raw material. The Antikythera mechanism was preserved only because it was lost. It is a sobering thought that our whole picture of ancient technology would be different if one ship had reached its harbour.
+== match:headings | The passage has eight paragraphs, A-H. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. An unresolved question about the planets
+ii. Clues to where and when the device originated
+iii. An interpretation that few accepted at first
+iv. The cost of building the device
+v. What the machine showed and how it was operated
+vi. Ingenious details of the design
+vii. Technology that made hidden text visible
+viii. The discovery of a second mechanism
+1. Paragraph B => iii // Price's claim was greeted with scepticism.
+2. Paragraph C => vii // X-ray scanning and angled lighting revealed thousands of letters.
+3. Paragraph D => v // The handle, the dials and the cycles are described.
+4. Paragraph E => vi // The off-centre gear and the dial for the games.
+5. Paragraph F => i // The planetary display is uncertain; the 2021 model is a proposal.
+6. Paragraph G => ii // The lettering, the Corinthian months, Syracuse and Rhodes.
+== tfng
+7. The divers who found the wreck were looking for ancient treasure. => FALSE // A: they were sponge divers sheltering from a storm.
+8. The mechanism was recognised as important as soon as it was brought to the surface. => FALSE // A: it attracted little notice until it split apart.
+9. The fragments were taken abroad to be scanned. => FALSE // C: the scanner had to be transported to the museum in Athens.
+10. The 2021 model of the planetary gears was built from bronze. => NOT GIVEN // F says the model works but does not say what it was made of.
+== fill:summary | 1W
+Why no similar device survives
+The quality of the mechanism suggests that it was not the first machine of its type, and ancient {{11=authors}} refer to others. The probable reason for their disappearance is that {{12=bronze}} was valuable and was commonly melted down for {{13=reuse}}.
+
+# R24 | The wisdom of crowds
+## When many heads are better than one
+[A] In 1906, the English scientist Francis Galton visited a country fair where visitors were invited to guess the weight of an ox once it had been slaughtered and prepared. About eight hundred people paid for a ticket and wrote down a figure. Some were butchers and farmers. Many had no special knowledge at all. Galton, who had a low opinion of the judgment of ordinary people, borrowed the tickets afterwards and worked out the average of the guesses. It came to 1,197 pounds. The ox weighed 1,198. The crowd, taken as a whole, had been more accurate than almost any individual in it, including the experts.
+[B] The explanation is statistical. Each person's guess can be thought of as containing two parts, some real information and some error. If the errors are of different kinds, with some people guessing too high and others too low, they tend to cancel one another when the guesses are combined, while the information accumulates. The same principle has been confirmed in many settings since. Groups of students asked to estimate the number of sweets in a jar, the temperature of a room or the distance between two cities reliably produce an average that is closer to the truth than the great majority of the individual answers.
+[C] The idea was brought to a wide audience in 2004 by the American writer James Surowiecki, and it has been put to practical use. Some companies run internal markets in which employees bet small sums on questions such as whether a product will be finished on time, and the prices in these markets have often proved better forecasts than the official plans. Forecasters of elections and of the weather routinely average the predictions of many models and find the result more accurate than that of the best single one.
+[D] Surowiecki was careful to point out that crowds are wise only under certain conditions. The first is diversity. The members must draw on different information or see the problem from different points of view, since a crowd of people who all think alike will share the same errors. The second is independence. Each person must reach a judgment without knowing what the others have decided. The third is some means of gathering the individual judgments into a collective one, whether an average, a vote or a market price.
+[E] It is the second condition that most often fails. A group of Swiss researchers asked volunteers to estimate figures such as the length of a border or the number of crimes committed in a year. When the volunteers were then told what others had guessed and allowed to revise their answers, the range of estimates narrowed sharply as people moved towards one another. The average, however, did not become more accurate. Worse, the participants grew more confident in their answers precisely as those answers became less independent. Knowing what others think, it appears, reduces the diversity on which the whole effect depends, while persuading everyone that they must be right.
+[F] This helps to explain why groups that meet to discuss a question frequently do worse than the same individuals polled separately. The first person to speak, or the most senior, sets a direction that others are reluctant to contradict. Financial bubbles can be understood in the same way, as occasions on which investors stop judging the value of an asset for themselves and start judging what other investors will do. For this reason, some organisations now ask members of a committee to write down their views before a meeting begins, and to hear from the most junior person first.
+[G] There is a further limit. The averaging of guesses works for questions that have a definite answer, a number or a yes or no. It is much less clear that a crowd can design a bridge, compose a piece of music or decide what a society ought to value. And a crowd that is collectively ignorant, with errors that all lean the same way, will be confidently wrong. Had the visitors to the fair been asked to estimate the weight of the moon, their average would have been worthless.
+[H] One curious finding suggests that the principle can be applied by a single mind. In an experiment, people were asked a factual question and then, some weeks later, asked the same question again without warning. The average of each person's two answers was closer to the truth than either answer alone. The benefit was smaller than that of asking a second person, but it was real. The effect has been called the crowd within, and the practical advice that follows from it is very old. Before committing yourself to a judgment, sleep on it and guess again.
+== ynng
+1. Galton expected the crowd at the fair to guess well. => NO // A: he had a low opinion of the judgment of ordinary people.
+2. The average of a group's estimates is usually more accurate than most of its members. => YES // B: closer to the truth than the great majority of individual answers.
+3. Surowiecki claimed that crowds are wise in all circumstances. => NO // D: he pointed out that crowds are wise only under certain conditions.
+4. Internal company markets should replace official planning altogether. => NOT GIVEN // C says their prices have often been better forecasts, not that plans should be replaced.
+5. People become more certain of their answers when they know what others think. => YES // E: participants grew more confident as answers became less independent.
+6. Crowds are well suited to solving problems that have no single correct answer. => NO // G: it is much less clear that a crowd can design a bridge or decide what to value.
+== mc
+7. According to paragraph B, combining many guesses works because
+A. experts influence the people around them.
+B. large groups always contain a few people who know the answer.
+C. individual mistakes tend to balance out.
+D. people guess more carefully in public.
+=> C // Errors of different kinds cancel one another while the information accumulates.
+8. In the Swiss experiment, after volunteers learned what others had guessed,
+A. the guesses moved closer together without becoming more accurate.
+B. the average became more accurate.
+C. the volunteers lost confidence.
+D. the guesses spread further apart.
+=> A // E: the range narrowed sharply, but the average did not become more accurate.
+9. Why do some organisations ask the most junior member to speak first?
+A. to save time in meetings
+B. to train new staff
+C. to test their knowledge
+D. to prevent senior people from setting the direction
+=> D // F: the most senior sets a direction that others are reluctant to contradict.
+10. What is 'the crowd within'?
+A. the influence of friends on a person's opinions
+B. the improvement gained by averaging one person's separate guesses
+C. the tendency to agree with the majority
+D. the confidence people feel in a group
+=> B // H: the average of each person's two answers was closer to the truth.
+== fill:sentence | 1W
+11. The first condition for a wise crowd is {{11=diversity}}.
+12. The second condition is {{12=independence}}.
+13. Financial {{13=bubbles}} occur when investors judge what other investors will do.

@@ -1,0 +1,156 @@
+# R41 | Insects as food
+## Six legs on the menu
+[A] In a market in northern Thailand, stalls are piled with fried crickets, bamboo worms and giant water bugs, and customers buy them by the bag as a snack. In Mexico, grasshoppers toasted with lime and chilli have been eaten since before the Spanish arrived. In southern Africa, the caterpillar of the emperor moth is dried and sold in quantities worth tens of millions of dollars a year. Around two billion people, in more than a hundred countries, eat insects as an ordinary part of their diet. It is the inhabitants of Europe and North America, who do not, that are the exception.
+[B] In 2013, a report from the Food and Agriculture Organization of the United Nations argued that the rest of the world should take the habit seriously. The global population is expected to approach ten billion by the middle of the century, and demand for animal protein is rising faster still as incomes grow. Meeting it by conventional means would require far more land, water and feed than the planet can easily supply. Insects, the report suggested, could provide part of the answer.
+[C] The nutritional case is strong. Weight for weight, dried crickets contain more protein than beef, along with iron, zinc and several vitamins. The fats in many edible insects are of the kind considered healthy. They also contain fibre, in the form of chitin, the material of their outer shells, which meat lacks altogether. The quality varies considerably between species and according to what the insects themselves have been fed, but in general they compare well with other animal foods.
+[D] The environmental case rests on efficiency. Insects are cold-blooded and do not burn energy to keep their bodies warm, so more of what they eat is turned into growth. To produce a kilogram of weight, crickets need roughly two kilograms of feed, whereas cattle need about eight. Moreover, around eighty per cent of a cricket can be eaten, compared with less than half of a cow. Insects require a fraction of the water and space, can be reared in stacked trays in a warehouse, and release far smaller quantities of greenhouse gases. Certain species offer a further advantage. The larvae of the black soldier fly will feed on almost any organic waste, including vegetable peelings, spent grain from breweries and manure, converting material that would otherwise be thrown away into protein.
+[E] These claims come with qualifications. Most of the favourable figures are derived from small trials, and it is uncertain whether they will hold at industrial scale. Insects reared on waste grow more slowly and less reliably than those given high-quality grain, and if they are fed on grain, part of the environmental advantage disappears, since the grain could have been eaten by people directly. Insects reared in cool climates need heated buildings, which consume energy. One study that tried to account for all of this found that crickets fed on poultry feed were no more efficient than chickens. The benefit is real, but it depends heavily on how the farming is done.
+[F] Safety raises questions as well. People who are allergic to shellfish may react to insects, which are distant relatives of shrimps and crabs. Insects gathered from the wild can carry pesticides or heavy metals. And farming animals in dense colonies always carries a risk of disease, though no infection of insects is known to pass to humans. Regulators have moved cautiously. The European Union approved its first insect, the yellow mealworm, as food only in 2021.
+[G] The largest obstacle in Western countries is not safety but disgust. The reaction is learned and not innate, as is shown by the fact that the same consumers happily eat prawns, lobsters and snails, and regard honey, which is produced inside the body of a bee, as wholesome. Yet a learned reaction can be extremely stubborn. Experiments suggest that people are more willing to try insects when they cannot see them. Cricket flour baked into bread or protein bars is accepted far more readily than a whole roasted cricket, and several companies have built their business on that finding. The history of other foods offers some encouragement. Raw fish was regarded with horror in the United States in the 1960s and is now sold as sushi in every supermarket, and the lobster was once considered fit only for prisoners and the poor.
+[H] For the present, the most promising use of insects may be one that avoids the problem of taste entirely. Much of the world's farmed fish and poultry is fed on meal made from soya or from wild fish caught for the purpose, both of which carry heavy environmental costs. Insect larvae are a natural food for chickens and fish, and trials have shown that they can replace a substantial part of the conventional feed without affecting growth. In this roundabout way, a good many people who would never knowingly eat an insect may soon be doing so at one remove.
+== ynng
+1. People in Europe and North America are unusual in not eating insects. => YES // A: it is those inhabitants who are the exception.
+2. Insects are generally a nutritious food. => YES // C: in general they compare well with other animal foods.
+3. The environmental benefits of insect farming have been proved beyond doubt at large scale. => NO // E: most figures come from small trials and may not hold at industrial scale.
+4. Diseases of farmed insects are known to spread to people. => NO // F: no infection of insects is known to pass to humans.
+5. The dislike of eating insects is something people are born with. => NO // G: the reaction is learned and not innate.
+6. Insect farming will be more profitable than cattle farming by the middle of the century. => NOT GIVEN // The passage makes no prediction about profits.
+== mc
+7. Why did the 2013 report recommend eating insects?
+A. Conventional meat production may not be able to meet future demand.
+B. Insects are cheaper to buy than meat.
+C. Wild insects are becoming more numerous.
+D. People in poor countries prefer them.
+=> A // B: meeting demand by conventional means would require more land, water and feed than can easily be supplied.
+8. According to paragraph D, insects convert feed efficiently because they
+A. live for a very short time.
+B. eat only waste products.
+C. do not use energy to maintain body temperature.
+D. are reared in warehouses.
+=> C // They are cold-blooded and do not burn energy to keep warm.
+9. What is special about the larvae of the black soldier fly?
+A. They contain more protein than crickets.
+B. They can be raised on discarded organic material.
+C. They need no water.
+D. They are already approved as human food in Europe.
+=> B // D: they will feed on almost any organic waste.
+10. The writer mentions sushi and lobster in order to show that
+A. seafood is more acceptable than insects.
+B. Americans are unusually conservative about food.
+C. expensive foods were once cheap.
+D. attitudes to unfamiliar foods can change.
+=> D // G: raw fish was regarded with horror and lobster was food for prisoners.
+== fill:summary | 1W
+Insects as animal feed
+At present, farmed fish and {{11=poultry}} are often given meal made from soya or from wild {{12=fish}}. Experiments indicate that insect larvae can take the place of much of this feed with no effect on the animals' {{13=growth}}.
+
+# R42 | The Panama Canal
+## Cutting a continent in two
+[A] For four centuries after Europeans first crossed the narrow strip of land joining North and South America, people dreamed of cutting a channel through it. A ship sailing from New York to San Francisco had to travel some twenty thousand kilometres round the southern tip of South America, a voyage of months through some of the roughest seas in the world. A canal across the isthmus of Panama, only eighty kilometres wide, would shorten the journey by more than half.
+[B] The first serious attempt was made by the French, and it was led by the most celebrated engineer of the age. Ferdinand de Lesseps had completed the Suez Canal in 1869 and was regarded as a national hero. He proposed to repeat the achievement in Panama, digging a channel at sea level from one ocean to the other. Work began in 1881. But Suez had been a ditch through flat, dry desert. Panama was mountainous jungle with one of the heaviest rainfalls on earth. The river that crossed the route could rise ten metres in a day, and the hillsides, once cut into, slid back into the excavation almost as fast as they were dug.
+[C] The greater enemy was disease. Yellow fever and malaria killed the workers in their thousands, and nobody knew how they were transmitted. The French hospitals, in an effort to keep ants from climbing into patients' beds, stood the legs of the beds in dishes of water, and so provided ideal breeding places for the mosquitoes that carried the infections. By the time the company collapsed in bankruptcy in 1889, it is thought that more than twenty thousand people had died. Hundreds of thousands of small investors in France lost their savings, and the scandal that followed brought down a government.
+[D] The United States took over the project in 1904, having first encouraged the province of Panama to break away from Colombia and then signed a treaty with the new country that gave it control of a strip of land on either side of the route. The Americans made two decisions that the French had not. The first concerned health. By this time it had been shown that mosquitoes spread both diseases, and the army doctor William Gorgas set about destroying them. His teams drained swamps, covered water tanks, fitted screens to windows and sprayed standing water with oil. Yellow fever was eliminated from the canal zone within two years, and malaria was greatly reduced.
+[E] The second decision concerned the design. The chief engineer, John Stevens, concluded that a sea-level canal was impossible and persuaded the government to build a canal with locks. The river would be dammed to create an enormous artificial lake, twenty-six metres above the sea. Ships would be raised to the lake by a flight of three locks, sail across it, pass through a deep cutting in the mountains, and be lowered by three more locks on the far side. The water to fill the locks would flow from the lake by gravity, so that no pumps were needed. Stevens, a railwayman by training, also saw that the essential problem was not digging but removing what had been dug, and he laid out a system of tracks on which trains carried the spoil away in a continuous procession.
+[F] The canal opened in August 1914, six months ahead of schedule and under budget, though the occasion was overshadowed by the outbreak of war in Europe that same month. Some fifty-six thousand people had worked on it under the Americans, the majority of them labourers recruited from the islands of the Caribbean. They were paid far less than white American employees, housed separately, and given the most dangerous work, and it was among them that most of the five thousand or so deaths of the American period occurred.
+[G] The canal transformed world trade, and it remained under American control for most of the century. That arrangement was increasingly resented in Panama, and after years of negotiation the waterway was handed over to the Panamanian government on the last day of 1999. A third, larger set of locks was opened in 2016 to take the much bigger ships now in service.
+[H] The canal's future is less secure than its past. Each ship that passes through releases about two hundred million litres of fresh water from the lake into the sea, and that water has to be replaced by rain. In 2023, a severe drought lowered the lake so far that the authorities were forced to cut the number of daily crossings by more than a third, and ships queued for weeks at either end. The same lake supplies drinking water to half the country's population. A structure that was designed to conquer geography turns out to depend, in the end, on the weather.
+== tfng
+1. The isthmus of Panama is about eighty kilometres across. => TRUE // A: only eighty kilometres wide.
+2. De Lesseps planned a canal with locks in Panama. => FALSE // B: a channel at sea level from one ocean to the other.
+3. Conditions in Panama were more difficult for canal building than those in Egypt. => TRUE // B: Suez was flat, dry desert; Panama was mountainous jungle with heavy rain.
+4. The French hospitals unintentionally helped mosquitoes to breed. => TRUE // C: dishes of water under the beds provided breeding places.
+5. De Lesseps was sent to prison after the French company failed. => NOT GIVEN // C mentions the scandal but not his fate.
+6. Pumps are used to fill the locks of the canal. => FALSE // E: the water flows from the lake by gravity, so no pumps were needed.
+7. The canal was completed later than planned. => FALSE // F: six months ahead of schedule.
+== match:features | Match each statement with the correct person, A-D.
+A. Ferdinand de Lesseps
+B. William Gorgas
+C. John Stevens
+D. none of the people named in the passage
+8. He recognised that transporting the excavated earth was the key difficulty. => C // E: the essential problem was not digging but removing what had been dug.
+9. He had already built a famous canal elsewhere. => A // B: he had completed the Suez Canal.
+10. He organised a campaign against the insects that carried disease. => B // D: Gorgas set about destroying mosquitoes.
+== fill:summary | 1W
+A threat to the canal
+Every crossing sends a large quantity of fresh water from the {{11=lake}} into the sea, and this can only be replaced by {{12=rain}}. During the {{13=drought}} of 2023, the number of ships allowed through each day had to be reduced.
+
+# R43 | Too much choice
+## When more is less
+[A] A supermarket in a wealthy country may stock forty thousand different products, including dozens of kinds of olive oil and hundreds of breakfast cereals. Economic theory has traditionally treated this as an unmixed blessing. The more options there are, the more likely it is that each customer will find one that exactly matches his or her tastes, and anyone who dislikes the abundance is free to ignore it. Around the turn of the century, a group of psychologists began to argue that this view was mistaken, and that beyond a certain point, extra choice makes people less likely to choose anything and less happy with what they choose.
+[B] The experiment that launched the idea was carried out in a food shop in California by Sheena Iyengar and Mark Lepper. On some days, they set up a table offering samples of twenty-four varieties of jam. On other days, the table held only six. The large display attracted more shoppers, sixty per cent of those who passed, compared with forty per cent for the small one. But when it came to buying, the pattern was reversed. Of those who stopped at the table of six, nearly a third went on to buy a jar. Of those who stopped at the table of twenty-four, only three per cent did.
+[C] The psychologist Barry Schwartz developed the finding into a general theory, which he called the paradox of choice. A large number of options, he suggested, burdens the chooser in several ways. Comparing them takes effort, and some people abandon the attempt. The more alternatives are rejected, the easier it is to imagine that one of them would have been better, so that regret increases. Expectations rise too. With only two styles of jeans on offer, a poor fit is the manufacturer's fault. With two hundred, there seems no excuse for not finding the perfect pair, and the buyer who is still not satisfied has no one to blame but himself.
+[D] Schwartz drew a distinction between two kinds of people. Maximisers feel that they must find the best possible option, and so examine every alternative. Satisficers look only until they find something good enough and then stop. In his surveys, maximisers tended to obtain objectively better results, for instance higher starting salaries after university. They were nevertheless less content with the outcome, and more prone to regret and to comparing themselves with others.
+[E] The theory was enormously influential. Companies reduced their product ranges, and one manufacturer reported that sales of a brand of shampoo rose by a tenth after the number of versions was cut from twenty-six to fifteen. Governments took note as well. When Sweden reformed its pension system and invited citizens to select from more than four hundred investment funds, most made no active choice at all and were placed in the default.
+[F] Then came the doubts. Other researchers who tried to repeat the jam experiment obtained inconsistent results, and in 2010 a team led by Benjamin Scheibehenne combined the data from fifty published and unpublished studies. Taken together, they showed an average effect of almost exactly zero. In some experiments more choice reduced purchases, in others it increased them, and in most it made no difference. Choice overload, it seemed, was not a general law of human behaviour.
+[G] Later work has tried to establish when it does occur. A second, larger analysis identified several conditions under which too many options do appear to cause problems. One is when the options are hard to compare, because they differ in many ways at once. Another is when the chooser has no clear preference to begin with and knows little about the subject, as with pensions or medical treatments. A third is when the options are presented in a disorderly way. Sorting them into a few categories, or allowing people to filter by features that matter to them, largely removes the difficulty. An expert choosing wine from a long but well-organised list is in a quite different position from a novice facing a wall of bottles.
+[H] The episode has been instructive in more than one way. It is a reminder that a single vivid experiment, however appealing its message, is a weak foundation for sweeping conclusions. And it suggests that the useful question is not how many options people should be offered, but how. For decisions that are complicated and important, such as saving for retirement, a sensible default and a short, well-arranged menu serve people better than either a single compulsory option or a bewildering multitude.
+== ynng
+1. Traditional economic theory regards additional choice as beneficial. => YES // A: it has treated this as an unmixed blessing.
+2. In the jam experiment, the larger display attracted more interest from shoppers. => YES // B: sixty per cent stopped, compared with forty per cent.
+3. Maximisers are usually happier with their decisions than satisficers. => NO // D: they were less content with the outcome.
+4. The 2010 analysis confirmed that choice overload is a universal effect. => NO // F: an average effect of almost exactly zero.
+5. Supermarkets ought to be legally required to limit the number of products they sell. => NOT GIVEN // The passage makes no such proposal.
+6. How options are presented matters more than how many there are. => YES // H: the useful question is not how many options but how.
+== mc
+7. In the jam experiment, what proportion of people who stopped at the small display bought jam?
+A. three per cent
+B. almost a third
+C. forty per cent
+D. sixty per cent
+=> B // B: nearly a third went on to buy a jar.
+8. According to Schwartz, why does a wide choice increase regret?
+A. It is easier to imagine that a rejected option was better.
+B. People forget which option they chose.
+C. Products of poor quality are harder to return.
+D. Sellers put pressure on customers.
+=> A // C: the more alternatives are rejected, the easier it is to imagine one would have been better.
+9. What happened when Sweden offered citizens hundreds of pension funds?
+A. Most people chose the cheapest fund.
+B. Most people asked for professional advice.
+C. Most people did not make a selection.
+D. Most people changed funds frequently.
+=> C // E: most made no active choice and were placed in the default.
+10. Which of the following makes choice overload more likely, according to paragraph G?
+A. The chooser is an expert.
+B. The options are arranged in categories.
+C. The options can be filtered.
+D. The chooser has little knowledge of the subject.
+=> D // When the chooser has no clear preference and knows little about the subject.
+== fill:sentence | 1W
+11. People who stop searching once they find something good enough are called {{11=satisficers}}.
+12. A shampoo manufacturer increased its {{12=sales}} by reducing the number of versions.
+13. For complicated decisions, people are helped by a sensible {{13=default}} and a short menu.
+
+# R44 | Earthquake early warning
+## A few seconds' notice
+[A] Earthquakes cannot be predicted. Despite a century of effort and many false hopes, no one has found a reliable sign that a fault is about to slip, and most seismologists doubt that such a sign exists. What can be done, however, is to detect an earthquake in the first moments after it begins and to send a warning that outruns the shaking. In several countries, systems of this kind now give people between a few seconds and a minute to prepare. It does not sound like much. It can be enough to save lives.
+[B] The method depends on a simple fact of physics. When a fault ruptures, it sends out waves of two main kinds. The first to arrive, known as primary waves, travel through rock at about six kilometres a second and compress the ground in the direction of travel. They are felt as a sharp jolt and seldom cause damage. Behind them come the secondary waves, which move at roughly half the speed and shake the ground from side to side. It is these, and the surface waves that follow, that bring buildings down. The further a place lies from the source, the longer the gap between the two.
+[C] An early warning system exploits this gap. A dense network of sensors is installed across a region. When several of those nearest the source register the first waves, computers estimate the location and size of the earthquake within a second or two and calculate which areas will be shaken and how strongly. An alert is then transmitted by radio, internet and mobile phone networks. Since such signals travel at close to the speed of light, they easily overtake the destructive waves.
+[D] The idea is older than might be imagined. In 1868, after an earthquake damaged San Francisco, a local doctor proposed in a newspaper that telegraph wires could carry a warning from sensors outside the city and ring a bell in its centre. Nothing came of it. The first working system was built in Japan in the 1960s to protect the new high-speed railway, cutting power to trains automatically when sensors along the coast detected strong motion. Mexico City followed in 1991, six years after an earthquake three hundred and fifty kilometres away on the Pacific coast had killed thousands of its inhabitants. Because the city lies so far from the faults that threaten it, it can receive more than a minute's warning.
+[E] Japan now operates the most advanced public system in the world. Alerts interrupt television and radio programmes and sound on every mobile phone in the affected area. Factories halt production lines, surgeons pause operations, lifts stop at the nearest floor and open their doors, and gas supplies shut off. When a great earthquake struck off the north-east coast in March 2011, the system issued its alert eight seconds after the first wave was detected, and people in Tokyo had about a minute before strong shaking arrived. Every one of the high-speed trains running in the region slowed and stopped without a single derailment.
+[F] The systems have limits that their operators are careful to explain. The most serious is the blind zone. Close to the source, the damaging waves arrive almost as soon as the first, before any alert can be issued, so that the people in greatest danger receive the least warning or none. In addition, the size of a very large earthquake cannot be known at the outset, because the rupture itself may take a minute or more to travel along the fault. In 2011 the Japanese system at first greatly underestimated the magnitude, and with it the height of the tsunami that followed. False alarms are a further concern. A system that cries wolf too often will be ignored, while one that is too cautious will miss real events.
+[G] The cost of sensor networks has put them beyond the reach of many countries at risk. A cheaper approach uses the instruments people already carry. Every smartphone contains a tiny device that detects motion, intended for turning the screen and counting steps. Software can recognise the characteristic signature of an earthquake, and when many phones in the same area report it at the same moment, a central computer can be confident that the event is real. A system of this kind has been operating on phones using one common operating system since 2020, and it has issued alerts in countries from Greece to the Philippines that have no network of their own.
+[H] A warning is useful only if people know what to do with it. Studies of those who received alerts suggest that many simply wait to see what happens, or try to run outside, which is more dangerous than staying put. Education matters as much as engineering. In Japan, where children practise from their first year at school, the response is close to automatic, which is to drop to the floor, take cover under a table and hold on.
+== match:headings | The passage has eight paragraphs, A-H. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. A low-cost alternative using everyday devices
+ii. Two types of wave travelling at different speeds
+iii. From an early proposal to the first systems
+iv. Weaknesses that cannot be entirely overcome
+v. How the network turns detection into an alert
+vi. The cost of repairing earthquake damage
+vii. A national system in action
+viii. Why animals sense earthquakes first
+1. Paragraph B => ii // Primary waves arrive first; secondary waves are slower and destructive.
+2. Paragraph C => v // Sensors, computers and rapid transmission of an alert.
+3. Paragraph D => iii // The 1868 proposal, Japan's railway system and Mexico City.
+4. Paragraph E => vii // Japan's public system and its performance in 2011.
+5. Paragraph F => iv // The blind zone, uncertain magnitude and false alarms.
+6. Paragraph G => i // Smartphones detect motion and report it.
+== tfng
+7. Most seismologists believe that earthquakes will one day be predicted. => FALSE // A: most doubt that a reliable sign exists.
+8. Primary waves rarely cause damage. => TRUE // B: they seldom cause damage.
+9. The first working warning system was designed to protect a railway. => TRUE // D: built in Japan to protect the new high-speed railway.
+10. Mexico City's system has never issued a false alarm. => NOT GIVEN // The passage says nothing about false alarms in Mexico City.
+== fill:summary | 1W
+Responding to a warning
+Research shows that many people who receive an alert do nothing, or attempt to run {{11=outside}}, which increases the danger. In Japan, children {{12=practise|practice}} the correct response from an early age. They are taught to drop down, shelter under a {{13=table}} and hold on.

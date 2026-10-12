@@ -109,5 +109,7 @@ async function Attempt({ params }: Pick<PageProps<"/attempt/[groupId]/[skill]">,
       <WritingRunner ctx={ctx} title={test.title} content={test.content as WritingContent} draft={attempt.essay_text ?? ""} />
     );
   }
-  return <SpeakingRunner ctx={ctx} title={test.title} content={test.content as SpeakingContent} />;
+  const speaking = test.content as SpeakingContent;
+  if (speaking.part === "full") redirect(`/room/${group.id}`);
+  return <SpeakingRunner ctx={ctx} title={test.title} content={speaking} />;
 }

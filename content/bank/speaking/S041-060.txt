@@ -1,0 +1,159 @@
+# S041 | A friend you have known for a long time
+P1 Work or study: What do you do for a living, or what do you study? | How did you get into it? | What is a typical week like? | Do you see yourself doing the same thing in ten years?
+P1 Childhood: Where did you spend your childhood? | What games did you play? | Who looked after you most? | Would you like to be a child again?
+P1 Letters: When did you last write a letter? | Do you keep letters or cards people send you? | Is it nice to receive post? | Will people stop sending letters completely?
+P2 Describe a friend you have known for a long time. | who this friend is | how you met | what you do together | and explain why the friendship has lasted.
+R How often do you see each other now? | Have you ever fallen out?
+P3 Friendship: What do people look for in a close friend? | Is it harder to make friends as an adult than as a child? | Can online friendships be as strong as those made in person? | Why do some friendships end? | How might the nature of friendship change as people move home more often?
+
+# S042 | A meal you enjoyed in a restaurant
+P1 Hometown: What food is your region known for? | Are there many restaurants in your hometown? | Where do families go to eat out? | Has the food there changed over the years?
+P1 Restaurants: How often do you eat out? | What kind of restaurant do you like? | Do you prefer eating out or at home? | Do you read reviews before choosing a place?
+P1 Snacks: Do you eat between meals? | What snacks are popular in your country? | Did you have snacks at school? | Are snacks bad for you?
+P2 Describe a meal you enjoyed in a restaurant. | where the restaurant was | who you went with | what you ate | and explain why you enjoyed the meal.
+R Have you been back there? | Was it a special occasion?
+P3 Food and eating habits: Why has eating out become more common? | Are people in your country eating more healthily than before? | Should fast food advertising aimed at children be banned? | How does a country's food reflect its culture? | Will people still cook at home in the future?
+
+# S043 | A goal you worked hard to achieve
+P1 Home: Do you have a place at home where you work or study? | Is it tidy? | What time of day do you use it? | What would improve it?
+P1 Plans: Do you like making plans? | How far ahead do you plan? | What plans do you have for next week? | Do your plans usually work out?
+P1 Running: Do you ever go running? | Did you run races at school? | Is running popular in your country? | Would you enter a long-distance race?
+P2 Describe a goal you worked hard to achieve. | what the goal was | how long it took | what difficulties you faced | and explain how you felt when you achieved it.
+R Did anyone support you? | Have you set yourself a new goal?
+P3 Ambition and success: Why is it useful to set goals? | Do parents put too much pressure on children to succeed? | Is success mainly the result of hard work or of luck? | How does society define a successful person? | Is ambition always a good quality?
+
+# S044 | A piece of furniture in your home
+P1 Work or study: Do you sit at a desk for most of the day? | Is your workplace or classroom comfortable? | What do you look at when you take a break? | Would you rather work from home?
+P1 Furniture: What furniture is in your room? | Do you prefer old furniture or new? | Have you ever put furniture together yourself? | What piece would you most like to buy?
+P1 Tidiness: Are you a tidy person? | How often do you tidy your room? | Does mess bother you? | Were you tidy as a child?
+P2 Describe a piece of furniture in your home. | what it is | where it came from | what it is used for | and explain why it is important to you or your family.
+R How long have you had it? | Would you ever replace it?
+P3 Homes and possessions: Why do people become attached to objects? | Do people today own too many things? | How have homes in your country changed over the last fifty years? | Is it better to rent or to own a home? | How will smaller living spaces change the way people live?
+
+# S045 | A time you spoke a foreign language for the first time
+P1 Hometown: Do many foreigners visit your hometown? | Are there signs in English? | Is English taught well in local schools? | Do people there speak a dialect?
+P1 English: Why are you learning English? | What do you enjoy about it? | How do you practise speaking? | Will you keep studying after this test?
+P1 Dictionaries: Do you use a dictionary? | Paper or online? | How do you learn new words? | Have you ever read a dictionary for fun?
+P2 Describe a time when you spoke a foreign language for the first time. | where you were | who you spoke to | what you talked about | and explain how you felt about the experience.
+R Did the other person understand you? | Did it make you more confident?
+P3 Language learning: Why do some people learn languages more easily than others? | At what age should children start a foreign language? | Will translation technology make language learning unnecessary? | What is lost when a minority language disappears? | Should everyone in the world learn one common language?
+
+# S046 | A sports event you watched
+P1 Home: Do you watch sport at home? | Who do you watch it with? | Is there space to exercise at home? | Do your neighbours play sport nearby?
+P1 Stadiums: Have you ever been to a stadium? | Is there one near you? | Do you like large crowds? | Would you rather watch from home?
+P1 Competition: Are you a competitive person? | Did you take part in competitions at school? | How do you feel when you lose? | Is competition good for children?
+P2 Describe a sports event you watched. | what the event was | where you watched it | who you watched it with | and explain why it was memorable.
+R Do you often watch this sport? | Did your side win?
+P3 Sport and spectators: Why do people support a particular team so passionately? | Is watching sport a waste of time? | Does hosting a major sporting event benefit a country? | Should sports stars be role models for children? | How is money changing professional sport?
+
+# S047 | An invention that changed people's lives
+P1 Work or study: What technology do you use in your work or studies? | Could you do it without a computer? | Has technology changed your field? | What would you like a machine to do for you?
+P1 Robots: Are you interested in robots? | Have you seen one in real life? | Would you like a robot at home? | Would you trust a robot to drive you?
+P1 Science: Did you enjoy science at school? | Which branch did you like best? | Do you read about science now? | Should everyone study science?
+P2 Describe an invention that changed people's lives. | what the invention is | when it was invented | how people use it | and explain how it changed people's lives.
+R Do you use it yourself? | Could people live without it now?
+P3 Invention and progress: Which invention of the last century was the most important? | Do inventions always improve people's lives? | Who benefits most from new technology, the rich or the poor? | Should governments fund research that has no obvious practical use? | What problems would you most like future inventors to solve?
+
+# S048 | A time you complained about something
+P1 Hometown: What do people in your hometown complain about? | Are local services good? | Is it clean? | Who do residents contact when there is a problem?
+P1 Politeness: Are people in your country polite? | Who taught you to be polite? | Are you more polite to strangers than to friends? | Has politeness changed over time?
+P1 Queues: Do you mind queuing? | Where do you usually have to queue? | What do you do while you wait? | Do people in your country queue patiently?
+P2 Describe a time when you complained about something. | what you complained about | who you complained to | what you said | and explain what happened as a result.
+R Were you satisfied with the result? | Do you often complain?
+P3 Complaints and consumers: Why are some people reluctant to complain? | Is it better to complain in person or in writing? | How should companies respond to criticism on social media? | Do customers have too much or too little power today? | Has the internet made businesses more honest?
+
+# S049 | A child you enjoy spending time with
+P1 Home: Are there children in your household? | Is your home suitable for small children? | Where do children play near your home? | Did you share a room as a child?
+P1 Toys: What was your favourite toy? | Do you still have any toys from childhood? | Are toys today better than in the past? | What would you buy a child as a present?
+P1 Primary school: What do you remember about your first school? | Did you like your teachers? | How did you get there? | Are you still in contact with friends from that time?
+P2 Describe a child you enjoy spending time with. | who the child is | how you know them | what you do together | and explain why you enjoy their company.
+R How old is the child? | Do you see them often?
+P3 Children and upbringing: What can adults learn from children? | Are children today growing up too quickly? | Should parents limit the time children spend on screens? | Is it better for a young child to be at home or at nursery? | How will childhood be different for the next generation?
+
+# S050 | A time you had to get up very early
+P1 Work or study: What time do you have to get up for work or classes? | How do you travel there? | Are you alert first thing in the morning? | Would you prefer to start later?
+P1 Breakfast: What do you usually have for breakfast? | Do you ever miss it? | Is breakfast an important meal in your country? | What would your ideal breakfast be?
+P1 Sky: Do you often look at the sky? | Do you prefer the sky in the morning or at night? | Can you see many stars from your home? | Have you ever watched the sun rise?
+P2 Describe a time when you had to get up very early. | when it was | why you had to get up early | how you made sure you woke up | and explain how you felt that day.
+R Do you often get up early? | Would you do it again for the same reason?
+P3 Routines and sleep: Why do some people function better in the morning and others at night? | Do people today get enough sleep? | Should schools start later in the day for teenagers? | How do shift workers cope with unusual hours? | Is the traditional working day still suited to modern life?
+
+# S051 | A famous person you would like to meet
+P1 Hometown: Has anyone famous come from your hometown? | Are there any statues or monuments? | What is your hometown proud of? | Do tourists come to see anything in particular?
+P1 Famous people: Are you interested in celebrities? | Have you ever seen a famous person? | Would you like to be famous? | Do famous people have a good life?
+P1 Advertisements: Do you notice advertisements? | Have you ever bought something because of one? | Are there too many? | What kind do you find annoying?
+P2 Describe a famous person you would like to meet. | who this person is | why they are famous | how you know about them | and explain what you would like to ask them.
+R Do your friends admire this person too? | Do you think you will ever meet them?
+P3 Fame and influence: Why are people so interested in the lives of celebrities? | Do famous people have a responsibility to behave well? | Is it easier to become famous today than in the past? | Should the media respect the private lives of public figures? | What kinds of people ought to be admired but usually are not?
+
+# S052 | A change you would like to see in your town
+P1 Home: How long does it take you to get to the centre of town? | What is missing from your area? | Is there a place for people to meet? | Do residents get a say in local decisions?
+P1 Streets: What is the main street in your town like? | Are the streets clean? | Is it pleasant to walk around? | Have the streets changed in recent years?
+P1 Recycling: Do you recycle at home? | Is it easy to do where you live? | Did you learn about it at school? | Do you think people recycle enough?
+P2 Describe a change you would like to see in your town or city. | what the change is | why it is needed | who would benefit from it | and explain how the change could be made.
+R Do other people agree with you? | Do you think it will happen?
+P3 Cities and planning: What are the biggest problems facing cities in your country? | Should ordinary residents have more influence over planning? | Is it better to improve old districts or build new ones? | How can cities reduce their dependence on cars? | What will the ideal city of the future look like?
+
+# S053 | A time you were surprised
+P1 Work or study: Has anything surprised you about your job or course? | Was it harder or easier than you expected? | What has been the best moment so far? | Do you like knowing what will happen each day?
+P1 Birthdays: How do you usually celebrate your birthday? | Did you have parties as a child? | Which birthdays are most important in your country? | Is it easy to remember friends' birthdays?
+P1 Surprises: Do you like surprises? | Have you ever organised one for someone? | Are you easy to surprise? | Would you prefer to know about a present in advance?
+P2 Describe a time when you were surprised. | what happened | who was involved | where you were | and explain why it was a surprise.
+R Was it a pleasant surprise? | How did you react?
+P3 The unexpected: Why do some people dislike surprises? | How well do people generally cope with sudden change? | Should schools teach children to deal with uncertainty? | Is life less predictable now than it was for previous generations? | Is the ability to adapt more important than the ability to plan?
+
+# S054 | A tradition in your family
+P1 Hometown: Are there any local customs in your hometown? | Do young people still follow them? | When is the town at its liveliest? | What do families do together there?
+P1 Visiting relatives: How often do you visit relatives? | What do you do when you are there? | Did you visit them more as a child? | Do you enjoy large family gatherings?
+P1 Public holidays: What public holidays are there in your country? | Which do you like best? | What do people usually do? | Should there be more of them?
+P2 Describe a tradition in your family. | what the tradition is | when it takes place | who takes part | and explain why it is important to your family.
+R How did it begin? | Will you continue it in the future?
+P3 Tradition and change: Why do families keep traditions? | Are young people in your country losing interest in tradition? | Can a tradition be harmful? | How does globalisation affect local customs? | Which traditions do you think will have disappeared in fifty years?
+
+# S055 | A time you used a map or directions
+P1 Home: Is your home easy for visitors to find? | How would you give directions to it? | Are the streets well signposted? | Do you ever get deliveries sent to the wrong place?
+P1 Travel: Do you like travelling? | How do you prepare for a trip? | Do you travel light? | Where was the last place you went?
+P1 Getting lost: Do you have a good sense of direction? | What do you do if you get lost? | Do you mind asking strangers for help? | Did you ever get lost as a child?
+P2 Describe a time when you used a map or directions to find a place. | where you were going | what kind of map or directions you used | how easy it was to follow | and explain whether you found the place without problems.
+R Do you prefer written directions or a map? | Have you been back there since?
+P3 Navigation and independence: Are people too dependent on their phones to find their way? | Why do some people refuse to ask for directions? | Should schools teach children practical skills such as map reading? | How has easy navigation changed the way people travel? | What other abilities might humans lose as technology improves?
+
+# S056 | A job you would like to do in the future
+P1 Work or study: What did you want to be when you were a child? | Has that changed? | What matters most to you in a job? | Would you like to work for yourself?
+P1 Money: Are you good at saving money? | What do you spend most on? | Did you get pocket money as a child? | Do you prefer paying by cash or card?
+P1 Meetings: Do you attend many meetings? | Are they useful? | Do you prefer meeting in person or online? | What makes a meeting go well?
+P2 Describe a job you would like to do in the future. | what the job is | what you would need to do to get it | what the work would involve | and explain why you would like to do this job.
+R Do you know anyone who does this job? | Is it well paid?
+P3 Careers and work: How do young people in your country choose a career? | Is it better to stay in one job or to change often? | Which jobs are undervalued by society? | Should university education be mainly about preparing for work? | How will people earn a living if machines do most jobs?
+
+# S057 | A song that means something to you
+P1 Home: Do you listen to music at home? | Does anyone in your family play an instrument? | Do your neighbours complain about noise? | Where do you listen to music most?
+P1 Singing: Do you like singing? | Did you sing at school? | Do you ever sing in front of others? | Is singing popular in your country?
+P1 Concerts: Have you been to a concert? | Do you prefer live or recorded music? | Are concert tickets expensive? | Who would you most like to see perform?
+P2 Describe a song that means something to you. | what the song is | when you first heard it | what it is about | and explain why it is special to you.
+R Do you know all the words? | Do you still listen to it often?
+P3 Music and society: Why does music bring back memories so strongly? | Should every child learn a musical instrument? | Has streaming been good or bad for musicians? | Is traditional music at risk of dying out? | Can music made by computers be as moving as music made by people?
+
+# S058 | An occasion when you wore special clothes
+P1 Work or study: Do you have to dress in a certain way for work or college? | Do you like that? | What do you wear when you want to be comfortable? | Does what you wear affect how you work?
+P1 Weddings: Have you been to many weddings? | What do people wear to them in your country? | Do you enjoy them? | Are weddings changing?
+P1 Jewellery: Do you wear jewellery? | Have you ever been given some? | Is jewellery a common gift? | Do you prefer simple or elaborate designs?
+P2 Describe an occasion when you wore special clothes. | what the occasion was | what you wore | where you got the clothes | and explain how you felt wearing them.
+R Have you worn them since? | Did other people dress in a similar way?
+P3 Clothing and occasions: Why do people dress up for special events? | Is traditional dress still worn in your country? | Do school uniforms benefit pupils? | How much should appearance matter at work? | Is the fashion industry a positive or a negative force?
+
+# S059 | A time you saw an interesting animal
+P1 Hometown: What wildlife can be seen near your hometown? | Is there a zoo? | Do people keep animals? | Is the countryside close by?
+P1 Wild animals: Are you interested in wild animals? | Have you watched wildlife programmes? | What animal would you most like to see? | Are any animals in your country in danger?
+P1 Zoos: Did you go to zoos as a child? | Do you think they are good for animals? | Would you take children to one? | Would you prefer a zoo or a nature reserve?
+P2 Describe a time when you saw an interesting animal. | what the animal was | where you saw it | what it was doing | and explain why you found it interesting.
+R Had you seen this animal before? | Did you take a photograph?
+P3 Animals and people: Why are people fascinated by wild animals? | Is it right to keep animals in zoos? | How do farming and building affect wildlife? | Should rich countries pay to protect species in poorer ones? | Do humans have a duty to prevent every species from becoming extinct?
+
+# S060 | A rule at your school or workplace
+P1 Work or study: Are there many rules where you work or study? | Which is the most important? | Have you ever broken one? | Who makes the rules?
+P1 Concentration: Do you find it easy to concentrate? | What distracts you most? | Where do you work best? | Do you listen to music while working?
+P1 Uniforms: Did you wear a uniform at school? | Did you like it? | Do people in many jobs wear uniforms in your country? | Would you like to wear one at work?
+P2 Describe a rule at your school or workplace that you agree or disagree with. | what the rule is | why it was introduced | how people react to it | and explain why you agree or disagree with it.
+R Has the rule ever been changed? | What happens if someone breaks it?
+P3 Rules and freedom: Why do organisations need rules? | Do young people today respect rules less than their parents did? | Should people obey a law they believe is unfair? | Are strict rules more effective than trust? | How should a society balance individual freedom with the safety of others?

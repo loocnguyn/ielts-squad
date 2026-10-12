@@ -1,0 +1,351 @@
+# L33 | Festival volunteering and fire safety at home
+## 1 | You will hear a woman phoning the office of a music festival to ask about volunteering.
+@A Coordinator male_uk
+@B Caller female_us
+A: Hello, Greenfields Festival office. Liam speaking.
+B: Hi. I saw online that you need volunteers this summer, and I'd love to help if there are still places.
+A: There are a few. Have you volunteered at a festival before?
+B: Never. I've been to plenty, though, as a paying customer.
+A: That's fine. Most of our team are first-timers. Let me explain how it works. The festival runs from Thursday to Sunday, the last weekend in July. Volunteers work three shifts of six hours each, and the rest of the time is your own.
+B: So eighteen hours altogether. And in return, I get in free?
+A: You do. You also get a place in the staff campsite, which is quieter than the public one and has hot showers, and one meal for each shift you work.
+B: Hot showers. I'm convinced already. What kind of work is it?
+A: There are four teams. Gates, where you check tickets. Recycling. Information. And stewarding at the stages. Do you have a preference?
+B: Not the stages. I'd like to hear the music, not stand with my back to it. I speak Spanish and French, so maybe information?
+A: Languages are really useful there. I'll put you down for information. Now, I should say that we ask for a deposit. It's the price of a ticket, a hundred and ninety pounds, and you get it all back once you've completed your shifts.
+B: Why a deposit?
+A: A few years ago, a number of people signed up, walked in free, and never turned up for work. The deposit put a stop to that.
+B: Fair enough. Is there any training?
+A: Yes, on the Wednesday evening, the day before the gates open. It starts at six and lasts about two hours. It's compulsory, so you'll need to arrive on Wednesday.
+B: That's OK. I'll take the day off. What should I bring, apart from a tent?
+A: Strong boots, waterproofs, and a torch. The fields are very dark at night. We give you a T-shirt and a staff wristband.
+B: How old do you have to be? My younger brother might want to come.
+A: Eighteen or over on the first day of the festival.
+B: He's seventeen, so that's a no. How do I apply?
+A: There's a form on the website, under the heading Crew. You'll need to upload a photograph for your pass. The closing date is the thirtieth of April.
+B: I'll do it tonight. Who do I contact if I have questions?
+A: Email me. My surname's Hadfield. H, A, D, F, I, E, L, D. And your name is?
+B: Camila Torres.
+A: Thanks, Camila. One tip. Choose your shifts quickly once the list opens. The morning ones go first.
+== fill:form | 1WN
+Greenfields Festival: volunteer enquiry
+Number of shifts: {{1=3|three}}
+Length of each shift: {{2=6|six}} hours
+Volunteers receive free entry, camping and one {{3=meal}} per shift
+Team chosen: {{4=information}}
+Deposit: £{{5=190|a hundred and ninety|one hundred and ninety}}
+Training: on {{6=Wednesday}} evening, starting at 6 pm
+Bring: boots, waterproofs and a {{7=torch}}
+Minimum age: {{8=18|eighteen}}
+Closing date: {{9=30 April|30th April|April 30|April 30th|thirtieth of April}}
+Coordinator's surname: {{10=Hadfield}}
+## 2 | You will hear a fire officer giving a talk to residents about preventing fires at home.
+@C Officer female_uk
+C: Good evening. I'm Station Officer Kate Rowe, and I've been asked to talk for a few minutes about keeping your home safe from fire.
+C: Let me start with a question. Where do most house fires begin? People usually say the living room, because of candles and open fires. In fact, more than half start in the kitchen, and the most common cause is simply leaving a pan on the heat and walking away. So my first piece of advice costs nothing. If you're called away, to the door or the phone, turn the cooker off first.
+C: If a pan of oil does catch fire, never throw water on it. The water turns to steam in an instant and throws burning oil across the room. Turn off the heat if you can reach the control safely, leave the kitchen, close the door, and call us.
+C: The second great cause is electrical. I'm often asked about old wiring. It can be a problem, but far more fires are started by overloaded sockets, where four or five appliances run from a single point. Heaters and kettles should always have a wall socket to themselves.
+C: A newer risk is the charger. Batteries for phones, and especially for electric bikes and scooters, can overheat. Please don't charge them overnight, and never in the hallway, because if they catch fire, they block your way out.
+C: Now, smoke alarms. You need at least one on every floor. The best place is the ceiling of the hall or landing, not the kitchen, where steam and toast will set it off and tempt you to remove the battery. Test each alarm once a month by pressing the button, and replace the whole unit after ten years.
+C: Every household should also have an escape plan. Decide on your route, and make sure everyone knows where the door keys are kept. At night, close the doors of the rooms downstairs. A closed door can hold back a fire for twenty minutes.
+C: And if the worst happens, get out, stay out, and call the fire service. Don't go back for pets or possessions. More people are killed by smoke than by flames, and most of them are trying to rescue something.
+C: Finally, my service offers a free home safety visit. An officer will come to your house, check your alarms, and fit new ones if needed, at no charge. Priority goes to people over sixty-five and families with young children. You can book through the number on the leaflet.
+== mc
+11. According to the officer, most house fires start
+A. in the living room.
+B. in the kitchen.
+C. in a bedroom.
+=> B // People usually say the living room, but more than half start in the kitchen.
+12. What should people do first if a pan of oil catches fire?
+A. cover it with a wet cloth
+B. pour water over it
+C. switch off the heat if it is safe to do so
+=> C // Never use water; turn off the heat if the control can be reached safely, then leave.
+13. The most common cause of electrical fires is
+A. too many appliances plugged into one socket.
+B. old wiring.
+C. faulty kettles.
+=> A // Old wiring can be a problem, but far more fires are started by overloaded sockets.
+14. Batteries for electric bikes should not be charged in the hallway because
+A. it is the coldest part of the house.
+B. a fire there would block the escape route.
+C. there is usually no smoke alarm there.
+=> B // If they catch fire they block the way out.
+15. Where is the best place for a smoke alarm?
+A. in the kitchen
+B. beside the front door
+C. on the ceiling of the hall
+=> C // Steam and toast set off an alarm in the kitchen.
+== fill:sentence | 1WN
+16. Smoke alarms should be tested once a {{16=month}}.
+17. An alarm should be replaced after {{17=10|ten}} years.
+18. Everyone in the house should know where the door {{18=keys}} are kept.
+19. More people die because of {{19=smoke}} than because of flames.
+20. Free home safety visits are offered first to people aged over {{20=65|sixty-five}}.
+
+# L34 | Health campaign poster and how memory works
+## 3 | You will hear two public health students, Farah and Luke, discussing a poster campaign about hand washing in a hospital.
+@A Farah female_uk
+@B Luke male_uk
+A: Luke, we've got to hand in the campaign plan next week. Shall we go over where we are?
+B: Yes. So the hospital wants more visitors to clean their hands when they enter a ward. At the moment, it's about one in five.
+A: Which is low. I was surprised, because there's a gel dispenser at every door.
+B: I went and watched for an hour on Tuesday. The dispensers are there, but they're on the wall behind the door. Once the door's open, you can't see them.
+A: So it's partly a question of position, not attitude. Did you tell the ward manager?
+B: I did, and she's agreed to move two of them onto stands in the middle of the corridor, as a trial.
+A: Brilliant. That may do more than any poster. But we still need to design the poster. I've been reading about what works.
+B: Go on.
+A: The existing one says that infections kill five thousand patients a year. It's meant to frighten people.
+B: And it doesn't work?
+A: Fear makes people look away, apparently. A study in an American hospital compared two signs. One said hand hygiene protects you. The other said hand hygiene protects patients. The second increased the use of gel by a third. The first did nothing.
+B: So we appeal to people's concern for others. Whoever they're visiting.
+A: Exactly. Something like, the person you've come to see is counting on you.
+B: I like that. What about a picture?
+A: I'd assumed a photo of hands under a tap. But there's research showing that a pair of eyes on a sign makes people behave better, because they feel they're being watched.
+B: That's a bit sinister for a hospital.
+A: Maybe. A friendly face, then. A nurse, smiling.
+B: Better. And where do the posters go? If we put them everywhere, nobody will notice them after a week.
+A: Just one, at eye level, immediately above each dispenser. And we change the design every month, so it stays fresh.
+B: Good. Now, how do we know whether it's worked?
+A: We could count how many people use the gel, like you did on Tuesday.
+B: That takes hours, and people behave differently if they notice someone watching. A simpler way is to weigh the gel bags each week. If more gel's being used, more hands are being cleaned.
+A: That's clever, and nobody's being observed. Who does the weighing?
+B: The cleaning staff change the bags anyway. I'll ask their supervisor.
+A: Then I'll draft three versions of the poster and test them on the students in our seminar.
+B: I'd test them on actual visitors, in the hospital cafe.
+A: You're right. I'll go on Saturday.
+== mc
+1. Luke discovered that visitors do not use the gel dispensers mainly because
+A. the dispensers are often empty.
+B. the dispensers are difficult to see.
+C. visitors think gel is unnecessary.
+=> B // They are on the wall behind the door, out of sight once it is open.
+2. What has the ward manager agreed to do?
+A. put up more posters
+B. remind visitors in person
+C. move some dispensers
+=> C // Two will be moved onto stands in the middle of the corridor as a trial.
+3. According to Farah's reading, the most effective message is one that
+A. mentions the risk to other people.
+B. frightens the reader.
+C. gives statistics.
+=> A // The sign saying hand hygiene protects patients increased gel use by a third.
+4. Which image do the students choose for the poster?
+A. a pair of eyes
+B. hands being washed
+C. a smiling nurse
+=> C // Eyes seemed too sinister for a hospital.
+5. How do the students plan to keep the poster noticeable?
+A. by putting copies everywhere
+B. by changing the design regularly
+C. by making it very large
+=> B // One poster above each dispenser, with a new design every month.
+== fill:sentence | 2W
+6. Each poster will be placed at {{6=eye level}} above a dispenser.
+7. The students will measure the campaign's success by weighing the gel {{7=bags}}.
+8. Luke will speak to the {{8=supervisor}} of the cleaning staff.
+9. Farah will produce {{9=three}} versions of the poster.
+10. The posters will be tested on visitors in the hospital {{10=cafe|café}}.
+## 4 | You will hear part of a psychology lecture about memory.
+@C Lecturer male_us
+C: We tend to imagine memory as a kind of recording, a film that we can play back. Almost everything psychologists have learned in the last century suggests that this picture is false. Memory isn't a recording. It's a reconstruction, built afresh each time we remember.
+C: Let me begin with the basic structure. Information first enters short-term memory, which is very limited. It holds about seven items, and for only about twenty seconds unless we keep repeating them. To last, a memory must be transferred to long-term storage, and that process depends heavily on sleep. Students who stay up all night before an exam are working against their own brains.
+C: What decides whether something is transferred? Above all, meaning. In a classic experiment, chess masters were shown a board for five seconds and could reproduce it almost perfectly. But when the pieces were placed at random, in positions that could never occur in a game, the masters did no better than beginners. They weren't remembering pieces. They were remembering patterns that meant something to them.
+C: Emotion matters too. Events that frighten or delight us are remembered vividly. But vivid doesn't mean accurate. The day after the space shuttle Challenger exploded, a psychologist asked his students to write down how they'd heard the news. Three years later, he asked them again. A quarter gave a completely different account, and they were astonished when they were shown their own handwriting.
+C: This brings me to the work of Elizabeth Loftus. She showed people a film of a car accident, and then asked how fast the cars were going when they hit each other. With other viewers, she changed one word, and asked how fast they were going when they smashed into each other. The second group gave higher speeds, and a week later, many of them remembered seeing broken glass, although there was none in the film.
+C: The implications for courts of law are serious. Juries find a confident witness very convincing. Yet research shows that confidence and accuracy are only weakly related.
+C: So is forgetting simply a failure? Not at all. A brain that kept everything would be overwhelmed by detail. Forgetting lets us keep the general lesson and discard the rest.
+C: Finally, some practical advice, since you all have exams. Rereading your notes feels productive, but it's one of the least effective methods. Far better is to close the book and test yourself. And spread your study over several days. An hour on each of three days beats three hours in one evening.
+== fill:note | 1W
+How memory works
+- memory is not a recording but a {{11=reconstruction}}
+Structure
+- short-term memory holds about {{12=seven|7}} items
+- transfer to long-term memory depends on {{13=sleep}}
+What is remembered
+- chess masters remember {{14=patterns}}, not individual pieces
+- memories of emotional events are vivid, but often not {{15=accurate}}
+The work of Elizabeth Loftus
+- changing one {{16=word}} in a question altered people's estimates of speed
+- many later remembered broken {{17=glass}} that was not in the film
+- a witness's {{18=confidence}} is a poor guide to accuracy
+Advice for students
+- the best method is to {{19=test}} yourself
+- study should be spread over several {{20=days}}
+
+# L35 | Car club membership and a museum exhibition
+## 1 | You will hear a man phoning a car-sharing club to ask about joining.
+@A Adviser female_uk
+@B Caller male_us
+A: Thank you for calling City Car Club. My name's Priya. How can I help?
+B: Hi. I've just sold my car, because I hardly ever used it, and a neighbour suggested I join your club.
+A: Lots of our members are in exactly that position. Shall I explain how it works?
+B: Please.
+A: We keep cars in marked parking bays around the city, about two hundred of them. You book one through the app, for as little as half an hour, unlock it with your phone, and bring it back to the same bay when you've finished.
+B: The same bay. So I can't leave it somewhere else?
+A: Not at the moment. One-way trips are something we're planning for next year.
+B: OK. And what does it cost?
+A: There are two plans. On the standard plan, you pay six pounds a month, and then seven pounds fifty for each hour you use a car. On the frequent plan, it's fifteen pounds a month, but only five pounds fifty an hour.
+B: I'd probably drive twice a month, so standard makes sense. Does the price include fuel?
+A: It includes fuel and insurance. The first sixty miles of every booking are free, and after that it's twenty pence a mile.
+B: Sixty miles. That's enough for most of what I do. What if the tank's nearly empty when I collect the car?
+A: There's a fuel card in the glove box. You fill up and we pay. We just ask members to leave at least a quarter of a tank for the next person.
+B: Makes sense. What kind of cars do you have?
+A: Mostly small hatchbacks. There are also some vans, which are popular for moving furniture, and around forty of the fleet are electric now.
+B: I'd like to try an electric one. Is there a car near me? I live on Albert Road.
+A: Let me look. The nearest bay is on Regent Street, outside the library. That's about four minutes on foot.
+B: Perfect. What do I need to join?
+A: You must be at least twenty-one, and you need to have held a full licence for a year. We check your licence online, so have it with you when you fill in the form.
+B: I've been driving for twenty years, so no problem there. How long does it take to be approved?
+A: Usually two working days. There's a joining fee of twenty-five pounds, but if you enter the code SPRING on the form, we'll waive it.
+B: SPRING. Got it. And what if I return a car late?
+A: Then the next member is kept waiting, so there's a penalty of thirty-five pounds. If you're running late, extend the booking from the app before it ends, and there's no charge beyond the extra time.
+B: That's good to know. And if I have an accident?
+A: Call the emergency number on the windscreen. The damage charge is limited to five hundred pounds.
+== fill:note | 1WN
+City Car Club
+How it works
+- minimum booking: half an hour
+- the car must be returned to the same {{1=bay}}
+Costs (standard plan)
+- monthly fee: £{{2=6|six}}
+- free mileage per booking: {{3=60|sixty}} miles
+- fuel is paid for with a {{4=card}} kept in the car
+Cars
+- small hatchbacks, vans and about forty {{5=electric}} cars
+- nearest bay: on Regent Street, outside the {{6=library}}
+Joining
+- minimum age: {{7=21|twenty-one}}
+- approval takes {{8=2|two}} working days
+- code to avoid the joining fee: {{9=SPRING}}
+- charge for late return: £{{10=35|thirty-five}}
+## 2 | You will hear a museum curator talking on local radio about a new exhibition.
+@C Curator male_uk
+C: Thank you. Yes, the exhibition is called Made in Dunmore, and it opens on Saturday. It tells the story of the things this town used to make, and of the people who made them.
+C: The idea came about by chance. Two years ago, a building firm was clearing out the old Crown Works before turning it into flats, and they found a room that had been locked since the factory closed in nineteen seventy-eight. Inside were order books, tools, and hundreds of photographs of the staff. The firm rang us, and we realised we had the makings of a show.
+C: For anyone who doesn't know, Dunmore was once famous for three things. Clocks, which were exported all over the world. Bicycles. And, less well known, buttons, which were made from shells brought from the Pacific.
+C: I think what will surprise visitors most is the scale. In nineteen twenty, one in three adults in the town worked in one of those three trades. Whole streets were built by the factory owners for their workers, and many of those houses are still lived in.
+C: We didn't want simply to fill cases with objects. So in the first room, you can sit at a real workbench and try to put together the mechanism of a clock, with a retired clockmaker to guide you. It's harder than it looks.
+C: The second room is devoted to the bicycle. The centrepiece is a racing machine on which a local woman, Edith Shaw, broke the national record over a hundred miles in nineteen thirty-six. Her granddaughter has lent us her medals.
+C: In the third room, we've recreated part of the button workshop. We've added the sound, from recordings, because former workers all told us the same thing, that what they remembered most was the noise.
+C: Throughout the exhibition, you'll hear the voices of people who worked in the factories. We recorded thirty interviews, and the oldest speaker is a hundred and one.
+C: Some practical details. The exhibition runs until the end of September. The museum is free, as always, but we're asking for a contribution of four pounds for this show, to cover the cost of putting it on. Children don't pay.
+C: We're open every day except Monday, from ten until five, and on Thursdays we stay open until eight.
+C: And one request. If you have anything at home that was made in Dunmore, a clock, a bicycle badge, a card of buttons, please bring it in on the first Sunday of the month. We'll photograph it and add it to our online collection.
+== mc
+11. How did the idea for the exhibition come about?
+A. A former worker suggested it.
+B. Objects were discovered in an old factory.
+C. The museum received a large donation.
+=> B // Builders found a locked room full of order books, tools and photographs.
+12. The buttons made in Dunmore were made from
+A. metal.
+B. wood.
+C. shells.
+=> C // Shells brought from the Pacific.
+13. What does the curator think will surprise visitors most?
+A. how many people the factories employed
+B. how old the factories were
+C. how far the products were sent
+=> A // In 1920, one in three adults worked in the three trades.
+14. What can visitors do in the first room?
+A. watch a clockmaker at work
+B. try to assemble part of a clock
+C. buy a clock made in the town
+=> B // They sit at a workbench and put together a clock mechanism with a clockmaker's help.
+== fill:note | 1WN
+Made in Dunmore: exhibition
+- second room: a bicycle on which a record was set in {{15=1936|nineteen thirty-six}}
+- third room: workers remembered the {{16=noise}} most of all
+- number of interviews recorded: {{17=30|thirty}}
+- suggested contribution: £{{18=4|four}}
+- closed on {{19=Monday|Mondays}}
+- late opening on Thursdays, until {{20=8|eight}} pm
+
+# L36 | Company failure case study and the science of soil
+## 3 | You will hear two business students, Natalie and Kofi, discussing a case study about a company that failed.
+@A Natalie female_us
+@B Kofi male_uk
+A: Kofi, have you finished reading the case study on Brightline?
+B: Last night. The camera company. It's a sad story, really. They invented the product that destroyed them.
+A: The digital camera. Their own engineer built one in the seventies, and the management told him to keep quiet about it.
+B: Because all their profit came from film. Selling the cameras was never the point. They made their money on the rolls of film and on developing the pictures.
+A: Right. So the first question asks why the company failed. The easy answer is that they didn't see digital coming.
+B: But that's not true, is it? They saw it earlier than anyone. They even commissioned a report in nineteen eighty-one that predicted, quite accurately, how long film had left.
+A: About ten years before digital became a real threat. So they had the knowledge and the time.
+B: What they didn't have was the will. Every digital camera sold would mean one less customer for film. They'd have been competing with themselves.
+A: I think that's our main argument. It wasn't a failure of technology. It was a failure to give up a profitable business before someone else took it away.
+B: Agreed. Now the second question. Could they have survived?
+A: The case mentions a Japanese rival that was in the same position.
+B: Yes, and that company is still thriving. It used its knowledge of chemicals to move into cosmetics and medical products.
+A: So the rival asked, what are we good at, and not, what do we sell.
+B: That's a nice way to put it. Let's use that line.
+A: What about the managers? The report seems to blame the chief executive.
+B: I think that's unfair. Four chief executives came and went, and nothing changed. The problem was in the culture of the whole firm. Middle managers who'd spent thirty years in film had no reason to support a change.
+A: OK. And for the last section, we need a lesson for companies today.
+B: The obvious one is car makers and electric vehicles.
+A: Everyone will choose that. What about newspapers? They knew the internet was coming, and most held on to print advertising far too long.
+B: That's a closer match, actually. Advertising was their film.
+A: Then newspapers it is. How shall we split the presentation?
+B: I'll take the history and the reasons for failure. You do the rival and the lesson.
+A: Fine. Ten slides at most. Professor Adler takes marks off for more.
+B: And no reading from notes. She hates that.
+A: We'd better rehearse, then. Thursday evening?
+B: Thursday at six, in the seminar room.
+== mc
+1. How did Brightline make most of its profit?
+A. by selling cameras
+B. by selling and processing film
+C. by licensing its inventions
+=> B // The money came from rolls of film and from developing pictures.
+2. What do the students say about the company's knowledge of digital photography?
+A. It understood the threat early.
+B. It ignored its own engineers until the 1990s.
+C. It was misled by an inaccurate report.
+=> A // It saw digital earlier than anyone, and a 1981 report predicted how long film had left.
+3. The students' main argument is that the company
+A. lacked the technology to compete.
+B. ran out of money for research.
+C. was unwilling to damage its existing business.
+=> C // Each digital camera sold would mean one less customer for film.
+4. How did the Japanese rival survive?
+A. by lowering its prices
+B. by applying its expertise to other products
+C. by buying a digital camera company
+=> B // It used its knowledge of chemicals to move into cosmetics and medical products.
+5. Kofi thinks the blame for the failure lies mainly with
+A. the chief executive.
+B. the engineers.
+C. the culture of the company.
+=> C // Four chief executives came and went and nothing changed.
+== fill:sentence | 2WN
+6. As a modern parallel, the students choose {{6=newspapers}}.
+7. Kofi will present the history and the reasons for {{7=failure}}.
+8. The presentation must have no more than {{8=10|ten}} slides.
+9. The professor dislikes students reading from {{9=notes}}.
+10. The students will rehearse in the {{10=seminar room}}.
+## 4 | You will hear part of a lecture about soil.
+@C Lecturer female_uk
+C: We walk on it, we build on it, and we rarely give it a thought. Yet soil is one of the most complex materials on the planet, and almost all of our food depends on it. This morning I'd like to introduce what soil is and why scientists are worried about it.
+C: Soil has four ingredients. There are particles of rock, broken down over thousands of years. There's organic matter, which is the remains of dead plants and animals. And there's air and water, held in the spaces between. A healthy soil is roughly half solid and half space.
+C: The rock particles come in three sizes. The largest is sand, the smallest is clay, and in between is silt. The proportions decide how a soil behaves. A sandy soil drains quickly and warms up early in spring, but it holds few nutrients. Clay is rich, but heavy and slow to drain. The ideal for most crops is a mixture that gardeners call loam.
+C: What really distinguishes soil from crushed rock, though, is life. A teaspoon of healthy soil contains more living organisms than there are people on earth. The majority are bacteria and fungi. Fungi form fine threads that connect to the roots of plants. The plant supplies the fungus with sugar, and in return the fungus brings water and minerals from much further away than the roots could reach.
+C: Then there are the larger creatures, and the earthworm is the most important. Its tunnels let air and water into the ground. Charles Darwin spent forty years studying earthworms. In his last book, he suggested that no other animal had played so important a part in the history of the world.
+C: Soil forms extremely slowly. It can take five hundred years to produce two centimetres. And that's why erosion is so serious. When land is ploughed and left bare, wind and rain can remove in one season what took centuries to form. The classic example is the Dust Bowl of the nineteen thirties in the United States, when drought struck land that had been ploughed too deeply, and storms carried the soil as far as the Atlantic.
+C: Farmers have responded. Many now leave the remains of the previous crop on the surface, and sow the next one without ploughing. Others plant what's called a cover crop in the winter, purely to protect the ground.
+C: Finally, soil matters for the climate. It holds about three times as much carbon as the atmosphere. Manage it badly and that carbon escapes. Manage it well and soil could absorb a significant share of our emissions.
+== fill:note | 1W
+Soil
+Composition
+- rock particles, organic matter, air and {{11=water}}
+- particle sizes: sand (largest), silt, {{12=clay}} (smallest)
+- sandy soil drains fast but contains few {{13=nutrients}}
+- the best mixture for crops is called {{14=loam}}
+Life in the soil
+- fungi receive {{15=sugar}} from plants and supply water and minerals
+- the tunnels of the {{16=earthworm}} let in air and water
+- {{17=Darwin}} studied earthworms for forty years
+Loss of soil
+- soil forms very slowly, so {{18=erosion}} is serious
+- the Dust Bowl: drought hit land that had been {{19=ploughed|plowed}} too deeply
+- protection: sowing without ploughing; a cover crop in {{20=winter}}

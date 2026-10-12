@@ -1,0 +1,362 @@
+# L37 | Boiler repair booking and a warehouse induction
+## 1 | You will hear a woman phoning a heating company because her boiler has stopped working.
+@A Agent male_uk
+@B Customer female_uk
+A: Good morning, Calder Heating Services. Ian speaking.
+B: Oh, hello. My boiler's stopped working, and I've got no heating or hot water. Could somebody come and look at it?
+A: I'm sure we can help. Are you an existing customer?
+B: No, I found you online. My usual man has retired.
+A: No problem. I'll take a few details. What's your name, please?
+B: Margaret Yates. Y, A, T, E, S.
+A: And the address?
+B: Fourteen Orchard Close, in Benfield.
+A: Benfield. That's fine, it's within our area. Now, can you tell me what make the boiler is?
+B: It's a Vantis. V, A, N, T, I, S. It says so on the front.
+A: Thank you. And roughly how old is it?
+B: We had it put in when we moved here, so it must be nine years old.
+A: Nine years. Not ancient, then. What exactly is it doing? Is there a light flashing, or a message on the display?
+B: There's a red light flashing, and the display shows the letter F and the number twenty-eight.
+A: F twenty-eight. That's helpful. On that model it usually means the boiler has tried to light and failed. Have you checked the pressure? There's a small dial with a needle underneath.
+B: I did look at that. The needle's pointing to one and a half.
+A: That's normal, so it isn't the pressure. Is your gas cooker working?
+B: Yes, I made tea on it this morning.
+A: Then the gas supply is fine. It's most likely a part inside the boiler. I'll send an engineer. The call-out charge is sixty-five pounds, which covers the first hour. Any parts are extra, and he'll give you a price before he fits anything.
+B: Sixty-five. All right. How soon can he come? It's freezing in here.
+A: Is there anyone elderly or very young in the house? We give priority in those cases.
+B: My mother lives with us. She's eighty-four.
+A: Then I'll mark it as urgent. I can get someone to you this afternoon, between two and four.
+B: Oh, that's wonderful. I'd expected to wait until tomorrow.
+A: The engineer's name is Derek. He'll phone when he's on his way. What's the best number?
+B: I'll give you my mobile. I'll be in the garden, and I won't hear the house phone.
+A: Fine. I have the mobile number on my screen from this call. Is there somewhere he can park?
+B: Not in the close, it's too narrow for a van. He should use the lay-by on the main road and walk round. It's less than a minute.
+A: I'll tell him. One more thing. Could you clear the cupboard around the boiler before he arrives? It saves time, and time is what you're paying for.
+B: I'll do it now. It's full of towels.
+== fill:form | 1WN
+Calder Heating Services: job sheet
+Customer's surname: {{1=Yates}}
+Address: 14 {{2=Orchard}} Close, Benfield
+Boiler make: {{3=Vantis}}
+Age of boiler: {{4=9|nine}} years
+Fault: {{5=red}} light flashing; code F28
+Pressure reading: normal
+Call-out charge: £{{6=65|sixty-five}}
+Reason for priority: customer's {{7=mother}} is 84
+Visit: this {{8=afternoon}}, between 2 and 4
+Parking: in a lay-by on the main {{9=road}}
+Customer will empty the {{10=cupboard}} around the boiler
+## 2 | You will hear a supervisor talking to new employees on their first day at a distribution warehouse.
+@C Supervisor female_us
+C: Good morning, everyone. Welcome to Northgate Distribution. I'm Denise, the day-shift supervisor. Today is mostly training, and you'll start real work tomorrow.
+C: Let me tell you about the building. It covers the area of six football pitches. Around forty thousand parcels pass through every day, and in the weeks before New Year that figure more than doubles. You'll walk a long way on each shift, about ten kilometres on average, so I hope you've brought comfortable footwear.
+C: The first rule here is safety. More accidents in warehouses are caused by forklift trucks than by anything else. The floor is painted with green walkways. Pedestrians stay on the green, and the trucks stay off it. If you have to cross a truck lane, make eye contact with the driver first. Don't assume you've been seen.
+C: You've each been given a yellow jacket and a pair of safety boots. Both must be worn everywhere apart from the canteen and the offices. Gloves are in the boxes by each work station, and you can take a fresh pair whenever you need one.
+C: When you lift, bend your knees and keep your back straight. Anything marked with a red label weighs more than twenty kilos, and must be lifted by two people or with a trolley. Nobody will think you're weak for asking for help. They'll think you're sensible.
+C: Now, shifts. The day shift runs from six in the morning until two in the afternoon. You get a thirty-minute meal break, which is unpaid, and two paid breaks of ten minutes. Please clock in with your card as you arrive. If you forget, tell me the same day, because I can't correct the record after the week has closed, and you could lose pay.
+C: The canteen serves hot food until one thirty, and staff get it at half price. There are lockers for your belongings. Bring your own padlock. And phones stay in the lockers. That isn't because we don't trust you. A person looking at a screen isn't looking out for trucks.
+C: For your first two weeks, you'll each work beside a trained colleague, whom we call a buddy. Ask them anything. After a fortnight, I'll sit down with each of you to review how things are going.
+C: If you're ill, ring the absence line at least one hour before your shift starts. Don't send a message to a friend and ask them to tell me. It has to come from you.
+C: Right. Let's begin with a tour.
+== mc
+11. What happens to the number of parcels before New Year?
+A. It doubles or more.
+B. It rises by about half.
+C. It falls slightly.
+=> A // That figure more than doubles.
+12. Most accidents in warehouses involve
+A. heavy lifting.
+B. slippery floors.
+C. vehicles.
+=> C // More accidents are caused by forklift trucks than by anything else.
+13. Before crossing a truck lane, employees should
+A. wait for a green light.
+B. make sure the driver has seen them.
+C. call a supervisor.
+=> B // Make eye contact with the driver first.
+14. An item with a red label
+A. is fragile.
+B. must go by forklift truck.
+C. must not be lifted by one person alone.
+=> C // It weighs over twenty kilos and needs two people or a trolley.
+15. Why must phones be left in the lockers?
+A. They distract people from danger.
+B. Photographs are not permitted.
+C. They interfere with the scanners.
+=> A // A person looking at a screen is not looking out for trucks.
+== fill:note | 1WN
+Information for new staff
+- the day shift ends at {{16=2|two}} in the afternoon
+- the meal break lasts {{17=30|thirty}} minutes
+- food in the canteen is {{18=half}} price for staff
+- bring a {{19=padlock}} for the locker
+- for two weeks, each new employee works with a {{20=buddy}}
+
+# L38 | Translated novel seminar and Antarctic ice cores
+## 3 | You will hear two literature students, Elise and Daniel, preparing a seminar presentation on a novel in translation.
+@A Elise female_uk
+@B Daniel male_us
+A: Daniel, have you finished the novel? The seminar's on Monday.
+B: I finished it on the train. I have to admit I struggled with the first hundred pages. Nothing seemed to happen.
+A: I had the opposite problem. I loved the slow opening, all those descriptions of the village, and then I felt the ending was rushed.
+B: Interesting. Well, our topic isn't the plot anyway. It's the translation. Professor Okafor wants us to compare the two English versions.
+A: Yes, the one from nineteen fifty-four and the new one from last year. I've got them side by side. The differences are remarkable.
+B: I noticed the old one is shorter.
+A: By about forty pages. The first translator cut passages he thought English readers would find dull, mostly the long conversations about politics.
+B: He just removed them? Could he do that?
+A: It wasn't unusual then. The publisher wanted a book that would sell. The new translator has put everything back.
+B: What about the style? The old version reads very smoothly to me. Almost like an English novel.
+A: That's exactly the point. He made it sound English. He even changed the food. Where the original has a dish of fermented cabbage, he wrote stew.
+B: And the new one?
+A: She keeps the original word and trusts the reader to work it out. There are no footnotes, and no glossary either.
+B: I found that hard going at first. But after a while, the strangeness became part of the pleasure. You feel you're somewhere else.
+A: So which do we argue is better?
+B: I don't think we should say better. They had different aims. One brings the book to the reader. The other takes the reader to the book.
+A: I like that. Can we use it as our title?
+B: Sure. Now, we need examples. Three short passages, with both versions on the screen.
+A: I'd choose the opening paragraph, the wedding scene, and the grandmother's letter. In the letter, she writes in dialect, and the two translators handle it completely differently.
+B: How?
+A: The old one puts it into standard English. The new one invents a kind of rural English, with odd spelling.
+B: That will get a discussion going. Some people will hate it.
+A: Good. Professor Okafor says the best seminars are arguments.
+B: Shall we give the group a handout with the three passages?
+A: Yes, and send it round the day before, so that people can read them in advance.
+B: I'll make the handout. You do the slides?
+A: Deal. Let's keep our talking to fifteen minutes and leave the rest for questions.
+== mc
+1. What did Daniel find difficult about the novel?
+A. the slow beginning
+B. the hurried ending
+C. the number of characters
+=> A // He struggled with the first hundred pages; Elise felt the ending was rushed.
+2. Why is the 1954 translation shorter than the new one?
+A. It was based on a shorter edition.
+B. The translator left out parts he considered boring.
+C. The publisher lost part of the manuscript.
+=> B // He cut passages he thought English readers would find dull.
+3. How does the new translator deal with unfamiliar foreign words?
+A. She explains them in footnotes.
+B. She replaces them with English equivalents.
+C. She leaves them without explanation.
+=> C // She keeps the original word; there are no footnotes or glossary.
+4. What do the students decide about the two translations?
+A. The older one is more enjoyable.
+B. They should not be ranked.
+C. The newer one is more accurate.
+=> B // They had different aims, so the students will not say one is better.
+5. Why do the students choose the grandmother's letter as an example?
+A. It is the most famous passage.
+B. It is missing from the older version.
+C. The translators treat its dialect very differently.
+=> C // One uses standard English; the other invents a rural English.
+== fill:sentence | 2WN
+6. The new translation was published {{6=last year}}.
+7. In the older version, a dish of cabbage is translated as {{7=stew}}.
+8. The students will show {{8=3|three}} passages on the screen.
+9. The handout will be sent out the {{9=day before}} the seminar.
+10. The students will speak for {{10=15|fifteen}} minutes.
+## 4 | You will hear part of a lecture about what ice from Antarctica tells scientists about past climates.
+@C Lecturer male_uk
+C: If you want to know what the earth's climate was like before anyone kept records, one of the best places to look is deep inside the ice of Antarctica. Today I'll explain how ice cores are collected and what we've learned from them.
+C: The principle is simple. Snow falls on the ice sheet every year and never melts. It is buried and pressed down by later layers, and over centuries the snow is squeezed into solid ice. So the deeper you go, the older the ice. In the centre of Antarctica, the sheet is more than three kilometres thick.
+C: To sample it, scientists use a hollow drill, which brings up cylinders of ice about ten centimetres across. The work can only be done in summer, and even then the temperature may be minus thirty. Drilling to the bottom takes several seasons.
+C: What makes the ice so valuable is that it contains tiny bubbles. As the snow is compressed, air is trapped inside it. Those bubbles are samples of the atmosphere from the time the snow fell. By crushing the ice in a vacuum and analysing the air released, we can measure directly how much carbon dioxide the atmosphere held hundreds of thousands of years ago.
+C: The ice itself tells us about temperature. Water molecules come in slightly lighter and heavier forms, and the proportion in snow depends on how cold it was when the snow formed. So one core gives two records, temperature and carbon dioxide, side by side.
+C: There are other clues. Layers of ash mark volcanic eruptions, and since many eruptions have known dates, they help us to check the age of the ice. Dust shows how windy and dry the world was. During ice ages, the ice contains far more dust.
+C: The longest continuous record so far comes from a site called Dome C, and it reaches back eight hundred thousand years. It shows eight ice ages, each lasting about a hundred thousand years, separated by shorter warm periods.
+C: And here's the central finding. Through all those cycles, temperature and carbon dioxide rose and fell together. In that entire record, carbon dioxide never rose above three hundred parts per million. Today it's over four hundred and twenty, and the speed of the increase is at least a hundred times faster than anything in the ice.
+C: A new project is now searching for ice one and a half million years old. The reason is a puzzle. Before about a million years ago, ice ages came every forty thousand years, not every hundred thousand, and nobody knows why the rhythm changed.
+== fill:note | 1W
+Antarctic ice cores
+How the ice forms
+- each year's snow is compressed by later {{11=layers}}
+- ice at the centre is over three kilometres {{12=thick}}
+Collecting cores
+- a hollow {{13=drill}} is used; work is only possible in {{14=summer}}
+What the ice contains
+- {{15=bubbles}} of air show past levels of carbon dioxide
+- the ice itself records {{16=temperature}}
+- {{17=ash}} from volcanoes helps to date the ice
+- more {{18=dust}} is found in ice from ice ages
+Findings
+- the Dome C record covers 800,000 years and {{19=eight|8}} ice ages
+- temperature and carbon dioxide changed {{20=together}}
+
+# L39 | Boat trips enquiry and reducing food waste
+## 1 | You will hear a man asking about boat trips at a tourist information office.
+@A Assistant female_uk
+@B Tourist male_us
+A: Good morning. Can I help you?
+B: Hi. My wife and I are here for three days, and we'd like to take a boat trip. What would you recommend?
+A: There are three main ones from the harbour. The shortest is the bay cruise. That takes forty-five minutes and stays inside the bay, so it's always calm.
+B: That sounds a bit tame. We were hoping to see some wildlife.
+A: Then you want the seal trip. It goes out to Gull Rocks, where there's a colony of about two hundred grey seals. That one takes two hours.
+B: Two hours. And is it guaranteed that we'll see them?
+A: At this time of year, I've never known a trip come back without seeing seals. Dolphins are another matter. People see them perhaps one trip in four.
+B: And what's the third?
+A: The island trip. You sail to Farne Holm, have three hours ashore, and sail back. It takes most of the day. The island has an old lighthouse and a ruined chapel, and thousands of puffins, but they leave at the end of July, so you've just missed them.
+B: That's a shame. I think the seal trip, then. How much is it?
+A: Twenty-four pounds for adults. Children are half price.
+B: It's just the two of us. When does it leave?
+A: There are two sailings, at ten in the morning and at two in the afternoon. The times shift a little with the tide, so do check the board at the harbour on the day.
+B: Which is better?
+A: Personally, I'd take the morning one. The sea is usually calmer before lunch, and the light's better for photographs.
+B: The morning it is. Could we go tomorrow?
+A: Tomorrow's Wednesday. I'm sorry, the morning boat is fully booked by a school party. There's room on Thursday.
+B: Thursday's fine. We're here until Friday.
+A: Two adults, Thursday at ten. That's forty-eight pounds. Can I take a name?
+B: It's Brennan. B, R, E, double N, A, N.
+A: Thank you. Now, the boat leaves from pier three, which is the one beside the lifeboat station, not the main pier. Please be there fifteen minutes early.
+B: Pier three. What should we bring?
+A: A warm jacket, even if it's sunny on land. It's always colder on the water. And binoculars, if you have them.
+B: We do. Is there shelter on board if it rains?
+A: There's a small covered cabin, but it only seats twelve, so I wouldn't rely on it.
+B: And if the weather's really bad?
+A: The skipper decides at eight in the morning. If he cancels, you can have your money back or move to another day. We'd text you. Could I take a mobile number?
+== fill:form | 1WN
+Boat trip booking
+Trip chosen: to see the {{1=seals}}
+Length of trip: {{2=2|two}} hours
+Price per adult: £{{3=24|twenty-four}}
+Day: {{4=Thursday}}
+Departure time: {{5=10|ten}} am
+Surname: {{6=Brennan}}
+Leaves from: pier {{7=3|three}}, next to the lifeboat station
+Arrive {{8=15|fifteen}} minutes early
+Bring: a warm {{9=jacket}} and binoculars
+The cabin has seats for {{10=12|twelve}} people
+## 2 | You will hear a speaker on a radio programme giving advice about wasting less food at home.
+@C Speaker female_us
+C: Thanks, Mike. Yes, today I'm talking about food waste. The average household in this country throws away around seventy kilos of edible food a year. That's roughly sixty pounds a month for a family of four, straight into the bin.
+C: When I ask people what they waste most, they say meat or dairy. But the surveys are clear. The food we throw away in the largest quantity is bread, followed by potatoes and then salad.
+C: So what can you do? My first tip is the most boring and the most effective. Before you go shopping, look in the fridge and write a list. People who shop with a list waste about a quarter less than people who don't.
+C: Second, understand the dates on the packet. A use-by date is about safety. You shouldn't eat the food after it. A best-before date is only about quality. Biscuits a month past their best-before date may be a little soft, but they won't hurt you. Half of us, according to one study, treat the two as the same, and throw away perfectly good food.
+C: Third, check the temperature of your fridge. It should be below five degrees. Most domestic fridges are set too warm, at around seven, and at that temperature milk lasts two days less.
+C: Where you keep things matters as well. Tomatoes and bananas don't belong in the fridge. The cold spoils the flavour. Potatoes should be stored somewhere dark, and kept apart from onions, because each makes the other go off faster.
+C: Fourth, love your freezer. Nearly everything can be frozen. Bread, of course. Slice it first, and you can toast it straight from frozen. But also grated cheese, milk, and even eggs, as long as you crack them out of their shells and beat them first.
+C: And fifth, use what's left over. My rule is that Thursday is use-it-up night in our house. Whatever vegetables remain go into a soup or an omelette. My children complain, and then they eat it.
+C: A word about technology. There are now apps that let cafes and supermarkets sell unsold food cheaply at the end of the day. You pay about a third of the normal price and collect a bag in the evening. You don't know what's in it until you open it, which is half the fun.
+C: Finally, whatever can't be eaten, peelings and tea bags and so on, should go in a compost bin, not the general rubbish. Buried in landfill, food rots and produces methane, which is a far more powerful greenhouse gas than carbon dioxide.
+== mc
+11. Which food is wasted in the greatest quantity?
+A. bread
+B. meat
+C. salad
+=> A // People guess meat or dairy, but it is bread, then potatoes and salad.
+12. The speaker says that making a shopping list
+A. saves about a quarter of an hour.
+B. reduces waste by roughly a quarter.
+C. is something a quarter of people do.
+=> B // People who shop with a list waste about a quarter less.
+13. What does a best-before date tell the shopper?
+A. when the food stops being safe
+B. when the shop must remove the food
+C. when the food may begin to lose quality
+=> C // Use-by is about safety; best-before is only about quality.
+14. What is the problem with most home fridges?
+A. They are too full.
+B. They are not cold enough.
+C. They are opened too often.
+=> B // They should be below five degrees but are set at around seven.
+15. What does the speaker say about the bags of unsold food sold through apps?
+A. Buyers do not know the contents in advance.
+B. They must be collected in the morning.
+C. They cost half the usual price.
+=> A // You do not know what is in the bag until you open it.
+== fill:sentence | 1W
+16. Potatoes should be kept away from {{16=onions}}.
+17. Bread should be {{17=sliced|slice}} before it is frozen.
+18. Eggs can be frozen once they have been removed from their {{18=shells}} and beaten.
+19. In the speaker's house, leftovers are used up on {{19=Thursday}}.
+20. Food buried in landfill produces {{20=methane}}.
+
+# L40 | Vertical farming project and the economics of happiness
+## 3 | You will hear two agriculture students, Mei and Jonas, talking to their tutor about a project on vertical farming.
+@A Tutor female_uk
+@B Mei female_us
+@C Jonas male_uk
+A: So, you've chosen vertical farming for your project. Tell me why.
+B: We visited one last month, in an old warehouse near the docks. Salad leaves growing on shelves, twelve layers high, under pink lights. It was extraordinary.
+C: And there's a lot of excitement about it in the press. We'd like to find out whether it deserves it.
+A: A healthy attitude. What are the claimed advantages?
+C: Water, mainly. The farm we saw uses ninety-five per cent less water than a field, because whatever the plants don't take up is collected and used again.
+B: And there are no pesticides, because the building is sealed and insects can't get in.
+A: Those are real benefits. What about the yield?
+B: Per square metre of ground, it's enormous. They harvest every three weeks, all year round, whatever the weather.
+A: So why isn't all our food grown this way?
+C: Energy. In a field, the sunlight is free. Indoors, every bit of light has to be paid for. The manager told us electricity is his largest cost, bigger than wages.
+A: Did he give you figures?
+C: He wouldn't. He said they were confidential.
+A: That's a difficulty. You can't evaluate a business without the costs.
+B: We've found two published studies with detailed figures, one from the Netherlands and one from Japan. We'll use those.
+A: Good. And what crops can be grown?
+B: That's the other limit. Leafy things, salad and herbs, do well, because nearly the whole plant is sold. Wheat or rice would never pay. Most of the plant is stalk, and you'd be buying light to grow something you throw away.
+A: So vertical farms won't feed the world.
+C: No. That's going to be our conclusion. They're useful for fresh salad in cities, especially in places with little water or a harsh climate. But they add to field farming. They don't replace it.
+A: I think that's a defensible position. Now, how will you structure the report?
+B: Advantages, then limits, then a case study of the farm we visited.
+A: I'd put the case study first. Start with something concrete, and the reader will care about the analysis that follows.
+C: That makes sense. We've got good photographs.
+A: Use them. And I'd like to see a simple calculation. Take one tray of lettuce and work out the energy used to grow it, in a form the reader can picture.
+B: Such as the number of hours a kettle would run?
+A: Exactly that kind of thing. When can you send me a draft?
+C: In two weeks?
+A: Fine. And do mention who paid for the studies you rely on. Some research in this field is funded by the companies that make the lights.
+== mc
+1. Why did the students choose vertical farming as their topic?
+A. Their tutor recommended it.
+B. They wanted to test claims made in the media.
+C. One of them has worked on such a farm.
+=> B // There is a lot of excitement in the press and they want to find out whether it is deserved.
+2. Why are no pesticides needed on the farm they visited?
+A. Insects cannot enter the building.
+B. The pink light kills insects.
+C. The crops are harvested very quickly.
+=> A // The building is sealed.
+3. What is the farm's biggest cost?
+A. wages
+B. water
+C. electricity
+=> C // Every bit of light has to be paid for; electricity costs more than wages.
+4. How will the students obtain detailed figures on costs?
+A. from the farm's manager
+B. from published research
+C. from their own measurements
+=> B // The manager said the figures were confidential; they found two published studies.
+5. What will the students conclude about vertical farms?
+A. They will eventually replace farming in fields.
+B. They are unlikely to survive as businesses.
+C. They are a useful addition to traditional farming.
+=> C // They suit fresh salad in cities but add to field farming and do not replace it.
+== fill:sentence | 2W
+6. Crops such as salad and {{6=herbs}} are suitable because most of the plant is sold.
+7. The tutor advises beginning the report with the {{7=case study}}.
+8. The students will include their own {{8=photographs}} of the farm.
+9. The energy needed for one tray of {{9=lettuce}} will be calculated.
+10. Some studies are paid for by companies that manufacture {{10=lights}}.
+## 4 | You will hear part of a lecture about what economists have learned about happiness.
+@D Lecturer male_us
+D: For most of its history, economics assumed that people want more income, and that more income makes them better off. That seems obvious. But about fifty years ago, an economist named Richard Easterlin looked at the data and found something odd.
+D: Within any one country, at any one time, richer people do report being happier than poorer people. No surprise there. But when Easterlin followed countries over decades, he found that as a nation grew richer, the average level of happiness hardly moved. The United States tripled its income per head after the war, and Americans were no more satisfied than before. This became known as the Easterlin paradox.
+D: How can both things be true? There are two main explanations. The first is comparison. We judge our income not in absolute terms but against the people around us. In one survey, students were asked to choose between two worlds. In the first, they earn fifty thousand dollars and others earn twenty-five. In the second, they earn a hundred thousand, and others earn two hundred. A majority preferred the first.
+D: The second explanation is adaptation. We get used to things. A larger house is a delight for about a year, and then it's simply the house. Studies of lottery winners find that after the first excitement, most return to roughly their earlier level of happiness.
+D: Interestingly, there are things we don't adapt to. One is a long journey to work. People consistently underestimate how much it will cost them in well-being. Another is noise. And another, on the positive side, is time with friends, which goes on giving pleasure however often it's repeated.
+D: So what does predict happiness, if not ever more income? The largest long-term study, which has followed a group of men from Harvard since nineteen thirty-eight, gives a clear answer. The best predictor of a happy and healthy old age was not wealth, or fame, or even cholesterol. It was the quality of a person's relationships.
+D: Unemployment, by contrast, is devastating, and far more so than the loss of income alone would explain. People value work for the purpose and status it provides.
+D: What follows for policy? Some governments now measure well-being directly, alongside national income. And some economists argue that spending on mental health would raise national happiness more cheaply than almost anything else.
+D: A final caution. Critics point out that asking people to rate their lives from one to ten is a crude measure, and that the answers are influenced by small things, even by the weather on the day of the survey.
+== fill:note | 1W
+The economics of happiness
+The Easterlin paradox
+- within a country, richer people are happier
+- over time, a nation's average {{11=happiness}} hardly changes as it grows richer
+Explanations
+- {{12=comparison}}: people judge their income against others'
+- {{13=adaptation}}: people get used to improvements, e.g. a larger {{14=house}}
+- lottery {{15=winners}} return to their earlier level
+Things people do not get used to
+- a long {{16=journey}} to work; noise; time with {{17=friends}}
+What predicts happiness
+- a long study found the key factor was a person's {{18=relationships}}
+- unemployment is harmful because work gives {{19=purpose}} and status
+Criticism
+- answers to surveys may be affected even by the {{20=weather}}

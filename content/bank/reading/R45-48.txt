@@ -1,0 +1,152 @@
+# R45 | The discovery of anaesthesia
+## The conquest of pain
+[A] Until the middle of the nineteenth century, surgery was a last resort, and for good reason. Patients were fully conscious. They were held down by strong assistants or strapped to the table, sometimes after a dose of alcohol or opium that did little to dull the agony. The most admired surgeons were the fastest. Robert Liston of London could remove a leg in under a minute, and the pain and shock were such that many patients died on the table or soon afterwards. Operations inside the chest or abdomen were almost never attempted. Everything a modern hospital does in its operating theatres depends on a discovery that was made, and very nearly missed, in the 1840s.
+[B] The curious thing is that the means had been available for decades. The English chemist Humphry Davy experimented on himself with nitrous oxide around 1800, noticed that it relieved the pain of a toothache, and suggested in print that it might be used in surgery. Nobody acted on the idea. The gas instead became a fashionable entertainment. Because it made those who breathed it giddy and talkative, it was known as laughing gas, and travelling showmen charged audiences to watch volunteers stagger about the stage. Ether, a liquid known since the sixteenth century, was used in the same way at parties.
+[C] It was at one such show, in the American town of Hartford in 1844, that a dentist named Horace Wells noticed a volunteer gash his leg badly without seeming to feel it. The next day, Wells inhaled the gas himself and had a colleague pull out one of his teeth. He felt nothing. Eager to announce his discovery, he arranged a demonstration before the surgeons of Boston. It was a disaster. The bag of gas was withdrawn too early, the patient cried out, and the audience jeered. Wells was dismissed as a fraud and never recovered his reputation.
+[D] Success went to his former partner, William Morton, who turned to ether after learning of its properties from a chemist. On 16 October 1846, at the Massachusetts General Hospital, Morton administered it to a young man while the hospital's senior surgeon removed a tumour from his neck. The patient lay still, and on waking said that he had felt no more than a scratching. The surgeon turned to the spectators and declared that what they had seen was no trick. News of the operation crossed the Atlantic by steamship, and within two months ether was being used in London and Paris.
+[E] The triumph was followed by an ugly quarrel. Morton tried to conceal the identity of his substance by adding colouring and scent, and applied for a patent, in the hope of charging a fee for every use. The medical profession was outraged, and since the smell of ether was unmistakable, the secret could not be kept. Wells, Morton and the chemist who had advised him then spent years disputing which of them deserved the credit and a reward from the government. None of them profited. Wells took his own life, Morton died in poverty, and the chemist ended his days in an asylum.
+[F] Ether had drawbacks. It irritated the lungs, caused vomiting and caught fire easily, a serious matter in rooms lit by gas or candles. In 1847 the Scottish doctor James Simpson, searching for something better, tested a series of chemicals by inhaling them with friends at his dining table. One evening they tried chloroform and woke up some time later on the floor. Chloroform was pleasanter and quicker than ether, and Simpson began giving it to women in childbirth. This met with opposition from some doctors and clergymen, who held that the pain of labour was natural or even divinely intended. The argument was largely settled in 1853, when Queen Victoria accepted chloroform for the birth of her eighth child and pronounced it delightful.
+[G] It took rather longer to discover that the new freedom from pain had not made surgery safe. Surgeons could now work slowly and carefully, and they undertook longer and more ambitious operations. But they still operated in their street clothes with unwashed hands and instruments, and more patients than ever died of infection in the days that followed. Only with the introduction of antiseptic methods by Joseph Lister in the 1860s, and later of sterile instruments and gowns, did the death rate begin to fall. Anaesthesia made modern surgery possible, but it needed a second revolution to make it survivable.
+[H] One mystery remains. More than a century and a half later, scientists still cannot fully explain how anaesthetics work. Substances with very different chemical structures all produce the same reversible loss of consciousness, and they do so not only in humans but in animals of every kind. The leading theories hold that the drugs interfere with particular proteins in the membranes of nerve cells, but the details are disputed. Every day, in hospitals around the world, millions of patients are safely rendered unconscious by a process that is still not completely understood.
+== tfng
+1. Before anaesthesia, speed was considered the most important quality in a surgeon. => TRUE // A: the most admired surgeons were the fastest.
+2. Davy's suggestion that nitrous oxide could be used in surgery was quickly put into practice. => FALSE // B: nobody acted on the idea.
+3. Wells first observed the effect of the gas at a public entertainment. => TRUE // C: at a show in Hartford in 1844.
+4. Wells's demonstration in Boston was a success. => FALSE // C: it was a disaster.
+5. News of Morton's operation reached Europe within a few months. => TRUE // D: within two months ether was being used in London and Paris.
+6. Morton received a large payment from the American government. => FALSE // E: none of them profited; Morton died in poverty.
+7. Simpson discovered the effect of chloroform by trying it on animals. => FALSE // F: he tested chemicals by inhaling them with friends.
+== match:information
+8. the reason why patients continued to die after operations became painless => G // Surgeons operated with unwashed hands and patients died of infection.
+9. an admission that science has not fully explained something => H // Scientists still cannot fully explain how anaesthetics work.
+10. objections to the relief of pain on grounds of belief => F // Some held that the pain of labour was natural or divinely intended.
+== fill:summary | 1W
+The problems with ether
+Ether had several disadvantages. It irritated the {{11=lungs}} and made patients vomit. It was also dangerous because it could easily catch {{12=fire}} in rooms lit by gas or {{13=candles}}.
+
+# R46 | Mining the deep sea
+## Treasure on the ocean floor
+[A] Four kilometres beneath the surface of the central Pacific, between Hawaii and Mexico, lies a plain of soft mud larger than the continent of Europe. Scattered across it, half buried, are trillions of dark lumps the size of potatoes. They are known as polymetallic nodules, and they contain manganese, nickel, cobalt and copper in concentrations higher than in many mines on land. The metals are exactly those needed for the batteries of electric cars and for storing power from the wind and sun. A number of companies and governments are now preparing to collect them, and a fierce argument has broken out over whether they should be allowed to.
+[B] The nodules form by one of the slowest processes known to geology. Each begins with a small hard object, such as a fragment of shell or a shark's tooth. Metals dissolved in sea water settle on it layer by layer, at a rate of a few millimetres in a million years. A nodule that fits in the hand may have taken ten million years to grow. They were first hauled up by a British research ship in the 1870s, and in the 1970s several industrial groups built experimental machines to gather them, before a fall in metal prices put an end to the attempt.
+[C] The proposed method of mining is straightforward in principle. A vehicle the size of a combine harvester crawls across the sea bed, sucking up the top few centimetres of sediment along with the nodules. The nodules are separated and pumped up a pipe to a ship, and the leftover water and mud are discharged back into the sea. Supporters argue that this compares well with mining on land. No forests are cleared, no villages moved, and no waste rock heaped up. They point out that much of the world's cobalt comes from mines where conditions for workers are appalling, and that demand for these metals is expected to multiply as the world gives up oil.
+[D] Opponents do not deny the need for metals. Their case is that we know too little about what would be destroyed. The deep sea floor was long assumed to be almost lifeless. Expeditions to the Pacific plain have instead found thousands of species, the great majority of them new to science, including pale octopuses, glass sponges and worms of many kinds. Many of these animals live on the nodules themselves, which provide the only hard surface in an expanse of mud. Remove the nodules, and their habitat is gone for millions of years.
+[E] There is evidence about how slowly such a place recovers. In 1989, German scientists dragged a plough back and forth across a patch of sea bed off Peru to imitate the effect of mining. When researchers returned twenty-six years later, the tracks looked as fresh as if they had been made the day before, and the animals that feed by filtering the water had not come back. A further concern is the cloud of fine sediment that mining would stir up, both at the sea bed and where waste water is released. It could drift for hundreds of kilometres, smothering animals far beyond the mined area. In 2024, researchers also reported that the nodules appear to generate oxygen in complete darkness, a finding that is still disputed but which suggests how much remains unknown.
+[F] The legal position is unusual. The nodule fields lie in international waters, which belong to no country. Under a United Nations treaty, the mineral wealth of the sea bed there is declared to be the common heritage of mankind, and it is administered by a body based in Jamaica, the International Seabed Authority. The authority has issued more than thirty licences for exploration, but it has not yet agreed the rules under which commercial mining could begin. In 2021, the small Pacific island state of Nauru, acting as sponsor for a Canadian company, invoked a clause in the treaty that obliged the authority to complete its regulations within two years. The deadline passed without agreement, leaving the situation uncertain.
+[G] Meanwhile, opposition has grown. More than thirty countries, among them France, Germany and the United Kingdom, have called for a pause or a ban until the consequences are better understood. Several large car makers and technology firms have promised not to buy metals from the deep sea. Others take the opposite view. Norway has voted to open part of its own waters to exploration, and some Pacific island nations see in the nodules a rare source of income.
+[H] The argument may yet be overtaken by events. Battery chemistry is changing quickly, and the newest designs use little or no cobalt or nickel. Recycling of old batteries is improving. If demand for the metals proves smaller than forecast, the commercial case for going to the bottom of the ocean could weaken of its own accord. For the moment, the question is whether humanity will, for once, examine an ecosystem before deciding to exploit it, and not afterwards.
+== ynng
+1. The metals in the nodules are useful for technologies that reduce the use of oil. => YES // A: needed for electric car batteries and for storing wind and solar power.
+2. Opponents of deep-sea mining believe that the world does not need more metals. => NO // D: opponents do not deny the need for metals.
+3. The deep sea floor contains far more life than was once believed. => YES // D: it was assumed lifeless, but thousands of species have been found.
+4. The sea bed would recover from mining within a few decades. => NO // E: after twenty-six years the tracks looked fresh and filter feeders had not returned.
+5. The International Seabed Authority has performed its duties well. => NOT GIVEN // F describes what it has and has not done without judging its performance.
+6. Deep-sea mining may turn out to be unnecessary for economic reasons. => YES // H: if demand proves smaller, the commercial case could weaken of its own accord.
+== mc
+7. What does a nodule begin to form around?
+A. a bubble of gas
+B. a small hard object
+C. a piece of volcanic rock
+D. a grain of sand
+=> B // B: a small hard object such as a fragment of shell or a shark's tooth.
+8. Why did the attempts to mine nodules in the 1970s end?
+A. Metal prices fell.
+B. The machines did not work.
+C. Governments banned them.
+D. The nodules were too deep.
+=> A // B: a fall in metal prices put an end to the attempt.
+9. Why are the nodules important to deep-sea animals?
+A. They contain food.
+B. They give off heat.
+C. They offer the only solid surface available.
+D. They protect animals from predators.
+=> C // D: they provide the only hard surface in an expanse of mud.
+10. What did Nauru do in 2021?
+A. It banned mining in its own waters.
+B. It began commercial mining.
+C. It left the United Nations treaty.
+D. It triggered a deadline for the rules to be completed.
+=> D // F: it invoked a clause obliging the authority to complete its regulations within two years.
+== fill:sentence | 1W
+11. The mining vehicle would suck up nodules together with the top layer of {{11=sediment}}.
+12. After separation, the nodules would be pumped up a {{12=pipe}} to a ship.
+13. Some companies have promised not to {{13=buy}} metals obtained from the deep sea.
+
+# R47 | Age and language learning
+## Is there a best age to learn a language?
+[A] It is widely believed that children pick up languages effortlessly and that adults struggle. The belief has shaped educational policy in many countries, where the teaching of English or another foreign language now begins in the first years of primary school or even earlier. The scientific basis for it is an idea known as the critical period hypothesis. The evidence, examined closely, supports part of the popular belief and contradicts the rest.
+[B] The hypothesis was set out in 1967 by the neurologist Eric Lenneberg. He observed that children who suffered damage to the language areas of the brain often recovered their speech completely, while adults with similar injuries rarely did, and he proposed that the brain has a special readiness for language that fades at about the age of puberty. The strongest support came from tragic cases of children who had been deprived of language altogether. A girl known as Genie, discovered in California in 1970 after being kept in isolation until the age of thirteen, eventually learned a good many words but never mastered grammar. It seems clear that a first language must be acquired in childhood if it is to be acquired fully.
+[C] Whether the same applies to a second language is a different question, and a harder one to answer. The most ambitious attempt was published in 2018 by researchers who designed an online grammar quiz that attracted nearly seven hundred thousand people, two thirds of them speakers of English as a foreign language. By relating each person's score to the age at which they had started learning and the number of years they had studied, the team estimated how the ability to learn grammar changes over a lifetime. Their conclusion was that it remains high until about seventeen or eighteen, considerably later than Lenneberg had supposed, and then declines steadily. To reach the level of a native speaker, however, learners needed to have started by about the age of ten, simply because it takes many years of exposure to get there.
+[D] The study, like others before it, found no sudden cut-off. The decline with age is gradual, and it varies with the aspect of language concerned. Pronunciation is the most sensitive. People who begin a language after early childhood nearly always retain a detectable accent, however fluent they become. Vocabulary shows no such limit, and can be learned efficiently at any age.
+[E] If older learners are at a disadvantage in the long run, they have the advantage at the start. This has been demonstrated repeatedly. In a large project in Spain, pupils who began English at eleven were compared with pupils who had begun at eight, after each group had received the same number of hours of teaching. The late starters did better on almost every measure. Older children and adults have more developed memories, they can already read, they understand explanations of grammar, and they know how to study. Young children learn in a different way, by absorbing patterns from enormous quantities of speech, and a few lessons a week do not provide enough.
+[F] This finding has an awkward implication for schools. The policy of starting foreign languages ever earlier assumes that young children's natural gift will operate in the classroom. In practice, an hour or two a week from a teacher who may not be fluent bears little resemblance to the experience of a child growing up surrounded by a language. Studies in several European countries have found that pupils who started early were, by the end of secondary school, no better than those who started later, and sometimes less motivated, having spent years making little visible progress. Early teaching does appear to help in one respect, which is that children who meet a language young tend to have more positive attitudes towards foreign languages in general.
+[G] Researchers also question whether the decline in adult learning is purely a matter of biology. An immigrant child attends school in the new language, plays in it, and is corrected patiently for years. An immigrant adult often works among speakers of his or her own language, has little time to study, and is embarrassed to make mistakes. When adults do receive the kind of intensive exposure that children get, some of them attain very high levels indeed. The observed differences between ages reflect circumstances as well as brains.
+[H] What practical conclusions follow? For parents, there is no need for alarm if a child has not begun a second language by the age of five. For schools, the quantity and quality of teaching matter more than the starting age, and a later, more intensive course may be a better use of limited resources than a thin layer spread over many years. And for adults who have always meant to learn, the news is better than they may have feared. They will probably never be mistaken for natives. In every other respect, there is no age at which it is too late to begin.
+== tfng
+1. Lenneberg based his hypothesis partly on patients recovering from brain injuries. => TRUE // B: children recovered speech completely while adults rarely did.
+2. Genie eventually learned to use grammar normally. => FALSE // B: she never mastered grammar.
+3. The 2018 study found that the ability to learn grammar begins to fall at puberty. => FALSE // C: it remains high until about seventeen or eighteen.
+4. Most of the people who took the 2018 quiz lived in the United States. => NOT GIVEN // C gives the proportion of non-native speakers but not where they lived.
+5. Learners who start after early childhood usually keep a foreign accent. => TRUE // D: they nearly always retain a detectable accent.
+6. In the Spanish project, pupils who began at eight outperformed those who began at eleven. => FALSE // E: the late starters did better on almost every measure.
+== mc
+7. According to paragraph C, why must learners start by about ten to reach native level?
+A. The brain loses its ability at that age.
+B. Many years of exposure are required.
+C. Teachers are better in primary schools.
+D. Older children are less motivated.
+=> B // It takes many years of exposure to get there.
+8. Which aspect of language can be learned equally well at any age?
+A. pronunciation
+B. grammar
+C. vocabulary
+D. intonation
+=> C // D: vocabulary shows no such limit.
+9. What benefit of an early start in school is mentioned in paragraph F?
+A. better pronunciation
+B. higher marks at the end of secondary school
+C. a larger vocabulary
+D. a more favourable attitude to languages
+=> D // Children who meet a language young tend to have more positive attitudes.
+10. The writer's point in paragraph G is that adults often learn less well partly because
+A. their situation gives them fewer opportunities to practise.
+B. they are less intelligent than children.
+C. they choose more difficult languages.
+D. they forget their first language.
+=> A // The differences reflect circumstances as well as brains.
+== fill:summary | 1W
+Why older beginners learn faster at first
+Older children and adults have better {{11=memories}} and are already able to {{12=read}}. They can follow explanations of grammar and know how to study. Young children, in contrast, learn by absorbing {{13=patterns}} from very large amounts of speech.
+
+# R48 | The Nazca lines
+## Drawings for the sky
+[A] On a desert plateau in southern Peru, between the Andes and the Pacific, the ground is marked with lines. Some run perfectly straight for kilometres, crossing dry riverbeds and climbing hills without deviating. Others form triangles, spirals and long narrow rectangles. And among them are about seventy figures of animals and plants, a hummingbird, a monkey with a coiled tail, a spider, a whale, each drawn with a single continuous line and some of them more than two hundred metres across. They were made by the Nazca people, who lived in the valleys nearby between about 100 BC and AD 700. From the ground they are almost impossible to make out. They became widely known only in the 1930s, when aircraft began to fly over the region.
+[B] How they were made is the simplest part of the puzzle. The surface of the plateau is covered with small stones that have been darkened by long exposure to the air. Beneath them lies pale, yellowish soil. By clearing the stones aside, the makers exposed the lighter ground, and the contrast produced the line. The straight lines could have been laid out with nothing more than wooden stakes and cord, and the remains of such stakes have been found at the ends of some of them. For the figures, it is thought that a small drawing was enlarged section by section using a grid. Experiments have shown that a team of a dozen people could produce one of the large figures in a couple of days.
+[C] That they have survived is due to the climate. The plateau is one of the driest places on earth, receiving perhaps twenty minutes of light rain a year. There is little wind at ground level, because the dark stones heat up in the sun and create a cushion of warm air above the surface. With almost nothing to disturb them, marks made two thousand years ago remain sharp.
+[D] The difficult question is why they were made. The first scholar to study them in detail, the American historian Paul Kosok, was standing on one of the lines at sunset on the shortest day of the year when he noticed that it pointed directly at the setting sun. He concluded that the lines formed a vast astronomical calendar, used to fix the dates for planting and harvest. His work was continued for half a century by a German mathematician, Maria Reiche, who lived beside the lines, measured them, and campaigned for their protection. The theory has not stood up well. When an astronomer tested the directions of the lines by computer in the 1960s, he found that no more of them pointed to significant positions of the sun, moon or stars than would be expected by chance.
+[E] More recent research has looked to the thing the Nazca needed most, which was water. Their valleys depended on rivers that flow from the mountains for only part of the year and sometimes fail entirely. Several studies have reported that many of the straight lines lead towards sources of water or trace the course of underground channels. Broken pottery, apparently smashed on purpose, has been found along the lines and at the points where they meet, together with shells brought from the coast, which in the Andes were a traditional offering in prayers for rain. The current view of most archaeologists is that the lines were paths, walked in procession during ceremonies intended to bring water, and that the act of making and walking them mattered more than how they looked.
+[F] The animal figures fit this interpretation less neatly, and they may have had a somewhat different purpose. Many of the creatures shown, such as the monkey and the hummingbird, do not live in the desert but in the rainforest on the far side of the mountains, and several are associated in Andean belief with water and fertility. As for the objection that the figures could not be seen by those who made them, it has been pointed out that they were perhaps not meant for human eyes at all, but for gods who looked down from the mountains or the sky.
+[G] One explanation can be set aside. A best-selling book of the 1960s proposed that the long cleared strips were runways for the spacecraft of visitors from another world. Apart from the absence of any evidence, the suggestion overlooks the fact that the ground is soft, and that anything landing on it would sink. Archaeologists have also objected that the idea is insulting, since it assumes that the ancient inhabitants of Peru were incapable of work that requires only patience and string.
+[H] Discoveries continue. Since 2018, a Japanese team using high-resolution aerial photographs and artificial intelligence trained to recognise faint patterns has identified several hundred previously unknown figures, most of them smaller and older than the famous ones and placed beside ancient footpaths, where travellers would have seen them. At the same time, the lines face new threats. A major highway cuts through them, illegal mining and squatters have encroached on the edges, and in 2014 activists laying out a banner beside the hummingbird left footprints that will last for centuries. A surface that preserves every mark for thousands of years preserves the careless ones too.
+== match:headings | The passage has eight paragraphs, A-H. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. A theory linking the lines to the heavens
+ii. Conditions that prevented erosion
+iii. A possible audience for the animal drawings
+iv. An idea that deserves to be rejected
+v. A simple technique
+vi. The tools used by modern researchers
+vii. Ceremonies connected with a scarce resource
+viii. The decline of the Nazca people
+1. Paragraph B => v // Stones were cleared to expose pale soil; stakes and cord sufficed.
+2. Paragraph C => ii // Almost no rain and little wind at ground level.
+3. Paragraph D => i // Kosok and Reiche's astronomical calendar.
+4. Paragraph E => vii // The lines as paths walked in ceremonies to bring water.
+5. Paragraph F => iii // The figures may have been meant for gods, not human eyes.
+6. Paragraph G => iv // The runway theory can be set aside.
+== tfng
+7. The Nazca lines are easy to recognise when standing on the plateau. => FALSE // A: from the ground they are almost impossible to make out.
+8. Remains of wooden stakes have been found at the ends of some lines. => TRUE // B: the remains of such stakes have been found.
+9. A computer analysis in the 1960s supported the astronomical theory. => FALSE // D: no more lines pointed to significant positions than chance would give.
+10. Maria Reiche was paid by the Peruvian government to protect the lines. => NOT GIVEN // D says she campaigned for their protection but not who paid her.
+== fill:summary | 1W
+Evidence for the water theory
+Many straight lines appear to lead to places where there is water. Along them, archaeologists have found broken {{11=pottery}}, which seems to have been smashed deliberately. They have also found {{12=shells}} from the coast, which were traditionally offered when people prayed for {{13=rain}}.

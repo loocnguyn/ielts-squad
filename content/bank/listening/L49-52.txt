@@ -1,0 +1,369 @@
+# L49 | Children's art workshop and national park safety
+## 1 | You will hear a mother phoning an arts centre to ask about holiday workshops for children.
+@A Assistant male_uk
+@B Parent female_uk
+A: Good morning, Weaver's Yard Arts Centre. Tom speaking.
+B: Hello. I've seen that you run art workshops in the school holidays. I've got two children who'd love that sort of thing.
+A: We do. How old are they?
+B: Lucy's eleven and Sam's seven.
+A: Then they'd be in different groups. We have one for ages six to nine and another for ten to fourteen.
+B: Oh. I'd hoped they could be together.
+A: I'm afraid the older group uses tools that aren't suitable for little ones. But both groups run at the same times, so you'd only make one journey.
+B: That's something. What do they do?
+A: This summer, the younger group is doing puppet making. They make a puppet each, and on the last afternoon they put on a show for the parents. The older group is doing printing. They design a pattern, cut it into a block, and print it onto a bag they can take home.
+B: Lucy would enjoy that. How long is the course?
+A: Each workshop runs for four days, Monday to Thursday, from ten until three.
+B: And which weeks?
+A: The first starts on the twenty-first of July, and it's repeated the following week.
+B: We're away for the last week of July. The first week, then. What's the cost?
+A: Eighty-five pounds per child. That includes all the materials. If you book two children, the second is seventy pounds.
+B: So a hundred and fifty-five altogether. Is lunch provided?
+A: No, they need to bring a packed lunch. We give them a drink and fruit in the middle of the morning. We do ask parents not to send anything containing nuts.
+B: Fine. What should they wear?
+A: Old clothes. The printing ink doesn't wash out. We have aprons, but accidents happen.
+B: I'll remember. Who runs the workshops?
+A: The puppets are with Rosie, who used to work in children's theatre. The printing is taught by a local artist, Ben Okoro. All our tutors have had the police checks required for working with children.
+B: Good. Where exactly are you? I know the area, but I've never been in.
+A: We're on Tanner's Lane, in the old textile mill. There's nowhere to park outside. Most parents use the supermarket car park opposite. It's free for two hours.
+B: And what happens at three o'clock? I may be a few minutes late on the Tuesday.
+A: Children stay with the tutor in the cafe until they're collected. Each child can only be handed over to an adult named on the booking form, so if a grandparent or a neighbour is coming, do add them.
+B: I'll put my mother down as well. Can I book now?
+A: Certainly. Could I take your surname?
+B: It's Fairley. F, A, I, R, L, E, Y.
+== fill:form | 1WN
+Weaver's Yard Arts Centre: holiday workshops
+Younger child's workshop: making a {{1=puppet}}
+Older child's workshop: {{2=printing}}
+Number of days: {{3=4|four}}
+Finishing time each day: {{4=3|three}} pm
+Start date: {{5=21 July|21st July|July 21|July 21st|twenty-first of July}}
+Total cost for two children: £{{6=155|a hundred and fifty-five|one hundred and fifty-five}}
+Children should bring: a packed {{7=lunch}}
+Children should wear: {{8=old}} clothes
+Parking: at the {{9=supermarket}} opposite
+Surname: {{10=Fairley}}
+## 2 | You will hear a ranger talking to visitors at a national park about walking safely in the mountains.
+@C Ranger female_us
+C: Good morning, and welcome to Glen Carran National Park. My name's Jess, and I'm one of the rangers. A lot of you are setting off on walks today, so I'd like to say a few words about staying safe.
+C: Our mountain rescue team was called out a hundred and twelve times last year. You might imagine most of those were climbers on steep rock. In fact, the largest group were ordinary walkers on marked paths, who slipped on the way down. People are tired on the descent, and that's when ankles get broken.
+C: The second most common problem is getting lost when the cloud comes down. It can happen in minutes. So please carry a paper map and a compass, and know how to use them. A phone is useful, but batteries die quickly in the cold, and in most of the valleys there's no signal at all.
+C: Let me talk about the weather. The forecast in the visitor centre is updated at seven every morning. Read the mountain forecast, not the general one. It can be mild and sunny in the car park, and close to freezing with a strong wind on the summit. As a rough guide, the temperature drops one degree for every hundred and fifty metres you climb.
+C: What should you take? Waterproofs, always, even on a fine day. An extra warm layer. A hat and gloves. Plenty of food, and at least a litre of water each. And a torch, because walks take longer than people expect, and it's dark by five at this time of year.
+C: On your feet, boots with a good grip. I see people every day in trainers, and it's the thing that worries me most.
+C: Before you leave, tell someone your route and when you expect to be back. You can fill in a card at the desk here. If you haven't returned, that's how we know where to start looking.
+C: If something does go wrong, stay where you are. Call the emergency number and ask for police, then mountain rescue. If you have no signal, the recognised distress call is six blasts on a whistle, repeated every minute. Keep the injured person warm, and don't give them anything to eat.
+C: A word about turning back. There's no shame in it. The mountain will still be here next week. The experienced walkers are the ones who turn round when conditions change.
+C: Finally, please take all your litter home, keep dogs on a lead while there are lambs in the fields, and close every gate behind you. Have a wonderful day.
+== mc
+11. Who did the rescue team help most often last year?
+A. walkers who slipped while descending
+B. climbers on steep rock
+C. people lost in cloud
+=> A // The largest group were ordinary walkers who slipped on the way down.
+12. Why should visitors not rely on a phone?
+A. Maps on phones are inaccurate.
+B. The battery and the signal may fail.
+C. Using one is forbidden in the park.
+=> B // Batteries die in the cold and most valleys have no signal.
+13. What does the ranger say about the weather forecast?
+A. The general forecast is good enough.
+B. It is updated every hour.
+C. Conditions at the top may differ greatly from those below.
+=> C // It can be mild in the car park and near freezing on the summit.
+14. What worries the ranger most?
+A. people wearing unsuitable shoes
+B. people walking alone
+C. people starting too late
+=> A // She sees people in trainers every day.
+15. What should walkers do if someone is injured?
+A. give the person a hot drink
+B. remain in the same place
+C. send one person down for help
+=> B // Stay where you are and call for help.
+== fill:sentence | 1WN
+16. Each walker should carry at least a {{16=litre|liter}} of water.
+17. At this time of year it gets dark by {{17=5|five}}.
+18. Walkers should leave details of their {{18=route}} at the desk.
+19. The distress signal is {{19=6|six}} blasts on a whistle.
+20. Dogs must be kept on a lead because of the {{20=lambs}}.
+
+# L50 | School lunch study and endangered languages
+## 3 | You will hear two nutrition students, Tariq and Emily, discussing a study of school lunches.
+@A Tariq male_uk
+@B Emily female_us
+A: Emily, I've finished entering the data from the two schools. Shall we look at what we've got?
+B: Please. Remind me how many days we observed.
+A: Ten at each school. A hundred children at Northfield, and a hundred and ten at Saint Anne's.
+B: And at both schools, the meals meet the national standards.
+A: On paper, yes. Each lunch is supposed to include a portion of vegetables, a portion of fruit, and so on. The menus are almost identical.
+B: But the standards describe what's put on the tray, not what's eaten.
+A: Exactly, and that's where it gets interesting. At Northfield, the children ate about a third of their vegetables. At Saint Anne's, nearly two thirds.
+B: Twice as much. Is the food better at Saint Anne's?
+A: That was my first thought. But it's the same catering company, and the same recipes.
+B: So what's different?
+A: Two things, I think. First, the timetable. At Northfield, lunch comes before playtime. The children rush their food to get outside. At Saint Anne's, they play first and eat afterwards.
+B: So they arrive hungry, and they're in no hurry to leave. That's so simple.
+A: And it costs nothing. The second difference is the length of the lunch period. Northfield allows twenty-five minutes, including queuing. Saint Anne's gives forty.
+B: I timed the queue at Northfield. Some children had only nine minutes sitting down.
+A: Nine minutes. No wonder the vegetables are left.
+B: Is there anything about the dining rooms themselves?
+A: Saint Anne's has small round tables, and a teacher sits at each one. Northfield has long benches, and the staff stand at the side.
+B: Do we have any way of knowing which of these factors matters most?
+A: Not from two schools. That's the weakness. We can describe the differences, but we can't prove what causes what.
+B: We should say that clearly. And suggest a proper experiment. Take one school, change only the timetable, and measure before and after.
+A: Northfield's head teacher seemed open to that. I'll ask her.
+B: Good. How did we measure what was left? I joined the project late.
+A: We photographed every tray before and after the meal, and estimated the amounts from the pictures. It's quicker than weighing, and nearly as accurate.
+B: Did the children change their behaviour because of the camera?
+A: Possibly, on the first day. So we left the first day's data out of the analysis.
+B: Sensible. Now, the report. I'd lead with the wasted vegetables. It's the figure people will remember.
+A: Agreed. And a recommendation for schools. Play first, eat second.
+B: I'll draft the introduction and the method.
+A: I'll do the results. Let's meet on Monday at eleven.
+== mc
+1. What do the two schools have in common?
+A. the number of pupils
+B. the length of the lunch break
+C. the company that provides the meals
+=> C // The same catering company and the same recipes.
+2. What do the national standards measure?
+A. what is served to pupils
+B. what pupils actually eat
+C. how much food is wasted
+=> A // They describe what is put on the tray, not what is eaten.
+3. Tariq thinks children at Saint Anne's eat more vegetables partly because they
+A. are given larger portions.
+B. have their playtime before lunch.
+C. help to choose the menu.
+=> B // They arrive hungry and are in no hurry to leave.
+4. What is the main weakness of the study?
+A. It was carried out too quickly.
+B. The schools refused to give information.
+C. It cannot show which factor causes the difference.
+=> C // With only two schools they can describe differences but not prove causes.
+5. Why was the first day's data left out?
+A. The camera may have affected the children's behaviour.
+B. Some photographs were lost.
+C. One school served a different menu.
+=> A // The children may have changed their behaviour on the first day.
+== fill:sentence | 2WN
+6. At Northfield, some children spent only {{6=9 minutes|nine minutes}} sitting down to eat.
+7. At Saint Anne's, a {{7=teacher}} sits at each table.
+8. The amount of food left was estimated from {{8=photographs|pictures}}.
+9. The report will begin with the figure for wasted {{9=vegetables}}.
+10. The students will meet again on {{10=Monday}}.
+## 4 | You will hear part of a lecture about languages that are in danger of disappearing.
+@C Lecturer female_uk
+C: There are roughly seven thousand languages spoken in the world today. By the end of this century, on current trends, at least half will have fallen silent. In this lecture, I'll consider why languages die, why it matters, and whether anything can be done.
+C: First, the distribution is extremely uneven. A handful of languages, Mandarin, Spanish, English and a few others, are spoken by half of humanity. At the other extreme, about a third of all languages have fewer than a thousand speakers. The island of New Guinea alone has more than eight hundred, in a population smaller than that of London.
+C: Languages rarely die because their speakers die. They die because parents stop passing them on. And parents generally make that choice for a practical reason. They believe that a major language will give their children a better chance of finding work. In many countries, the process was pushed along by schools, where children were punished for using their mother tongue.
+C: A language is usually considered endangered when children no longer learn it at home. After that, it can vanish within two generations.
+C: Why should we care? One reason is knowledge. Small languages often contain detailed information about local plants and animals that science hasn't recorded. A second is that each language shows a different way in which the human mind can organise experience. Some have no words for left and right, and their speakers use compass directions all the time. They always know which way north is. A third reason, and for communities the most important, is identity.
+C: Can a language be brought back? There are encouraging examples. Hebrew had not been used in daily conversation for nearly two thousand years. It survived in religion, and was revived as a spoken language in the late nineteenth century. Today it has nine million speakers.
+C: Welsh is a different kind of success. By the nineteen sixties, it was in steep decline. What turned it round was a campaign that won schools teaching in Welsh, and a television channel. The number of young speakers is now rising.
+C: In New Zealand, the Maori community set up what they called language nests. These were nurseries where very small children spent the day with grandparents who spoke only Maori. The idea has since been copied in Hawaii and elsewhere.
+C: Technology helps as well. Linguists now record the last speakers on video, and communities build dictionaries on their phones. But a recording isn't a living language. In the end, a language survives only if children use it with one another when no adult is listening.
+== fill:note | 1W
+Endangered languages
+The situation
+- about a {{11=third}} of languages have fewer than 1,000 speakers
+- languages die when {{12=parents}} stop passing them on
+- reason: a major language is thought to help children find {{13=work}}
+- in the past, children were punished at {{14=school|schools}} for using their own language
+Why it matters
+- small languages hold knowledge of local {{15=plants}} and animals
+- some languages use compass {{16=directions}} where others say left and right
+- for communities, the main reason is {{17=identity}}
+Revival
+- Hebrew survived in {{18=religion}} before it was spoken again
+- Welsh: schools and a {{19=television}} channel
+- Maori 'language nests': small children spent the day with {{20=grandparents}}
+
+# L51 | Adult swimming lessons and a castle audio guide
+## 1 | You will hear a man phoning a leisure centre to ask about swimming lessons for adults.
+@A Receptionist female_us
+@B Caller male_uk
+A: Good afternoon, Hollins Leisure Centre. This is Dana.
+B: Hello. This is a bit embarrassing, but I'm forty-three and I can't swim. Do you teach adults?
+A: There's nothing to be embarrassed about. We teach about two hundred adults a year, and plenty of them are older than you. What's made you decide to learn?
+B: My daughter's started lessons at school, and she keeps asking me to come to the pool with her. I always make an excuse.
+A: That's a very common reason. Now, have you ever tried? Are you nervous in the water?
+B: I'm fine as long as my feet are on the bottom. I'm not happy putting my face in.
+A: Then I'd suggest the beginners' course, not the improvers'. The first two lessons are simply about getting comfortable. Nobody is asked to go out of their depth.
+B: That sounds right for me. When is it?
+A: There are two beginners' groups. One meets on Tuesday evenings at eight, and one on Sunday mornings at nine.
+B: Evenings are hard with the children. Sunday morning would be better.
+A: Sunday at nine, then. Lessons are forty minutes, and the course runs for ten weeks.
+B: How many in a group?
+A: A maximum of six, with one teacher in the water with you. The pool is closed to the public during the lesson, so nobody's watching.
+B: That's a relief. I'd imagined children staring. Which pool is it?
+A: The small teaching pool. It's warmer than the main one, thirty-one degrees, and one metre deep the whole way across.
+B: One metre. I can stand up in that. What does the course cost?
+A: Ninety-five pounds for the ten weeks. If you're a member of the centre, it's eighty.
+B: I'm not a member. Ninety-five, then. Do I need anything special?
+A: Just swimwear and a towel. I'd strongly recommend goggles. People who are unhappy about putting their face in usually find it much easier once they can see. We sell them at the desk for eight pounds.
+B: I'll buy a pair. And a swimming cap?
+A: Only if your hair's long.
+B: No danger of that. When does the next course begin?
+A: On the fourteenth of September. The teacher is a man called Mister Garside. That's G, A, R, S, I, D, E. He's very patient. He learned as an adult himself.
+B: That's encouraging. What if I miss a week?
+A: We can't refund single lessons, but you can make it up by joining the Tuesday group that week.
+B: Good. Can I sign up over the phone?
+A: You can. And if, after two lessons, you feel it isn't for you, we'll refund the remainder. Very few people ask.
+B: That's fair. My name's Neil Draper.
+== fill:form | 1WN
+Hollins Leisure Centre: adult swimming lessons
+Course level: {{1=beginners}}
+Lesson day: {{2=Sunday}} at 9 am
+Length of each lesson: {{3=40|forty}} minutes
+Maximum group size: {{4=6|six}}
+Depth of the teaching pool: {{5=1|one}} metre
+Course fee for non-members: £{{6=95|ninety-five}}
+Recommended equipment: {{7=goggles}}
+Course begins: {{8=14 September|14th September|September 14|September 14th|fourteenth of September}}
+Teacher's surname: {{9=Garside}}
+A missed lesson can be made up on a {{10=Tuesday}}
+## 2 | You will hear the introduction to an audio guide for visitors to a castle.
+@C Narrator male_uk
+C: Welcome to Harlow Castle. This guide will lead you around the site at your own pace. Each stop has a numbered sign. Simply enter the number on your handset, and press the green button to listen.
+C: Before you set off, a brief history. The first castle on this hill was built of wood, soon after ten sixty-six. Nothing of that remains. The stone walls you see were begun a century later, by a lord named Roger de Vaux. He built here not to defend the border, as is often said, but to control the bridge over the river below, where every merchant had to pay a toll.
+C: The castle was attacked only once in its history, in twelve sixteen, and it held out for three months. It was never taken by force. Its decline was gradual. By the sixteen hundreds, the family had moved to a more comfortable house in the valley, and local people began carrying off the stone to build their barns.
+C: A full tour takes about ninety minutes. If your time is short, follow the stops marked with a star, which cover the main sights in forty minutes.
+C: Let me describe what lies ahead. Stop one is the gatehouse, where you're standing. Look up, and you'll see the slot for the great iron gate, which could be dropped in seconds.
+C: Stop two is the courtyard. In the Middle Ages, this wasn't an empty lawn. It was crowded with wooden buildings, including stables and a blacksmith's workshop.
+C: Stop three is the great hall, where the lord ate with his household. The roof has gone, but the huge fireplace survives. Its carved stonework is the finest on the site.
+C: Stop four is the kitchen, built apart from the hall on purpose, to reduce the risk of fire. You can still see the bread oven.
+C: Stop five is the well, which is forty metres deep. It was cut through solid rock, and it meant the castle could never be forced to surrender through thirst.
+C: Stop six is the tower. There are a hundred and eight steps, and they are steep and uneven. Please take care, and note that children under eight must be accompanied.
+C: The final stop is the chapel, the only building which still has its roof. It's used several times a year for concerts.
+C: Please don't climb on the walls. They're eight hundred years old, and they aren't as solid as they look.
+C: When you've finished, return your handset to the shop. Now, enter the number one to begin.
+== mc
+11. The stone castle was built mainly in order to
+A. defend the border.
+B. protect the nearby town.
+C. control a river crossing.
+=> C // It controlled the bridge, where every merchant had to pay a toll.
+12. What happened when the castle was attacked?
+A. It was captured after three months.
+B. It was not captured.
+C. It was badly damaged.
+=> B // It held out for three months and was never taken by force.
+13. Why did the castle fall into ruin?
+A. The family moved elsewhere and the stone was removed.
+B. It was destroyed in a fire.
+C. It was damaged in a later war.
+=> A // The family moved to the valley and local people took the stone for barns.
+14. Visitors with little time should
+A. begin at the tower.
+B. listen only to the first three stops.
+C. follow the stops marked with a star.
+=> C // The starred stops cover the main sights in forty minutes.
+== match:features | What does the guide say about each part of the castle? Choose SIX answers from the list and write the correct letter, A-H, next to questions 15-20.
+A. It was kept separate for safety.
+B. It was once full of buildings.
+C. It is still used for events.
+D. It has the best decoration.
+E. It ensured a supply of water.
+F. It may be difficult to climb.
+G. It has been completely rebuilt.
+H. It was used as a prison.
+15. the courtyard => B // It was crowded with wooden buildings.
+16. the great hall => D // The fireplace's carved stonework is the finest on the site.
+17. the kitchen => A // Built apart from the hall to reduce the risk of fire.
+18. the well => E // The castle could never be forced to surrender through thirst.
+19. the tower => F // A hundred and eight steep, uneven steps.
+20. the chapel => C // It is used for concerts.
+
+# L52 | Solar cooker experiment and the Silk Road
+## 3 | You will hear two physics students, Anna and Rahul, discussing an experiment with solar cookers.
+@A Anna female_uk
+@B Rahul male_us
+A: Rahul, we've got the roof booked for Thursday. Are the cookers ready?
+B: Two of the three. The box cooker and the panel cooker are finished. The dish one is giving me trouble.
+A: The parabolic dish? What's the matter with it?
+B: I covered an old satellite dish with kitchen foil, and the foil keeps wrinkling. Every wrinkle scatters the light.
+A: The technician has some mirror film left over from another project. It's sticky on the back, and it goes on smoothly.
+B: That would be much better. I'll ask him tomorrow.
+A: So, to recap the aim. We're comparing how quickly each design heats a litre of water.
+B: Right. And how hot it gets in the end. I'd expect the dish to win easily. It focuses all the light on one small spot.
+A: It should reach the highest temperature. But it has to be turned every ten minutes or so to follow the sun, or the hot spot moves off the pot. The box cooker can be left alone for an hour.
+B: So for someone cooking a meal, the box might be more practical.
+A: That's what the reports from aid organisations say. Dish cookers get abandoned, because nobody has time to stand beside them.
+B: We should mention that. It isn't just about peak temperature.
+A: Now, to make it a fair test, what do we need to keep the same?
+B: The amount of water, obviously. The starting temperature. And the pots.
+A: The pots are a problem. We've got two black ones and a shiny steel one.
+B: A shiny pot reflects the light. It would put whichever cooker gets it at a disadvantage.
+A: I'll paint it black tonight. There's some heat-resistant paint in the workshop.
+B: Good. What about wind? It was gusty up there last time.
+A: Wind cools the pots. We can't control it, but we can measure it, and run all three cookers at the same time, so they're affected equally.
+B: And cloud?
+A: Same answer. I've borrowed a light meter, so we can record how strong the sun is every five minutes.
+B: Who takes the temperatures?
+A: We don't need to. I've got three probes that record automatically, once a minute, onto a laptop.
+B: Excellent. That leaves us free to turn the dish. How long shall we run it?
+A: Two hours, from eleven until one, when the sun's at its highest.
+B: And if it's cloudy on Thursday?
+A: Then we move to Friday. I've booked the roof for both days, just in case.
+B: You think of everything. I'll bring sun cream, and a kettle, so we know what we're competing with.
+== mc
+1. What is wrong with the dish cooker?
+A. Its reflecting surface is uneven.
+B. It is too heavy to carry to the roof.
+C. Its dish is the wrong shape.
+=> A // The foil keeps wrinkling, and every wrinkle scatters the light.
+2. What disadvantage of the dish cooker does Anna mention?
+A. It is expensive to build.
+B. It needs frequent adjustment.
+C. It can only heat a small pot.
+=> B // It has to be turned every ten minutes to follow the sun.
+3. According to aid organisations, dish cookers are often
+A. preferred to box cookers.
+B. too hot to be safe.
+C. given up by their users.
+=> C // Nobody has time to stand beside them.
+4. What will Anna do about the steel pot?
+A. replace it
+B. paint it
+C. leave it out of the experiment
+=> B // A shiny pot reflects light, so she will paint it black.
+5. How will the students deal with the effect of wind?
+A. by testing all the cookers together
+B. by building a shelter
+C. by testing only on calm days
+=> A // They cannot control it, but all three cookers will be affected equally.
+== fill:sentence | 2WN
+6. The strength of the sunlight will be recorded with a light {{6=meter}}.
+7. The temperature will be recorded automatically by three {{7=probes}}.
+8. The experiment will last for {{8=2 hours|two hours}}.
+9. If Thursday is cloudy, the experiment will take place on {{9=Friday}}.
+10. For comparison, Rahul will bring a {{10=kettle}}.
+## 4 | You will hear part of a history lecture about the trade routes known as the Silk Road.
+@C Lecturer female_us
+C: Few names in history are as evocative as the Silk Road. It suggests a single highway, with caravans of camels plodding from China to Rome. The reality was rather different, and today I'd like to correct a few misunderstandings.
+C: To begin with, the name itself is modern. Nobody who travelled the routes ever used it. It was invented in eighteen seventy-seven by a German geographer. And there was never one road. There was a shifting network of tracks across deserts and mountain passes, together with sea routes through the Indian Ocean, which eventually carried far more goods than the land.
+C: Second, almost nobody travelled the whole distance. Goods moved in stages, passing from one merchant to another at the great market towns, such as Samarkand. A roll of silk might change hands a dozen times, and its price rose at each exchange.
+C: The people who dominated this business for centuries were not Chinese or Roman but a people called the Sogdians, from the region of modern Uzbekistan. Their language became the common language of the caravans.
+C: And silk was far from the only cargo. Travelling west went paper, porcelain and tea. Travelling east went glass, silver, wine and, above all, horses, which the Chinese valued enormously for their army.
+C: The animal that made it possible was the camel, and specifically the two-humped camel of central Asia. It can carry two hundred kilos, go for a week without water, and, according to Chinese writers, sense a sandstorm before it arrives.
+C: Far more important than any goods, however, were the ideas that travelled with them. Buddhism spread from India to China along these routes. So did techniques, the making of paper going west, and of glass going east. Crops moved too. The peach and the orange came to Europe from China, and grapes travelled the other way.
+C: Not everything that travelled was welcome. Most historians believe that the plague which killed perhaps a third of Europe's population in the fourteenth century was carried along the same routes.
+C: What ended the overland trade? There was no single moment. But after fourteen ninety-eight, when Portuguese ships reached India by sailing round Africa, the sea became cheaper and safer, and the cities of central Asia slowly declined.
+C: I'll end with a thought. We speak of globalisation as though it were new. The Silk Road is a reminder that people, goods and beliefs have been crossing continents for two thousand years.
+== fill:note | 1W
+The Silk Road
+Misunderstandings
+- the name was invented by a German {{11=geographer}} in 1877
+- it was a {{12=network}} of routes, not a single road
+- goods changed hands at {{13=market}} towns such as Samarkand
+Trade
+- the trade was dominated by the Sogdians, whose {{14=language}} was used by the caravans
+- the Chinese especially wanted {{15=horses}} for the army
+- the {{16=camel}} could carry 200 kilos
+What else travelled
+- religion: {{17=Buddhism}} spread from India to China
+- crops: the peach and the {{18=orange}} reached Europe
+- disease: the {{19=plague}} of the fourteenth century
+Decline
+- after 1498, transport by {{20=sea}} was cheaper and safer

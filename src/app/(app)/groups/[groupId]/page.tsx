@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Check, Flame, Library, Play, Timer } from "lucide-react";
+import { Check, Flame, Library, Play, Timer, Video } from "lucide-react";
 import { Confetti } from "@/components/daily/confetti";
 import { Countdown } from "@/components/daily/countdown";
 import { GroupLive } from "@/components/daily/group-live";
@@ -120,9 +120,15 @@ export default async function GroupTodayPage({ params }: PageProps<"/groups/[gro
           const doneCount = members.filter((m) => stateOf(m.user_id, skill)?.submitted_at).length;
           const band = bandOf(profile.id, skill);
           const submitted = Boolean(mine?.submitted_at);
-          const href = submitted
-            ? `/groups/${group.id}/results/${skill}`
-            : `/attempt/${group.id}/${skill}`;
+          // Speaking is a full mock test taken with a partner in the speaking room.
+          const inRoom = skill === "speaking" && !test;
+          const href = inRoom
+            ? submitted
+              ? `/groups/${group.id}/speaking`
+              : `/room/${group.id}`
+            : submitted
+              ? `/groups/${group.id}/results/${skill}`
+              : `/attempt/${group.id}/${skill}`;
 
           const body = (
             <>
@@ -144,7 +150,9 @@ export default async function GroupTodayPage({ params }: PageProps<"/groups/[gro
                 <p className="text-xs text-muted-foreground">
                   {test
                     ? `${partLabel(test.part)} · ${Math.round(test.duration_sec / 60)} phút`
-                    : "Ngân hàng hết đề"}
+                    : inRoom
+                      ? "Thi theo cặp · Part 1, 2, 3"
+                      : "Ngân hàng hết đề"}
                 </p>
                 <p className="text-xs text-muted-foreground">
                   {doneCount}/{members.length} người xong
@@ -153,11 +161,15 @@ export default async function GroupTodayPage({ params }: PageProps<"/groups/[gro
               <span
                 className={cn(
                   "inline-flex h-8 items-center gap-1.5 rounded-lg px-3 text-sm font-semibold",
-                  submitted || !test || closed ? "bg-secondary" : "text-white",
+                  submitted || (!test && !inRoom) || closed ? "bg-secondary" : "text-white",
                 )}
-                style={submitted || !test || closed ? undefined : { background: meta.color }}
+                style={submitted || (!test && !inRoom) || closed ? undefined : { background: meta.color }}
               >
-                {!test ? (
+                {inRoom && !submitted ? (
+                  <>
+                    <Video className="size-4" /> Vào phòng nói
+                  </>
+                ) : !test && !inRoom ? (
                   <>
                     <Library className="size-4" /> Soạn thêm đề
                   </>
@@ -186,11 +198,11 @@ export default async function GroupTodayPage({ params }: PageProps<"/groups/[gro
             "flex h-full flex-col items-center gap-3 rounded-2xl border bg-card p-4 transition-colors sm:p-5";
           return (
             <li key={skill}>
-              {!test ? (
+              {!test && !inRoom ? (
                 <Link href="/bank" className={cn(cardClass, "hover:border-ring")}>
                   {body}
                 </Link>
-              ) : !submitted && !mine && closed ? (
+              ) : !inRoom && !submitted && !mine && closed ? (
                 <div className={cn(cardClass, "opacity-60")}>{body}</div>
               ) : (
                 // No prefetch: opening an attempt should be a deliberate click.

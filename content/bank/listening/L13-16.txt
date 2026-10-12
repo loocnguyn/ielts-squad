@@ -1,0 +1,351 @@
+# L13 | Lost luggage report and a farmers' market
+## 1 | You will hear a man reporting a missing suitcase at an airport baggage desk.
+@A Clerk female_uk
+@B Passenger male_us
+A: Good evening, sir. Baggage services. How can I help?
+B: Hi. My suitcase didn't arrive. I waited until the belt stopped, and it just isn't there.
+A: I'm sorry to hear that. Let's fill in a report, and we'll trace it for you. Which flight were you on?
+B: I came from Toronto, but I changed planes in Dublin. The second flight was E K four one seven.
+A: Four one seven from Dublin. That's helpful, because bags usually go missing at the connection. Could I have your name?
+B: It's Daniel Kessler. K, E, double S, L, E, R.
+A: Thank you, Mister Kessler. Now, can you describe the suitcase? What colour is it?
+B: It's dark green. People always expect black or blue, so at least it's easy to spot.
+A: Dark green. Is it a hard case or a soft one?
+B: Hard, with four wheels. And there's a yellow ribbon tied to the handle. My wife's idea.
+A: A yellow ribbon. That'll help a lot. Roughly how big is it?
+B: It's a large one. It weighed twenty-one kilos when I checked in.
+A: Twenty-one. And what's inside? I don't need everything, just a few things that would identify it if the label has come off.
+B: Mostly clothes. A pair of walking boots, right on the top. And some books. I'm here for a conference, so my presentation notes are in there too, which is the real worry.
+A: Is there anything valuable? A laptop, a camera?
+B: No, the laptop was in my hand luggage, thank goodness.
+A: Good. Now, where shall we send the case when it turns up? Are you staying in a hotel?
+B: Yes, the Carlton Hotel. That's on Park Avenue. I'm there until Friday, and then I move on to Manchester.
+A: If we find it tonight, it'll be delivered tomorrow morning. And a phone number where we can reach you?
+B: My mobile doesn't work over here yet. You'd better call the hotel and ask for room three one two.
+A: Room three one two. Fine. Here's your reference number. You can follow the search on our website.
+B: Thanks. I've got nothing to wear tomorrow, though. Can I claim for that?
+A: You can. Buy what you need for the first day, up to sixty pounds, and keep the receipts. We can't refund anything without them.
+B: Sixty pounds, and keep the receipts. OK. How long does this usually take?
+A: Nine bags out of ten are found within two days. If yours hasn't appeared after five days, you fill in a second form, listing every item, and it becomes a claim for compensation.
+B: Let's hope it doesn't come to that.
+== fill:form | 1WN
+Missing baggage report
+Final flight: EK417 from {{1=Dublin}}
+Passenger's surname: {{2=Kessler}}
+Suitcase
+- colour: dark {{3=green}}
+- hard case with a yellow {{4=ribbon}} on the handle
+- weight: {{5=21|twenty-one}} kilos
+- contents include walking {{6=boots}} and conference notes
+Delivery
+- the Carlton {{7=Hotel}}, Park Avenue
+- contact: phone the hotel and ask for room {{8=312|three one two}}
+Expenses
+- up to £{{9=60|sixty}} for the first day
+- passenger must keep all {{10=receipts}}
+## 2 | You will hear a radio presenter talking about a weekly farmers' market.
+@C Presenter male_uk
+C: And now for our weekly look at what's happening locally. This morning I went down to the farmers' market in Queen's Square, which celebrates its tenth birthday this month.
+C: If you haven't been, the market takes place every Saturday. It used to be held once a month, but it proved so popular that the council agreed to make it weekly two years ago. It opens at eight, and I'd advise you to go early, because by eleven the best bread has gone.
+C: What makes it a farmers' market, as opposed to an ordinary one? The rule here is strict. Everything on sale must be grown, raised or made within thirty miles of the square, and the person behind the stall must be involved in producing it. You won't find anyone simply reselling goods from a wholesaler.
+C: I asked the manager, Carol, whether prices are higher than in the supermarket. She was honest about it. Meat and cheese do cost more. Vegetables, though, are often cheaper, because nothing is spent on packaging or transport.
+C: There are thirty-two stalls at present, and a waiting list of producers hoping for a place. So what did I find? The longest queue was at the cheese stall, run by two sisters whose goat's cheese won a national prize last year. Next to them, a retired teacher sells honey from hives he keeps on the roofs of buildings in the city centre.
+C: Something I didn't expect was the fish. We're sixty miles from the sea, after all. But there's a trout farm in the valley, and they smoke the fish themselves over oak.
+C: It isn't only food. One stall sells wool, dyed with plants, and another sells wooden spoons and bowls. And for children, there's a table where they can plant a seed in a pot and take it home, which costs nothing.
+C: A couple of practical points. Until recently the stalls only took cash, but nearly all of them now accept cards. There's no car park in the square itself, so use the one behind the cinema, where the first hour is free on Saturdays. And please bring your own bags. The market stopped giving out plastic ones last year.
+C: Finally, a date for your diary. On the last Saturday of the month, to mark the anniversary, a local chef will be giving cookery demonstrations on a stage by the fountain, using only ingredients from the stalls. They start at ten o'clock.
+== mc
+11. How often does the market take place?
+A. once a week
+B. twice a month
+C. once a month
+=> A // It used to be monthly but has been weekly for two years.
+12. What rule must stallholders follow?
+A. They must sell only organic food.
+B. They must have helped to produce what they sell.
+C. They must live within thirty miles of the square.
+=> B // The goods must come from within thirty miles and the seller must be involved in producing them.
+13. According to the manager, vegetables at the market
+A. cost more than in a supermarket.
+B. are sold without any packaging.
+C. are often less expensive than in a supermarket.
+=> C // Meat and cheese cost more; vegetables are often cheaper.
+14. Where does the honey come from?
+A. a farm in the valley
+B. the roofs of city buildings
+C. the garden of a school
+=> B // A retired teacher keeps hives on roofs in the city centre.
+== fill:note | 1W
+Queen's Square farmers' market
+What is on sale
+- prize-winning cheese made from {{15=goat's|goats|goat}} milk
+- trout, smoked over {{16=oak}}
+- {{17=wool}} coloured with plant dyes
+- a free activity for children: planting a {{18=seed}}
+Practical information
+- most stalls now accept {{19=cards}}
+- park behind the {{20=cinema}}
+
+# L14 | Footbridge report feedback and the origins of writing
+## 3 | You will hear an engineering student called Elena discussing her report on a footbridge with her tutor.
+@A Tutor male_uk
+@B Elena female_us
+A: Sit down, Elena. I've read your report on the footbridge, and there's a lot to like. Before I comment, how do you feel it went?
+B: Honestly, I enjoyed the calculations far more than the writing. I thought the hardest part would be choosing the type of bridge, but that came quickly. It was explaining my decisions that took for ever.
+A: That's very common. Well, your calculations are sound. I checked the loading figures, and I couldn't find a single error.
+B: That's a relief. I did them three times.
+A: It shows. My main criticism is about the order. You describe your final design on page two, and the reader doesn't discover what the site is like until page nine. I had no way of judging the design.
+B: I see. I put the design first because I thought that was the interesting part.
+A: It is, but the reader needs the problem before the answer. Move the site description to the front.
+B: OK. What about the section comparing the three types of bridge?
+A: That's the strongest part. The table of costs is clear. But you rejected the suspension design in one sentence, saying it was unsuitable. Why?
+B: Because of the ground. The soil on the east bank is too soft to anchor the cables without very deep foundations.
+A: That's a perfectly good reason. It simply isn't written down.
+B: I'll add a paragraph. Should I include my soil test results?
+A: Put the full results in an appendix, and summarise them in two lines in the main text.
+B: Fine. And the diagrams? I drew them by hand, because I'm slow with the software.
+A: They're accurate, and I rather like them. What they lack is a scale. Without one, I can't tell whether your bridge is ten metres long or a hundred.
+B: Oh, of course. That's easy to fix.
+A: Now, something you didn't cover at all. How would this bridge be maintained? A steel structure over water needs repainting every few years. Who pays, and how do they reach the underside?
+B: I didn't think about that. I only considered the cost of building it.
+A: Clients care about the cost over fifty years, not just the first one. Have a look at the guidance from the Institution of Civil Engineers, and add a short section.
+B: I will. Is the conclusion all right?
+A: It's rather long. You repeat most of the report. A conclusion should fit on half a page.
+B: I'll cut it. When do you need the new version?
+A: The deadline is the twentieth, but if you send it to me by the fifteenth, I'll read it once more before you submit.
+B: Then I'll aim for the fifteenth. Thank you.
+== mc
+1. Which part of the project did Elena find most difficult?
+A. choosing the type of bridge
+B. doing the calculations
+C. justifying her choices in writing
+=> C // Choosing the bridge came quickly; explaining her decisions took for ever.
+2. What is the tutor's main criticism of the report?
+A. The site is described too late.
+B. The design is described in too little detail.
+C. The loading figures contain errors.
+=> A // The design appears on page two and the site not until page nine.
+3. Elena rejected the suspension bridge because of
+A. its cost.
+B. the condition of the ground.
+C. its appearance.
+=> B // The soil on the east bank is too soft to anchor the cables.
+4. What should Elena do with her soil test results?
+A. leave them out
+B. present them in a table in the main text
+C. give them in full at the end of the report
+=> C // Full results go in an appendix, with a two-line summary in the main text.
+5. What is missing from Elena's diagrams?
+A. labels
+B. a scale
+C. colour
+=> B // Without a scale the tutor cannot tell how long the bridge is.
+== fill:sentence | 2WN
+6. Elena's report does not explain how the bridge would be {{6=maintained}}.
+7. A steel bridge over water regularly needs {{7=repainting}}.
+8. Clients are interested in costs over a period of {{8=50 years|fifty years}}.
+9. The conclusion should be no longer than {{9=half}} a page.
+10. Elena will send the new version by the {{10=15th|15|fifteenth}}.
+## 4 | You will hear part of a lecture about how writing was invented.
+@C Lecturer female_uk
+C: Writing seems so natural to us that it's easy to forget it had to be invented. In fact, as far as we know, it was invented independently only a handful of times, in Mesopotamia, in China, and in Central America. Today I'll concentrate on the earliest of these, in what is now Iraq, a little over five thousand years ago.
+C: The first surprise is what writing was for. We might imagine that people wanted to record stories, or prayers, or the deeds of kings. Not at all. The earliest tablets are lists of goods. Writing began as a tool for accounting.
+C: The story really starts earlier, with small clay tokens. For thousands of years before writing, farmers in the region used these to keep track of what they owned. A token of one shape stood for a sheep, another for a jar of oil. To record a debt of five sheep, you handed over five tokens.
+C: The difficulty was trust. Tokens could be lost or stolen. So people began sealing them inside a hollow ball of clay, a kind of envelope. That created a new problem, because you couldn't see what was inside without breaking it. The answer was to press the tokens into the wet surface of the envelope before sealing it, leaving marks that showed the contents.
+C: And then somebody realised that the tokens themselves were no longer necessary. The marks were enough. The envelope was flattened into a tablet, and the marks were drawn with a cut reed. Because the reed left a shape like a wedge, we call this script cuneiform, from the Latin for wedge.
+C: At this stage, the signs were pictures. The great step forward was to use a sign not for its meaning but for its sound. It's as if we drew a bee and a leaf to write the word belief. Once that happened, names could be written, and then whole sentences of the spoken language.
+C: Learning the system was hard. There were about six hundred signs, and a boy training to be a scribe spent some twelve years at school. We have their exercise tablets, with the teacher's neat version on one side and the pupil's clumsy copy on the other.
+C: Because clay survives fire, when other materials are destroyed, hundreds of thousands of tablets have come down to us. Most are receipts and contracts. But among them are letters, and I'll end with my favourite. It's from a merchant complaining that the copper he was sold was of poor quality, and demanding his money back. It is the oldest known letter of complaint.
+== fill:note | 1W
+The origins of writing in Mesopotamia
+- the earliest tablets contain lists of {{11=goods}}
+- writing started as a means of {{12=accounting}}
+Before writing
+- farmers used clay {{13=tokens}} to record what they owned
+- tokens were sealed inside a clay {{14=envelope}} (a hollow ball)
+- marks on the outside showed the contents
+The first script
+- marks were made with a {{15=reed}}
+- the name 'cuneiform' comes from a Latin word meaning {{16=wedge}}
+- key development: using a sign for its {{17=sound}}
+Scribes and tablets
+- training lasted about {{18=twelve|12}} years
+- tablets have survived because clay is not destroyed by {{19=fire}}
+- one letter is a complaint about the quality of some {{20=copper}}
+
+# L15 | Hiring a hall and a recycling centre tour
+## 1 | You will hear a woman phoning a community hall to ask about hiring it for a party.
+@A Caretaker male_uk
+@B Caller female_uk
+A: Hello, Thornbury Village Hall. Jim speaking.
+B: Good morning. I'm organising a party for my parents' wedding anniversary, and I'd like to know whether the hall is free on Saturday the eighteenth of May.
+A: Let me check the diary. The eighteenth. The main hall is booked for a concert, I'm afraid. I could do the Saturday after, the twenty-fifth.
+B: The twenty-fifth would be all right, I think. Most of the family will still be around.
+A: How many guests are you expecting?
+B: About eighty. Is the hall big enough?
+A: The main hall takes a hundred and twenty seated at tables, so you'd have plenty of room. There's also the garden room, but that only holds forty.
+B: The main hall, then. What does it cost?
+A: For an evening, from six until midnight, it's two hundred and ten pounds. If you'd like to get in during the afternoon to decorate, there's an extra charge of thirty pounds.
+B: We'd need the afternoon, definitely. So two hundred and forty altogether. Does that include the kitchen?
+A: It does. There's a large cooker, two fridges and a dishwasher. What we don't supply is tablecloths. You'd need to bring those, or hire them.
+B: I'll make a note. We're having a caterer, so that's her problem really. What about music? We've booked a band.
+A: That's fine, but all music has to stop at half past eleven. We have neighbours, and the licence is very clear.
+B: Half past eleven. And can we serve alcohol?
+A: You can serve it, as long as you're not selling it. If you want to run a paying bar, you'd need a separate licence from the council, and that takes three weeks.
+B: No, it'll all be free. Is there parking?
+A: There are thirty spaces beside the hall. Once those are full, people use the field behind the school. It's only two minutes on foot.
+B: Lovely. Now, my father uses a wheelchair. Is that a problem?
+A: Not at all. There's a ramp at the side entrance, and an accessible toilet.
+B: Perfect. How do I book?
+A: I'll need a deposit of fifty pounds to hold the date, and the balance two weeks before the event. You can pay by bank transfer, or drop a cheque in at the post office next door.
+B: I'll do a transfer today. And the keys?
+A: You collect them from me on the day. I live at number six, Mill Lane, just across the road. Can I take your name?
+B: It's Rachel Oduya. O, D, U, Y, A.
+A: Thank you, Rachel. One last thing. We ask everyone to take their rubbish home with them. There's no collection at the weekend.
+== fill:form | 1WN
+Thornbury Village Hall: booking enquiry
+Date of party: Saturday {{1=25|25th|twenty-fifth}} May
+Number of guests: about {{2=80|eighty}}
+Room: main hall
+Total cost, including the afternoon: £{{3=240|two hundred and forty}}
+Not supplied: {{4=tablecloths}}
+Music must end at: {{5=11.30|11:30|half past eleven}} pm
+Extra parking: in a {{6=field}} behind the school
+Access: a {{7=ramp}} at the side entrance
+Deposit: £{{8=50|fifty}}
+Collect keys from: 6 Mill {{9=Lane}}
+Surname: {{10=Oduya}}
+## 2 | You will hear a guide talking to a group of visitors at the start of a tour of a recycling centre.
+@C Guide female_us
+C: Good afternoon, and welcome to the Greenway Recycling Centre. I'm Tasha, and I'll be taking you round. Before we go in, I'm going to hand out ear protection, because the sorting hall is very noisy, and I'll ask you to stay inside the yellow lines at all times.
+C: Let me give you some idea of the scale. Every working day, about four hundred tonnes of material arrive here, from homes across the whole county. When the centre opened, fifteen years ago, we recycled a quarter of what came in. Today the figure is just over sixty per cent.
+C: People often ask what the biggest problem is, and they expect me to say plastic. It isn't. It's food. A single jar that's still half full of sauce can spoil a whole load of paper, and then that paper has to be burned. So if you remember one thing from today, please rinse your containers.
+C: The second problem is newer. Batteries, especially the ones inside old phones and electric toothbrushes, can catch fire when they're crushed. We had three fires last year. Batteries should never go in your household bin. Take them to a collection point in a supermarket.
+C: Now, here's what you'll see. Lorries tip everything onto the floor of the reception hall. From there, a conveyor belt carries it up to the first stage, where a team of workers remove by hand anything that shouldn't be there. Last month they found a bicycle and a set of golf clubs.
+C: Next, the material passes over a series of rotating discs. Cardboard, being large and flat, rides over the top, while smaller objects fall through.
+C: After that, a powerful magnet lifts out anything made of steel, mainly food tins. Aluminium isn't magnetic, so drinks cans are removed further along by a different machine.
+C: Plastics are the cleverest part. The bottles pass under an infrared light, which identifies the type of plastic, and a jet of air blows each one into the correct container. It happens faster than you can see.
+C: Glass is the last thing left on the belt. It's broken into small pieces and sent to a factory forty miles away, where it becomes new bottles.
+C: At the end, everything is pressed into bales and sold. I'm sometimes asked whether it all ends up abroad. Paper does go overseas, but our plastic and metal are processed in this country.
+C: Right. Ear protection on, please, and follow me.
+== mc
+11. What proportion of the material arriving at the centre is now recycled?
+A. a quarter
+B. about forty per cent
+C. just over sixty per cent
+=> C // A quarter was the figure when the centre opened.
+12. According to the guide, the biggest problem for the centre is
+A. containers with food left in them.
+B. the amount of plastic.
+C. objects that are too large.
+=> A // Visitors expect her to say plastic, but food spoils whole loads of paper.
+13. What should people do with old batteries?
+A. put them in a separate bag in their bin
+B. bring them to the recycling centre
+C. take them to a collection point in a shop
+=> C // They should never go in the household bin; supermarkets have collection points.
+14. Which material from the centre is sent to other countries?
+A. paper
+B. plastic
+C. metal
+=> A // Plastic and metal are processed in this country.
+== fill:flow_chart | 1W
+The sorting process
+Lorries tip the material onto the floor of the reception hall
+↓
+Workers remove unsuitable objects by {{15=hand}}
+↓
+Rotating {{16=discs}} separate cardboard from smaller objects
+↓
+A {{17=magnet}} removes steel, mostly food tins
+↓
+Infrared {{18=light}} identifies each type of plastic
+↓
+A jet of {{19=air}} blows each bottle into the right container
+↓
+{{20=Glass}} is broken up and sent to a factory
+
+# L16 | Oral history project and desert plants
+## 3 | You will hear two history students, Grace and Leo, planning an oral history project about a closed shipyard.
+@A Grace female_uk
+@B Leo male_us
+A: Leo, we need to settle the plan for the oral history project. Have you had any luck finding people to interview?
+B: Some. I put a notice in the local paper, and four former shipyard workers called me. But the best response came from the retired workers' club. I gave a short talk there, and eleven people signed up.
+A: Fifteen in all. That's more than we can manage. Professor Whitlock suggested eight interviews of about an hour each.
+B: Then we'll have to choose. I'd pick the ones who worked there longest.
+A: I'm not sure. If we do that, we'll only get men who were welders and riveters. I'd rather have variety. There were women in the offices and the canteen, and nobody has recorded their memories.
+B: That's true. Variety, then. Where should we do the interviews? I'd assumed we'd bring people to the university.
+A: Most of them are over eighty. I think we should go to their homes. People relax and remember more in their own surroundings.
+B: It'll take longer, but you're right. Should we send them the questions beforehand?
+A: I asked Professor Whitlock that. She said no, because people prepare little speeches. Better to send a short list of topics, so they can look out old photographs.
+B: Photographs would be great. Now, recording. My phone has a decent microphone.
+A: The department lends out proper recorders. The sound is much cleaner, and the archive won't accept phone recordings anyway.
+B: OK, I'll borrow two, in case one fails. What about transcribing? Eight hours of speech is a huge job.
+A: There's software that produces a rough version. We'd still have to correct it by hand, especially with the local accent.
+B: Let's split that. Four each.
+A: Agreed. Now, there's one thing we mustn't forget. Every person has to sign a consent form before we start, saying how the recording may be used.
+B: And if somebody says something they regret afterwards?
+A: They can ask us to remove it, at any point up to the day we hand the recordings to the archive. It says so on the form.
+B: Good. What do we do for the final presentation? I don't want to just read out quotes.
+A: I thought we could play short clips, so the audience hears the voices themselves.
+B: Yes. And maybe put a map of the yard on the screen, and mark where each person worked.
+A: I love that. Can you make the map?
+B: I'll try. The city museum has the original plans. I'll go on Wednesday.
+== mc
+1. Where did Leo find most of the people willing to be interviewed?
+A. through a newspaper
+B. at a club for former employees
+C. through the city museum
+=> B // Four people answered the newspaper notice; eleven signed up at the retired workers' club.
+2. Grace wants to choose interviewees who
+A. did different kinds of job.
+B. worked at the shipyard for longest.
+C. have the clearest memories.
+=> A // Choosing by length of service would give only welders and riveters; she wants variety.
+3. The interviews will take place
+A. at the university.
+B. at the retired workers' club.
+C. where the interviewees live.
+=> C // People relax and remember more in their own surroundings.
+4. Before the interview, each person will receive
+A. the full list of questions.
+B. some old photographs.
+C. a list of subjects to be covered.
+=> C // The professor advised against sending questions; a list of topics lets them look out photographs.
+5. Why will the students use the department's recorders?
+A. The archive requires recordings of that quality.
+B. Leo's phone has a poor microphone.
+C. They are easier to use.
+=> A // The sound is cleaner and the archive will not accept phone recordings.
+== fill:sentence | 2W
+6. The software's rough transcript will have to be corrected by {{6=hand}}.
+7. Before the interview, each person must sign a {{7=consent form}}.
+8. Interviewees can have material removed until the recordings go to the {{8=archive}}.
+9. In the presentation, the students will play short {{9=clips}}.
+10. Leo will look at the original {{10=plans}} of the shipyard.
+## 4 | You will hear part of a botany lecture about how plants survive in deserts.
+@C Lecturer male_us
+C: Deserts are defined by a shortage of water, and yet they contain several thousand species of plant. This morning I want to look at the strategies those plants use, and I'll group them under three headings, which are escaping drought, resisting it, and tolerating it.
+C: Let's begin with the escapers. These are annual plants that avoid drought altogether by living very short lives. Their seeds lie in the soil, sometimes for decades. When heavy rain finally arrives, they germinate, flower and produce new seeds within a few weeks. What's clever is that the seeds are coated with a chemical that prevents growth, and only a really heavy fall of rain will wash it off. A light shower, which wouldn't keep a plant alive, doesn't trigger them.
+C: Second, the resisters, and the best known are the cacti. A cactus stores water in its stem, and that stem is folded, rather like an accordion, so that it can expand after rain. A large cactus can take up two hundred litres in a single storm.
+C: To avoid losing that water, a cactus has no leaves. What it has are spines. These protect it from thirsty animals, of course, but they also cast a surprising amount of shade on the surface of the plant.
+C: Most plants open the pores in their surface during the day, to take in carbon dioxide. A cactus does the opposite. It opens its pores only at night, when the air is cooler, and stores the gas until the sun comes up.
+C: Roots matter too. People imagine a desert plant sending a root deep underground, and some trees do exactly that. One, the mesquite, has been found with roots fifty metres down. But a cactus spreads its roots wide and very close to the surface, to catch rain before it evaporates.
+C: Third, the tolerators, which I find the most remarkable. These plants can lose almost all their water and survive. One small fern, known as the resurrection plant, curls into a dry brown ball and appears completely dead. Given water, it turns green again within a day. It protects its cells by replacing the water with a kind of sugar.
+C: Why does any of this matter beyond botany? Well, as the climate warms, more farmland is becoming dry. Researchers are trying to transfer some of these abilities to crops. Much of the work is being done on rice, with wheat likely to follow. If they succeed, the humble plants of the desert may turn out to be among the most valuable on earth.
+== fill:note | 1W
+How desert plants survive
+Escaping drought
+- annual plants survive as {{11=seeds}} in the soil
+- a {{12=chemical}} coating prevents growth until heavy rain washes it off
+Resisting drought: cacti
+- water is stored in the {{13=stem}}, which can expand
+- {{14=spines}} give protection and also provide shade
+- pores open only at {{15=night}}
+- the {{16=roots}} are wide and close to the surface
+Tolerating drought
+- the resurrection plant looks {{17=dead}} when dry
+- it replaces the water in its cells with a kind of {{18=sugar}}
+Applications
+- useful because more {{19=farmland}} is becoming dry
+- research is mainly being carried out on {{20=rice}}

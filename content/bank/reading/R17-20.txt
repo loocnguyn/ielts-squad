@@ -1,0 +1,138 @@
+# R17 | Tulip mania
+## The bubble that wasn't?
+[A] Whenever the price of some asset rises to absurd heights, from internet shares to digital currencies, journalists reach for the same comparison. In the Dutch Republic in the winter of 1636 to 1637, the story goes, an entire nation lost its senses over tulips. Bulbs changed hands for the price of a house, chimney sweeps and maids gambled their savings, and when the market collapsed in February 1637, thousands were ruined and the economy was plunged into depression. It is a wonderful tale. According to historians who have gone back to the archives, a good deal of it is untrue.
+[B] The tulip reached the Netherlands from the Ottoman Empire in the late sixteenth century, and it arrived in a country well prepared to prize it. The Dutch were then the richest people in Europe, their merchants had money to spend on luxuries, and the flower was unlike anything in northern gardens. The most sought-after varieties were not of a single colour but streaked with flames of crimson or purple on a white ground. We now know that these patterns were caused by a virus carried by aphids, which also weakened the plant. A prized bulb therefore produced few offspring, and since nobody understood the cause, nobody could produce the effect to order. Rarity was built in.
+[C] For several decades the trade was confined to wealthy collectors, who paid high prices in much the same spirit as they paid for paintings. The change came in the mid-1630s. Because tulips flower only briefly in spring and the bulbs lie in the ground for most of the year, a custom grew up of buying and selling during the winter by means of written promises to pay when the bulbs were lifted. These contracts could themselves be sold on. Dealers met in the back rooms of taverns, and a single bulb might pass through several hands, on paper, without anyone seeing it. In the last weeks of 1636, prices for some varieties rose twentyfold.
+[D] The peak came in the first days of February 1637. At an auction in the town of Alkmaar, held for the benefit of the orphaned children of an innkeeper, a collection of bulbs fetched ninety thousand guilders, at a time when a skilled craftsman earned perhaps three hundred a year. Days later, at a routine sale in Haarlem, no buyers appeared. The news spread, confidence vanished, and within a week the trade had stopped.
+[E] What happened next is where the legend parts company with the evidence. The historian Anne Goldgar spent years examining the legal and financial records of the period, looking for the victims. She found very few. She could not identify a single person who had been made bankrupt by tulips. The buyers and sellers turned out to be a fairly small group of merchants and prosperous craftsmen, many of them related or connected through their churches, and not the chimney sweeps of the legend. And because the contracts had required no money in advance, most were simply never honoured. After months of quarrelling, the authorities in Haarlem allowed buyers to cancel on payment of a small percentage of the agreed price. The wider Dutch economy showed no sign of injury and went on to its most prosperous decades.
+[F] Where, then, did the famous version come from? Much of it can be traced to pamphlets printed in 1637 by religious moralists, who seized on the affair as a warning against greed and against the confusion of social ranks. Their colourful inventions, including the sailor who ate a priceless bulb in mistake for an onion, were intended as satire. Two centuries later, the Scottish journalist Charles Mackay repeated them as fact in a best-selling book about popular delusions, and it is from Mackay that most modern accounts descend.
+[G] This is not to say that nothing happened. Prices did rise beyond all reason and did collapse, and the episode shook people who had believed that their neighbours' word could be relied upon. Goldgar suggests that the real damage was to trust, not to wealth. Economists continue to argue over whether the prices were ever irrational. Some point out that rare bulbs kept their value for years afterwards, and that it was only the common varieties, traded by newcomers in the final weeks, that became worthless.
+[H] The lasting interest of tulip mania may lie less in what it tells us about markets than in what it tells us about stories. A moral tale invented for one purpose proved so satisfying that it survived for four hundred years, and it is still quoted, with complete confidence, by people warning others not to believe everything they hear.
+== tfng
+1. The Dutch Republic was a wealthy society when the tulip arrived. => TRUE // B: the Dutch were then the richest people in Europe.
+2. Growers in the seventeenth century knew how to produce striped tulips reliably. => FALSE // B: nobody understood the cause, so nobody could produce the effect to order.
+3. During the winter trade, buyers usually inspected the bulbs before purchasing them. => FALSE // C: a bulb might pass through several hands on paper without anyone seeing it.
+4. The Alkmaar auction raised money for the children of a man who had died. => TRUE // D: held for the benefit of the orphaned children of an innkeeper.
+5. Anne Goldgar found records of many people bankrupted by the crash. => FALSE // E: she could not identify a single person made bankrupt by tulips.
+6. Charles Mackay visited the Netherlands to research his book. => NOT GIVEN // F says he repeated the pamphlets' stories but nothing about how he researched.
+== match:information
+7. a suggestion about what the affair really harmed => G // The real damage was to trust, not to wealth.
+8. an explanation of why the most valued tulips were naturally scarce => B // The virus weakened the plant, so a prized bulb produced few offspring.
+9. a description of how the dispute between buyers and sellers was settled => E // Buyers could cancel on payment of a small percentage.
+10. the origin of the invented stories about the mania => F // Pamphlets by religious moralists, written as satire.
+== fill:summary | 1W
+How the winter trade worked
+Because bulbs stayed in the ground for most of the year, traders exchanged written {{11=promises}} to pay later, and these contracts could be resold. The dealing took place in {{12=taverns}}. No money had to be paid in {{13=advance}}, which is why most contracts were never honoured after the collapse.
+
+# R18 | Antibiotic resistance
+## The end of an easy century
+[A] In September 1928, the bacteriologist Alexander Fleming returned from holiday to his laboratory in London and noticed that a mould had contaminated one of his culture dishes. Around the mould, the bacteria he had been growing had died. The substance responsible, which he named penicillin, was eventually turned into a medicine by a team at Oxford during the Second World War, and it changed human life. Infections that had killed routinely, after a scratch from a rose thorn or the birth of a child, became trivial. Operations such as hip replacements and organ transplants, which expose patients to dangerous bacteria, became possible. It is estimated that antibiotics have added about twenty years to average life expectancy.
+[B] Fleming himself foresaw the danger. Accepting the Nobel Prize in 1945, he warned that bacteria exposed to too small a dose could be educated to resist the drug. He was describing evolution in action. In any large population of bacteria, a few individuals may by chance carry a mutation that lets them survive an antibiotic. When the drug kills their competitors, the survivors multiply to fill the space. Bacteria reproduce so quickly, some of them every twenty minutes, that a resistant strain can become dominant within days. They have a further trick. Unrelated species of bacteria can pass genes directly to one another, so that resistance which arises in a harmless microbe in the gut may be handed to a deadly one.
+[C] Every use of an antibiotic therefore gives resistance an opportunity, and for decades the drugs were used with extraordinary freedom. Doctors prescribed them for colds and sore throats, most of which are caused by viruses on which they have no effect at all. In many countries they could, and still can, be bought over the counter without a prescription. The greatest quantities, however, have not been given to people. Farmers discovered in the 1950s that animals fed small regular doses grew faster, and by some estimates three quarters of the antibiotics sold in the world are still used on livestock, much of it on animals that are not ill.
+[D] For a long time none of this seemed to matter, because whenever a drug began to fail there was another to replace it. Between the 1940s and the 1960s, more than twenty new classes of antibiotic were introduced. Then the supply dried up. Hardly any truly new classes have reached patients since the 1980s. The reasons are partly scientific, since the compounds that were easy to find have been found, and partly commercial. Developing a drug costs well over a billion dollars. A company can recover that sum from a medicine for blood pressure, which a patient may take daily for thirty years. An antibiotic is taken for a week, and a new one would deliberately be kept in reserve and used as little as possible in order to delay resistance. Most large pharmaceutical firms have closed their antibiotic research departments.
+[E] The consequences are already visible. A study published in 2022 estimated that infections resistant to treatment were directly responsible for about one and a quarter million deaths worldwide in a single year, more than malaria. Forms of tuberculosis have emerged that respond to none of the standard drugs. Hospitals in several countries have reported patients infected with bacteria that no available antibiotic can kill. If the trend continues, routine surgery could again become a gamble.
+[F] What can be done? The first step is to waste less. Countries that have restricted the use of antibiotics in farming have seen levels of resistance in animals fall, in the Netherlands by more than half, without the predicted damage to their farmers' incomes. Rapid tests that tell a doctor within minutes whether an infection is caused by bacteria or by a virus would prevent many unnecessary prescriptions. Simple hygiene matters as well, since every infection that is prevented is one that does not need treating.
+[G] New drugs will still be needed, and governments have begun to experiment with ways of paying for them. Under a scheme being tried in Britain, the health service pays a company a fixed annual fee for access to a new antibiotic, regardless of how much is used, in the way one might subscribe to a streaming service. The aim is to reward the invention without rewarding sales. Researchers are also returning to older ideas. One is the use of viruses that attack bacteria, a treatment developed in the Soviet Union before antibiotics made it seem unnecessary. Another is to search for new compounds in unexplored places, from deep-sea mud to the nests of ants.
+[H] Whatever succeeds, the underlying lesson is uncomfortable. Antibiotics are not like other medicines, which work as well for the thousandth patient as for the first. Their power is a shared resource that is used up a little with every dose, and the choices made by one patient, one farmer or one country affect everyone else.
+== ynng
+1. Fleming was aware that penicillin might one day lose its effectiveness. => YES // B: he foresaw the danger and warned of it in 1945.
+2. Doctors in the past were right to prescribe antibiotics for colds. => NO // C: most colds are caused by viruses on which antibiotics have no effect at all.
+3. The shortage of new antibiotics is entirely the result of scientific difficulty. => NO // D: the reasons are partly scientific and partly commercial.
+4. Restricting antibiotics in farming is certain to reduce farmers' earnings. => NO // F: resistance fell without the predicted damage to incomes.
+5. The British payment scheme has already produced several new antibiotics. => NOT GIVEN // G says it is being tried and explains its aim, not its results.
+6. The use of antibiotics by one group of people has consequences for others. => YES // H: the choices made by one patient, farmer or country affect everyone else.
+== mc
+7. According to paragraph B, resistance can spread to dangerous bacteria because
+A. bacteria live for a very long time.
+B. antibiotics become weaker when stored.
+C. patients share medicines with one another.
+D. different species of bacteria exchange genes.
+=> D // Unrelated species can pass genes directly to one another.
+8. Where is the largest share of the world's antibiotics used?
+A. on farm animals
+B. in hospitals
+C. in pharmacies without prescriptions
+D. in research laboratories
+=> A // C: by some estimates three quarters are used on livestock.
+9. Why is a drug for blood pressure more profitable than an antibiotic?
+A. It is cheaper to develop.
+B. It is taken over a much longer period.
+C. It can be sold at a higher price per dose.
+D. It is protected by a longer patent.
+=> B // D: taken daily for thirty years, against a week for an antibiotic.
+10. What is the purpose of the fixed annual fee described in paragraph G?
+A. to lower the price of antibiotics for patients
+B. to encourage doctors to prescribe new drugs
+C. to pay for invention without encouraging use
+D. to compensate farmers for lost income
+=> C // The aim is to reward the invention without rewarding sales.
+== fill:sentence | 1W
+11. Penicillin was discovered when a {{11=mould|mold}} grew by accident in one of Fleming's dishes.
+12. Farmers found that small doses of antibiotics made animals grow {{12=faster}}.
+13. One older treatment uses {{13=viruses}} to destroy bacteria.
+
+# R19 | Lessons from termites
+## Building without a blueprint
+[A] On the savannahs of southern Africa, mounds of hard red earth rise from the ground to twice the height of a person. They are the work of termites, insects a few millimetres long and almost blind, and relative to the size of their builders they are the tallest structures made by any animal. A single mound may house a million individuals. What has drawn engineers and architects to study them, however, is not their size but the way they manage air.
+[B] The species that build the largest mounds do not eat wood directly. Deep within the nest they cultivate a fungus on beds of chewed plant material, and the fungus breaks the material down into food. This arrangement, together with the breathing of the insects themselves, uses as much oxygen as a large mammal such as a goat and produces carbon dioxide in proportion. Without constant ventilation, the colony would suffocate. The termites and their fungus are also sensitive to temperature and to drying out, in a climate where the air may be close to freezing at dawn and above forty degrees by mid-afternoon.
+[C] For many years the accepted explanation of how the mound copes was put forward by a Swiss scientist, Martin Luscher, in the 1960s. He suggested that the mound works like a chimney. Air warmed by the colony rises through a central shaft, cools as it passes through thin-walled channels near the surface, where it also exchanges gases with the outside, and then sinks back to the nest. The interior was said to be held at an almost constant thirty-one degrees.
+[D] This account inspired one of the most frequently cited examples of design borrowed from nature. The Eastgate Centre, an office and shopping complex that opened in Harare, Zimbabwe, in 1996, has no conventional air conditioning. Its architect, Mick Pearce, gave it heavy masonry walls that absorb heat by day, and a system of fans that flush the building with cool night air, which is then drawn up through the floors and out by way of tall chimneys on the roof. The building is reported to use about a tenth of the energy of a comparable block cooled by machinery, and its tenants pay lower rents as a result.
+[E] It later emerged that the termites do not behave quite as Luscher had supposed. From the 1990s onwards, the American biologist Scott Turner and his colleagues filled mounds with tracer gas, inserted probes, and in some cases poured in plaster and washed away the soil to reveal the network of tunnels. They found no steady circulation driven by the heat of the nest. Nor was the temperature inside constant. It followed the temperature of the surrounding soil through the seasons, which the mound's own bulk kept stable from hour to hour. The exchange of gases, Turner concluded, depends chiefly on wind. Gusts striking the mound set up small, fluctuating differences in pressure across its porous outer wall, pushing air in and out through a mesh of fine tunnels, rather as breath moves in and out of a lung.
+[F] More recent measurements suggest a third mechanism in some species. During the day the thin outer ridges of the mound warm faster than its core, and at night they cool faster, so that the air inside turns over once every twenty-four hours. Probably all three processes operate to different degrees in different places. What they have in common is that the structure exploits small, freely available differences in temperature and pressure, and that none of them requires a moving part.
+[G] The discovery that the Eastgate Centre was based on a mistaken idea has not made the building any less successful, and it has encouraged a second wave of experiments. Engineers are now testing walls of porous material, perforated like the surface of a mound, which would allow a building to exchange air gently with the outside without draughts and without fans.
+[H] The most intriguing question is how the mound comes to be built at all. No termite has a plan of it, and none directs the others. Each individual follows a few simple rules. A worker tends to deposit its pellet of soil where other pellets have recently been placed, and it is stimulated to build or to dig by local levels of moisture and carbon dioxide. Where the air is stale, the insects open passages. Where it is too dry, they seal them. Out of millions of such small acts, a structure emerges that is continually adjusted to the needs of the colony. For designers interested in buildings that could repair and adapt themselves, the method may prove more instructive than the mound.
+== match:headings | The passage has eight paragraphs, A-H. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. Why the colony needs to exchange air
+ii. A building modelled on an early theory
+iii. An additional process driven by daily temperature change
+iv. Investigations that overturned the standard explanation
+v. The spread of termites to new continents
+vi. The original chimney hypothesis
+vii. New designs prompted by the revised understanding
+viii. The economic damage caused by termites
+1. Paragraph B => i // The fungus and insects use oxygen like a goat; the colony would suffocate.
+2. Paragraph C => vi // Luscher suggested the mound works like a chimney.
+3. Paragraph D => ii // The Eastgate Centre was inspired by this account.
+4. Paragraph E => iv // Turner found no steady circulation or constant temperature.
+5. Paragraph F => iii // Outer ridges warm and cool faster, turning the air over daily.
+6. Paragraph G => vii // Engineers are testing porous walls.
+== tfng
+7. Termite mounds are the tallest animal-built structures in proportion to the builder's size. => TRUE // A: relative to the size of their builders they are the tallest.
+8. The termites that build the largest mounds feed directly on wood. => FALSE // B: they do not eat wood directly; they cultivate a fungus.
+9. The Eastgate Centre uses fans to move air. => TRUE // D: a system of fans flushes the building with cool night air.
+10. Scott Turner worked with Mick Pearce on a later building. => NOT GIVEN // The passage mentions no collaboration between them.
+== fill:summary | 1W
+How a mound is built
+There is no overall {{11=plan}}, and no individual gives orders. Each worker tends to put down a pellet of {{12=soil}} where others have been left. Building and digging are triggered by the amount of {{13=moisture}} and carbon dioxide in the air nearby.
+
+# R20 | The coffee house
+## The penny universities
+[A] In 1652, a servant from the eastern Mediterranean named Pasqua Rosee opened a stall selling coffee in an alley in the City of London. The drink was a novelty, black, bitter and served scalding hot, and many who tried it compared it to soot. Within a decade there were more than eighty coffee houses in the capital, and by the end of the century several hundred. They changed not only what Londoners drank but how they did business, exchanged news and argued about ideas.
+[B] To appreciate the change, it helps to remember what people had been drinking before. Water in towns was often unsafe, and the usual alternative, even at breakfast, was weak beer. Much of the population passed the working day in a mild alcoholic haze. Coffee offered something quite new, a drink that was safe because the water had been boiled, and that sharpened the mind instead of dulling it. Its admirers were quick to draw the contrast between the noisy, quarrelsome tavern and the sober, industrious coffee house.
+[C] The coffee house was also unusual in the company it admitted. For the price of a penny, any man who was reasonably dressed could enter, take a seat at one of the long shared tables, and join the conversation, whatever his rank. A printed set of rules displayed in some establishments declared that no one need give up his place to a finer gentleman. Visitors from abroad were struck by the spectacle of lords and tradesmen sitting side by side. The equality had limits. The poor could not spare the penny or the time, and although women frequently owned and served in coffee houses, they were not generally welcome as customers.
+[D] What customers bought with their penny was, above all, information. Coffee houses took in the newspapers and pamphlets of the day and left them on the tables, and some employed a boy to read aloud for the benefit of those who could not read. A man could learn in an hour what was being said in Parliament, on the docks and in foreign capitals. It was this, more than the coffee, that earned them the nickname of penny universities.
+[E] Different houses attracted different trades, and several grew into institutions that still exist. Shipowners and sea captains gathered at the house kept by Edward Lloyd, who collected reliable news of arrivals and losses for their benefit. Merchants who were willing to share the risk of a voyage signed their names beneath the details of the ship, and from this practice developed the insurance market that bears Lloyd's name. Dealers in shares, expelled from the Royal Exchange for rowdiness, met at Jonathan's, the forerunner of the London Stock Exchange. Men of science adjourned from meetings of the Royal Society to continue their discussions over coffee. It was in the course of one such argument, the story goes, that the astronomer Edmond Halley was prompted to ask Isaac Newton a question about planetary orbits, the answer to which grew into the most famous book in the history of physics.
+[F] Not everyone was pleased. Tavern keepers resented the competition, and a satirical petition published in 1674 in the name of the women of London complained that coffee kept their husbands from home and made them good for nothing. The most serious opponent was King Charles II. His father had been overthrown and executed, and he regarded places where men gathered freely to read the news and criticise the government as nurseries of rebellion. In December 1675 he issued a proclamation ordering every coffee house to close. The outcry was immediate, and the proclamation was withdrawn after eleven days, before it had even come into force.
+[G] The great age of the London coffee house lasted little more than a century. Some of the most successful turned themselves into private clubs, open only to members, and so lost the very openness that had made them distinctive. And from the early eighteenth century the country's tastes were shifting towards tea, which the East India Company imported in growing quantities and which, unlike coffee, could easily be prepared at home.
+[H] Historians have been tempted to see in the coffee house the birthplace of modern public opinion, a space outside the control of court and church in which private individuals reasoned together about public affairs. The claim needs some qualification, given how many were excluded. It is nevertheless striking how often the coffee house is recalled in discussions of the internet, as an earlier experiment in bringing strangers together to share information, with a similar mixture of commerce, enlightenment, rumour and alarm.
+== tfng
+1. Londoners immediately liked the taste of coffee. => FALSE // A: many who tried it compared it to soot.
+2. Before coffee, beer was commonly drunk in the morning. => TRUE // B: the usual alternative, even at breakfast, was weak beer.
+3. In coffee houses, men of lower rank were expected to give up their seats to gentlemen. => FALSE // C: the rules declared that no one need give up his place.
+4. Women were forbidden by law to enter coffee houses. => NOT GIVEN // C says they were not generally welcome as customers, not that a law forbade it.
+5. Some coffee houses provided for customers who were unable to read. => TRUE // D: some employed a boy to read aloud.
+6. The king's proclamation closed the coffee houses for eleven days. => FALSE // F: it was withdrawn before it had even come into force.
+== match:features | Match each statement with the correct coffee house or group of customers, A-E. You may use any letter more than once.
+A. Lloyd's
+B. Jonathan's
+C. coffee houses used by members of the Royal Society
+D. coffee houses that became private clubs
+E. the stall opened by Pasqua Rosee
+7. Its customers had been thrown out of another place for their behaviour. => B // E: dealers in shares were expelled from the Royal Exchange for rowdiness.
+8. A conversation there is said to have led to a major scientific work. => C // E: Halley's question to Newton.
+9. People there wrote their names to accept a share of financial risk. => A // E: merchants signed beneath the details of the ship.
+10. They gave up the feature that had originally set coffee houses apart. => D // G: they lost the very openness that had made them distinctive.
+== fill:sentence | 2W
+11. Coffee was safer than water because the water was {{11=boiled}}.
+12. Entry to a coffee house cost a {{12=penny}}.
+13. In the eighteenth century, coffee lost ground to {{13=tea}}, which was simple to make at home.

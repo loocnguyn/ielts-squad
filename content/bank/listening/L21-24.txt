@@ -1,0 +1,352 @@
+# L21 | Cookery class booking and an allotment association
+## 1 | You will hear a woman phoning a cookery school to book a class.
+@A Receptionist male_us
+@B Caller female_uk
+A: Good morning, the Copper Pan Cookery School. Nick speaking.
+B: Hello. My sister gave me a voucher for one of your classes, and I'd like to use it before it runs out.
+A: Of course. Which class were you interested in?
+B: I was hoping to do the bread-making day. Is there one coming up?
+A: There's one this Saturday, but it's been full for weeks. The next is on the eleventh of April.
+B: I'm away then, unfortunately. What else do you have in March?
+A: Let me see. There's Thai street food on the fourteenth, and fresh pasta on the twenty-first.
+B: I've done a Thai class before, on holiday. I'll take the pasta, please.
+A: Pasta on the twenty-first of March. That's a full day, from ten until four.
+B: Ten until four. Is lunch included, or should I bring something?
+A: You eat what you cook, so there's no need to bring food. You'll make three kinds of pasta and two sauces, and everyone sits down together at about one.
+B: Lovely. My voucher is for seventy-five pounds. Does that cover it?
+A: The full-day classes are ninety-five, so there'd be twenty pounds to pay on the day.
+B: That's fine. How many people will be there?
+A: We take a maximum of twelve, and you each have your own work station. You don't have to share.
+B: Good. Do I need to bring an apron?
+A: No, we lend you one. The only thing we ask is that you wear flat shoes with closed toes. It's a real kitchen, and things get dropped.
+B: Sensible. I should mention that I can't eat nuts. Is that a problem?
+A: Not for the pasta class. One of the sauces normally contains pine nuts, but the chef can easily make yours without them. I'll put a note on the booking.
+B: Thank you. Who's teaching?
+A: It's Paolo Greco, who used to run a restaurant in Naples. Greco is G, R, E, C, O.
+B: And where are you exactly? I'm coming by train.
+A: We're in the old dairy on Station Road. It's five minutes from the station on foot. Turn left as you come out, and you'll see a large clock on the front of the building.
+B: A clock. That should be easy. Can I take home what I make?
+A: Yes, we give you boxes for whatever's left, and a booklet with all the recipes.
+B: Wonderful. Could I have the code on my voucher checked? It's W, seven, seven, four, K.
+A: That's valid. And your name?
+B: Judith Marsh. M, A, R, S, H.
+== fill:form | 1WN
+The Copper Pan Cookery School: booking
+Class: fresh {{1=pasta}}
+Date: {{2=21 March|21st March|March 21|March 21st|twenty-first of March}}
+Finishes at: {{3=4|four}} pm
+To pay on the day: £{{4=20|twenty}}
+Maximum number in class: {{5=12|twelve}}
+Wear: {{6=flat}} shoes with closed toes
+Food the customer cannot eat: {{7=nuts}}
+Chef's surname: {{8=Greco}}
+Building: the old dairy, which has a large {{9=clock}} on the front
+Customer's surname: {{10=Marsh}}
+## 2 | You will hear the chair of an allotment association speaking at its annual meeting.
+@C Chair female_uk
+C: Good evening, everybody, and thank you for coming out on such a wet night. I'll go through the main points of the year, and then we'll have questions.
+C: Let me start with numbers. We now have a hundred and forty plots on the site, and every one of them is let. The waiting list has reached sixty-three people, which means that anyone joining today can expect to wait about three years. For that reason, the committee is proposing that when a large plot becomes free, we divide it into two. Most new members tell us a full plot is more than they can manage anyway.
+C: Now, water. You'll remember that last summer the supply was turned off twice. That wasn't because of the drought, as some people thought. It was a burst pipe near the main gate, and it has now been replaced. We've also installed six large tanks to collect rain from the roof of the shed, and I'd encourage you to use those before the taps.
+C: The rent. I'm afraid it will rise from forty-two pounds to forty-six pounds a year. I know that isn't welcome. But the council has raised what it charges us for the land, and we have no reserves to absorb it.
+C: On a happier note, the new composting toilet is finished. It cost less than we'd budgeted, thanks to members who did the building work themselves.
+C: Some reminders about the rules. Bonfires are only allowed in November, and never on a Sunday. Sheds must not be more than two metres high. And please keep the paths between plots clear. They belong to everybody, and several have been blocked by wheelbarrows and water butts.
+C: We've had a problem with theft, I'm sorry to say. Tools were taken from four sheds in the spring. The police advised us against bigger padlocks. Thieves simply break the door. Their advice was to mark tools with your postcode, and a marking kit is available from the secretary.
+C: Now, dates. The seed swap is on the first Saturday in February. The plant sale, which raised over eight hundred pounds last year, is on the second Sunday in May. And the autumn show will be in September, as usual, with a new class this year for the heaviest pumpkin.
+C: Finally, we need a new treasurer. Malcolm is stepping down after eleven years, and I'm sure you'll join me in thanking him. If you can add up and have two evenings a month to spare, please speak to me afterwards.
+== mc
+11. What does the committee propose to do about the waiting list?
+A. split large plots in half
+B. stop accepting new names
+C. rent more land from the council
+=> A // When a large plot becomes free it will be divided into two.
+12. The water supply was interrupted last summer because of
+A. a drought.
+B. a damaged pipe.
+C. work on the main gate.
+=> B // Some thought it was the drought, but it was a burst pipe.
+13. The rent is going up because
+A. the association has built a toilet.
+B. the association wants to build up its reserves.
+C. the council is charging more for the land.
+=> C // The council has raised its charge and there are no reserves to absorb it.
+14. What did the police recommend after the thefts?
+A. fitting stronger locks
+B. marking tools
+C. installing cameras
+=> B // Bigger padlocks only lead thieves to break the door.
+== fill:note | 1WN
+Allotment association: notes from the annual meeting
+- length of the waiting list: {{15=63|sixty-three}} people
+- new tanks collect {{16=rain}} from the shed roof
+- new annual rent: £{{17=46|forty-six}}
+- bonfires permitted only in {{18=November}}
+- plant sale: second Sunday in {{19=May}}
+- the association is looking for a new {{20=treasurer}}
+
+# L22 | Geology field trip and the history of maps
+## 3 | You will hear a geology student called Ben asking a tutor about a field trip to the coast.
+@A Tutor female_uk
+@B Ben male_uk
+A: Hello, Ben. You wanted to ask about the field trip.
+B: Yes, Doctor Marsden. I missed the briefing because of a hospital appointment, and I don't want to turn up unprepared.
+A: No problem. We leave on the Monday of week seven, and we're away for four nights.
+B: Someone told me it was five.
+A: It was five last year. We've cut a day because the hostel has put its prices up.
+B: Right. And we're going to the same stretch of coast?
+A: Yes, but the purpose is different this year. Previous groups spent most of the time collecting fossils. This time, the main task is to make a geological map of a section of cliff. Fossils are a bonus.
+B: I've never made a map in the field.
+A: Very few students have. That's why the first day is spent with me, all together, learning the method. From the second day you work in pairs.
+B: Do we choose our own partner?
+A: No, I put a confident student with a less confident one. People complain, but it works.
+B: Fair enough. What should I bring? I've got a hammer.
+A: Leave it at home. The whole coast is protected, and hammering the cliff is against the law. What you need is a hand lens, a compass that measures the angle of the rock layers, and a notebook with waterproof paper.
+B: Waterproof paper. I wouldn't have thought of that.
+A: You will after an hour of rain. The department lends out the compasses, but there aren't enough for everyone, so reserve yours this week.
+B: I'll do it today. Is there anything dangerous I should know about?
+A: The tide. Twice a day, the sea comes right up to the foot of the cliff, and two of the bays have no way out. I give everyone a tide table, and nobody goes onto the beach without checking it.
+B: Understood. What about falling rocks?
+A: You wear a hard hat whenever you're within ten metres of the cliff. No exceptions.
+B: And how is the trip assessed?
+A: Not by an exam. You hand in your field notebook, exactly as you wrote it on the beach, and the finished map. The notebook is worth sixty per cent.
+B: So I shouldn't copy it out neatly afterwards.
+A: Please don't. I want to see what you observed at the time, mistakes included. A tidy notebook written in the hostel is easy to spot.
+B: OK. And the cost?
+A: A hundred and eighty pounds, which covers the coach, the hostel and breakfast. Other meals are your own responsibility. If the cost is a difficulty, there's a hardship fund. The form is on the department website.
+B: Thanks. I'll have a look.
+== mc
+1. Why is this year's trip shorter than last year's?
+A. The accommodation has become more expensive.
+B. The coach is not available for five days.
+C. There is less work to do.
+=> A // A day was cut because the hostel has put its prices up.
+2. The main aim of the trip this year is to
+A. collect fossils.
+B. produce a map.
+C. measure the height of the cliff.
+=> B // Previous groups collected fossils; this time the task is a geological map.
+3. How are the working pairs decided?
+A. Students choose their own partner.
+B. Names are picked at random.
+C. The tutor matches students of different ability.
+=> C // She puts a confident student with a less confident one.
+4. Ben should not bring a hammer because
+A. the department provides them.
+B. the rock is too soft.
+C. using one on the cliff is illegal.
+=> C // The coast is protected and hammering the cliff is against the law.
+5. What does the tutor say about the field notebook?
+A. It should be handed in as it was written on the beach.
+B. It should be rewritten neatly before it is handed in.
+C. It counts for less than the map.
+=> A // She wants to see what was observed at the time; it is worth sixty per cent.
+== fill:sentence | 2WN
+6. Students need a {{6=compass}} to measure the angle of the rock layers.
+7. The notebook should have paper that is {{7=waterproof}}.
+8. To stay safe on the beach, everyone receives a {{8=tide table}}.
+9. A hard hat must be worn within {{9=10 metres|ten metres|10 meters|ten meters}} of the cliff.
+10. The trip costs £180, which includes the coach, the hostel and {{10=breakfast}}.
+## 4 | You will hear part of a lecture about the history of maps.
+@C Lecturer male_us
+C: A map is never a neutral picture of the world. Every map is made by someone, for a purpose, and it leaves out far more than it includes. That's the idea I'd like you to keep in mind as we go through a few episodes in the history of map making.
+C: The oldest surviving maps aren't of countries or continents. They're local. A clay tablet from Babylon, about four thousand years old, shows a single estate, with its fields and canals, and it was probably made to settle who owned what.
+C: The Greeks took a huge step. They understood that the earth was a sphere, and one of them, Eratosthenes, calculated its size remarkably accurately. He did it by measuring the length of a shadow in two different cities on the same day.
+C: In medieval Europe, much of that knowledge was set aside. The great maps of the period were not made for travellers at all. They were made for churches, and their purpose was to teach religion. Jerusalem is placed at the centre, and east, not north, is at the top.
+C: Sailors, meanwhile, used something far more practical, the sea chart. These charts, drawn on animal skin, were covered with straight lines radiating from points around the coast. A captain would choose a line and follow it with his compass.
+C: In fifteen sixty-nine, Gerard Mercator solved a problem that had troubled navigators for a century. On his map, a course in a constant direction appears as a straight line. The price is distortion. Areas far from the equator are stretched, so Greenland looks as large as Africa, when in reality Africa is fourteen times bigger.
+C: Maps have also been tools of power. In the eighteenth century, governments began to map their own territory in detail, and the first aim was usually military. The national mapping agency of Britain was set up because the army feared an invasion from France.
+C: Perhaps the most famous map of the twentieth century is the plan of the London Underground, designed in nineteen thirty-three. Its designer, Harry Beck, was not a map maker but an electrical draughtsman, and he drew the system like a circuit diagram. He ignored real distances completely. Passengers, he argued, only needed to know the order of the stations and where to change.
+C: Today, of course, the map is in our pockets, and it puts us at the centre, wherever we go. It's worth asking what that does to our sense of direction. Several studies suggest that people who rely on satellite navigation build a poorer mental picture of their surroundings than those who use a paper map.
+== fill:note | 1W
+The history of maps
+- every map is made for a {{11=purpose}}
+Early maps
+- Babylon: a map of one {{12=estate}}, probably to show ownership
+- Greece: the earth's size was worked out from the length of a {{13=shadow}}
+- medieval Europe: large maps were made for {{14=churches}}, with east at the top
+- sea charts were drawn on animal {{15=skin}}
+Mercator (1569)
+- a constant course is shown as a straight {{16=line}}
+- areas far from the equator are stretched
+Maps and power
+- detailed national maps were first made for {{17=military}} reasons
+The London Underground map (1933)
+- based on a circuit {{18=diagram}}
+- real {{19=distances}} are ignored
+Today
+- satellite navigation may weaken people's mental picture of their {{20=surroundings}}
+
+# L23 | Gym consultation and a coach trip
+## 1 | You will hear a man talking to a fitness instructor at a gym about a training programme.
+@A Instructor female_us
+@B Member male_uk
+A: Hi, you must be my two o'clock. I'm Carla.
+B: Hello, Carla. Yes, I joined last week, and reception said I should book a session with you before I use the equipment.
+A: That's right. I'll ask a few questions, and then we'll design a programme. Can I take your name?
+B: It's Gareth Finch. F, I, N, C, H.
+A: Thanks, Gareth. And how old are you, if you don't mind?
+B: I'm fifty-two.
+A: Great. What's brought you to the gym? Is there a particular goal?
+B: Well, my doctor told me to lose some weight, but honestly that's not what motivates me. My daughter has talked me into a charity walk in September. It's twenty-six miles in one day, and I'd like to finish it without collapsing.
+A: That's a good target. So we're building stamina. How active are you at the moment?
+B: Not very. I sit at a desk all day. I walk the dog for about twenty minutes each morning, and that's it.
+A: It's a start. Any injuries I should know about?
+B: I hurt my left knee playing football years ago. It's fine for walking, but it aches when I run.
+A: Then we'll leave running out for now. I'd put you on the cycling machine and the rowing machine. Both are kind to the knees.
+B: I've never rowed in my life.
+A: I'll show you the technique. Most people pull with their arms, and it should come from the legs. How often can you come in?
+B: I was thinking every day.
+A: I'd rather you didn't. People who start with seven days a week have usually given up by week three. Three times a week is plenty, with a day of rest in between.
+B: Three times. Mondays, Wednesdays and Fridays, then.
+A: Good. Each session will be forty-five minutes. Ten minutes to warm up, half an hour of work, and five minutes of stretching at the end. Please don't skip the stretching.
+B: I'll try not to. Should I change what I eat?
+A: I'm not a dietitian, so I won't give you a diet. One simple thing, though. Drink more water. Most people who feel tired in the afternoon are just thirsty.
+B: That's easy enough. How will I know whether I'm improving?
+A: We'll test you today, and again in six weeks. I'll measure how far you can cycle in twelve minutes, and your heart rate afterwards.
+B: And the long walks? Do I need to practise those?
+A: Definitely. Once a fortnight, do a long walk at the weekend, and add two miles each time. And buy your boots now, not in August. They need wearing in.
+B: I hadn't thought of that. I'll go shopping tomorrow.
+== fill:form | 1WN
+Fitness consultation: new member
+Surname: {{1=Finch}}
+Age: {{2=52|fifty-two}}
+Main aim: to complete a charity {{3=walk}} in September
+Present exercise: walking the {{4=dog}} each morning
+Old injury: left {{5=knee}}
+Machines recommended: cycling and {{6=rowing}}
+Sessions per week: {{7=3|three}}
+Length of each session: {{8=45|forty-five}} minutes
+Advice: drink more {{9=water}}
+Next fitness test: in {{10=6|six}} weeks
+## 2 | You will hear a tour leader giving information to passengers at the start of a coach trip.
+@C Leader male_uk
+C: Good morning, ladies and gentlemen, and welcome aboard. My name's Alan, and I'm your tour leader for the next three days. Our driver is Sunita, who has been driving these roads for twenty years.
+C: Before we set off, some practical points. Seat belts are fitted to every seat, and the law requires you to wear them. There's a toilet at the back of the coach, but we'd ask you to use it only in an emergency, as we'll be stopping every two hours. You're welcome to drink water on board, but please, no hot drinks, because of the risk of spills.
+C: Now, today's programme. Our first stop is the market town of Ashbourne, where we arrive at about half past ten. You'll have an hour and a quarter there. It happens to be market day, so the square will be lively. If you want coffee, I'd avoid the cafes in the square, which are expensive, and try the bakery behind the church.
+C: From Ashbourne, we drive up into the hills, to Dunmore Castle, arriving at around one. Lunch is included today, and it's served in the old stables, not in the castle itself. After lunch, there's a guided tour of the castle. I should warn you that there are ninety-two steps to the top of the tower. The view is splendid, but nobody will mind if you prefer to stay in the gardens.
+C: We leave the castle at four, and we should reach our hotel in Lakeside by half past five. Your luggage will be taken to your rooms. Dinner is at seven thirty in the hotel restaurant.
+C: Tomorrow is a full day on the lake. In the morning we take the steam boat to the far end, and in the afternoon you have a choice. You can join me for a gentle walk of about three miles along the shore, or you can visit the pencil museum in the village. Yes, a pencil museum. It's better than it sounds. Please tell me at dinner tonight which you'd prefer, so that I can book tickets.
+C: On the third day, we visit the gardens at Holker Hall on the way home, and we expect to be back at the bus station by six in the evening.
+C: Two last things. The weather in the hills changes quickly, so keep a waterproof jacket with you, not in the luggage hold. And if you're delayed at any stop, call the number printed on your ticket. The coach can wait ten minutes, but no longer, because the driver's hours are controlled by law.
+== mc
+11. Passengers are allowed to
+A. use the toilet whenever they like.
+B. have hot drinks at their seats.
+C. drink water on the coach.
+=> C // The toilet is for emergencies and hot drinks are not allowed.
+12. Where does Alan recommend having coffee in Ashbourne?
+A. at a bakery
+B. in the market square
+C. inside the church
+=> A // The cafes in the square are expensive; he suggests the bakery behind the church.
+13. Where will lunch be served?
+A. in the castle
+B. in the gardens
+C. in the former stables
+=> C // Lunch is in the old stables, not in the castle itself.
+14. What does Alan say about the castle tower?
+A. It is closed to the public.
+B. Climbing it is optional.
+C. It has ninety-two rooms.
+=> B // There are ninety-two steps, and nobody will mind if people stay in the gardens.
+15. By what time should passengers tell Alan which afternoon activity they want?
+A. this evening
+B. tomorrow morning
+C. tomorrow lunchtime
+=> A // He asks to be told at dinner tonight so that he can book tickets.
+== fill:note | 1WN
+Coach trip: programme
+Day 1
+- arrive at the hotel at about {{16=5.30|5:30|half past five}} pm
+Day 2
+- morning: trip on a steam {{17=boat}}
+- afternoon: a walk along the shore, or a museum about the {{18=pencil}}
+Day 3
+- visit some {{19=gardens}} on the way home
+Reminders
+- keep a waterproof {{20=jacket}} with you
+
+# L24 | Classroom observation and how honeybees communicate
+## 3 | You will hear two trainee teachers, Amy and Jack, comparing notes on lessons they have observed.
+@A Amy female_us
+@B Jack male_uk
+A: Jack, how was your observation week? Mine was exhausting.
+B: Same here. Twelve lessons in five days. Which school were you at?
+A: Hillside Primary. I watched the same class of nine-year-olds all week, with two different teachers.
+B: I was moved around much more. Six classes. I'd have preferred your arrangement. You only start to notice things once you know the children's names.
+A: That's true. By Wednesday I could see which children never put their hands up. On Monday I hadn't noticed them at all.
+B: What was the most useful thing you saw?
+A: The way one teacher asked questions. She'd ask something, and then wait. A full five seconds of silence. It felt very long. But far more children answered, and their answers were longer.
+B: I've read about that. Most teachers wait less than a second.
+A: And the other teacher did exactly that. He answered his own questions half the time.
+B: The thing that struck me was about groups. I'd always assumed children learn best with their friends. One teacher let them choose, and those groups just chatted. Another teacher put the names on the board before the lesson, mixing abilities, and the work was much better.
+A: Did the children complain?
+B: For about thirty seconds. Then they got on with it.
+A: What about behaviour? That's what worries me most about teaching.
+B: Me too. What I noticed is that the calm classrooms had routines. In one, the children came in and immediately started a short task that was already on the board. No waiting, no chance for trouble to begin.
+A: My school had something similar for the end of the lesson. The last three minutes were always for tidying, and the teacher never let it slip.
+B: We ought to put routines in our report. Now, the form we had to fill in. Did you find it helpful?
+A: Not really. It asked me to tick boxes every two minutes, and I spent so long ticking that I missed what was happening.
+B: I gave up after the first day and wrote notes in my own words.
+A: I wish I had. Let's recommend that next year's trainees keep a diary.
+B: Agreed. Are you going to mention the teachers by name?
+A: No. We have to keep them anonymous. I'll call them Teacher A and Teacher B.
+B: Good. When shall we write this up?
+A: I'm free on Thursday afternoon. The library has study rooms we can book.
+B: Thursday at two. I'll reserve one.
+== mc
+1. Jack would have preferred to
+A. observe a single class for the whole week.
+B. observe a wider range of classes.
+C. observe fewer lessons.
+=> A // He was moved around six classes and would have preferred Amy's arrangement.
+2. What did Amy find most useful?
+A. a teacher who asked easier questions
+B. a teacher who paused after asking a question
+C. a teacher who chose pupils by name
+=> B // The teacher waited five seconds, and more children gave longer answers.
+3. What did Jack learn about group work?
+A. Children work best with their friends.
+B. Groups of the same ability are most effective.
+C. Groups chosen by the teacher produce better work.
+=> C // Friend groups just chatted; mixed groups put on the board worked much better.
+4. Jack noticed that in calm classrooms
+A. there were fixed routines.
+B. the classes were smaller.
+C. the teachers spoke quietly.
+=> A // Children started a task on the board as soon as they came in.
+5. What was the problem with the observation form?
+A. It was too long to complete.
+B. It prevented Amy from watching the lesson properly.
+C. The questions were unclear.
+=> B // She spent so long ticking boxes that she missed what was happening.
+== fill:sentence | 2W
+6. In one classroom, a short task was already on the {{6=board}} when the children came in.
+7. At Amy's school, the end of each lesson was used for {{7=tidying}}.
+8. The students will recommend that trainees keep a {{8=diary}}.
+9. In the report, the teachers will be kept {{9=anonymous}}.
+10. The students will write the report in one of the library's {{10=study rooms}}.
+## 4 | You will hear part of a lecture about how honeybees communicate.
+@C Lecturer female_uk
+C: A honeybee colony may contain fifty thousand individuals, and no one is in charge. The queen lays eggs, but she gives no orders. And yet the colony behaves as if it had a single mind. This morning I'll look at how information moves through the hive.
+C: The best known method is the waggle dance. When a bee finds a rich source of food, she returns to the hive and dances on the surface of the comb, in the dark, surrounded by other workers. She runs in a straight line, shaking her body from side to side, then circles back and repeats it.
+C: The dance carries two pieces of information. The first is direction. The angle of her straight run, measured from the vertical, matches the angle between the food and the sun. The second is distance, which is shown by how long the waggling lasts. Roughly one second of waggling corresponds to a kilometre of flight.
+C: This was worked out in the nineteen forties by an Austrian scientist, Karl von Frisch. He marked individual bees with dots of paint and watched them for years. Many of his colleagues refused to believe that an insect could use a symbolic language, and he was not awarded the Nobel Prize until nineteen seventy-three.
+C: Because the hive is dark, the other bees can't see the dance. They follow it by touch, using their antennae, and they also pick up the scent of the flowers on the dancer's body.
+C: Dancing isn't the only signal. Chemicals are just as important. The queen produces a substance that is passed from bee to bee as they feed one another. As long as it circulates, the workers know she's alive and well. If she dies, the level drops within hours, and the workers begin raising a new queen.
+C: There's also an alarm chemical. When a bee stings, it releases a scent that marks the target and calls other bees to attack the same spot. Curiously, this scent smells of bananas, which is why beekeepers avoid eating them before opening a hive.
+C: The most remarkable example of communication comes when a colony needs a new home. Scouts fly out and inspect possible sites, hollow trees for instance. Each returns and dances for the site she has found, and the better the site, the longer she dances. Other scouts go to look, and they in turn dance. Over a day or two, support builds for one site, and when enough scouts agree, the whole swarm takes off together. It's a form of voting, and it almost always selects the best site available.
+== fill:note | 1W
+Communication in honeybees
+The waggle dance
+- performed on the comb, in the {{11=dark}}
+- the {{12=angle}} of the run shows the direction of the food in relation to the sun
+- the length of the waggling shows the {{13=distance}}
+- Karl von Frisch identified bees by marking them with {{14=paint}}
+- other bees follow the dance by {{15=touch}}
+Chemical signals
+- the queen's substance is spread when bees {{16=feed}} one another
+- the alarm scent smells of {{17=bananas}}
+Choosing a new home
+- {{18=scouts}} inspect possible sites, such as hollow trees
+- a bee dances for {{19=longer}} if a site is good
+- the process is a kind of {{20=voting}}

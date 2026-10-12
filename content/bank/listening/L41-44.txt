@@ -1,0 +1,373 @@
+# L41 | Joining a choir and a new tram line
+## 1 | You will hear a woman phoning to ask about joining a community choir.
+@A Organiser male_uk
+@B Caller female_uk
+A: Hello, Peter Lowe speaking.
+B: Good evening. I'm phoning about the Millbrook Community Choir. A friend said you're the person to ask about joining.
+A: I am. I'm the membership secretary. Do you sing already?
+B: I sang at school, but that was thirty years ago. I can't read music, I'm afraid.
+A: That doesn't matter at all. About half of us can't. Our conductor teaches every part by ear, and we send out recordings so that people can practise at home.
+B: That's a relief. Do I have to do an audition?
+A: No audition. The only thing the conductor does is listen to you for a minute to decide which section you belong in. Do you know whether you're a soprano or an alto?
+B: I've got quite a low voice. Alto, I'd guess.
+A: Good, we're short of altos. We've got too many sopranos, to be honest, and hardly any tenors.
+B: When do you rehearse?
+A: Every Monday evening during school terms, from seven fifteen until nine fifteen, with a break for tea in the middle.
+B: And where?
+A: At Saint Luke's School, in the main hall. We were at the Methodist chapel for years, but the heating failed last winter, and we never went back.
+B: Saint Luke's. That's close to me. How much does it cost?
+A: It's fifty-five pounds a term, and there are three terms a year. The first rehearsal is free, so you can see whether you like us.
+B: That's reasonable. What kind of music do you sing?
+A: A mixture. Folk songs, some gospel, songs from musicals. This term we're preparing for a concert with a film theme.
+B: A concert? I'm not sure I'm ready for that.
+A: It isn't until the sixth of December, so you'd have ten weeks. And nobody has to sing alone. We perform as a group.
+B: Where's the concert?
+A: In the town hall. It raises money for the local hospice. Last year we collected over two thousand pounds.
+B: How lovely. Do I need to wear anything special?
+A: For concerts, black, with a scarf in a bright colour, which we lend you. For rehearsals, wear whatever you like.
+B: And should I bring anything on Monday?
+A: A bottle of water, and a folder for your song sheets. We hand out the words. And a pencil, to mark where to breathe.
+B: I can manage that. How many are in the choir?
+A: Sixty-two at the last count. Don't let that put you off. New people always say it's easier to hide in a big choir.
+B: That suits me. Shall I just turn up?
+A: Please do. Come ten minutes early and ask for me. And your name is?
+B: Fiona Castle.
+== fill:note | 1WN
+Millbrook Community Choir
+- caller's probable voice type: {{1=alto}}
+- rehearsals: every {{2=Monday}} evening in term time
+- place: the main hall of Saint Luke's {{3=School}}
+- cost per term: £{{4=55|fifty-five}}
+- theme of the next concert: {{5=film}}
+- concert date: {{6=6 December|6th December|December 6|December 6th|sixth of December}}
+- concert venue: the town {{7=hall}}
+- for concerts, singers wear black with a bright {{8=scarf}}
+- bring: water, a folder and a {{9=pencil}}
+- number of members: {{10=62|sixty-two}}
+## 2 | You will hear a transport manager talking on local radio about a new tram line.
+@C Manager female_us
+C: Good morning. Yes, after four years of building work, I'm pleased to say that the new tram line between the city centre and Eastfield opens to passengers on Monday.
+C: I know the construction has tested everybody's patience, and I'd like to thank people for putting up with it. The delay of eight months wasn't caused by the weather, or by money, as some reports said. When we dug up Bridge Street, we found gas pipes that weren't on any map, and they had to be moved before the track could be laid.
+C: So what are you getting? The line is nine kilometres long, with fourteen stops. Trams will run every eight minutes during the day and every fifteen in the evening. The whole journey takes twenty-two minutes. By bus, at busy times, the same trip can take fifty.
+C: Fares are the same as on the buses. A single journey costs two pounds, and a day ticket covering both trams and buses is five pounds. You can't pay the driver. Buy a ticket from the machine at the stop, or simply touch your bank card on the reader as you board.
+C: Something I'd like to stress is access. The floor of every tram is level with the platform, so wheelchairs and pushchairs can roll straight on. Each tram also has space for four bicycles, though not between seven and nine in the morning, when it's simply too crowded.
+C: Let me mention a few of the stops. At Eastfield, the end of the line, there's a new car park with six hundred spaces. Parking is free if you show a tram ticket, so we hope drivers from the villages will leave their cars there.
+C: The stop at the university has the longest platform on the line, because we expect the largest crowds there.
+C: The hospital stop is right at the main entrance, and the shelter there is heated in winter, with patients in mind.
+C: Market Square is the stop for the shops, and it's the one place where you can change to every bus route in the city.
+C: And at the stadium, extra trams will run on match days, starting two hours before kick-off.
+C: A word on safety. Trams are quiet, much quieter than buses, and they can't swerve. Please look both ways when you cross the tracks, and take your headphones off. And cyclists, do cross the rails at a right angle, or your wheel may slip into the groove.
+C: To celebrate, travel on the tram is free all day this Saturday, before the full service begins on Monday. Come and try it.
+== mc
+11. What caused the delay in building the tram line?
+A. a shortage of money
+B. bad weather
+C. unexpected pipes under a street
+=> C // Gas pipes that were on no map had to be moved.
+12. How long does the tram take to travel the whole line?
+A. fifteen minutes
+B. twenty-two minutes
+C. fifty minutes
+=> B // The bus can take fifty minutes at busy times.
+13. How can passengers pay?
+A. by buying a ticket from the driver
+B. by paying an inspector on board
+C. by using a bank card as they get on
+=> C // Buy from the machine at the stop or touch a bank card on the reader; the driver takes no payment.
+14. Bicycles may be taken on trams
+A. at any time.
+B. except in the morning rush hour.
+C. only at weekends.
+=> B // Not between seven and nine in the morning.
+== match:features | What does the manager say about each of the following stops? Choose FIVE answers from the list and write the correct letter, A-G, next to questions 15-19.
+A. It has a very long platform.
+B. It has a heated shelter.
+C. It offers free parking to tram users.
+D. It has connections to all bus routes.
+E. It will have additional services on some days.
+F. It is the only stop with a ticket office.
+G. It is closed in the evening.
+15. Eastfield => C // The car park is free with a tram ticket.
+16. the university => A // The longest platform on the line.
+17. the hospital => B // The shelter is heated in winter.
+18. Market Square => D // The one place to change to every bus route.
+19. the stadium => E // Extra trams run on match days.
+== fill:sentence | 1W
+20. Travel on the tram will be free all day this {{20=Saturday}}.
+
+# L42 | Chemistry lab report and the history of vaccination
+## 3 | You will hear two chemistry students, Rosa and Callum, discussing an experiment that produced unexpected results.
+@A Rosa female_us
+@B Callum male_uk
+A: Callum, have you looked at our results from Tuesday's lab? Something's gone wrong.
+B: I plotted them last night. The concentration we calculated for the acid is nearly twenty per cent higher than it should be.
+A: Twenty per cent. That's far too much to be a rounding error. Did we make a mistake in the arithmetic?
+B: I checked it twice, and I asked Jen to check it as well. The calculation's right. The problem has to be in what we did at the bench.
+A: OK, let's go through it. We weighed out the solid, dissolved it, and made it up to two hundred and fifty millilitres in the flask.
+B: Could the balance have been wrong?
+A: I doubt it. The technician calibrates the balances every morning. And the other groups used the same one and got sensible answers.
+B: Then the flask. Did we fill it exactly to the line?
+A: I did that part, and I was careful. I got my eye level with the mark.
+B: So it's the titration itself. We ran it three times, and the three readings agreed closely with each other.
+A: Which means that whatever we did wrong, we did it the same way every time.
+B: A consistent error. What about the burette? Did we rinse it properly?
+A: We rinsed it with distilled water.
+B: Only water? Not with the solution we were about to put in it?
+A: Just water. Oh. So there'd have been drops of water left inside, and they'd have diluted the first part of the solution.
+B: That would make us use more of it to reach the end point. And that pushes the calculated concentration up.
+A: Would it be enough to explain twenty per cent?
+B: Not twenty. A few per cent, maybe. There must be something else as well.
+A: The indicator. Which one did we use?
+B: The bottle on our bench. I assumed it was the one in the instructions.
+A: The instructions said methyl orange. I'm fairly sure the bottle was the pink one.
+B: Then we used the wrong indicator, and it changes colour at a different point. That's the main cause.
+A: So, two errors. One small, one large. What do we do? Repeat the whole thing?
+B: There's no lab slot until after the deadline. I think we report what happened honestly.
+A: Will we lose marks?
+B: Doctor Fenn said in the first lecture that she gives more credit for a wrong result properly explained than for a right one with no discussion.
+A: Then let's explain it properly. We could estimate how big each error is.
+B: Yes. And recommend labelling the indicator bottles more clearly.
+A: I'll write the error analysis if you redo the graphs.
+B: Fine. Let's swap drafts on Friday.
+== mc
+1. The students are sure that the mistake is not in
+A. the measurements.
+B. the calculation.
+C. the equipment.
+=> B // Callum checked it twice and another student checked it too.
+2. Why does Rosa think the balance was accurate?
+A. She tested it herself.
+B. It was brand new.
+C. Other groups using it obtained normal results.
+=> C // It is calibrated daily and other groups got sensible answers.
+3. The three titration readings were close together, which suggests that
+A. the same error was repeated each time.
+B. the result is in fact correct.
+C. the equipment was faulty.
+=> A // Whatever they did wrong, they did it the same way every time.
+4. What was the main cause of the wrong result?
+A. water left in the burette
+B. the flask being overfilled
+C. the use of the wrong indicator
+=> C // The water explains only a few per cent; the wrong indicator is the main cause.
+5. Why do the students decide not to repeat the experiment?
+A. They have run out of chemicals.
+B. The laboratory is not available in time.
+C. Their tutor has told them not to.
+=> B // There is no lab slot until after the deadline.
+== fill:sentence | 2W
+6. The students rinsed the burette with distilled {{6=water}} only.
+7. The instructions specified an indicator called {{7=methyl orange}}.
+8. The tutor rewards a wrong result that is properly {{8=explained}}.
+9. The students will recommend clearer {{9=labelling|labeling}} of bottles.
+10. Callum is going to redo the {{10=graphs}}.
+## 4 | You will hear part of a lecture about the early history of vaccination.
+@C Lecturer female_uk
+C: Smallpox killed perhaps three hundred million people in the twentieth century alone, and today it no longer exists outside two laboratories. That is the greatest achievement in the history of medicine, and this afternoon I'd like to trace how it began.
+C: People had noticed long ago that anyone who survived smallpox never caught it again. From that observation came a practice known as inoculation. Material from the sore of a patient with a mild case was scratched into the skin of a healthy person. The person usually developed a mild illness and was protected for life. The method was used in China and India, and in parts of Africa, centuries before it reached Europe.
+C: It arrived in England in seventeen twenty-one, thanks to Lady Mary Wortley Montagu. She was the wife of the British ambassador to Turkey, she had been scarred by smallpox herself, and she'd seen the procedure carried out in Constantinople. She had her own children inoculated, and persuaded the royal family to do the same.
+C: But inoculation was risky. Roughly one person in fifty died of it, and those who'd been treated could pass on the real disease to others.
+C: The safer alternative came from the countryside. It was common knowledge among farmers that milkmaids rarely caught smallpox. They did catch cowpox, a mild disease of cattle that produced a few sores on the hands.
+C: In seventeen ninety-six, a country doctor named Edward Jenner put this to the test. He took material from a cowpox sore on the hand of a milkmaid and scratched it into the arm of an eight-year-old boy, the son of his gardener. Six weeks later, he deliberately tried to infect the boy with smallpox. Nothing happened. By modern standards, the experiment was deeply unethical, but it worked.
+C: Jenner called his method vaccination, from the Latin word for cow. It spread with astonishing speed. Within five years, it was in use from Russia to the United States.
+C: There was opposition too. Cartoons showed patients growing horns. And when the British government made vaccination compulsory for babies in eighteen fifty-three, there were riots, and an organised movement against it.
+C: One difficulty was transport. The material didn't keep, and there was no refrigeration. So when Spain sent vaccine to its colonies in eighteen hundred and three, it did so in the arms of twenty-two orphan boys. Two were vaccinated before sailing, and the infection was passed from one pair to the next throughout the voyage.
+C: The final chapter came in nineteen eighty, when the World Health Organization declared that smallpox had been wiped out.
+== fill:note | 1WN
+The beginnings of vaccination
+Inoculation
+- based on the fact that people who {{11=survived}} smallpox were protected
+- brought to England by the wife of an {{12=ambassador}}
+- about one person in {{13=fifty|50}} died as a result
+Jenner's discovery
+- {{14=milkmaids}} seldom caught smallpox
+- 1796: Jenner tested cowpox material on the son of his {{15=gardener}}
+- 'vaccination' comes from the Latin for {{16=cow}}
+Reactions
+- cartoons showed people growing {{17=horns}}
+- compulsory vaccination of babies led to {{18=riots}}
+Transport
+- Spain sent vaccine abroad using orphan {{19=boys}}
+The end of smallpox
+- declared wiped out in {{20=1980|nineteen eighty}}
+
+# L43 | Restaurant booking for a retirement dinner and a botanical garden
+## 1 | You will hear a man phoning a restaurant to arrange a dinner for a colleague who is retiring.
+@A Manager female_uk
+@B Caller male_uk
+A: Good afternoon, The Old Mill restaurant. Joanna speaking.
+B: Hello. I'd like to book a dinner for a group. One of my colleagues is retiring, and we're giving her a send-off.
+A: How lovely. How many of you will there be?
+B: I thought twenty, but more keep signing up. It's twenty-six at the moment.
+A: For that number, I'd suggest our private room upstairs, the Granary. It seats up to thirty.
+B: Is there a charge for the room?
+A: Not if you're all having dinner. We only charge when the room is hired for a meeting. Which evening were you thinking of?
+B: Friday the seventh of March. She finishes work that day.
+A: Let me look. Friday the seventh. I'm afraid the Granary is taken that night by a wedding party. I could offer you the Thursday, the sixth.
+B: Hmm. Thursday would mean people coming to work the next morning. But it can't be helped. Thursday it is.
+A: Thursday the sixth. What time?
+B: We finish at half past five, so seven o'clock.
+A: Seven is fine. Now, for groups over twelve, we ask you to choose from a set menu, to help the kitchen. There's a two-course menu at twenty-eight pounds and a three-course menu at thirty-four pounds.
+B: Three courses, I think. It's a celebration.
+A: Each guest chooses a starter, a main course and a dessert, and we need everyone's choices a week in advance.
+B: A week ahead. I can collect those. A few of the team are vegetarian.
+A: There's a vegetarian option for every course. Is anybody allergic to anything?
+B: One person can't eat fish. I'll check with the others.
+A: Please do, and write it beside their name. Would you like wine included, or will people buy their own drinks?
+B: The company's paying for the meal but not for alcohol. So people will pay for their own.
+A: That's simple enough. We'll run a separate bill for the bar.
+B: Could we bring a cake? Someone's wife is baking one.
+A: Of course. We'll keep it in the kitchen and bring it out with candles, if you'd like. There's no charge.
+B: Wonderful. And we'd like to show some photographs. Is there a screen in the room?
+A: There's a projector and a screen. Just bring a laptop. I'd come a quarter of an hour early to set it up.
+B: I will. Is a deposit needed?
+A: Yes, ten pounds per person, so that would be two hundred and sixty pounds. The rest is paid on the night.
+B: I'll get our accounts department to transfer it. Who should the invoice go to?
+A: Send me the company name by email. And whose name shall I put on the booking?
+B: Mine. Gordon Ashby. A, S, H, B, Y.
+== fill:form | 1WN
+The Old Mill restaurant: group booking
+Occasion: a colleague's retirement
+Number of guests: {{1=26|twenty-six}}
+Room: the {{2=Granary}}
+Date: Thursday {{3=6|6th|sixth}} March
+Time: {{4=7|seven}} pm
+Menu: {{5=3|three}} courses, at £34 per person
+Menu choices needed a {{6=week}} in advance
+One guest cannot eat {{7=fish}}
+The group will bring a {{8=cake}}
+Equipment needed: projector and {{9=screen}}
+Name on the booking: Gordon {{10=Ashby}}
+## 2 | You will hear a guide welcoming visitors to a botanical garden.
+@C Guide male_us
+C: Hello, everyone, and welcome to Wetherby Botanical Garden. I'm Simon. I'll give you a short introduction here at the gate, and then you can wander wherever you like.
+C: The garden was founded in eighteen forty-two, and its original purpose was strictly practical. It belonged to the medical school, and it was where students learned to recognise the plants used in medicines. Pleasure had nothing to do with it. The public weren't admitted until fifty years later.
+C: Today we grow about eight thousand species. Our most important work is one that visitors never see. Under the building behind me is a seed bank, where seeds of rare plants are dried and frozen. Some will stay alive for two hundred years.
+C: Let me suggest a route. Turn left from here and you come to the rock garden, which is at its best in spring. I'm afraid that in this hot weather, there's not much in flower there now.
+C: Beyond it is the glasshouse, the oldest building in the garden. It contains our tropical collection, including a giant water lily with leaves strong enough to hold the weight of a small child. Please don't try it.
+C: Behind the glasshouse is the herb garden. Unlike the rest of the garden, where we ask you not to touch, here you're invited to rub the leaves and smell them. It was designed with blind and partially sighted visitors in mind, and the labels are in Braille.
+C: Carry on, and you reach the lake. The path round it is being relaid this month, so it's closed. You can still enjoy the view from the wooden bridge.
+C: On the far side of the lake is the woodland, which is the best place to be on a day like today, since it's shaded and several degrees cooler than the lawns.
+C: Finally, the path brings you back past the vegetable garden. Everything grown there is used in our cafe, and whatever's left is sold at a stall by the exit on Friday afternoons.
+C: A few rules. Please keep to the paths and don't pick anything. Picnics are welcome on the main lawn but nowhere else. Ball games aren't allowed, I'm afraid.
+C: If you'd like to know more, there's a free guided walk at two o'clock every day, starting from the sundial. It lasts an hour. And children can collect a trail sheet from the ticket office. If they find all ten plants on it, there's a small prize.
+C: The garden closes at six, and the gates are locked promptly, so please start making your way back by a quarter to. Enjoy your afternoon.
+== mc
+11. The garden was originally created for
+A. training medical students.
+B. growing food for a hospital.
+C. public enjoyment.
+=> A // It belonged to the medical school; the public were not admitted for fifty years.
+12. What does the guide say is the garden's most important work today?
+A. growing tropical plants
+B. storing seeds
+C. teaching children
+=> B // A seed bank under the building, which visitors never see.
+== match:features | What does the guide say about each part of the garden? Choose SIX answers from the list and write the correct letter, A-H, next to questions 13-18.
+A. Visitors may touch the plants.
+B. It supplies the cafe.
+C. It is partly closed for repairs.
+D. It is the coolest place on a hot day.
+E. It has little to see at this time of year.
+F. It has the oldest building.
+G. It is used for concerts.
+H. It is the best place for picnics.
+13. the rock garden => E // Not much is in flower in the hot weather.
+14. the glasshouse => F // The oldest building in the garden.
+15. the herb garden => A // Visitors are invited to rub and smell the leaves.
+16. the lake => C // The path round it is being relaid and is closed.
+17. the woodland => D // Shaded and several degrees cooler than the lawns.
+18. the vegetable garden => B // Everything grown there is used in the cafe.
+== fill:sentence | 1WN
+19. The free guided walk begins at the {{19=sundial}}.
+20. The garden closes at {{20=6|six}} o'clock.
+
+# L44 | Planning a student podcast and how animals navigate
+## 3 | You will hear two journalism students, Bella and Omar, planning a podcast episode for their course.
+@A Bella female_uk
+@B Omar male_us
+A: Omar, we need to choose a subject for the podcast by Friday. Any thoughts?
+B: I'd been thinking about student debt. It affects everyone we know.
+A: It does, but two groups did it last year, and I'm not sure we'd find anything new to say. What about the night bus? The council's planning to cut it.
+B: The N seven? I take that home from my job at the restaurant.
+A: Exactly. It's used by cleaners, nurses, bar staff. People who don't usually get asked what they think.
+B: I like it. It's local, and it has a deadline, because the council votes next month. How long does the episode have to be?
+A: Between twelve and fifteen minutes. The brief is strict about that.
+B: That's shorter than I'd assumed. We won't have room for many voices.
+A: Three, I'd say. A passenger, a driver, and someone from the council.
+B: Will the council speak to students?
+A: Their press office has to answer questions from anybody. Whether a councillor will be interviewed on tape is another matter. I'll email them today.
+B: And if they refuse?
+A: Then we say so in the programme. Listeners can draw their own conclusions.
+B: Fine. I can find a passenger easily. There's a nurse I chat to most nights.
+A: Don't just interview her at the bus stop, though. Record on the bus itself. The engine, the doors, the announcements. Sound puts the listener there.
+B: Do we need permission to record on a bus?
+A: From the bus company, yes. Miss Greene said that was the mistake most groups made last year. They recorded first and asked afterwards, and couldn't use the material.
+B: I'll write to the company. What about the script? I'd planned to write everything out in full.
+A: Write the links between the interviews, but let the interviews tell the story. If we talk for more than a third of the time, we'll lose marks.
+B: Understood. Who edits?
+A: You're faster with the software than I am. I'll do the research and write the script, if you record and edit.
+B: Deal. What about music?
+A: Only at the very beginning and the end, and it has to be free of copyright. The department has a library of tracks we're allowed to use.
+B: Good. When do we record?
+A: The vote is on the nineteenth, so I'd like everything recorded by the tenth. That leaves a week to edit.
+B: I'm working Friday and Saturday night. I could ride the bus home with the recorder on both.
+A: Perfect. Take spare batteries. It gets cold, and they run down fast.
+== mc
+1. Bella rejects student debt as a subject because
+A. it has been covered by other groups.
+B. it is too complicated.
+C. it does not affect local people.
+=> A // Two groups did it last year.
+2. What does Omar like about the night bus story?
+A. It will be simple to research.
+B. It has a clear time limit.
+C. It has been reported in the newspapers.
+=> B // The council votes next month, so it has a deadline.
+3. If the council refuses an interview, the students will
+A. choose a different subject.
+B. use a written statement.
+C. tell listeners about the refusal.
+=> C // They will say so in the programme.
+4. Bella tells Omar to record on the bus itself because
+A. the sounds will make the story more vivid.
+B. the nurse has little free time.
+C. it is quieter than the bus stop.
+=> A // The engine, doors and announcements put the listener there.
+5. What mistake did groups make last year?
+A. They used music without permission.
+B. They made their programmes too long.
+C. They recorded before getting permission.
+=> C // They recorded first and asked afterwards, and could not use the material.
+== fill:sentence | 2WN
+6. The episode must last no more than {{6=15|fifteen}} minutes.
+7. The students plan to include {{7=3|three}} voices.
+8. The students should speak for no more than a {{8=third}} of the programme.
+9. Music will be taken from a {{9=library}} of tracks held by the department.
+10. Omar should take spare {{10=batteries}} when he records.
+## 4 | You will hear part of a lecture about how animals find their way over long distances.
+@C Lecturer female_us
+C: Each autumn, a small bird called the Arctic tern leaves Greenland and flies to Antarctica, and each spring it flies back. Over a lifetime of thirty years, that's equal to three return trips to the moon. How does it know the way? Today I'll outline what we understand about animal navigation, and what remains a mystery.
+C: Navigation requires two things. You need a compass, to tell you which direction is which. And you need a map, to tell you where you are in relation to your goal. A compass by itself isn't enough. If I blindfolded you, drove you a hundred kilometres and gave you a compass, you'd know where north was, but not which way was home.
+C: Let's take compasses first, since they're better understood. Many birds use the sun. That's harder than it sounds, because the sun moves across the sky, so the bird must allow for the time of day. Experiments in which birds' internal clocks were shifted by six hours showed that they then flew off at ninety degrees to the correct course.
+C: Birds that migrate at night use the stars. Young birds raised in a planetarium learned to identify north from the point around which the stars rotate. They weren't born knowing a star map. They learned it by watching the sky turn.
+C: The third compass is the earth's magnetic field. This was proved in the nineteen sixties with robins kept in a cage. When researchers used electric coils to turn the magnetic field around the cage, the birds changed direction to match. We still aren't certain how they detect it. The leading theory involves a chemical reaction in the eye, which would mean that birds, in some sense, see the field.
+C: Now the map, which is far more puzzling. Sea turtles hatch on a beach, spend twenty years wandering the ocean, and return to lay eggs on the very beach where they were born. The evidence suggests that each stretch of coast has its own magnetic signature, and that the young turtle memorises it.
+C: Salmon do something similar at sea, but for the last stage, finding the right river, they rely on smell. Each stream has a particular chemical character, and the fish follow it home.
+C: And insects shouldn't be overlooked. Desert ants find their way back to the nest in a straight line after a winding search for food. They do it by counting their steps. When researchers attached tiny stilts to their legs, the ants walked straight past the nest.
+C: A final thought. Artificial light at night and electrical noise from our cities both interfere with these senses, and we're only beginning to measure the damage.
+== fill:note | 1W
+Animal navigation
+- an animal needs both a compass and a {{11=map}}
+Compasses
+- the sun: birds must allow for the {{12=time}} of day
+- the stars: young birds find north by watching the stars {{13=rotate}}
+- the magnetic field: shown in experiments on caged {{14=robins}}
+- it may be detected by a chemical reaction in the {{15=eye}}
+Maps
+- sea turtles return to the {{16=beach}} where they were born
+- each part of the coast has a magnetic {{17=signature}}
+- salmon identify their river by {{18=smell}}
+- desert ants measure distance by counting their {{19=steps}}
+Threats
+- artificial {{20=light}} at night and electrical noise

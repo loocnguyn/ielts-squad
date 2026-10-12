@@ -1,0 +1,366 @@
+# L17 | Spanish course enrolment and open-water swimming
+## 1 | You will hear a man enrolling on a Spanish course at a language school.
+@A Adviser female_us
+@B Student male_uk
+A: Good morning, Linden Language School. How can I help?
+B: Hello. I'd like to sign up for a Spanish course. My company is sending me to Madrid next year.
+A: Congratulations. Have you studied Spanish before?
+B: I did two years at school, but that was a long time ago. I can order a coffee, and that's about it.
+A: Then I wouldn't put you with complete beginners. Our level two class would suit you. If it turns out to be too difficult, you can move down after the first week.
+B: Level two, then. When does it run?
+A: There are two options. A daytime class on Mondays and Wednesdays, or an evening class on Tuesdays and Thursdays.
+B: It'll have to be evenings. I can't leave the office during the day.
+A: Tuesdays and Thursdays, from six thirty to eight. The course lasts twelve weeks.
+B: And when does it begin?
+A: The next one starts on the sixth of October.
+B: The sixth. Good. How many people are in a class?
+A: We never take more than ten. At the moment there are seven in that group.
+B: That's small. I was in a class of thirty at school. What does it cost?
+A: Three hundred and sixty pounds for the twelve weeks. There's also a coursebook, which is twenty-two pounds, and you can buy it at reception.
+B: Is there any discount if my company pays?
+A: Not for a single student, I'm afraid. If your company sent three people or more, they'd get ten per cent off.
+B: I'll mention it to my manager. Who teaches the class?
+A: Her name's Lucia Ferrand. She's from Argentina, and she's been with us for six years. Ferrand is F, E, double R, A, N, D.
+B: Do I have to take a test before I start?
+A: It's not a test exactly. We ask every new student to have a ten-minute conversation with a teacher, just to confirm the level. Could you come in on Friday?
+B: Friday afternoon would be fine.
+A: Say three o'clock? Ask for me at reception. I'm Karen.
+B: Three o'clock. And if I miss a lesson because of work?
+A: The teacher puts the materials on our website after each class. And once a month there's a free conversation evening in the cafe, where students of all levels practise together.
+B: That sounds useful. Where exactly are you? I've only seen the website.
+A: We're on Tanner Street, above the bookshop. The entrance is the blue door at the side.
+B: Got it. Can I pay on Friday?
+A: Yes, by card. We ask for the full fee before the first lesson. Can I take your surname?
+B: It's Whitcombe. W, H, I, T, C, O, M, B, E.
+== fill:form | 1WN
+Linden Language School: enrolment
+Language: Spanish, level {{1=2|two}}
+Days: Tuesdays and {{2=Thursdays|Thursday}}
+Length of course: {{3=12|twelve}} weeks
+Start date: {{4=6 October|6th October|October 6|October 6th|sixth of October}}
+Maximum class size: {{5=10|ten}}
+Course fee: £{{6=360|three hundred and sixty}}
+Teacher's surname: {{7=Ferrand}}
+Level check: Friday at {{8=3|three}} pm
+School entrance: the {{9=blue}} door at the side
+Student's surname: {{10=Whitcombe}}
+## 2 | You will hear a safety officer talking to people who have come to swim in a lake.
+@C Officer male_uk
+C: Good morning, everyone. Welcome to Mere Lake. I'm Rob, the safety officer today. If this is your first swim here, please listen carefully. It only takes five minutes.
+C: First, the temperature. The lake is fourteen degrees this morning. That may not sound cold, but an indoor pool is usually twenty-eight. So please don't jump or dive in. Walk in slowly and give your body a minute or two to adjust. The gasp you feel when cold water reaches your chest is normal, and it passes.
+C: How long should you stay in? There's no fixed rule. But if you start to shiver, or your fingers stop working properly, it's time to get out, however good you feel. People get into trouble because they wait too long.
+C: Everyone must wear one of our orange swim caps. They aren't for warmth. They're so that the lifeguards in the kayaks can see you. You'll also be given a numbered wristband when you sign in. Hand it back when you leave. That's how we know nobody is still in the water.
+C: Wetsuits are optional once the water is above twelve degrees, so today it's your choice. If you don't own one, you can hire one from the hut for five pounds.
+C: Now, the course. There are three loops, marked by buoys. The yellow buoys mark the shortest loop, which is two hundred metres, and it's where I'd like all new swimmers to stay today. The orange loop is four hundred, and the red loop is seven hundred and fifty.
+C: Everybody swims in the same direction, which is anticlockwise, keeping the buoys on your left. Please don't cut across the middle. That's where the kayaks need a clear path.
+C: If you get tired or feel unwell, roll onto your back and raise one arm. A kayak will reach you in under a minute. There's no embarrassment in doing that. We'd much rather come out ten times for nothing than miss the one occasion that matters.
+C: When you get out, dress quickly, starting with your top half, and have a warm drink. Please don't go straight into a hot shower. Your body temperature keeps falling for several minutes after you leave the water, and heating the skin suddenly can make you faint.
+C: Finally, the cafe is open until noon, the car park closes at one, and there's a session for beginners every Sunday if you'd like some coaching. Enjoy your swim.
+== mc
+11. The officer tells swimmers to enter the water
+A. as quickly as possible.
+B. gradually.
+C. only after warming up on land.
+=> B // Walk in slowly and give the body time to adjust.
+12. Swimmers should leave the water when
+A. they begin to shiver.
+B. they have been in for twenty minutes.
+C. a lifeguard tells them to.
+=> A // There is no fixed time; shivering or clumsy fingers mean it is time to get out.
+13. The purpose of the orange caps is to
+A. keep swimmers warm.
+B. show which loop a swimmer is using.
+C. make swimmers easy to see.
+=> C // They are so the lifeguards in the kayaks can see swimmers.
+14. Today, wetsuits are
+A. compulsory for new swimmers.
+B. a matter of personal choice.
+C. not allowed.
+=> B // They are optional once the water is above twelve degrees.
+15. Which loop should new swimmers use today?
+A. the yellow one
+B. the orange one
+C. the red one
+=> A // The shortest loop, two hundred metres.
+== fill:sentence | 1W
+16. Swimmers should keep the buoys on their {{16=left}}.
+17. A swimmer who needs help should lie on their back and raise an {{17=arm}}.
+18. After leaving the water, swimmers should have a warm {{18=drink}}.
+19. Swimmers should avoid a hot {{19=shower}} immediately afterwards.
+20. There is a session for beginners every {{20=Sunday}}.
+
+# L18 | Dialect essay and the history of glass
+## 3 | You will hear two linguistics students, Hannah and Joel, discussing an essay about regional dialects.
+@A Hannah female_uk
+@B Joel male_us
+A: Joel, have you started the dialect essay yet?
+B: Barely. The title is whether regional dialects in Britain are dying out, and I assumed the answer was obviously yes. Everyone watches the same television and moves around for work.
+A: That's what I thought before I did the reading. But it's more complicated. The old rural dialects, with their own vocabulary, have mostly gone. What's happened in the big cities is different. Their accents are actually spreading into the surrounding areas.
+B: So some varieties are getting stronger while others disappear.
+A: Exactly. The article by Kerswill calls it levelling. Small local differences vanish, and you end up with a few large regional varieties.
+B: That gives the essay a shape. First what's been lost, then what's replacing it. Did you find the lecture notes helpful?
+A: Not especially. They're mostly about pronunciation. I got far more from the recordings in the sound archive. You can hear a farmer born in eighteen ninety, and then his great-granddaughter.
+B: I should listen to those. Now, the essay asks for our own data as well. I was planning to send a questionnaire to my family.
+A: A questionnaire tells you what people think they say. It's better to record them talking naturally, and count the features yourself.
+B: Wouldn't they speak more carefully if they know they're being recorded?
+A: At first. That's why you ask them about something emotional, a time they were in danger, for instance. People forget the microphone when they're telling a good story.
+B: Clever. Who would you record?
+A: Three generations of one family, if you can. Then age is the only thing that changes.
+B: My grandmother, my mother and my sister all live in the same town. That would work.
+A: Perfect. What feature will you look at?
+B: I thought vocabulary. My grandmother uses words nobody else knows.
+A: Words are fun, but they're hard to count, because any particular word might not come up. Choose a sound that occurs in every sentence. You'll have hundreds of examples in ten minutes.
+B: All right, a sound. Professor Ince mentioned that the deadline's been moved.
+A: Yes, from the third of March to the tenth, because of the strike.
+B: That helps. And the length is still two thousand words?
+A: Two thousand five hundred, including the data section.
+B: One last thing. Are we allowed to submit graphs?
+A: She encourages it. A simple bar chart for each generation would make your point at a glance.
+B: Great. I'll record my family this weekend.
+== mc
+1. Before she did the reading, Hannah believed that dialects
+A. were becoming stronger in cities.
+B. were clearly disappearing.
+C. had not changed very much.
+=> B // "That's what I thought before I did the reading."
+2. What does the term 'levelling' describe?
+A. the loss of small local differences
+B. the spread of London speech across the country
+C. the influence of television on speech
+=> A // Small differences vanish, leaving a few large regional varieties.
+3. Hannah found the most useful material in
+A. the lecture notes.
+B. an article.
+C. a collection of recordings.
+=> C // She got far more from the recordings in the sound archive.
+4. Hannah advises Joel not to use a questionnaire because
+A. few people will reply.
+B. people do not report their own speech accurately.
+C. it takes too long to analyse.
+=> B // A questionnaire tells you what people think they say.
+5. Joel is advised to study a sound, not words, because a sound
+A. occurs very frequently.
+B. is easier to hear.
+C. changes more slowly.
+=> A // Any particular word might not come up, but a sound occurs in every sentence.
+== fill:sentence | 2WN
+6. Speakers forget they are being recorded when they tell a good {{6=story}}.
+7. Joel will record three {{7=generations}} of his family.
+8. The new deadline for the essay is the {{8=10th|10|tenth}} of March.
+9. The essay should contain {{9=2500|2,500|two thousand five hundred}} words.
+10. Hannah suggests showing the results in a bar {{10=chart}}.
+## 4 | You will hear part of a lecture about the history of glass.
+@C Lecturer female_us
+C: Look around this room and you'll see glass everywhere, in the windows, in your phones, in my spectacles. Yet for most of history it was rare and precious. Today I want to trace how that changed.
+C: Glass is made by melting sand with one or two other ingredients, and nature occasionally does this by itself. Volcanoes produce a black glass called obsidian, and Stone Age people valued it for making blades, because it gives an edge sharper than steel.
+C: The first glass made by people comes from the Middle East, about four and a half thousand years ago, and it was used for beads. For many centuries it remained a luxury, as costly as precious stones.
+C: The great change came about two thousand years ago, on the coast of what is now Syria and Lebanon, with the invention of glass blowing. A worker picks up a lump of molten glass on the end of an iron tube and blows air into it. Suddenly a bottle that had taken days could be made in minutes. The Romans spread the method across their empire, and for the first time ordinary families could own a glass cup.
+C: The Romans also made the first window glass, though it was thick and cloudy. It let in light, but you couldn't see through it clearly.
+C: In the Middle Ages, the finest glass came from Venice. In twelve ninety-one, the city ordered all its glass makers to move to the island of Murano. The official reason was the danger of fire in a city built of wood. A happy side effect was that the makers' secrets could be guarded. They were forbidden to leave, on pain of death.
+C: The Venetians produced the first really clear glass, and that made two things possible. One was the mirror. The other was the lens. Spectacles appeared in Italy around thirteen hundred, and they added perhaps fifteen years to the working life of every scholar and craftsman. Later, lenses gave us the telescope and the microscope, so it's fair to say that modern science depended on glass.
+C: Large flat sheets remained difficult to make until the nineteen fifties, when a British firm developed the float process. Molten glass is poured onto a bath of liquid tin, and it spreads out perfectly flat. Almost every window in the world is now made that way.
+C: And the story isn't over. Thin strands of glass, known as optical fibres, now carry nearly all the world's internet traffic under the oceans. A material first used for beads has become the foundation of modern communication.
+== fill:note | 1W
+The history of glass
+Early glass
+- natural glass from volcanoes was used to make {{11=blades}}
+- the first man-made glass was used for {{12=beads}}
+Glass blowing
+- invented about 2,000 years ago; the worker blows through an {{13=iron}} tube
+- spread by the Romans, whose window glass was thick and {{14=cloudy}}
+Venice
+- 1291: glass makers were moved to an island, officially because of the risk of {{15=fire}}
+- this also made it easier to protect their {{16=secrets}}
+- clear glass made possible the {{17=mirror}} and the lens
+- spectacles lengthened people's {{18=working}} lives
+Modern times
+- float process: glass is poured onto liquid {{19=tin}}
+- optical {{20=fibres|fibers}} carry most internet traffic
+
+# L19 | Broadband installation and a theatre tour
+## 1 | You will hear a woman arranging to have a broadband service installed in her home.
+@A Agent male_uk
+@B Customer female_us
+A: Thank you for calling Skyline Broadband. My name's Oliver. How can I help you today?
+B: Hi. I've just bought a house, and I need to get the internet connected. I work from home, so it's pretty urgent.
+A: I understand. Could you give me the postcode, so I can see what's available?
+B: Sure. It's H R four, nine T W.
+A: Thank you. Yes, your street has our fibre service. We offer three speeds. Basic, Plus and Ultra.
+B: What's the difference in practice?
+A: Basic is fine for email and browsing. Plus is what we recommend for households with video calls and streaming. Ultra is really for people who send very large files.
+B: I'm on video calls all day, but I don't deal with big files. So Plus, I suppose. How much is that?
+A: Plus is thirty-two pounds a month. It was thirty-eight, but there's an offer running until the end of the month.
+B: Thirty-two. And is there a charge for setting it up?
+A: Normally sixty pounds, but it's waived if you sign an eighteen-month contract. On a twelve-month contract, you'd pay it.
+B: Eighteen months is fine. We're not planning to move again. When can someone come?
+A: The earliest date I have is Thursday the nineteenth. The engineer would arrive between eight and one.
+B: Thursday's difficult. I've got a meeting in town. Is there anything on the Friday?
+A: Friday the twentieth, afternoon only, between one and six.
+B: I'll take that. How long does the installation take?
+A: About two hours. The engineer needs to drill a small hole through an outside wall, so someone over eighteen has to be at home to agree where it goes.
+B: I'll be there. Where do people usually put the router?
+A: As near to the middle of the house as you can. Not in a cupboard, and not on the floor. A shelf is ideal.
+B: OK. Does the router cost extra?
+A: No, it's included, and it stays our property. If you leave us, you send it back in the box we provide.
+B: Right. And what if the speed isn't what you promise?
+A: We guarantee a minimum speed in writing. If we don't reach it within thirty days, you can cancel without paying anything.
+B: That's reassuring. Can I keep my old phone number, by the way?
+A: The package doesn't include a phone line unless you add one for five pounds a month.
+B: No, I only use my mobile. How do I pay?
+A: By monthly direct debit. The first payment is taken ten days after installation. Could I take your name?
+B: It's Monica Hale. H, A, L, E.
+A: Thank you, Miss Hale. I'll email a confirmation within the hour.
+== fill:form | 1WN
+Skyline Broadband: new order
+Package: {{1=Plus}}
+Monthly cost: £{{2=32|thirty-two}}
+Length of contract: {{3=18|eighteen}} months
+Installation: Friday {{4=20|20th|twentieth}}, in the afternoon
+Time needed: about {{5=2|two}} hours
+The engineer will make a hole in an outside {{6=wall}}
+Best place for the router: on a {{7=shelf}}
+Customer may cancel if the minimum speed is not reached within {{8=30|thirty}} days
+Payment: monthly, by direct {{9=debit}}
+Surname: {{10=Hale}}
+## 2 | You will hear a guide starting a backstage tour of a theatre.
+@C Guide female_uk
+C: Good afternoon, and welcome to the Regent Theatre. I'm Lydia, and I've worked here as a stage manager for nineteen years. Over the next hour, I'll show you the parts of the building the audience never sees.
+C: A little history first. The Regent opened in nineteen hundred and eight. In the nineteen sixties it very nearly became a supermarket. The company had already bought the building, and it was only saved because local people collected enough signatures to have it protected by law.
+C: We put on about ten productions a year. People assume the actors are the largest group working here. In fact, for a big musical there may be twenty performers on stage and over fifty people behind it, in lighting, sound, costume and so on.
+C: Before we go through this door, some rules. There's no photography backstage, I'm afraid, because the set designs belong to the designers. And please don't touch any of the ropes. Some of them hold up scenery weighing as much as a small car.
+C: There's also an old theatre tradition, which is that you never whistle backstage. Long ago, scenery was moved by sailors, who signalled to each other by whistling, so a careless whistle could bring a piece of scenery down on your head.
+C: Our first stop will be the wardrobe department. For the current show there are two hundred and thirty costumes, and each one has to be washed or cleaned after every performance. You'll meet Pam, who has been making hats here since before I arrived.
+C: Then we'll visit the props room. A prop is any object an actor handles, from a letter to a sword. One curious fact is that the food eaten on stage is nearly always real, but it's usually something soft, like banana, so that the actor can swallow quickly and say the next line.
+C: After that we go underneath the stage. There's a trapdoor there, which lets a performer appear or vanish in a second. It's still worked by hand, by two members of the crew, exactly as it was a century ago.
+C: Then up to the lighting box at the back of the auditorium. In the old days the operator moved every lamp separately. Now the whole show is stored on a computer, and the operator's real job is to watch for anything going wrong.
+C: We'll end on the stage itself. You'll notice that it isn't level. It slopes down towards the audience, so that people in the front rows can see the actors' feet. You'll feel it as you walk.
+== mc
+11. The theatre was saved from being turned into a supermarket by
+A. a campaign by local people.
+B. a change of owner.
+C. a gift from a wealthy actor.
+=> A // Local people collected enough signatures to have the building protected by law.
+12. How many productions does the theatre put on each year?
+A. about ten
+B. about twenty
+C. about fifty
+=> A // Twenty and fifty are the numbers of performers and backstage staff.
+13. What does the guide say about the people who work on a big musical?
+A. Most of them are performers.
+B. There are more backstage staff than performers.
+C. Many of them are volunteers.
+=> B // Twenty performers on stage and over fifty people behind it.
+14. Visitors are not allowed to take photographs backstage because
+A. the flash could disturb rehearsals.
+B. it is dangerous near the ropes.
+C. the designs are the property of the designers.
+=> C // The set designs belong to the designers.
+15. Why do people avoid whistling backstage?
+A. It distracts the actors.
+B. It is thought to bring bad reviews.
+C. It used to be a signal for moving scenery.
+=> C // Sailors who moved the scenery signalled to each other by whistling.
+== match:features | What does the guide say about each part of the theatre? Choose FIVE answers from the list and write the correct letter, A-G, next to questions 16-20.
+A. It is operated in the traditional way.
+B. It is not flat.
+C. It is now controlled by a computer.
+D. It has recently been rebuilt.
+E. A long-serving member of staff works there.
+F. It contains things that are real and easy to eat.
+G. It is the largest room in the building.
+16. the wardrobe department => E // Pam has been making hats there for over nineteen years.
+17. the props room => F // Food eaten on stage is nearly always real, and usually soft.
+18. the trapdoor => A // It is still worked by hand by two crew members.
+19. the lighting box => C // The whole show is stored on a computer.
+20. the stage => B // It slopes down towards the audience.
+
+# L20 | Hospital noise study and wildlife in cities
+## 3 | You will hear two nursing students, Chloe and Ravi, discussing a study they are planning on noise in hospital wards.
+@A Chloe female_uk
+@B Ravi male_uk
+A: Ravi, I've been thinking about our research proposal. I'd like to do something on noise at night on the wards.
+B: Because of your placement?
+A: Partly. But what really decided it was a patient survey I read. People were asked what had most affected their recovery, and poor sleep came above pain.
+B: Above pain. That's striking. So what's making the noise? Alarms, I'd guess.
+A: That's what I assumed too. But in the studies I've found, the biggest single source is conversation. Staff talking at the desk, and during the handover between shifts.
+B: Really? That's a bit uncomfortable, since it's us.
+A: It is. But it also means it can be changed without spending money.
+B: True. So how do we measure it? I could download a sound meter app on my phone.
+A: The apps aren't accurate enough to publish. The physics department lends out proper meters that record all night. I've already asked, and we can have two.
+B: Good. Which wards?
+A: I'd like to compare an old ward with open bays and a new one with single rooms.
+B: That's two things changing at once, though. The new ward has different staff and different patients. I'd rather take one ward and measure before and after we make a change.
+A: Hmm. You're right, that's cleaner. One ward, before and after. What change would we make?
+B: Some hospitals have a quiet hour. Lights down, no visitors.
+A: At night there are no visitors anyway. What about moving the handover? If nurses changed shifts in the staff room, not at the patients' bedsides, most of the talking would move with them.
+B: Wouldn't we lose something? The bedside handover lets the patient hear what's said about them.
+A: That's a fair point, and we should include it in the discussion as a possible cost.
+B: OK. And we need to measure sleep itself, not just decibels. Wrist monitors?
+A: Too expensive for forty patients. A short questionnaire each morning is enough. Five questions.
+B: Fine. Who has to approve this?
+A: The ward manager first. Then the hospital ethics committee, which meets on the first Monday of each month.
+B: So we need the forms in by the end of this week.
+A: Yes. I'll write the background section if you do the method.
+B: Deal. And let's ask Doctor Osei to look at a draft. She ran a noise project in Glasgow.
+A: Good idea. I'll email her this afternoon.
+== mc
+1. What made Chloe decide on noise as a topic?
+A. her experience on a placement
+B. a survey of patients
+C. a suggestion from a tutor
+=> B // The placement was only part of it; what decided it was a survey putting poor sleep above pain.
+2. According to the studies Chloe has read, most noise at night is caused by
+A. alarms on equipment.
+B. doors and trolleys.
+C. people talking.
+=> C // The biggest single source is conversation among staff.
+3. The students will measure noise using
+A. meters borrowed from another department.
+B. an app on a phone.
+C. equipment owned by the ward.
+=> A // The physics department lends out proper meters; apps are not accurate enough.
+4. Ravi prefers to study one ward because
+A. permission will be easier to obtain.
+B. it will need less equipment.
+C. comparing two wards would involve too many differences.
+=> C // A new ward has different staff and patients, so two things change at once.
+5. What change do the students decide to test?
+A. holding the handover away from the patients
+B. introducing a quiet hour
+C. dimming the lights earlier
+=> A // Moving the handover to the staff room would move most of the talking.
+== fill:sentence | 2WN
+6. A disadvantage of the change is that the {{6=patient}} no longer hears the handover.
+7. The study will include {{7=40|forty}} patients.
+8. Sleep will be measured by means of a {{8=questionnaire}} each morning.
+9. The first person who must approve the study is the {{9=ward manager}}.
+10. The ethics committee meets on the first {{10=Monday}} of each month.
+## 4 | You will hear part of a lecture about wild animals living in cities.
+@C Lecturer male_us
+C: When we think about wildlife, we tend to picture forests and mountains. But a growing number of species are making their homes in cities, and some are doing better there than in the countryside. Today I want to ask why.
+C: Let's start with what cities offer. The first thing is food. Our rubbish is rich in calories and available all year round. The second is warmth. A city centre can be several degrees warmer than the land around it, which helps small animals through the winter. And the third, which people forget, is safety. In a city there are very few hunters, and large predators are almost entirely absent.
+C: Not every species can take advantage of this. The successful ones tend to share certain features. They eat a wide range of foods. They're not easily frightened by anything new. And, very often, they're active at night, when the streets are empty.
+C: The red fox is the classic example. Foxes began moving into British cities in the nineteen thirties, when suburbs with large gardens were built. A city fox has a much smaller territory than a rural one, because it doesn't need to travel far to eat.
+C: What's particularly interesting is that city life seems to change animals. Studies of birds have found that those in noisy areas sing at a higher pitch, so that their song isn't drowned by the low rumble of traffic. Some also sing at night, when it's quieter.
+C: There's evidence of change in problem solving too. In one experiment, raccoons from a city and from the country were given a box with a difficult lock. The city animals were faster at opening it, and they kept trying for longer.
+C: Evolution can be surprisingly rapid. A species of mosquito in the tunnels of the London Underground can no longer breed with its relatives on the surface. And in several cities, lizards have developed longer legs and stickier feet, which help them to climb walls and windows.
+C: But I don't want to give too rosy a picture. Cities are dangerous in their own ways. Roads kill enormous numbers of animals. Glass kills birds, which can't see it. And artificial light confuses insects and migrating birds, with effects we're only beginning to measure.
+C: So what should planners do? The most effective step turns out to be connecting green spaces. A park that stands alone is like an island. Link it to others by strips of trees along a river or a railway, and animals can move between them. Such strips are known as corridors, and many cities are now building them into their plans.
+== fill:note | 1W
+Wildlife in cities
+What cities provide
+- food all year round, especially from {{11=rubbish}}
+- warmth in winter
+- {{12=safety}}: few hunters or large predators
+Features of successful species
+- a varied diet; not afraid of new things; often active at {{13=night}}
+- the fox arrived when suburbs with large {{14=gardens}} were built
+How city animals change
+- birds sing at a higher {{15=pitch}} to be heard above traffic
+- city raccoons were quicker to open a difficult {{16=lock}}
+- some lizards now have longer {{17=legs}}, for climbing
+Dangers
+- roads; glass; artificial {{18=light}}, which confuses insects and birds
+Planning
+- a park on its own is like an {{19=island}}
+- green spaces should be linked by {{20=corridors}}

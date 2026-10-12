@@ -1,0 +1,133 @@
+# R29 | The search for exoplanets
+## Other worlds
+[A] For most of history, the question of whether planets circle other stars was a matter for philosophers. The stars are so distant, and planets so faint beside them, that looking for one was compared to trying to spot a moth fluttering beside a searchlight from thousands of kilometres away. Then, in 1995, two Swiss astronomers announced that they had detected a planet in orbit around a star similar to the sun, about fifty light years away. In the three decades since, more than five thousand planets beyond our solar system have been confirmed, and astronomers now believe that planets outnumber stars.
+[B] The Swiss discovery was made without anyone seeing the planet at all. A planet does not simply circle a stationary star. The two bodies pull on each other, and the star moves in a small circle of its own. Seen from earth, it sways slightly towards us and away again, and this motion produces tiny, regular shifts in the colour of its light. Michel Mayor and Didier Queloz measured such shifts in a star called 51 Pegasi and inferred that something with about half the mass of Jupiter was tugging it to and fro every four days.
+[C] The result was startling, and at first it was doubted. In our own system the giant planets lie far from the sun and take years to complete an orbit. A giant that circled its star in four days, closer than Mercury is to the sun and heated to a thousand degrees, was something no theory had predicted. Astronomers had assumed that other planetary systems would resemble ours. It soon became clear that ours might be the unusual one. Such hot Jupiters were simply the easiest planets to detect, since a massive planet in a tight orbit makes its star sway most.
+[D] A second method has since proved even more productive. If a planet's orbit happens to carry it across the face of its star as seen from earth, it blocks a small fraction of the light, and the star dims by a tiny amount at regular intervals. The method demands extraordinary precision, since a planet the size of earth crossing a star like the sun reduces its brightness by less than one part in ten thousand. A space telescope named Kepler, launched in 2009, was designed to stare without interruption at a single patch of sky containing about a hundred and fifty thousand stars. Over nine years it found more than two and a half thousand planets.
+[E] Kepler's results allowed astronomers to estimate, for the first time, how common different kinds of planet are. The most numerous type turned out to be one that our solar system lacks altogether, with a size between that of earth and Neptune. Whether such planets are rocky worlds with thick atmospheres, or balls of water and gas, is still unclear. Kepler also showed that small planets are abundant. A substantial fraction of stars are thought to have a planet of roughly earth's size orbiting at a distance where water could exist as a liquid on the surface, neither frozen nor boiled away, a region sometimes called the habitable zone.
+[F] The term should be treated with caution. It describes only the distance from the star, and says nothing about whether a planet actually has water, air or anything else that life might require. Venus lies near the inner edge of our own sun's habitable zone and has a surface hot enough to melt lead. Many of the candidate planets circle small, dim red stars, which are prone to violent flares that could strip away an atmosphere.
+[G] The next step is to study the atmospheres of these worlds directly. When a planet passes in front of its star, a little of the starlight filters through the thin layer of gas around it, and each gas absorbs particular colours, leaving a pattern like a bar code in the light that reaches the telescope. Using this technique, the James Webb Space Telescope has identified carbon dioxide, water vapour and methane in the atmospheres of several planets. The ultimate aim is to find a combination of gases that is hard to explain without living things. On earth, oxygen and methane exist together only because plants and microbes constantly replace them. Left alone, they would react with each other and vanish.
+[H] Even such a discovery would be difficult to interpret, since chemistry without biology can sometimes produce the same gases, and several announcements of possible signs of life have already been withdrawn after further analysis. Most researchers expect that the first claim to be widely accepted will rest not on a single observation but on many kinds of evidence gathered over years. What has changed is that the question is no longer one for philosophers. For the first time, we have the instruments to look.
+== tfng
+1. The planet announced in 1995 orbits a star that resembles the sun. => TRUE // A: a planet in orbit around a star similar to the sun.
+2. The planet orbiting 51 Pegasi was photographed by the Swiss astronomers. => FALSE // B: the discovery was made without anyone seeing the planet at all.
+3. The planet orbiting 51 Pegasi takes four days to go round its star. => TRUE // B and C: tugging it every four days; circled its star in four days.
+4. Hot Jupiters are the most common type of planet in the galaxy. => FALSE // C: they were simply the easiest to detect; E: the most numerous type is between earth and Neptune in size.
+5. The Kepler telescope observed the whole sky. => FALSE // D: it stared at a single patch of sky.
+6. The Kepler telescope cost more than the James Webb Space Telescope. => NOT GIVEN // No costs are mentioned.
+== match:information
+7. a warning about the limits of a commonly used expression => F // The term 'habitable zone' describes only distance from the star.
+8. an explanation of how gases around a distant planet can be identified => G // Each gas absorbs particular colours, leaving a pattern like a bar code.
+9. a type of planet that is common elsewhere but absent from our solar system => E // Planets between the size of earth and Neptune.
+10. the reason why the first discovery contradicted expectations => C // A giant planet so close to its star was something no theory had predicted.
+== fill:summary | 1W
+Signs of life
+Astronomers hope to detect a mixture of gases that would be difficult to account for without {{11=living}} things. On earth, oxygen and {{12=methane}} are found together only because they are continually replaced. However, some earlier announcements have been {{13=withdrawn}} after more analysis.
+
+# R30 | Aluminium
+## From precious metal to drinks can
+[A] At a banquet in Paris in the 1850s, the emperor Napoleon III is said to have honoured his most distinguished guests by serving them with plates and cutlery of aluminium, while the rest of the company had to make do with gold. When the Washington Monument was completed in 1884, it was capped with a small pyramid of the same metal, then as costly as silver. Within a few years of that date, the price had collapsed, and today aluminium is the material of drinks cans and kitchen foil. No other substance has travelled so far, so fast, from luxury to the commonplace.
+[B] The paradox is that aluminium was never rare. It is the most abundant metal in the earth's crust, making up about eight per cent of it by weight, and it is present in common clay. The difficulty is that it is never found as pure metal. It binds so tightly to oxygen that the methods used for centuries to extract iron or copper, heating the ore with charcoal, have no effect on it. A Danish scientist first separated a few impure grains in 1825, using chemical reactions, and for the next sixty years the metal could be produced only in small quantities and at great expense.
+[C] The breakthrough came in 1886, and it came twice. In Ohio, a twenty-two-year-old chemistry graduate, Charles Martin Hall, working in a shed behind his family's house, found that if aluminium oxide was dissolved in a molten mineral called cryolite and a strong electric current passed through the liquid, pure metal collected at the bottom. A few weeks later, in France, Paul Heroult, who was the same age and knew nothing of Hall, filed a patent for the identical process. By a further coincidence, the two men, born in the same year, also died in the same year. The method they discovered is still the one used in every aluminium smelter in the world.
+[D] The process needed two other developments to become practical. One was a cheap way of obtaining aluminium oxide from the reddish rock known as bauxite, which an Austrian chemist, Karl Bayer, devised soon afterwards. The other was electricity in very large quantities, which only became available with the building of power stations in the 1880s and 1890s. One of the first great smelters was constructed beside Niagara Falls to take advantage of the power generated there. The price of aluminium fell by more than ninety-five per cent in a decade.
+[E] The properties of the metal soon found uses. It weighs about a third as much as steel. Exposed to air, it does not rust away but forms a thin, hard film that protects the metal beneath. Mixed with small amounts of copper and other elements, it becomes strong enough to carry heavy loads. The engine of the aircraft in which the Wright brothers made the first powered flight in 1903 had a casing of aluminium, chosen to save weight, and the growth of aviation and of the aluminium industry went hand in hand from then on. During the Second World War, the public were urged to hand in their saucepans to be melted down for aircraft.
+[F] The cost of all this is energy. Producing a tonne of aluminium from ore consumes about as much electricity as an average household uses in several years, and smelting accounts for a noticeable share of the world's consumption. For this reason, smelters have traditionally been built where power is cheap and not where the ore is mined or the metal is used. Iceland, which has abundant hydroelectric and geothermal power but no bauxite at all, imports the raw material by ship from the other side of the world and exports the finished metal. The mining of bauxite, mostly in the tropics, leaves behind large quantities of caustic red mud, which has to be stored behind dams.
+[G] Against this must be set a remarkable advantage. Aluminium can be melted and reused indefinitely without loss of quality, and recycling it requires only about five per cent of the energy needed to make it from ore. It has been estimated that three quarters of all the aluminium ever produced is still in use. A drinks can that is collected may be back on a shop shelf, as a new can, within sixty days. Rates of collection vary greatly, however. Where a small deposit is charged on each can and refunded when it is returned, as in Germany and parts of Scandinavia, well over nine in ten are recovered. Where there is no such scheme, more than half may end up buried in the ground.
+[H] Demand for the metal is expected to rise considerably in the coming decades, partly because lighter vehicles use less fuel and partly because solar panels and power cables require it. Whether that demand can be met without a large increase in emissions will depend on two things, which are the source of the electricity that smelters use, and how much of the aluminium already in circulation can be persuaded to come back.
+== match:headings | The passage has eight paragraphs, A-H. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. An environmental price
+ii. A metal that can be used again and again
+iii. Common in the ground but hard to obtain
+iv. The same discovery in two places
+v. The decline of the aluminium industry in Europe
+vi. Qualities that made the metal useful
+vii. What else was needed before production could grow
+viii. The dangers of aluminium to health
+1. Paragraph B => iii // It is the most abundant metal but never found pure.
+2. Paragraph C => iv // Hall and Heroult found the identical process independently.
+3. Paragraph D => vii // Bayer's process and large supplies of electricity.
+4. Paragraph E => vi // Light, resistant to corrosion and strong as an alloy.
+5. Paragraph F => i // Heavy electricity use and red mud.
+6. Paragraph G => ii // It can be melted and reused indefinitely.
+== tfng
+7. Aluminium was once considered as valuable as silver. => TRUE // A: then as costly as silver.
+8. Aluminium is found in the earth as pure metal. => FALSE // B: it is never found as pure metal.
+9. Hall and Heroult worked together on the process. => FALSE // C: Heroult knew nothing of Hall.
+10. Iceland has large deposits of bauxite. => FALSE // F: it has no bauxite at all.
+== fill:sentence | 1W
+11. In wartime, people were asked to give up their {{11=saucepans}} so that the metal could be used for aircraft.
+12. Mining bauxite produces a waste known as red {{12=mud}}.
+13. In some countries a {{13=deposit}} on each can ensures that most are returned.
+
+# R31 | Building tall in timber
+## The return of the wooden tower
+[A] In the centre of a small Norwegian town stands a building eighteen storeys and eighty-five metres high. It contains flats, a hotel, offices and a swimming pool, and its columns, beams and floors are made almost entirely of wood. When it was completed in 2019 it was the tallest timber building in the world, a title it has since lost to a tower in the American city of Milwaukee. Taller ones are planned. After a century in which steel and concrete were the only materials considered for large buildings, architects are returning to the oldest of all.
+[B] What has made this possible is not ordinary timber but a family of products known as engineered wood. The most important is made by laying boards side by side in a sheet, gluing a second layer on top at right angles to the first, and repeating the process until a solid panel is formed, which may be as much as thirty centimetres thick and the size of a lorry. Because the grain runs in two directions, the panel is strong both along its length and across it, and it does not swell or shrink as a single plank would. The technique was developed in Austria and Germany in the 1990s, originally as a way of using up low-grade timber for which sawmills had little market.
+[C] The first objection people raise is fire. It is a natural one, and the answer is surprising. A thin stick burns readily, as anyone who has lit a campfire knows, but a thick log does not. When the surface of a large piece of timber burns, it forms a layer of char which insulates the wood beneath and slows the fire's progress to well under a millimetre a minute. A heavy timber beam can therefore go on carrying its load in a fire for longer than an unprotected steel beam, which does not burn but softens and bends when it grows hot. Engineers design timber structures with extra thickness that can be sacrificed, and full-scale tests, in which furnished rooms have been set alight and left to burn, have persuaded the authorities in a number of countries to raise the height permitted for wooden buildings.
+[D] The chief attraction for those who commission such buildings is environmental. The manufacture of cement and steel is responsible for a substantial share of the world's emissions of carbon dioxide. A tree, by contrast, absorbs carbon dioxide as it grows, and roughly half the dry weight of wood is carbon, which stays locked in a building for as long as the building stands. Studies comparing similar buildings suggest that a timber structure is responsible for between a quarter and a half less carbon than a concrete one.
+[E] There are practical advantages too. The panels are cut to size in a factory by machines following a digital model, with openings for windows and pipes already made, and are delivered to the site in the order in which they will be needed. They are then lifted into place and screwed together. A floor can be completed in days. Because a timber building weighs perhaps a fifth as much as a concrete one, its foundations can be smaller, and far fewer lorries are needed to deliver the materials. A site in a crowded city is quieter, cleaner and occupied for a shorter time.
+[F] The claims made for the material are not accepted by everyone. The environmental benefit depends on where the wood comes from. If a forest is cut down and not replanted, or if old forest that has stored carbon for centuries is replaced by young plantations, the calculation changes entirely. Researchers have also pointed out that only part of each tree ends up in a building, and that if the rest is burned or left to rot, its carbon returns to the air. And the benefit is lost if, at the end of the building's life, the timber is simply sent to be burned. Supporters reply that the wood should come only from forests certified as being replanted, and that buildings can be designed to be taken apart so that the panels are used again.
+[G] Other difficulties are more ordinary. Wood must be kept dry during construction, since panels that are soaked by rain may later grow mould. Sound passes more easily through a light floor than a heavy one, so that extra layers are needed between flats. Insurers, with little experience of the material, sometimes charge more to cover it. And in most countries timber still costs somewhat more than concrete, though the speed of building recovers part of the difference.
+[H] No one expects wood to replace steel and concrete altogether. The very tallest towers and the longest bridges are likely to remain beyond it, and most of the timber buildings now going up are in fact hybrids, with a concrete core containing the lifts and stairs. The more realistic prospect is of a change in the middle range, the blocks of six to twelve storeys that make up the bulk of a modern city. If even a modest proportion of those were built of timber, the effect on the construction industry's emissions would be considerable.
+== ynng
+1. It is reasonable for people to worry about fire in a wooden building. => YES // C: it is a natural objection.
+2. In a fire, a thick timber beam may remain standing longer than a bare steel one. => YES // C: it can go on carrying its load for longer than an unprotected steel beam.
+3. A timber building is always better for the climate than a concrete one. => NO // F: the benefit depends on where the wood comes from and what happens afterwards.
+4. Governments should offer financial help to companies that build in timber. => NOT GIVEN // The passage does not discuss subsidies.
+5. Timber will eventually take the place of steel and concrete completely. => NO // H: no one expects wood to replace them altogether.
+6. Mid-height buildings offer the best opportunity for using timber. => YES // H: the more realistic prospect is the blocks of six to twelve storeys.
+== mc
+7. Why is a panel of engineered wood strong in more than one direction?
+A. It is made from several kinds of tree.
+B. Its layers are placed with the grain at right angles.
+C. It is compressed under great heat.
+D. It contains thin sheets of steel.
+=> B // B: a second layer is glued at right angles; the grain runs in two directions.
+8. Why was the technique first developed?
+A. to find a use for poor-quality timber
+B. to reduce the risk of fire
+C. to build taller houses
+D. to replace imported steel
+=> A // B: originally as a way of using up low-grade timber.
+9. What protects the inside of a large piece of timber during a fire?
+A. a chemical coating
+B. the moisture in the wood
+C. a covering of plaster
+D. a burnt outer layer
+=> D // C: a layer of char insulates the wood beneath.
+10. According to paragraph E, timber buildings need smaller foundations because they
+A. are built more quickly.
+B. are made in a factory.
+C. are much lighter.
+D. are not as tall.
+=> C // E: a timber building weighs perhaps a fifth as much as a concrete one.
+== fill:sentence | 1W
+11. About half of the dry weight of wood consists of {{11=carbon}}.
+12. Panels that get wet during building may develop {{12=mould|mold}}.
+13. Many tall timber buildings have a concrete {{13=core}} for lifts and stairs.
+
+# R32 | Tool use in crows
+## The cleverest bird
+[A] On the Pacific island of New Caledonia lives a crow that has overturned a good deal of what scientists believed about animal intelligence. It is an unremarkable bird to look at, black and about the size of a pigeon. But it does something that, apart from humans, is known in only a handful of species. It not only uses tools. It manufactures them, to a pattern, and it appears to improve on the design.
+[B] The crows feed on grubs that live deep in holes in rotting wood, out of reach of a beak. To get at them, a bird breaks off a twig, strips away the side branches and leaves, and pokes it into the hole. The grub bites the end of the twig in defence and is drawn out. More remarkably, the crows make hooks. A bird selects a forked twig, snaps it just below the fork, and then trims and shapes the stump with its beak until it forms a neat barb. A second kind of tool is cut from the long, tough leaves of a tree whose edges are lined with backward-pointing spines. The crow tears out a strip that is wide at one end, where it is held, and tapers in steps to a narrow point.
+[C] What makes these leaf tools especially interesting is that their design differs from one part of the island to another. In some regions crows make only wide strips, in others narrow ones, and in others the stepped kind. The differences do not correspond to any difference in the trees or the prey. Researchers believe that young crows learn the local method from their elders. Juveniles stay with their parents for a year or more, watch them at work, and practise with the tools their parents have discarded. If so, this is a tradition passed from one generation to the next, something very close to what in human beings we call culture.
+[D] The bird that brought the species to public attention was a captive female named Betty, kept in a laboratory at Oxford. In 2002, researchers gave her and a male companion a choice between a straight piece of wire and a hooked one, to see which they would use to lift a small bucket of meat out of a tube. The male flew off with the hooked wire. Betty, left with the straight one, tried it without success, then wedged one end in a crack and pulled until the wire bent into a hook, and retrieved the food. She repeated the feat on nine of the next ten occasions. She had never seen wire before.
+[E] At the time, Betty's behaviour was hailed as evidence of insight, the ability to picture a solution before carrying it out. Later fieldwork has made that interpretation less certain. Wild New Caledonian crows, it turns out, routinely bend twigs in exactly this way when making their tools, so that Betty may have been applying a natural habit to a new material and not inventing a technique from nothing. The finding is hardly less impressive, but it is a reminder of how easily a single striking observation can be over-interpreted.
+[F] Subsequent experiments have tested the birds more rigorously. In one, a crow had to use a short stick to pull a longer stick out of a box, and then use the longer one to reach food, a sequence of steps that requires holding a goal in mind. Most of the birds tested succeeded at the first attempt. In another, crows were shown a tube of water with a piece of food floating out of reach, and dropped stones into it to raise the level, choosing large stones over small ones and solid objects over hollow ones that would float. Children do not reliably solve this problem until they are about seven.
+[G] How does a bird with a brain the size of a walnut manage it? Part of the answer is that size is misleading. The nerve cells in the forebrains of crows and parrots are much smaller and more tightly packed than those of mammals, so that a crow has as many of them in the relevant region as some monkeys. The other part is the way of life. Like apes, crows live long, grow up slowly and inhabit a complicated social world. New Caledonia also has no woodpeckers and few predators, which left a source of food unexploited and gave the crows the safety to spend time experimenting on the ground.
+[H] Perhaps the most significant lesson is about evolution. The last common ancestor of birds and mammals lived more than three hundred million years ago and was certainly no genius. The mental abilities of crows and of apes must therefore have arisen separately, in brains built on quite different plans. Intelligence, it seems, is not a single lucky accident on the branch of the family tree that leads to us. Given the right pressures, it can evolve more than once.
+== tfng
+1. Very few species other than humans are known to make tools. => TRUE // A: known in only a handful of species.
+2. The crows use twig tools to reach insects' eggs. => FALSE // B: they feed on grubs in holes in rotting wood.
+3. The design of leaf tools varies because different trees grow in different regions. => FALSE // C: the differences do not correspond to any difference in the trees or the prey.
+4. Young crows remain with their parents for at least a year. => TRUE // C: juveniles stay with their parents for a year or more.
+5. Betty had been trained to bend wire before the experiment. => FALSE // D: she had never seen wire before.
+6. Betty lived longer than most crows kept in laboratories. => NOT GIVEN // Her lifespan is not mentioned.
+== match:information
+7. a comparison between the abilities of crows and of young humans => F // Children do not reliably solve the water problem until about seven.
+8. an explanation of why brain size gives a false impression => G // Nerve cells in crows are smaller and more tightly packed.
+9. a suggestion that a famous result was at first given too much weight => E // A single striking observation can be over-interpreted.
+10. a conclusion about how intelligence has developed in different animals => H // The abilities of crows and apes must have arisen separately.
+== fill:summary | 1W
+Two experiments
+In one test, a crow used a short stick to obtain a longer one, a task that requires keeping a {{11=goal}} in mind. In another, crows raised the level of water in a tube by dropping in {{12=stones}}. They preferred solid objects to {{13=hollow}} ones.

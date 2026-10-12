@@ -259,13 +259,24 @@ Return ONLY this JSON object inside a single \`\`\`json code block, with every b
 ${gradingJson(attemptId, task, ["task_response", "coherence_cohesion", "lexical_resource", "grammar"])}`;
 }
 
+type CueCard = Extract<SpeakingContent, { part: 2 }>["cue_card"];
+
+export function cueCardText(card: CueCard) {
+  return [card.prompt, "You should say:", ...card.bullets.map((b) => `- ${b}`), card.closing ?? ""]
+    .filter(Boolean)
+    .join("\n");
+}
+
 export function speakingQuestions(content: SpeakingContent): string[] {
   if (content.part === 1) return content.topics.flatMap((t) => t.questions);
-  if (content.part === 2) {
-    const card = content.cue_card;
-    return [[card.prompt, ...card.bullets.map((b) => `- ${b}`), card.closing ?? ""].filter(Boolean).join("\n")];
-  }
-  return content.questions;
+  if (content.part === 2) return [cueCardText(content.cue_card)];
+  if (content.part === 3) return content.questions;
+  return [
+    ...content.part1.topics.flatMap((t) => t.questions),
+    cueCardText(content.part2.cue_card),
+    ...content.part2.rounding_off,
+    ...content.part3.questions,
+  ];
 }
 
 export function buildSpeakingGradingPrompt(args: {
@@ -279,23 +290,29 @@ export function buildSpeakingGradingPrompt(args: {
   const timing = speakingSeconds
     ? `Speaking time: ${speakingSeconds} seconds; ${words} words (about ${Math.round((words / speakingSeconds) * 60)} words per minute).`
     : `${words} words.`;
-  return `You are a certified IELTS Speaking examiner. Grade the candidate's IELTS Speaking Part ${content.part} answer
-from the transcript below. The candidate answered all questions in one continuous recording.
+  const full = content.part === "full";
+  const opening = full
+    ? `You are a certified IELTS Speaking examiner. Grade the candidate's complete IELTS Speaking test (Parts 1, 2 and 3)
+from the transcript below. A partner read the examiner's questions aloud; only the candidate's speech was transcribed,
+and it is set out under the question it answers. Weigh Part 2 (the long turn) and Part 3 most heavily.`
+    : `You are a certified IELTS Speaking examiner. Grade the candidate's IELTS Speaking Part ${content.part} answer
+from the transcript below. The candidate answered all questions in one continuous recording.`;
+  const questions = full
+    ? ""
+    : `EXAMINER'S QUESTIONS\n${speakingQuestions(content).map((q, i) => `${i + 1}. ${q}`).join("\n")}\n\n`;
+  return `${opening}
 
 ${SPEAKING_RUBRIC}
 
 overall_band is the mean of the three criteria, rounded down to the nearest half band.
 Write comments in English. List up to 8 corrections of real errors or unnatural phrasing.
 
-EXAMINER'S QUESTIONS
-${speakingQuestions(content).map((q, i) => `${i + 1}. ${q}`).join("\n")}
-
-TRANSCRIPT (speech-to-text, may contain recognition errors)
+${questions}TRANSCRIPT (speech-to-text, may contain recognition errors)
 ${timing}
 """
 ${transcript.trim()}
 """
 
 Return ONLY this JSON object inside a single \`\`\`json code block, with every band filled in and nothing before or after it:
-${gradingJson(attemptId, `speaking_part${content.part}`, ["fluency_coherence", "lexical_resource", "grammar"])}`;
+${gradingJson(attemptId, full ? "speaking_full" : `speaking_part${content.part}`, ["fluency_coherence", "lexical_resource", "grammar"])}`;
 }

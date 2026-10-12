@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { ArrowLeft, Lock, Star } from "lucide-react";
 import { ClaudeGradePanel } from "@/components/results/claude-grade-panel";
 import { GradeDisplay } from "@/components/results/grade-display";
@@ -65,6 +65,8 @@ export default async function ResultsPage({
   const date = typeof query.date === "string" && isIsoDate(query.date) ? query.date : today;
   const set = date === today ? await ensureTodaySet(group.id) : await getSetByDate(group.id, date);
   const testId = set && testIdFor(set, skill);
+  // Speaking is taken in the speaking room, which has a results page of its own.
+  if (skill === "speaking" && !testId) redirect(`/groups/${group.id}/speaking${date === today ? "" : `?date=${date}`}`);
   if (!set || !testId) notFound();
 
   const [test, attempts, members] = await Promise.all([
@@ -76,6 +78,7 @@ export default async function ResultsPage({
 
   const meta = SKILL_META[skill];
   const mine = attempts.find((attempt) => attempt.user_id === profile.id);
+  if (skill === "speaking" && mine?.test_id) redirect(`/groups/${group.id}/speaking${date === today ? "" : `?date=${date}`}`);
   const others = attempts.filter((attempt) => attempt.user_id !== profile.id);
   const closed = Date.parse(set.closes_at) <= new Date().getTime();
   const nameOf = (userId: string) =>

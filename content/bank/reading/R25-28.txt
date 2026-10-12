@@ -1,0 +1,137 @@
+# R25 | Seed banks
+## Insurance for the world's crops
+[A] Deep inside a mountain on the Arctic island of Spitsbergen, eight hundred miles from the North Pole, a tunnel runs for more than a hundred metres through solid rock to three chambers kept at eighteen degrees below zero. On the shelves are sealed foil packets containing more than a million samples of seed, sent by nearly every country on earth. The Svalbard Global Seed Vault, which opened in 2008, has been called a doomsday vault, and it is often imagined as a means of replanting the earth after some global catastrophe. Its real purpose is more modest, and more practical.
+[B] To understand it, one has to begin with the way farming has changed. For most of the ten thousand years since agriculture began, farmers saved their own seed from each harvest, and over generations every valley came to have its own varieties of wheat, rice or beans, adapted to the local soil and weather. In the twentieth century, plant breeders produced new varieties that gave far heavier crops, and farmers across the world adopted them. Yields rose enormously. The cost was uniformity. It has been estimated that three quarters of the genetic variety of crops was lost from farmers' fields during the century, and today a large share of the world's food comes from a handful of closely related strains.
+[C] The danger of this was shown in the United States in 1970, when a fungus destroyed around a seventh of the country's maize in a single season. Almost all the maize being grown shared one inherited feature that happened to make it vulnerable. The remedy was found in older varieties that lacked the weakness. Breeders constantly need such material, to resist a new disease, to tolerate drought or salt, or to ripen in a shorter season. Old varieties and the wild relatives of crops are their library, and once a variety is no longer planted anywhere, the only place it survives is a collection.
+[D] There are about seventeen hundred such collections, or gene banks, around the world. Seeds are dried, sealed and frozen, and in that state most will stay alive for decades. They cannot be stored indefinitely, however. Every so often a sample must be taken out, tested, and if necessary sown, so that fresh seed can be harvested to replace the old. This work is expensive, and many national gene banks are short of money. Freezers break down. Buildings flood. The gene banks of Afghanistan and Iraq were destroyed in war, and that of the Philippines was damaged first by a typhoon and then by fire.
+[E] Svalbard was conceived as a backup for all the others. A gene bank sends duplicates of its seeds, which remain its own property and can be withdrawn only by the bank that deposited them. The Norwegian government paid for the construction and charges nothing for storage. The location was chosen with care. The site is remote yet can be reached by scheduled flights, it lies well above the highest predicted level of the sea, and the surrounding rock is permanently frozen, so that if the cooling machinery failed, the chambers would warm only slowly and would remain below zero for many years.
+[F] The first withdrawal came sooner than anyone had expected. An international centre based near Aleppo in Syria held one of the world's most important collections of wheat, barley and lentils from the region where farming began. As the civil war closed in, the staff managed to send copies of most of the collection to Svalbard before the centre had to be abandoned. In 2015 the organisation asked for its seeds back. They were planted at new sites in Lebanon and Morocco, multiplied, and used to rebuild the working collection, and fresh duplicates have since been returned to the vault.
+[G] The vault has had problems of its own. In the unusually warm winter of 2016, rain fell instead of snow, and meltwater ran into the entrance tunnel and froze there. No seeds were harmed, since the water came nowhere near the chambers, but the incident was an embarrassment for a building designed to last for centuries, and the tunnel has since been rebuilt in waterproof concrete.
+[H] Some specialists warn against placing too much faith in frozen collections. A seed in a freezer does not go on adapting, whereas a crop growing in a field continues to evolve with its pests and its climate. Many important food plants, among them bananas, potatoes and cassava, are not normally grown from seed at all, and have to be kept alive as plants or as tissue in a laboratory. And a packet of seed is of little use without the knowledge of the farmers who grew it. For these reasons, most experts regard gene banks as one half of a strategy. The other half is to support the farmers who still grow traditional varieties, so that diversity is kept alive in the field as well as in the cold.
+== tfng
+1. The main purpose of the Svalbard vault is to replant the earth after a worldwide disaster. => FALSE // A: it is often imagined so, but its real purpose is more modest.
+2. Modern crop varieties produce larger harvests than the traditional ones they replaced. => TRUE // B: new varieties gave far heavier crops and yields rose enormously.
+3. The 1970 maize disease in the United States was eventually overcome using older varieties. => TRUE // C: the remedy was found in older varieties that lacked the weakness.
+4. Frozen seeds can be kept for ever without attention. => FALSE // D: every so often a sample must be tested and resown.
+5. Norway charges gene banks a fee for storing seeds at Svalbard. => FALSE // E: it charges nothing for storage.
+6. The Aleppo centre's staff were all able to leave Syria safely. => NOT GIVEN // F says the centre was abandoned but gives no detail about the staff.
+7. Water entered the vault's seed chambers in 2016. => FALSE // G: the water came nowhere near the chambers.
+== match:information
+8. examples of crops that cannot be preserved simply by freezing seed => H // Bananas, potatoes and cassava are not normally grown from seed.
+9. a list of the natural advantages of the vault's position => E // Remote but reachable, above sea level, in permanently frozen rock.
+10. a mention of gene banks that were lost through armed conflict => D // The gene banks of Afghanistan and Iraq were destroyed in war.
+== fill:summary | 1W
+Why diversity matters
+In the past, each area had its own crop varieties, suited to the local soil and {{11=weather}}. During the twentieth century these were widely replaced, and the result was {{12=uniformity}}. Plant breeders rely on old varieties when they need to give a crop resistance to a new {{13=disease}}, for instance.
+
+# R26 | Roman roads
+## The roads that outlasted an empire
+[A] At the height of its power, in the second century AD, the Roman Empire was held together by something like eighty thousand kilometres of paved highway, with several times that length of lesser roads branching from it. The network ran from the north of Britain to the edge of the Sahara and from the Atlantic to the river Euphrates. No state would build anything comparable until the nineteenth century. Many modern European roads still follow Roman lines, and in a few places the original paving remains in use.
+[B] The first great road, the Via Appia, was begun in 312 BC to link Rome with the south of Italy, and its purpose was plainly military. A legion marching on a paved road could cover thirty kilometres a day in any weather, with its baggage, and arrive in a condition to fight. As Rome's territory expanded, roads followed the armies, and in many provinces they were built by the soldiers themselves, partly, it was said, to keep them out of mischief in peacetime.
+[C] Roman roads are famous for running straight, and the reputation is deserved, though it needs some qualification. The surveyors laid out a route as a series of straight sections between points that could be seen from one another, such as hilltops, and changed direction where one section met the next. They worked with a simple sighting instrument, a cross of wood from which weighted strings were hung, and with signal fires for long distances. Where the land was level, a road might not bend for fifty kilometres. In mountains, engineers were perfectly willing to follow the shape of the ground.
+[D] The method of construction varied with the materials to hand, but the principle was constant. A trench was dug down to firm ground and filled in layers. Large stones went in at the bottom, then smaller stones or rubble, often bound with lime, then gravel, and on the most important roads a surface of fitted stone blocks. The finished road was higher in the middle than at the edges, so that rain ran off into ditches at either side. It was this attention to drainage, above all, that made the roads last. Water lying in a road freezes, expands and breaks it apart, and Roman engineers understood that a dry road is a durable one.
+[E] Along the main highways the state maintained a service that had no equal until modern times. Stations where fresh horses were kept stood every fifteen kilometres or so, with larger rest houses offering beds and food at intervals of a day's journey. The system existed for official business, and a courier carrying government dispatches could change horses repeatedly and cover eighty kilometres in a day, far more in an emergency. Private travellers needed a permit to use it, although such permits were frequently obtained by influence or forged. Stone pillars at every mile recorded the distance to the nearest town and the name of the emperor who had built or repaired the road.
+[F] Whatever their original purpose, the roads quickly acquired others. Merchants used them, though for heavy goods transport by water remained far cheaper, and it has been calculated that carrying grain a hundred kilometres overland could double its price. Ideas travelled more easily than cargo. Latin spread along the roads, as did Roman law, fashions in building, and in time the Christian religion, whose early missionaries moved from city to city on the imperial highways. The same roads carried disease. Epidemics that began in one province reached others with a speed that had not been possible before.
+[G] Recent research suggests that the influence of the network did not end with the empire. A team of economists compared a map of Roman roads with satellite photographs of Europe at night, in which the intensity of light is a rough guide to economic activity. Areas that had been well served by roads two thousand years ago were, on average, more prosperous today. The researchers argue that towns grew up at junctions and river crossings, that later roads and railways were laid along the same routes, and that an early advantage was thus handed down. Significantly, they found no such pattern in North Africa and the Middle East. There, wheeled vehicles were largely abandoned in favour of camels after the empire's fall, the old roads were no longer maintained, and the link between ancient roads and modern prosperity disappears.
+[H] It is tempting to see the roads simply as a triumph of engineering. They were also an expression of power, built with the labour of conquered peoples and designed to let an army reach any rebellious province quickly. An ancient historian put a bitter remark about Roman rule into the mouth of a British chieftain, to the effect that the conquerors created a desert and called it peace. The roads remind us that the same structure can be at once an instrument of control and a gift to later generations.
+== match:headings | The passage has eight paragraphs, A-H. Choose the correct heading for paragraphs B-G from the list of headings below.
+i. A long-lasting effect on wealth
+ii. The layers that kept a road dry
+iii. How routes were set out
+iv. The cost of repairing the network
+v. An official system of rapid travel
+vi. Uses beyond those first intended
+vii. Built for the movement of troops
+viii. The decline of the roads in Italy
+1. Paragraph B => vii // The Via Appia's purpose was plainly military.
+2. Paragraph C => iii // Surveyors laid out straight sections between visible points.
+3. Paragraph D => ii // Layers of stone and a raised centre for drainage.
+4. Paragraph E => v // Stations with fresh horses for official couriers.
+5. Paragraph F => vi // Trade, language, law, religion and disease.
+6. Paragraph G => i // Areas with Roman roads are more prosperous today.
+== tfng
+7. Some sections of Roman road are still used today. => TRUE // A: in a few places the original paving remains in use.
+8. Roman roads were perfectly straight even in mountainous country. => FALSE // C: in mountains, engineers followed the shape of the ground.
+9. Ordinary travellers could freely use the official stations. => FALSE // E: private travellers needed a permit.
+10. Roman milestones were usually made of marble. => NOT GIVEN // E mentions stone pillars but not the type of stone.
+== fill:sentence | 1W
+11. Moving heavy goods was much cheaper by {{11=water}} than by road.
+12. The economists used night-time photographs in which {{12=light}} indicates economic activity.
+13. In North Africa and the Middle East, wheeled transport gave way to {{13=camels}}.
+
+# R27 | Noise in the ocean
+## The sea is no longer silent
+[A] The French explorer Jacques Cousteau called his famous film about the ocean The Silent World. The title could hardly have been less accurate. Water carries sound far better than air, and the sea has always been full of it, from the crack of breaking ice and the rumble of earthquakes to the calls of whales and the snapping of shrimps. What has changed in the last hundred years is the addition of a new layer of sound made by people. In parts of the ocean, the background level of noise has doubled in every decade since the 1960s, and biologists are increasingly concerned about what this means for the animals that live there.
+[B] To see why noise matters so much under water, one has to appreciate how limited the other senses are. Light fades quickly with depth, and even in clear water an animal can rarely see more than a few tens of metres. Smell disperses slowly. Sound, by contrast, travels almost five times faster in water than in air and can cross entire ocean basins. Many marine animals therefore rely on hearing as land animals rely on sight. Fish grunt and drum to attract mates. Dolphins find their prey by producing clicks and listening for the echoes. The low calls of blue and fin whales could once be heard by others of their species across hundreds, perhaps thousands, of kilometres.
+[C] The largest source of human noise is shipping. The world's fleet of merchant vessels has grown more than fourfold since 1950, and the main sound a ship makes comes not from its engine but from its propeller. As the blades turn, they create bubbles that collapse with a continuous low roar. This noise is concentrated at exactly the frequencies used by the great whales. It has been estimated that the distance over which a whale's call can be heard has shrunk by nine tenths in some regions. Animals that once kept in contact across an ocean may now be unable to find one another across a bay.
+[D] Other sources are more intense but less constant. Ships searching for oil and gas beneath the sea bed tow arrays of air guns that release blasts of compressed air every ten seconds or so, for weeks on end. These are among the loudest sounds people produce. The driving of steel piles into the sea bed for wind farms and harbours makes a similar noise, and naval sonar has been linked on several occasions with groups of whales swimming onto beaches.
+[E] Evidence of harm has been accumulating. Whales have been observed to stop feeding, change their routes and raise the volume of their calls when ships are near. An accidental experiment was provided by the days after 11 September 2001, when shipping off the east coast of North America was sharply reduced. Scientists who happened to be collecting the droppings of right whales in a Canadian bay found that the level of stress hormones in the samples had fallen markedly, and it rose again when traffic returned. Effects are not confined to large animals. Young fish searching for a reef on which to settle are guided by its sound, and in noisy water fewer of them arrive. Even shellfish and squid have been found to be injured by loud sound.
+[F] There is, however, one encouraging feature of noise that sets it apart from most forms of pollution. Plastic and chemical waste remain in the sea for decades or centuries. Noise stops the moment its source is switched off, and it leaves nothing behind. This means that action has an immediate result.
+[G] Much could be done at modest cost. Because the noise of a propeller rises steeply with speed, a ship that slows by a fifth can cut the sound it makes by more than half, and it burns less fuel as well. A trial in the waters off Vancouver, in which ships were asked to slow down while passing through an area used by killer whales, showed that most captains were willing to comply. Propellers can be redesigned so that fewer bubbles form. Around construction sites, a hose laid on the sea bed can release a rising curtain of air bubbles, which absorbs much of the sound of pile-driving before it spreads.
+[H] The obstacle is the lack of rules. Shipping is regulated by an international body which has issued guidelines on quieter ship design, but they are voluntary, and few owners have followed them. Scientists who study the problem argue that noise should be treated like any other pollutant, with limits that can be enforced. They point out that when the world's shipping slowed during the pandemic of 2020, the oceans grew measurably quieter within weeks. It was a glimpse of what the sea used to sound like, and of how quickly it could be restored.
+== ynng
+1. The title of Cousteau's film gives a true impression of the ocean. => NO // A: the title could hardly have been less accurate.
+2. Hearing is as important to many sea animals as sight is to animals on land. => YES // B: many marine animals rely on hearing as land animals rely on sight.
+3. The engine is the main source of the noise a ship makes. => NO // C: it comes not from its engine but from its propeller.
+4. Naval sonar is more harmful to whales than the noise of shipping. => NOT GIVEN // D links sonar with strandings but does not compare the harm.
+5. Noise is easier to deal with than other kinds of marine pollution. => YES // F: noise stops the moment its source is switched off; action has an immediate result.
+6. Voluntary guidelines have been effective in making ships quieter. => NO // H: they are voluntary and few owners have followed them.
+== mc
+7. What did scientists learn from the whale samples collected after 11 September 2001?
+A. The whales had moved to a different bay.
+B. The whales were less stressed when there was less shipping.
+C. The whales called more loudly than before.
+D. The whales ate less while ships were absent.
+=> B // E: stress hormone levels fell markedly and rose again when traffic returned.
+8. According to paragraph E, noise affects young fish by
+A. damaging their hearing permanently.
+B. slowing their growth.
+C. making it harder for them to locate a reef.
+D. driving them into deeper water.
+=> C // They are guided by the reef's sound, and in noisy water fewer arrive.
+9. What is one advantage of ships travelling more slowly, apart from reduced noise?
+A. They use less fuel.
+B. They are less likely to strike whales.
+C. They need smaller crews.
+D. They can carry more cargo.
+=> A // G: it burns less fuel as well.
+10. A curtain of air bubbles is used to
+A. keep fish away from propellers.
+B. make ships move more quietly.
+C. show whales where a ship is.
+D. reduce the spread of noise from construction.
+=> D // G: it absorbs much of the sound of pile-driving.
+== fill:summary | 1W
+Sources of noise
+The main noise from a ship is caused by bubbles which form on the propeller and then {{11=collapse}}. In the search for oil and gas, air {{12=guns}} are fired every few seconds. A comparable sound is made when steel {{13=piles}} are driven into the sea bed.
+
+# R28 | Music and the brain
+## Why music moves us
+[A] Every human society that has ever been studied has music. People sing to their babies, at their weddings and at their funerals, and they do so in cultures that have had no contact with one another. Flutes carved from the bones of birds and from mammoth ivory, found in caves in southern Germany, are more than forty thousand years old. Yet music has no obvious use. It does not feed or shelter anyone. Charles Darwin called the human capacity for it one of the most mysterious with which our species is endowed, and scientists have been arguing about its origin ever since.
+[B] One camp holds that music is an accident. The best-known statement of this position came from the psychologist Steven Pinker, who compared music to cheesecake. We did not evolve to enjoy cheesecake. We evolved to seek out fat and sugar, which were scarce and valuable to our ancestors, and cheesecake happens to deliver both in a concentrated form. In the same way, on this view, music exploits mental abilities that evolved for other purposes, above all for language, and gives us pleasure without doing us any good.
+[C] Others think music is too ancient, too universal and too costly in time and effort to be a mere by-product. Darwin himself proposed that it began as a means of attracting a mate, as birdsong does. A more widely supported suggestion today is that it binds groups together. When people sing or move in time with one another, experiments show, they afterwards feel closer, cooperate more readily and tolerate more pain, a sign that the brain's natural painkillers have been released. For our ancestors, living in bands that depended on cooperation, such an effect could have meant the difference between survival and failure. A further proposal looks to the nursery. Mothers in all cultures sing to infants in a recognisable style, slow and high and repetitive, and the practice may have begun as a way of calming a child that had to be put down while the mother worked.
+[D] The study of the brain has not settled the argument, but it has shown how deeply music reaches. Listening to a piece we love activates the same reward system that responds to food and other pleasures. Using scanners, researchers in Montreal found that the chemical dopamine is released at the emotional high point of a piece, and also, in a different part of the brain, during the seconds leading up to it. Much of the pleasure of music, it seems, lies in anticipation. Composers build expectations and then delay, confirm or defeat them, and a listener's brain is constantly making predictions about what will come next.
+[E] Music also has an unusual relationship with memory. Most people can recall the words of songs they learned as children far more accurately than anything they were taught in a classroom, and a few notes of a tune can bring back a scene from decades earlier with startling vividness. This persists even when other memories fail. Patients with advanced dementia who no longer recognise their own families will often sing along to the songs of their youth, and become calmer and more responsive while they do. The regions of the brain that store familiar music appear to be among the last to be damaged by the disease.
+[F] These findings have encouraged the use of music in medicine. People who have lost the power of speech after a stroke can sometimes still sing, because song and speech are handled partly by different areas of the brain, and a therapy based on singing phrases has helped some of them to talk again. Patients with Parkinson's disease, who have difficulty beginning a movement, often walk more steadily to a strong beat.
+[G] Rather less well founded is the belief that music makes people more intelligent. A small experiment in 1993 reported that students performed slightly better on one kind of puzzle after listening to Mozart for ten minutes. The effect lasted about a quarter of an hour. It was nonetheless reported around the world, and one American state began giving a recording of classical music to every newborn child. Later work showed that the improvement came from being in a good mood, and that a lively story read aloud did just as well.
+[H] The claim that learning an instrument sharpens the mind is harder to dismiss, but it faces the difficulty that children who take lessons differ from those who do not in many ways, including the income and education of their parents. In the few studies that assigned children to music lessons at random, the gains in other subjects were small. The best reason to learn an instrument may simply be the one that needs no experiment to support it, which is that making music is one of the oldest pleasures we have.
+== tfng
+1. Music has been found in every culture that researchers have examined. => TRUE // A: every human society that has ever been studied has music.
+2. The oldest known musical instruments were made of wood. => FALSE // A: flutes carved from bird bones and mammoth ivory.
+3. Darwin believed that music originated as a way of attracting a partner. => TRUE // C: he proposed that it began as a means of attracting a mate.
+4. The Montreal researchers found that dopamine is released only at the climax of a piece. => FALSE // D: also during the seconds leading up to it.
+5. Patients with dementia prefer classical music to popular songs. => NOT GIVEN // E mentions the songs of their youth but makes no such comparison.
+6. Some people who cannot speak after a stroke are still able to sing. => TRUE // F: they can sometimes still sing.
+== match:features | Match each idea with the person or group who put it forward, A-E.
+A. Steven Pinker
+B. Charles Darwin
+C. supporters of the group-bonding theory
+D. supporters of the theory based on mothers and infants
+E. the Montreal researchers
+7. Music is a side effect of abilities that developed for other reasons. => A // B: music exploits mental abilities that evolved for other purposes.
+8. Music developed from a way of soothing a child. => D // C: a way of calming a child that had to be put down.
+9. Making music together increases trust and willingness to cooperate. => C // C: people feel closer and cooperate more readily.
+10. The enjoyment of music depends partly on expecting what is about to happen. => E // D: much of the pleasure lies in anticipation.
+== fill:summary | 1W
+Music and intelligence
+A 1993 study found a small, brief improvement in students' performance on a {{11=puzzle}} after they had listened to Mozart. Later research showed that the cause was a good {{12=mood}}. Studies of music lessons are hard to interpret because children who have lessons differ in the {{13=income}} and education of their parents.

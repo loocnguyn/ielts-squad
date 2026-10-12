@@ -1,0 +1,366 @@
+# L45 | Outdoor centre booking and student accommodation
+## 1 | You will hear a teacher phoning an outdoor activity centre to book a trip for her students.
+@A Manager male_uk
+@B Teacher female_us
+A: Good morning, Ravenscar Outdoor Centre. Hugh speaking.
+B: Hi. I teach at Dalton High School, and I'd like to bring a group of students for a few days of activities.
+A: We'd be glad to have you. How many students, and how old?
+B: Twenty-four, all aged fourteen and fifteen. And three teachers.
+A: Twenty-four is a good number. We split groups into teams of eight for most activities. When were you hoping to come?
+B: The week beginning the twelfth of May, if you have room. We'd planned on five days.
+A: Let me look. That week, we have another school in from Monday to Wednesday, and we can't take both. I could offer you Wednesday afternoon to Friday.
+B: So three days and two nights. That might actually suit our budget better. What would that cost?
+A: For two nights, with all meals and activities, it's a hundred and thirty-five pounds per student. Staff come free.
+B: A hundred and thirty-five. I'd budgeted for a hundred and sixty, so that's good news. What activities would they do?
+A: In three days, we'd normally fit in four. Kayaking on the lake, rock climbing, a navigation exercise on the moor, and on the last morning, a raft-building challenge, which is always the favourite.
+B: Not all of them can swim. Is that a problem for the kayaking?
+A: Not at all. Everyone wears a buoyancy aid, and the lake is shallow at the edge where beginners stay. We just need to know who the non-swimmers are.
+B: I'll put it on the forms. Where do they sleep?
+A: In dormitories of six, with separate buildings for boys and girls. Staff have single rooms.
+B: And do they need to bring sleeping bags?
+A: No, bedding is supplied. What they must bring is a towel, and two pairs of shoes, one of which will get soaked. We lend waterproof jackets and trousers, and all the safety equipment.
+B: Great. Some parents will ask about phones.
+A: Our policy is that phones are collected on arrival and returned at the end. Parents are given an emergency number. Schools tell us it's what the students remember most fondly, oddly enough.
+B: I can imagine. What do you need from us in advance?
+A: A medical form for each student, signed by a parent, at least two weeks beforehand. And a list of any special diets.
+B: Two weeks. And the deposit?
+A: Twenty per cent when you book, and the rest a month before you arrive.
+B: Fine. I'll need to confirm with the head teacher. Can you hold the dates?
+A: I can hold them for seven days. Who shall I say?
+B: Laura Pennick. P, E, double N, I, C, K.
+== fill:form | 1WN
+Ravenscar Outdoor Centre: school booking
+Number of students: {{1=24|twenty-four}}
+Team size for activities: {{2=8|eight}}
+Stay: Wednesday to Friday ({{3=2|two}} nights)
+Cost per student: £{{4=135|a hundred and thirty-five|one hundred and thirty-five}}
+Final activity: building a {{5=raft}}
+Sleeping arrangements: dormitories of {{6=6|six}}
+Students must bring: a {{7=towel}} and two pairs of shoes
+Medical forms needed {{8=2|two}} weeks before the visit
+Deposit: {{9=20|twenty}} per cent
+Teacher's surname: {{10=Pennick}}
+## 2 | You will hear an accommodation officer talking to new students about living in university halls.
+@C Officer female_uk
+C: Hello, everyone, and welcome to Stanton University. I'm Hilary, from the accommodation office. I know you've had a long day, so I'll be brief.
+C: There are nine halls of residence, and eighty per cent of first-year students live in one. People often believe the newest halls are the most popular. In our surveys, the highest satisfaction is in the two oldest, Carver and Wells, even though the rooms are smaller. The reason seems to be the shared dining rooms, where everyone eats together and gets to know each other.
+C: Your room key is the card you were given at reception. It also opens the main door and the laundry. If you lose it, the first replacement is free. After that, there's a charge of fifteen pounds.
+C: Each of you shares a kitchen with seven other people. In my experience, more arguments start over washing up than over anything else. So please agree a rota in the first week, and stick to it. The cleaners come on Tuesdays and Fridays, but they clean floors and surfaces only. They won't wash your dishes.
+C: Every hall has a team of senior students, called wardens, who live in the building. They're your first contact if you're locked out, if something's broken, or if you simply feel homesick. One of them is on duty all night, and the number is on the back of your door.
+C: Now, noise. Quiet hours run from eleven at night until seven in the morning. During exam periods, they start at nine.
+C: Guests are welcome. A friend can stay for up to three nights in a row. Please sign them in on the website. That isn't to check up on you. If there's a fire, we must know who's in the building.
+C: On that subject, the fire alarm is tested every Wednesday at ten in the morning. It lasts ten seconds. If it sounds at any other time, or for longer, leave at once. And please don't cover the smoke detector in your room. Every year, someone does, and the fine is two hundred pounds.
+C: Your rent includes heating, electricity and internet. It doesn't include insurance for your possessions, so I'd advise you to arrange that, particularly for laptops and bicycles.
+C: If you'd like to change rooms, you can apply from week four. We don't allow it earlier, because most problems settle down once people have got to know one another.
+C: Finally, the accommodation office is in the Hartley Building, and we're open from nine to five. Come and see us.
+== mc
+11. According to surveys, students are most satisfied in halls which have
+A. the most modern rooms.
+B. shared dining rooms.
+C. the lowest rents.
+=> B // The two oldest halls score highest because everyone eats together.
+12. What causes the most arguments in shared kitchens?
+A. noise
+B. missing food
+C. washing up
+=> C // More arguments start over washing up than over anything else.
+13. What does the officer say about wardens?
+A. They are students who live in the hall.
+B. They are employed to clean the kitchens.
+C. They are only available in the daytime.
+=> A // They are senior students living in the building, and one is on duty all night.
+14. Why must overnight guests be signed in?
+A. so that the hall can charge for them
+B. for reasons of safety
+C. to prevent them staying too long
+=> B // If there is a fire, staff must know who is in the building.
+15. Students who want to change rooms must wait until
+A. week four.
+B. the end of the first term.
+C. after the exams.
+=> A // Most problems settle once people know one another.
+== fill:note | 1WN
+Living in halls
+- second replacement key card: £{{16=15|fifteen}}
+- cleaners come on Tuesdays and {{17=Fridays|Friday}}
+- quiet hours begin at {{18=11|eleven}} at night
+- fire alarm test: every {{19=Wednesday}} at 10 am
+- rent does not cover {{20=insurance}}
+
+# L46 | Online reviews dissertation and the history of paper
+## 3 | You will hear a marketing student called Ines talking to her supervisor about her dissertation on online reviews.
+@A Supervisor male_uk
+@B Ines female_us
+A: Ines, come in. I've read your draft chapter on online reviews. How do you think it's going?
+B: The reading has gone well. It's the survey I'm nervous about. I've never designed one.
+A: We'll come to that. First, your research question. You ask whether customer reviews influence what people buy. I think we know the answer to that already.
+B: It's too obvious?
+A: A little. Every study says yes. What's less clear is which reviews people trust. That would be a sharper question.
+B: Actually, that's where my reading was heading. There's a finding I found fascinating. Products with a perfect score of five stars sell less well than products with around four and a half.
+A: Why do you think that is?
+B: People seem to feel that a perfect score is too good to be true. A few complaints make the rest believable.
+A: So a small number of negative reviews can help a seller. That's worth building on. What else did you find?
+B: That the number of reviews matters, up to a point. Shoppers trust a product with fifty reviews much more than one with five. But beyond a few hundred, more makes no difference.
+A: And the content?
+B: Long reviews are trusted more than short ones. And reviews that mention a specific detail, how the buyer used the product, for instance, are trusted most.
+A: Good. Now, your method. You propose sending a questionnaire asking people how they use reviews.
+B: Yes. Is that a problem?
+A: People are poor at describing their own behaviour. They'll tell you they read reviews carefully, and in practice they glance at the stars. I'd suggest an experiment in place of the questionnaire.
+B: What kind?
+A: Create two versions of a web page for the same product. Identical in every way, but one has only glowing reviews, and the other includes a couple of mild complaints. Show each to a different group, and ask how likely they are to buy.
+B: That's much better. Could I do it with a product that doesn't exist? Then nobody would have an opinion already.
+A: That's exactly what I'd do. An invented brand of headphones, say.
+B: How many people would I need?
+A: At least eighty in each group. Don't just use your friends. The university has a panel of volunteers who take part in research, and they're a wider range of ages.
+B: I didn't know that. How do I reach them?
+A: Through the research office. You'll need ethics approval first, which takes about three weeks.
+B: Then I should apply this week.
+A: Do. And rewrite your first chapter around the new question. I'd like to see it by the end of the month.
+== mc
+1. The supervisor thinks Ines's research question is
+A. too difficult to answer.
+B. too obvious.
+C. too broad.
+=> B // Every study already says that reviews influence buying.
+2. Products with a perfect rating sell less well because customers
+A. do not notice them.
+B. assume they are expensive.
+C. find the rating hard to believe.
+=> C // A perfect score seems too good to be true.
+3. What did Ines learn about the number of reviews?
+A. Above a certain number, more reviews have no extra effect.
+B. The more reviews there are, the better.
+C. The number of reviews has no influence.
+=> A // Fifty are trusted far more than five, but beyond a few hundred it makes no difference.
+4. The supervisor advises against a questionnaire because people
+A. rarely return questionnaires.
+B. give short answers.
+C. do not report their behaviour accurately.
+=> C // They say they read carefully but in practice glance at the stars.
+5. Why will Ines use an invented product?
+A. Participants will have no existing views about it.
+B. It avoids legal problems.
+C. It is cheaper than buying a real one.
+=> A // Nobody would have an opinion already.
+== fill:sentence | 2WN
+6. The reviews trusted most are those that give a specific {{6=detail}}.
+7. The invented product will be a pair of {{7=headphones}}.
+8. Each group in the experiment should contain at least {{8=80|eighty}} people.
+9. Volunteers can be contacted through the {{9=research office}}.
+10. Ethics approval takes about {{10=3 weeks|three weeks}}.
+## 4 | You will hear part of a lecture about the history of paper.
+@C Lecturer female_uk
+C: We're often told that we live in a paperless age, and yet the world uses more paper today than at any time in history. This morning I'd like to follow the story of this very ordinary, very remarkable material.
+C: Before paper, people wrote on whatever was available. In Egypt, it was papyrus, made from a reed that grew along the Nile. In Europe, it was parchment, made from the skins of sheep and calves. A single large Bible might require the skins of two hundred animals, which tells you why books were so rare.
+C: Paper was invented in China. The traditional date is the year one hundred and five, and the credit goes to an official at the imperial court named Cai Lun, although examples have been found that are two centuries older. Early Chinese paper was made from old rags, fishing nets and the bark of the mulberry tree, all beaten to a pulp in water. A fine screen was dipped into the pulp, and the thin layer of fibres left on it dried into a sheet.
+C: Its first uses weren't for writing at all. It was used for wrapping and for padding, to protect delicate objects such as bronze mirrors.
+C: The secret stayed in East Asia for six hundred years. According to tradition, it travelled west after a battle in seven fifty-one, in central Asia, when Chinese paper makers were taken prisoner. Within decades, there was a paper mill in Baghdad. And paper transformed the Islamic world. It was far cheaper than parchment, and there was a further advantage that rulers appreciated. Ink soaks into paper, so a document couldn't be altered without leaving a trace. That made paper ideal for official records.
+C: Paper reached Spain in the eleventh century and spread slowly north. Europeans improved the process by using water wheels to drive the hammers that beat the rags.
+C: Then, around fourteen fifty, came the printing press, and demand exploded. For three hundred years, the limit on paper making was the supply of rags. There are accounts of rags being so scarce in England that a law required the dead to be buried in wool, in order to save linen for the mills.
+C: The answer came from watching insects. A French scientist noticed that wasps build their nests by chewing wood into a kind of paper. It took another century to turn that idea into an industrial process, but by the eighteen fifties, paper was being made from wood pulp. It became cheap, and with cheap paper came the mass newspaper and the paperback book.
+C: There was a cost. Wood-pulp paper is acidic, and it slowly destroys itself. Libraries are full of books from that period that are crumbling to dust.
+== fill:note | 1W
+The history of paper
+Before paper
+- Egypt: papyrus, made from a {{11=reed}}
+- Europe: parchment, made from animal {{12=skins}}
+China
+- early paper was made from rags, nets and tree {{13=bark}}
+- sheets were formed on a fine {{14=screen}}
+- first used for {{15=wrapping}} and padding
+The Islamic world
+- paper was suited to official {{16=records}} because changes could be detected
+Europe
+- {{17=water}} wheels were used to power the hammers
+- after printing began, {{18=rags}} were in short supply
+- the idea of using wood came from observing {{19=wasps}}
+A disadvantage
+- paper made from wood pulp is {{20=acidic}}
+
+# L47 | Registering a puppy at a vet's and a chocolate factory tour
+## 1 | You will hear a man phoning a veterinary surgery to register a new puppy.
+@A Receptionist female_uk
+@B Owner male_uk
+A: Good morning, Parkside Vets. Emma speaking.
+B: Hello. We've just got a puppy, and I'd like to register her with you and find out what she needs.
+A: Congratulations. I'll take some details. What's your surname, please?
+B: Holloway. H, O, double L, O, W, A, Y.
+A: And the puppy's name?
+B: She's called Pepper.
+A: Lovely. What breed is she?
+B: She's a border terrier.
+A: And how old?
+B: She was born on the third of January, so she's ten weeks now. We collected her on Saturday.
+A: Ten weeks. Has she had any vaccinations yet?
+B: The breeder gave us a card. It says she had her first injection at eight weeks.
+A: Good. Then she's due for the second in two weeks' time. Until a week after that, she shouldn't walk in parks or on pavements where other dogs have been. Your own garden is fine.
+B: That's a long time to keep her in.
+A: You can carry her around, so she gets used to traffic and people. She just mustn't be on the ground. Has she been microchipped?
+B: Yes, the breeder did that. But the chip is still registered in his name.
+A: You'll need to change that. It's done online, and there's a small fee. The law requires the details to be up to date.
+B: I'll do it tonight. What about worms and fleas?
+A: Puppies should be treated for worms every month until they're six months old. We'll weigh her at each visit and give you the right dose. How's she eating?
+B: Very well. The breeder gave us a bag of the food she's used to.
+A: Keep her on that for now. If you'd like to change it, do it gradually, over about a week, or she'll have an upset stomach. How many meals does she have?
+B: Four a day at the moment.
+A: That's right for her age. You can drop to three at around twelve weeks.
+B: OK. When can we bring her in?
+A: The vet likes to see every new puppy for a health check, and it's free. I've got Thursday at ten past four, or Friday at nine.
+B: Thursday's better. My wife would like to come, and she works on Friday mornings.
+A: Thursday at ten past four, with Mister Baines. Please bring the vaccination card.
+B: Will do. One other thing. A neighbour mentioned puppy classes.
+A: We run them here on Wednesday evenings, at seven. They can join after the second vaccination. It's four sessions for thirty pounds, and it's mostly about getting used to other dogs.
+B: Put us down for that as well.
+A: I'll add you to the list for the course starting in April.
+== fill:form | 1WN
+Parkside Vets: new patient
+Owner's surname: {{1=Holloway}}
+Puppy's name: {{2=Pepper}}
+Breed: border {{3=terrier}}
+Age: {{4=10|ten}} weeks
+Second vaccination due in {{5=2|two}} weeks
+Until then, she may go outside only in the {{6=garden}}
+Worm treatment: every {{7=month}} until six months old
+Meals per day at present: {{8=4|four}}
+Health check: Thursday at 4.10; bring the vaccination {{9=card}}
+Puppy classes: four sessions for £{{10=30|thirty}}
+## 2 | You will hear a guide starting a tour of a chocolate factory.
+@C Guide male_us
+C: Good afternoon, and welcome to the Hadley Chocolate Works. I'm Marco, and I've been making chocolate here for eleven years. The tour lasts about an hour, and yes, there is tasting at the end.
+C: Before we go in, I must ask you to put on a hairnet and a white coat. You'll also need to remove any jewellery from your hands and wrists. That isn't about safety around the machines. It's about hygiene. A lost ring in a batch means throwing away half a tonne of chocolate.
+C: A little history. The company was started in nineteen twenty-three by two brothers who'd been selling cocoa as a drink. During the war, when sugar was rationed, the factory almost closed, and it survived by making soap. We don't mention that on the wrappers.
+C: Now, where does chocolate come from? It begins as the seed of a tree that only grows within twenty degrees of the equator. Ours come from Ghana and Ecuador. Inside each fruit, or pod, there are about forty beans, and it takes the beans from a whole pod to make one of our small bars.
+C: At the farm, the beans are fermented for six days under banana leaves. It's this stage that creates the flavour. A raw bean tastes bitter and nothing like chocolate. They're then dried in the sun and shipped to us in sacks.
+C: Here's what you'll see inside. First, the beans are roasted, for about half an hour. You'll notice the smell before you see anything.
+C: Next, a machine cracks the beans and blows away the shells. What's left are small pieces called nibs. The shells don't go to waste. We sell them to garden centres, where they're used on flower beds.
+C: The nibs are ground between heavy rollers until they turn into a thick liquid. At this point, we add sugar, and milk powder for milk chocolate.
+C: Then comes a stage called conching, and it's the one that separates good chocolate from ordinary. The mixture is stirred continuously for up to three days. That makes it smooth and removes any sour taste.
+C: After that, the chocolate is cooled and warmed again very precisely. Without that step, the bar would be dull and crumbly. Done properly, it's shiny, and it breaks with a clean snap.
+C: Finally, it's poured into moulds, shaken to remove bubbles, cooled, and wrapped.
+C: Two requests. Please stay behind the blue line on the floor. And photographs are fine everywhere apart from the moulding room, where the shapes for next season are still secret.
+== mc
+11. Visitors must take off rings and watches for reasons of
+A. hygiene.
+B. security.
+C. their own safety.
+=> A // A lost ring means throwing away half a tonne of chocolate.
+12. How did the factory survive during the war?
+A. by exporting cocoa
+B. by making a different product
+C. by using less sugar
+=> B // It made soap when sugar was rationed.
+13. What gives chocolate its flavour, according to the guide?
+A. roasting the beans
+B. drying the beans in the sun
+C. fermenting the beans
+=> C // The six days of fermentation create the flavour; a raw bean tastes bitter.
+14. What happens to the shells of the beans?
+A. They are burned as fuel.
+B. They are sold for use in gardens.
+C. They are returned to the farms.
+=> B // They are sold to garden centres for flower beds.
+15. Photographs are not allowed in the moulding room because
+A. new designs are being kept secret.
+B. the flash affects the chocolate.
+C. the room is too crowded.
+=> A // The shapes for next season are still secret.
+== fill:flow_chart | 1W
+Making chocolate at the factory
+The beans are {{16=roasted}} for about half an hour
+↓
+A machine removes the shells, leaving pieces called {{17=nibs}}
+↓
+The pieces are ground into a thick {{18=liquid}}, and sugar is added
+↓
+Conching: the mixture is stirred for up to three {{19=days}}
+↓
+The chocolate is cooled and warmed again so that it is shiny
+↓
+It is poured into {{20=moulds|molds}}, cooled and wrapped
+
+# L48 | Pedestrian street proposal and plastic in the ocean
+## 3 | You will hear two urban planning students, Sofia and Harry, discussing a proposal to close a shopping street to traffic.
+@A Sofia female_us
+@B Harry male_uk
+A: Harry, I've been looking at the council's proposal to close Castle Street to cars. Have you decided what line our report should take?
+B: I started out against it, to be honest. My uncle has a shop there, and he's convinced it would ruin him.
+A: That's what shopkeepers nearly always say. I've been reading the evidence from other towns. In almost every case, takings went up after traffic was removed, not down.
+B: By how much?
+A: It varies. A study of a hundred streets in Europe found an average rise of around a quarter. But there's usually a difficult first year, while people change their habits.
+B: My uncle's argument is that his customers come by car.
+A: That's the interesting part. Shopkeepers consistently overestimate that. In one survey in Bristol, owners guessed that forty per cent of their customers arrived by car. When the customers were actually counted, it was twenty-two.
+B: That's a big gap. Has anyone counted on Castle Street?
+A: Not yet. I think we should. An afternoon each, asking people how they got there.
+B: I'm happy to do that. It would give us something original. What about deliveries? Lorries need to reach the shops.
+A: Most schemes allow them in before ten in the morning. Then the street is closed until evening.
+B: And disabled drivers?
+A: That's a real weakness in the council's plan. The nearest parking would be three hundred metres away, which is too far for many people. We should recommend some reserved spaces at each end.
+B: Agreed. What about the buses? Three routes use that street.
+A: They'd be moved to Queen's Road, one block north. The stops would be about two minutes further away on foot.
+B: That's acceptable. I'm coming round to the idea, I admit. But the proposal's vague about what replaces the traffic. An empty street isn't attractive.
+A: No. The successful schemes add things. Trees, benches, a place for a market.
+B: And somebody has to pay for all that.
+A: The council's budgeted for new paving, but nothing else. We could propose that the shops contribute through a small annual fee, as they do in Norwich.
+B: My uncle won't like that either.
+A: If his takings rise by a quarter, he might. So, shall we support the scheme, with conditions?
+B: Yes. Support, with three conditions. The parking for disabled drivers, proper seating and trees, and a review after twelve months.
+A: Good. I'll write up the evidence from other towns.
+B: And I'll organise the count. Saturday is the busiest day, so let's do it then.
+== mc
+1. What was Harry's opinion of the proposal at first?
+A. He supported it.
+B. He had no view.
+C. He opposed it.
+=> C // He started out against it because of his uncle's shop.
+2. Research in other towns shows that after traffic is removed, shops' takings usually
+A. rise.
+B. fall.
+C. stay the same.
+=> A // In almost every case they went up, by around a quarter on average.
+3. What did the Bristol survey show about shop owners?
+A. They did not want to take part.
+B. They thought more customers came by car than really did.
+C. They underestimated the number of customers.
+=> B // They guessed forty per cent; the true figure was twenty-two.
+4. Sofia thinks the weakest point of the council's plan concerns
+A. deliveries to shops.
+B. bus routes.
+C. access for disabled drivers.
+=> C // The nearest parking would be three hundred metres away.
+5. How do the students suggest paying for trees and benches?
+A. through a yearly charge on the shops
+B. through higher parking fees
+C. through a government grant
+=> A // The shops could contribute a small annual fee, as in Norwich.
+== fill:sentence | 2WN
+6. Delivery lorries would be allowed into the street before {{6=10|ten}} in the morning.
+7. The buses would be moved to {{7=Queen's Road|Queens Road}}.
+8. The council has only budgeted for new {{8=paving}}.
+9. The students want the scheme to be reviewed after {{9=12 months|twelve months}}.
+10. The students will count shoppers on a {{10=Saturday}}.
+## 4 | You will hear part of a lecture about plastic in the oceans.
+@C Lecturer male_uk
+C: Each year, somewhere between eight and twelve million tonnes of plastic enter the sea. That's roughly a lorry load every minute. In today's lecture, I'd like to look at where it comes from, where it goes, and what might be done.
+C: Let's begin with sources. You might suppose that most of it is thrown from ships. That was true fifty years ago. Today, about four fifths comes from the land, and it reaches the sea mainly by way of rivers. A small number of rivers, most of them in Asia, carry a very large share of the total, and that isn't because people there use more plastic. It's because the systems for collecting waste haven't kept up with the growth of cities.
+C: What happens to it once it's in the sea? Some sinks. Some washes up on beaches. And some is carried by currents into enormous slowly rotating systems called gyres. The best known is in the North Pacific, and it's often described as an island of rubbish twice the size of France. That description is misleading. You couldn't walk on it. For the most part, you can't even see it. It's more like a thin soup of small fragments.
+C: Those fragments are the real concern. Plastic doesn't rot. Sunlight and waves simply break it into smaller and smaller pieces, known as microplastics. And there's a second source, which surprises people. Every time we wash clothes made of synthetic fabric, thousands of tiny fibres go down the drain. Another is the dust worn from car tyres.
+C: The effects on wildlife are well documented. Turtles mistake plastic bags for jellyfish. Seabirds feed bottle tops to their chicks, which then starve with full stomachs. Microplastics are eaten by the smallest animals in the sea and pass up the food chain. They've been found in fish on sale in markets, in sea salt, and in drinking water. What that means for human health, we simply don't know yet.
+C: So what can be done? There's a great deal of publicity for machines that would sweep the oceans clean. I'm sceptical. The quantity collected so far is tiny, and the nets catch living creatures as well. Most researchers agree that the priority is to stop plastic reaching the sea in the first place.
+C: That means better waste collection in the countries where the rivers are. It means designing packaging that can actually be recycled. Only about nine per cent of all the plastic ever made has been. And it means using less. Bans on plastic bags have cut the number found on beaches in several countries by more than half.
+== fill:note | 1W
+Plastic in the oceans
+Sources
+- most now comes from the land and travels down {{11=rivers}}
+- cause: waste collection has not kept pace with growing {{12=cities}}
+In the sea
+- currents gather plastic in rotating systems called {{13=gyres}}
+- the Pacific patch is more like a thin {{14=soup}} than an island
+Microplastics
+- plastic is broken up by {{15=sunlight}} and waves
+- other sources: fibres from washing {{16=clothes}}; dust from tyres
+Effects
+- turtles confuse bags with {{17=jellyfish}}
+- microplastics have been found in fish, sea {{18=salt}} and drinking water
+Solutions
+- cleaning machines also catch living {{19=creatures}}
+- the priority is prevention, e.g. better {{20=packaging}} design
