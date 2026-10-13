@@ -119,9 +119,16 @@ Speaking là một bài thi thử đầy đủ làm theo cặp qua video, ở `/
 ngày, hoặc tab **Buổi nói**).
 
 - Vào phòng là bật camera và micro. Video nối thẳng giữa các máy (WebRTC), tín hiệu đi qua kênh
-  Realtime riêng tư `group:{id}:room`. Mặc định chỉ dùng STUN công cộng; mạng chặn kết nối trực tiếp
-  cần máy chủ chuyển tiếp, đặt bằng `NEXT_PUBLIC_TURN_URL`, `NEXT_PUBLIC_TURN_USERNAME` và
-  `NEXT_PUBLIC_TURN_CREDENTIAL`.
+  Realtime riêng tư `group:{id}:room`. Chỉ với STUN công cộng thì hai máy phải nối thẳng được với nhau;
+  VPN (Cloudflare WARP…), 4G hay wifi công ty thường chặn việc này và phòng sẽ báo "Chưa nối được hình
+  và tiếng". Vì vậy bản chạy thật cần một máy chủ chuyển tiếp (TURN), xem mục dưới.
+- Máy chủ chuyển tiếp: danh sách máy chủ do server phát cho người đã đăng nhập (`getIceConfig`), khóa
+  không nằm trong mã phía trình duyệt. Dùng Cloudflare Realtime TURN thì đặt `CLOUDFLARE_TURN_KEY_ID`
+  và `CLOUDFLARE_TURN_API_TOKEN`; dịch vụ khác thì đặt `TURN_URLS` (cách nhau bằng dấu phẩy),
+  `TURN_USERNAME`, `TURN_CREDENTIAL`. Ô video ghi "Qua máy chủ chuyển tiếp" khi cuộc gọi đi đường này;
+  mở `/room/{id}?relay=1` để ép đi qua máy chủ chuyển tiếp khi cần kiểm tra cấu hình.
+- Kết nối rớt hoặc không lên thì máy tự dò lại đường truyền; người rời phòng được nhận biết qua tín
+  hiệu có mặt gửi mỗi 5 giây.
 - Một người bấm **Hỏi …** để làm giám khảo. `claim_speaking_turn` phát cho thí sinh một đề mà nhóm chưa
   ai gặp; chỉ máy giám khảo nhận nội dung đề. Giám khảo đọc câu hỏi và bấm **Câu tiếp**. Tới Part 2,
   cue card hiện ở máy thí sinh với 1 phút chuẩn bị rồi 2 phút nói.

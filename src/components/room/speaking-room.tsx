@@ -100,17 +100,33 @@ function VideoTile({
   badge,
   muted,
   connecting,
+  note,
 }: {
   stream: MediaStream | null;
   label: string;
   badge?: string;
   muted?: boolean;
   connecting?: boolean;
+  note?: string;
 }) {
   const ref = useRef<HTMLVideoElement>(null);
+  const [silenced, setSilenced] = useState(false);
+
+  const play = useCallback(() => {
+    const video = ref.current;
+    if (!video?.srcObject) return;
+    video.play().then(
+      () => setSilenced(false),
+      // The browser held back sound it was not asked for; one tap starts it.
+      (error: DOMException) => setSilenced(error.name === "NotAllowedError"),
+    );
+  }, []);
+
   useEffect(() => {
-    if (ref.current && ref.current.srcObject !== stream) ref.current.srcObject = stream;
-  }, [stream]);
+    if (!ref.current || ref.current.srcObject === stream) return;
+    ref.current.srcObject = stream;
+    play();
+  }, [stream, play]);
 
   return (
     <div className="relative aspect-video overflow-hidden rounded-2xl border bg-card">
@@ -118,6 +134,12 @@ function VideoTile({
       {connecting && (
         <p className="absolute inset-0 grid place-items-center text-sm text-muted-foreground">Đang kết nối…</p>
       )}
+      {silenced && !connecting && (
+        <div className="absolute inset-0 grid place-items-center bg-black/50">
+          <Button onClick={play}>Bấm để nghe và xem</Button>
+        </div>
+      )}
+      {note && <p className="absolute top-2 right-2 rounded-lg bg-black/60 px-2 py-0.5 text-xs text-white">{note}</p>}
       <p className="absolute bottom-2 left-2 flex items-center gap-2 rounded-lg bg-black/60 px-2.5 py-1 text-sm font-medium text-white">
         {label}
         {badge && <span className="rounded bg-white/20 px-1.5 text-xs">{badge}</span>}
@@ -493,6 +515,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
   const present = new Set([me.id, ...room.peers.map((p) => p.id)]);
   const turnOf = (id: string) => turns.find((t) => t.candidate_id === id);
   const recordingNames = recordingBy.filter((id) => present.has(id)).map(nameOf);
+  const stuckNames = room.peers.filter((peer) => peer.stuck).map((peer) => peer.name);
 
   return (
     <div className="flex min-h-dvh flex-col">
@@ -537,6 +560,14 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
               Mất kết nối tới phòng. Tải lại trang để vào lại.
             </p>
           )}
+          {stuckNames.length > 0 && (
+            <p role="alert" className="rounded-lg bg-destructive/10 px-3 py-2 text-sm text-destructive">
+              Chưa nối được hình và tiếng với {stuckNames.join(", ")}, đang thử lại.{" "}
+              {room.relay
+                ? "Nếu vẫn không được, cả hai tải lại trang."
+                : "Mạng của hai máy đang chặn kết nối trực tiếp: hãy tắt VPN (ví dụ Cloudflare WARP) hoặc đổi sang mạng khác."}
+            </p>
+          )}
           <div className={cn("grid gap-3", room.peers.length > 0 && "sm:grid-cols-2")}>
             <VideoTile stream={room.localStream} label={`${me.name} (bạn)`} badge={roleOf(me.id)} muted />
             {room.peers.map((peer: RoomPeer) => (
@@ -546,6 +577,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                 label={peer.name}
                 badge={roleOf(peer.id)}
                 connecting={peer.connection !== "connected"}
+                note={peer.route === "relay" ? "Qua máy chủ chuyển tiếp" : undefined}
               />
             ))}
           </div>

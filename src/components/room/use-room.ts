@@ -2,6 +2,8 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
+import { getIceConfig } from "@/app/actions/room";
+import { STUN_ONLY, type IceConfig } from "@/lib/speaking-room/ice";
 import { createClient } from "@/lib/supabase/client";
 
 // The speaking room's plumbing: camera and microphone, a peer-to-peer video
@@ -13,6 +15,10 @@ export type RoomPeer = {
   name: string;
   stream: MediaStream | null;
   connection: RTCPeerConnectionState;
+  /** How the call reaches them once connected: straight to their device, or through the relay. */
+  route: "direct" | "relay" | null;
+  /** Still not connected after a while: the two networks probably block each other. */
+  stuck: boolean;
 };
 
 export type RoomStatus = "idle" | "connecting" | "joined" | "error";
@@ -23,7 +29,7 @@ type Hello = { from: string; name: string; session: string; to?: string };
 type Signal = { from: string; to: string; description?: RTCSessionDescriptionInit; candidate?: RTCIceCandidateInit };
 type AppMessage = { from: string; to?: string; event: string; data: unknown };
 
-type PeerEntry = RoomPeer & {
+type PeerEntry = Omit<RoomPeer, "stuck"> & {
   session: string;
   pc: RTCPeerConnection;
   /** Perfect negotiation: the polite side backs off when two offers cross. */
@@ -32,23 +38,23 @@ type PeerEntry = RoomPeer & {
   ignoreOffer: boolean;
   /** Signals are applied one at a time: a candidate must not overtake its description. */
   queue: Promise<void>;
-  dropTimer: ReturnType<typeof setTimeout> | null;
+  /** When they last announced themselves; silence means they have left. */
+  lastSeen: number;
+  /** Since when the call has been down; it counts as stuck after a while. */
+  since: number;
+  /** When the search for a path was last started again. */
+  retriedAt: number;
 };
 
-// Public STUN finds a direct path on most home networks. A relay (TURN) can be
-// added through the environment for networks that block direct connections.
-const ICE_SERVERS: RTCIceServer[] = [
-  { urls: ["stun:stun.l.google.com:19302", "stun:stun1.l.google.com:19302"] },
-  ...(process.env.NEXT_PUBLIC_TURN_URL
-    ? [
-        {
-          urls: process.env.NEXT_PUBLIC_TURN_URL,
-          username: process.env.NEXT_PUBLIC_TURN_USERNAME,
-          credential: process.env.NEXT_PUBLIC_TURN_CREDENTIAL,
-        },
-      ]
-    : []),
-];
+const HELLO_EVERY_MS = 5_000;
+const GONE_AFTER_MS = 40_000;
+const STUCK_AFTER_MS = 12_000;
+// One side leads the retries so that two restarts do not keep cancelling each
+// other; the other side steps in only if nothing has happened for much longer.
+const RETRY_AFTER_MS = 20_000;
+/** A path that fails outright is retried sooner, but never in a tight loop. */
+const RETRY_FAILED_AFTER_MS = 4_000;
+const FOLLOWER_WAITS = 3;
 
 const AUDIO: MediaTrackConstraints = { echoCancellation: true, noiseSuppression: true, autoGainControl: true };
 const VIDEO: MediaTrackConstraints = { width: { ideal: 640 }, height: { ideal: 360 }, frameRate: { ideal: 24 } };
@@ -66,6 +72,8 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
   const [peers, setPeers] = useState<RoomPeer[]>([]);
   const [micOn, setMicOn] = useState(true);
   const [camOn, setCamOn] = useState(true);
+  /** Whether a relay is available for networks that block a direct call. Null until known. */
+  const [relay, setRelay] = useState<boolean | null>(null);
 
   const channelRef = useRef<RealtimeChannel | null>(null);
   const peersRef = useRef(new Map<string, PeerEntry>());
@@ -73,8 +81,16 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
   const handlersRef = useRef(new Map<string, Set<(data: unknown, from: string) => void>>());
 
   const publish = useCallback(() => {
+    const now = Date.now();
     setPeers(
-      [...peersRef.current.values()].map(({ id, name, stream, connection }) => ({ id, name, stream, connection })),
+      [...peersRef.current.values()].map(({ id, name, stream, connection, route, since }) => ({
+        id,
+        name,
+        stream,
+        connection,
+        route,
+        stuck: connection !== "connected" && now - since > STUCK_AFTER_MS,
+      })),
     );
   }, []);
 
@@ -107,6 +123,9 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
     const peerMap = peersRef.current;
     const supabase = createClient();
     let hello: ReturnType<typeof setInterval> | null = null;
+    let ice: IceConfig = STUN_ONLY;
+    // Troubleshooting: /room/...?relay=1 sends the call through the relay only.
+    const relayOnly = new URLSearchParams(window.location.search).get("relay") === "1";
 
     const raw = (event: string, payload: unknown) =>
       void channelRef.current?.send({ type: "broadcast", event, payload });
@@ -114,7 +133,6 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
     const dropPeer = (id: string) => {
       const peer = peerMap.get(id);
       if (!peer) return;
-      if (peer.dropTimer) clearTimeout(peer.dropTimer);
       peer.pc.close();
       peerMap.delete(id);
       publish();
@@ -122,11 +140,14 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
 
     const addPeer = (id: string, name: string, peerSession: string) => {
       const existing = peerMap.get(id);
-      if (existing?.session === peerSession) return existing;
+      if (existing?.session === peerSession) {
+        existing.lastSeen = Date.now();
+        return existing;
+      }
       // A new session means the other side reloaded: start that connection again.
       if (existing) dropPeer(id);
 
-      const pc = new RTCPeerConnection({ iceServers: ICE_SERVERS });
+      const pc = new RTCPeerConnection({ iceServers: ice.servers, iceTransportPolicy: relayOnly ? "relay" : "all" });
       const peer: PeerEntry = {
         id,
         name,
@@ -134,11 +155,14 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
         pc,
         stream: null,
         connection: pc.connectionState,
+        route: null,
         polite: meId > id,
         makingOffer: false,
         ignoreOffer: false,
         queue: Promise.resolve(),
-        dropTimer: null,
+        lastSeen: Date.now(),
+        since: Date.now(),
+        retriedAt: Date.now(),
       };
       peerMap.set(id, peer);
 
@@ -169,17 +193,67 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
         publish();
       };
       pc.onconnectionstatechange = () => {
+        if (peerMap.get(id) !== peer) return;
+        if (peer.connection === "connected" && pc.connectionState !== "connected") peer.since = Date.now();
         peer.connection = pc.connectionState;
-        if (peer.dropTimer) clearTimeout(peer.dropTimer);
-        peer.dropTimer = null;
-        if (pc.connectionState === "failed" || pc.connectionState === "closed") dropPeer(id);
-        // A short network hiccup recovers by itself; a long one means they left.
-        else if (pc.connectionState === "disconnected") peer.dropTimer = setTimeout(() => dropPeer(id), 12_000);
-        else publish();
+        if (pc.connectionState === "connected") void readRoute(peer);
+        else peer.route = null;
+        // A failed path is tried again with fresh addresses instead of giving up.
+        if (pc.connectionState === "failed" && !peer.polite && Date.now() - peer.retriedAt > RETRY_FAILED_AFTER_MS) {
+          revive(peer);
+        }
+        publish();
       };
 
       publish();
       return peer;
+    };
+
+    const readRoute = async (peer: PeerEntry) => {
+      try {
+        const stats = await peer.pc.getStats();
+        let pair: { localCandidateId?: string; remoteCandidateId?: string } | undefined;
+        stats.forEach((report) => {
+          if (report.type === "transport" && report.selectedCandidatePairId) {
+            pair = stats.get(report.selectedCandidatePairId);
+          }
+        });
+        stats.forEach((report) => {
+          if (!pair && report.type === "candidate-pair" && report.state === "succeeded" && report.nominated) pair = report;
+        });
+        if (!pair) return;
+        const kinds = [pair.localCandidateId, pair.remoteCandidateId].map((key) => key && stats.get(key)?.candidateType);
+        peer.route = kinds.includes("relay") ? "relay" : "direct";
+        publish();
+      } catch {
+        // Only a label depends on this.
+      }
+    };
+
+    /** Starts the search for a path again, for a call that failed or never got going. */
+    const revive = (peer: PeerEntry) => {
+      const { pc } = peer;
+      peer.retriedAt = Date.now();
+      // An offer the other side never answered would block every later one.
+      const cleared =
+        pc.signalingState === "have-local-offer" && !peer.makingOffer
+          ? pc.setLocalDescription({ type: "rollback" }).catch(() => {})
+          : Promise.resolve();
+      void cleared.then(() => {
+        if (pc.signalingState !== "closed") pc.restartIce();
+      });
+    };
+
+    const sweep = () => {
+      const now = Date.now();
+      for (const peer of [...peerMap.values()]) {
+        if (peer.connection === "connected") continue;
+        const wait =
+          (peer.connection === "failed" ? RETRY_FAILED_AFTER_MS : RETRY_AFTER_MS) * (peer.polite ? FOLLOWER_WAITS : 1);
+        if (now - peer.lastSeen > GONE_AFTER_MS) dropPeer(peer.id);
+        else if (now - peer.retriedAt > wait) revive(peer);
+      }
+      publish();
     };
 
     const onHello = (message: Hello) => {
@@ -250,6 +324,14 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
       setCamOn(Boolean(stream?.getVideoTracks().length));
       setMicOn(Boolean(stream?.getAudioTracks().length));
 
+      try {
+        ice = await getIceConfig();
+      } catch {
+        // Without the server's list a direct connection is still tried.
+      }
+      if (cancelled) return;
+      setRelay(ice.relay);
+
       await supabase.realtime.setAuth();
       if (cancelled) return;
       const channel = supabase.channel(roomChannel(groupId), {
@@ -267,8 +349,12 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
           if (state === "SUBSCRIBED") {
             setStatus("joined");
             announce();
-            // Repeats cover a hello lost while the other side was still joining.
-            hello ??= setInterval(announce, 15_000);
+            // Repeats cover a hello lost while the other side was still joining,
+            // and tell the others that this device is still here.
+            hello ??= setInterval(() => {
+              announce();
+              sweep();
+            }, HELLO_EVERY_MS);
           } else if (state === "CHANNEL_ERROR" || state === "TIMED_OUT") {
             setStatus("error");
           }
@@ -287,6 +373,7 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
       localRef.current?.getTracks().forEach((track) => track.stop());
       localRef.current = null;
       setLocalStream(null);
+      setRelay(null);
       const channel = channelRef.current;
       channelRef.current = null;
       if (channel) void supabase.removeChannel(channel);
@@ -310,5 +397,5 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
     setCamOn(next);
   }, []);
 
-  return { status, mediaProblem, localStream, peers, micOn, camOn, toggleMic, toggleCam, send, on };
+  return { status, mediaProblem, relay, localStream, peers, micOn, camOn, toggleMic, toggleCam, send, on };
 }
