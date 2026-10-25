@@ -84,15 +84,19 @@ if (!config.relay) {
 }
 console.log("ok");
 
-for (const [name, value] of [
-  [NAMES.id, id],
-  [NAMES.token, token],
-] as const) {
-  // Read from stdin, stored as a secret, replacing any earlier value.
-  if (!vercel(["env", "add", name, "--environment", "production", "--sensitive", "--force", "--yes"], value)) {
-    console.error(`Could not save ${name} on Vercel. Is the Vercel CLI signed in (npx vercel login)?`);
-    process.exit(1);
-  }
+const add = (name: string) => ["env", "add", name, "--environment", "production", "--sensitive", "--force", "--yes"];
+// The ID is only an identifier and goes on the command line; the token is read from stdin.
+const saved = [vercel([...add(NAMES.id), "--value", id]), vercel(add(NAMES.token), token)];
+
+// Check that both really landed before deploying.
+const listed = spawnSync("npx", ["--yes", "vercel@latest", "env", "ls", "--environment", "production"], {
+  encoding: "utf8",
+  shell: process.platform === "win32",
+});
+const missing = [NAMES.id, NAMES.token].filter((name, i) => !saved[i] || !listed.stdout?.includes(name));
+if (missing.length) {
+  console.error(`\nNot saved on Vercel: ${missing.join(", ")}. Is the Vercel CLI signed in (npx vercel login)? Run this again.`);
+  process.exit(1);
 }
 
 console.log("\nSaved on Vercel. Deploying production so the room picks it up...\n");
