@@ -12,6 +12,7 @@ import {
   MicOff,
   PhoneOff,
   Square,
+  Timer,
   Video,
   VideoOff,
 } from "lucide-react";
@@ -21,7 +22,11 @@ import { Progress } from "@/components/ui/progress";
 import { decodeTo16kMono, transcribeMany, voicedSeconds } from "@/lib/audio/recording";
 import {
   EXAMINER_LINES,
+  PART_MINUTES,
+  TEST_MINUTES,
+  answerTarget,
   buildExamSteps,
+  formatClock,
   formatTranscript,
   type AnsweredStep,
   type ExamStep,
@@ -61,9 +66,19 @@ type ExamState = {
   total: number;
   part: 1 | 2 | 3;
   kind: ExamStep["kind"];
+  /** Empty for the Part 2 preparation until the examiner hands over the cue card. */
   prompt: string;
+  /** Countdown for the long turn, in seconds. */
   timer: number | null;
+  /** Suggested answer length for a question, in seconds. */
+  target: number | null;
+  /** reading: the examiner is still speaking. timing: the clock for the answer is running. */
+  phase: "reading" | "timing";
+  /** Milliseconds since this step began, since its clock started, and since the test and the part began. */
   elapsedMs: number;
+  timingMs: number | null;
+  testMs: number;
+  partMs: number;
   status: "running" | "finished" | "cancelled";
 };
 
@@ -75,6 +90,10 @@ type ExaminerSheet = {
   attemptId: string | null;
   step: number;
   stepStartedAt: number;
+  /** When the examiner started the clock for this step; null while they are still reading. */
+  timingStartedAt: number | null;
+  testStartedAt: number;
+  partStartedAt: number;
 };
 
 const RPC_ERRORS: Record<string, string> = {
@@ -92,6 +111,48 @@ function describeRpcError(message: string | undefined) {
 function clock(seconds: number) {
   const s = Math.max(0, Math.ceil(seconds));
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+}
+
+/** Count-up clock for an answer, against the suggested length. */
+function AnswerClock({ seconds, target }: { seconds: number; target: number | null }) {
+  const over = target != null && seconds > target;
+  return (
+    <div className="flex flex-col gap-2">
+      <p className={cn("font-heading text-4xl font-bold tabular-nums", over && "text-destructive")}>
+        {formatClock(seconds)}
+        <span className="ml-2 text-sm font-normal text-muted-foreground">
+          {target == null ? "đang trả lời" : over ? `quá ${target} giây gợi ý` : `/ khoảng ${target} giây`}
+        </span>
+      </p>
+      {target != null && <Progress value={Math.min(100, (seconds / target) * 100)} />}
+    </div>
+  );
+}
+
+/** How far into the part and the whole test the examiner is, against the real timings. */
+function Pace({ part, partSeconds, testSeconds }: { part: 1 | 2 | 3; partSeconds: number; testSeconds: number }) {
+  const [partMin, partMax] = PART_MINUTES[part];
+  const [testMin, testMax] = TEST_MINUTES;
+  const rows = [
+    { label: `Part ${part}`, seconds: partSeconds, min: partMin, max: partMax },
+    { label: "Cả bài", seconds: testSeconds, min: testMin, max: testMax },
+  ];
+  return (
+    <dl className="grid grid-cols-2 gap-2 text-sm">
+      {rows.map((row) => (
+        <div key={row.label} className="rounded-lg bg-secondary px-3 py-2">
+          <dt className="text-muted-foreground">{row.label}</dt>
+          <dd className={cn("font-semibold tabular-nums", row.seconds > row.max * 60 && "text-destructive")}>
+            {formatClock(row.seconds)}
+            <span className="font-normal text-muted-foreground">
+              {" "}
+              / {row.min}–{row.max} phút
+            </span>
+          </dd>
+        </div>
+      ))}
+    </dl>
+  );
 }
 
 function VideoTile({
@@ -182,6 +243,8 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
   const stateOf = useCallback(
     (current: ExaminerSheet, status: ExamState["status"]): ExamState => {
       const step = current.steps[current.step];
+      const now = Date.now();
+      const timing = current.timingStartedAt != null;
       return {
         turnId: current.turn.id,
         attemptId: current.attemptId ?? "",
@@ -191,9 +254,15 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
         total: current.steps.length,
         part: step.part,
         kind: step.kind,
-        prompt: step.prompt,
+        // The cue card reaches the candidate only when their minute starts.
+        prompt: step.kind === "prep" && !timing ? "" : step.prompt,
         timer: step.timer ?? null,
-        elapsedMs: Date.now() - current.stepStartedAt,
+        target: answerTarget(step),
+        phase: timing ? "timing" : "reading",
+        elapsedMs: now - current.stepStartedAt,
+        timingMs: current.timingStartedAt != null ? now - current.timingStartedAt : null,
+        testMs: now - current.testStartedAt,
+        partMs: now - current.partStartedAt,
         status,
       };
     },
@@ -228,6 +297,9 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
       attemptId: null,
       step: 0,
       stepStartedAt: 0,
+      timingStartedAt: null,
+      testStartedAt: 0,
+      partStartedAt: 0,
     });
     void refreshTurns();
   }
@@ -241,7 +313,17 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
       toast.error(describeRpcError(error?.message));
       return;
     }
-    setSheet({ ...sheet, status: "running", attemptId: data as string, step: 0, stepStartedAt: Date.now() });
+    const startedAt = Date.now();
+    setSheet({
+      ...sheet,
+      status: "running",
+      attemptId: data as string,
+      step: 0,
+      stepStartedAt: startedAt,
+      timingStartedAt: null,
+      testStartedAt: startedAt,
+      partStartedAt: startedAt,
+    });
     send("turns", null);
   }
 
@@ -249,8 +331,37 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
     setSheet((current) => {
       if (!current || current.status !== "running") return current;
       if (step >= current.steps.length) return { ...current, status: "finished" };
-      return { ...current, step: Math.max(0, step), stepStartedAt: Date.now() };
+      const next = Math.max(0, step);
+      const at = Date.now();
+      const newPart = current.steps[next].part !== current.steps[current.step].part;
+      return {
+        ...current,
+        step: next,
+        stepStartedAt: at,
+        timingStartedAt: null,
+        partStartedAt: newPart ? at : current.partStartedAt,
+      };
     });
+  }, []);
+
+  /** The examiner has finished reading: start the answer clock, or hand over the cue card. */
+  const startClock = useCallback(() => {
+    setSheet((current) =>
+      current?.status === "running" && current.timingStartedAt == null ? { ...current, timingStartedAt: Date.now() } : current,
+    );
+  }, []);
+
+  // Space presses the examiner's main button, so the clock starts without reaching for the mouse.
+  const mainAction = useRef<(() => void) | null>(null);
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.code !== "Space" || event.repeat || !mainAction.current) return;
+      if ((event.target as HTMLElement | null)?.closest("button, a, input, textarea, select, [contenteditable]")) return;
+      event.preventDefault();
+      mainAction.current();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, []);
 
   async function cancel() {
@@ -264,16 +375,16 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
     void refreshTurns();
   }
 
-  // The minute of preparation ends by itself; the two-minute talk is ended by the examiner.
+  // The minute of preparation ends by itself; everything else waits for the examiner.
   const sheetStep = sheet?.status === "running" ? sheet.steps[sheet.step] : null;
   const sheetStepIndex = sheet?.step ?? 0;
-  const sheetStepStartedAt = sheet?.stepStartedAt ?? 0;
+  const sheetTimingStartedAt = sheet?.status === "running" ? sheet.timingStartedAt : null;
   useEffect(() => {
-    if (sheetStep?.kind !== "prep" || !sheetStep.timer) return;
-    const wait = sheetStepStartedAt + sheetStep.timer * 1000 - Date.now();
+    if (sheetStep?.kind !== "prep" || !sheetStep.timer || sheetTimingStartedAt == null) return;
+    const wait = sheetTimingStartedAt + sheetStep.timer * 1000 - Date.now();
     const timer = setTimeout(() => goTo(sheetStepIndex + 1), Math.max(0, wait));
     return () => clearTimeout(timer);
-  }, [sheetStep, sheetStepIndex, sheetStepStartedAt, goTo]);
+  }, [sheetStep, sheetStepIndex, sheetTimingStartedAt, goTo]);
 
   // ---------------------------------------------------------------------
   // Candidate: records their own microphone, then transcribes it.
@@ -285,7 +396,8 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
     recorder: MediaRecorder;
     chunks: Blob[];
     startedAt: number;
-    marks: { at: number; step: Pick<ExamStep, "part" | "kind" | "prompt">; index: number }[];
+    /** Where each step begins in the recording, and where its answer clock started, in ms. */
+    marks: { at: number; timedAt?: number; step: Pick<ExamStep, "part" | "kind" | "prompt">; index: number }[];
   } | null>(null);
   const handled = useRef(new Set<string>());
   const localStreamRef = useRef<MediaStream | null>(null);
@@ -306,11 +418,12 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
         const pcm = await decodeTo16kMono(blob);
         const total = pcm.length / 16000;
         const answered = session.marks
-          .map((mark, i) => ({ mark, from: mark.at / 1000, to: (session.marks[i + 1]?.at ?? total * 1000) / 1000 }))
+          .map((mark, i) => ({ mark, from: mark.at / 1000, to: Math.min((session.marks[i + 1]?.at ?? total * 1000) / 1000, total) }))
           .filter(({ mark }) => mark.step.kind !== "prep")
           .map(({ mark, from, to }) => {
-            const clip = pcm.slice(Math.floor(from * 16000), Math.floor(Math.min(to, total) * 16000));
-            return { step: mark.step, clip, voiced: voicedSeconds(clip) };
+            const clip = pcm.slice(Math.floor(from * 16000), Math.floor(to * 16000));
+            const timed = mark.timedAt == null ? null : Math.max(0, Math.round(to - mark.timedAt / 1000));
+            return { step: mark.step, clip, voiced: voicedSeconds(clip), timed };
           });
         seconds = Math.round(answered.reduce((sum, a) => sum + a.voiced, 0));
         // Silence makes Whisper invent words, so near-silent clips are skipped.
@@ -320,8 +433,8 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
           (done, total, status) => setProcessing({ done, total, status: status ?? "Đang chuyển giọng nói thành chữ" }),
         );
         const textOf = new Map(spoken.map((a, i) => [a, texts[i]]));
-        const steps: AnsweredStep[] = answered.map((a) => ({ ...a.step, answer: textOf.get(a) ?? "" }));
-        transcript = formatTranscript(steps);
+        const steps: AnsweredStep[] = answered.map((a) => ({ ...a.step, answer: textOf.get(a) ?? "", seconds: a.timed }));
+        transcript = formatTranscript(steps, total);
       } catch {
         toast.error("Không chuyển được giọng nói thành chữ. Bản ghi âm vẫn được lưu.");
       }
@@ -357,7 +470,8 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
       const session = capture.current;
       if (state.status === "running") {
         if (handled.current.has(state.turnId) && !session) return;
-        if (!session || session.turnId !== state.turnId) {
+        let active = session;
+        if (!active || active.turnId !== state.turnId) {
           const tracks = localStreamRef.current?.getAudioTracks() ?? [];
           if (!tracks.length) return;
           const recorder = new MediaRecorder(new MediaStream(tracks), { audioBitsPerSecond: 32_000 });
@@ -366,23 +480,24 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
             if (event.data.size) chunks.push(event.data);
           };
           recorder.start(1000);
-          capture.current = {
-            turnId: state.turnId,
-            attemptId: state.attemptId,
-            recorder,
-            chunks,
-            startedAt: Date.now(),
-            marks: [{ at: 0, index: state.step, step: { part: state.part, kind: state.kind, prompt: state.prompt } }],
-          };
-          return;
+          active = { turnId: state.turnId, attemptId: state.attemptId, recorder, chunks, startedAt: Date.now(), marks: [] };
+          capture.current = active;
         }
-        if (session.marks[session.marks.length - 1].index !== state.step) {
-          session.marks.push({
-            // The step began a little before this message arrived.
-            at: Math.max(0, Date.now() - session.startedAt - state.elapsedMs),
+        const live = active;
+        // Each moment began a little before this message arrived.
+        const sinceStart = (ms: number) => Math.max(0, Date.now() - live.startedAt - ms);
+        let mark = live.marks[live.marks.length - 1];
+        if (mark?.index !== state.step) {
+          mark = {
+            at: live.marks.length ? sinceStart(state.elapsedMs) : 0,
             index: state.step,
             step: { part: state.part, kind: state.kind, prompt: state.prompt },
-          });
+          };
+          live.marks.push(mark);
+        }
+        if (state.prompt) mark.step.prompt = state.prompt;
+        if (state.phase === "timing" && state.timingMs != null && mark.timedAt == null) {
+          mark.timedAt = Math.max(mark.at, sinceStart(state.timingMs));
         }
         return;
       }
@@ -418,8 +533,22 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
   // A remote state goes stale when its examiner stops sending (left, or closed the sheet).
   const liveRemote = remote && remote.status === "running" && now - remote.receivedAt < 10_000 ? remote : null;
   const view = examinerView?.status === "running" ? examinerView : liveRemote;
-  const viewStartedAt = view ? (examinerView ? sheetStepStartedAt : remote!.receivedAt - remote!.elapsedMs) : 0;
-  const remaining = view?.timer ? view.timer - (now - viewStartedAt) / 1000 : null;
+  // The examiner's own view is fresh; a received one has aged since it arrived.
+  const viewAge = view && view !== examinerView && remote ? Math.max(0, now - remote.receivedAt) : 0;
+  const secondsOf = (ms: number | null | undefined) => (ms == null ? null : (ms + viewAge) / 1000);
+  const timingSeconds = view ? secondsOf(view.timingMs) : null;
+  const remaining = view?.timer != null ? view.timer - (timingSeconds ?? 0) : null;
+  const testSeconds = (view && secondsOf(view.testMs)) ?? 0;
+  const partSeconds = (view && secondsOf(view.partMs)) ?? 0;
+  const clockText =
+    view?.phase !== "timing" ? null : remaining != null ? clock(remaining) : formatClock(timingSeconds ?? 0);
+
+  const examinerPhase = examinerView?.status === "running" ? examinerView.phase : null;
+  const examinerStep = examinerView?.step ?? 0;
+  useEffect(() => {
+    mainAction.current =
+      examinerPhase === "reading" ? startClock : examinerPhase === "timing" ? () => goTo(examinerStep + 1) : null;
+  }, [examinerPhase, examinerStep, startClock, goTo]);
   const iAmCandidate = view?.candidateId === me.id;
   const iAmExaminer = Boolean(examinerView);
 
@@ -441,9 +570,9 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
   const roleOf = (id: string) =>
     view ? (id === view.candidateId ? "Thí sinh" : id === view.examinerId ? "Giám khảo" : undefined) : undefined;
 
-  const viewRef = useRef({ view, remaining, peers: room.peers, localStream: room.localStream });
+  const viewRef = useRef({ view, clockText, peers: room.peers, localStream: room.localStream });
   useEffect(() => {
-    viewRef.current = { view, remaining, peers: room.peers, localStream: room.localStream };
+    viewRef.current = { view, clockText, peers: room.peers, localStream: room.localStream };
   });
 
   const recorder = useSessionRecorder({
@@ -467,9 +596,11 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
       const v = current.view;
       return {
         title: `IELTS Speaking · ${group.name}`,
-        subtitle: v ? `Part ${v.part}${v.kind === "prep" ? " · preparation" : v.kind === "talk" ? " · long turn" : ""}` : "Speaking room",
-        body: v ? v.prompt : "Waiting for the next turn to start.",
-        timer: v && current.remaining != null ? clock(current.remaining) : null,
+        subtitle: v
+          ? `Part ${v.part}${v.kind === "prep" ? (v.prompt ? " · preparation" : " · introduction") : v.kind === "talk" ? " · long turn" : ""}`
+          : "Speaking room",
+        body: v ? v.prompt || "The examiner is introducing the long turn." : "Waiting for the next turn to start.",
+        timer: v ? current.clockText : null,
         footer: v ? `${date} · Question ${v.step + 1} of ${v.total}` : date,
       };
     },
@@ -560,12 +691,18 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
               Mất kết nối tới phòng. Tải lại trang để vào lại.
             </p>
           )}
+          {room.networkBlocked && !room.relay && (
+            <p role="alert" className="rounded-lg bg-destructive/10 px-3 py-2 text-sm text-destructive">
+              Mạng của máy này không cho gọi video trực tiếp, thường do VPN (ví dụ Cloudflare WARP) hoặc 4G. Hãy tắt
+              VPN rồi tải lại trang. Nếu vẫn vậy, trưởng nhóm cần cài máy chủ chuyển tiếp (xem README, mục Gọi video).
+            </p>
+          )}
           {stuckNames.length > 0 && (
             <p role="alert" className="rounded-lg bg-destructive/10 px-3 py-2 text-sm text-destructive">
               Chưa nối được hình và tiếng với {stuckNames.join(", ")}, đang thử lại.{" "}
               {room.relay
                 ? "Nếu vẫn không được, cả hai tải lại trang."
-                : "Mạng của hai máy đang chặn kết nối trực tiếp: hãy tắt VPN (ví dụ Cloudflare WARP) hoặc đổi sang mạng khác."}
+                : "Mạng của hai máy đang chặn kết nối trực tiếp: hãy tắt VPN (ví dụ Cloudflare WARP) hoặc đổi mạng. Cách chắc chắn là cài máy chủ chuyển tiếp (README, mục Gọi video)."}
             </p>
           )}
           <div className={cn("grid gap-3", room.peers.length > 0 && "sm:grid-cols-2")}>
@@ -624,12 +761,13 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
             </div>
           ) : sheet && examinerView ? (
             <div className="flex flex-col gap-4">
-              <div className="flex items-baseline justify-between">
+              <div className="flex items-baseline justify-between gap-3">
                 <h2 className="font-heading font-bold">
                   Part {examinerView.part} · bước {examinerView.step + 1}/{examinerView.total}
                 </h2>
                 <span className="text-sm text-muted-foreground">Hỏi {nameOf(examinerView.candidateId)}</span>
               </div>
+              <Pace part={examinerView.part} partSeconds={partSeconds} testSeconds={testSeconds} />
               {(examinerView.step === 0 ||
                 examinerView.kind !== "question" ||
                 sheet.steps[examinerView.step - 1]?.part !== examinerView.part) && (
@@ -646,18 +784,46 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
               {sheet.steps[examinerView.step].heading && (
                 <p className="text-sm font-semibold text-muted-foreground">{sheet.steps[examinerView.step].heading}</p>
               )}
-              <p className="whitespace-pre-line text-lg leading-7 font-medium">{examinerView.prompt}</p>
-              {remaining != null && (
+              <p className="whitespace-pre-line text-lg leading-7 font-medium">{sheet.steps[examinerView.step].prompt}</p>
+              {examinerView.phase === "reading" ? (
+                <p className="text-sm text-muted-foreground">
+                  {examinerView.kind === "prep"
+                    ? "Đọc lời giới thiệu ở trên. Khi bạn bấm, cue card mới hiện ở máy thí sinh và 1 phút chuẩn bị bắt đầu đếm."
+                    : examinerView.kind === "talk"
+                      ? "Mời thí sinh bắt đầu nói rồi bấm để tính 2 phút."
+                      : `Đọc xong câu hỏi thì bấm giờ. Câu trả lời nên dài khoảng ${examinerView.target} giây.`}
+                </p>
+              ) : remaining != null ? (
                 <p className={cn("font-heading text-4xl font-bold tabular-nums", remaining <= 0 && "text-destructive")}>
                   {clock(remaining)}
                   <span className="ml-2 text-sm font-normal text-muted-foreground">
                     {examinerView.kind === "prep" ? "chuẩn bị" : remaining <= 0 ? "hết 2 phút, mời dừng" : "đang nói"}
                   </span>
                 </p>
+              ) : (
+                <AnswerClock seconds={timingSeconds ?? 0} target={examinerView.target} />
               )}
               <div className="flex flex-wrap gap-2">
-                <Button className="h-10" onClick={() => goTo(examinerView.step + 1)}>
-                  {examinerView.step + 1 >= examinerView.total ? (
+                {/* One button that changes its job, so Space and a focused click always do the same thing. */}
+                <Button
+                  className="h-10"
+                  onClick={examinerView.phase === "reading" ? startClock : () => goTo(examinerView.step + 1)}
+                >
+                  {examinerView.phase === "reading" ? (
+                    examinerView.kind === "prep" ? (
+                      <>
+                        <Timer /> Đưa cue card, bắt đầu 1 phút
+                      </>
+                    ) : examinerView.kind === "talk" ? (
+                      <>
+                        <Timer /> Bắt đầu 2 phút
+                      </>
+                    ) : (
+                      <>
+                        <Timer /> Bấm giờ trả lời
+                      </>
+                    )
+                  ) : examinerView.step + 1 >= examinerView.total ? (
                     <>
                       <Check /> Kết thúc bài thi
                     </>
@@ -669,6 +835,11 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                     </>
                   )}
                 </Button>
+                {examinerView.phase === "reading" && examinerView.kind === "question" && (
+                  <Button variant="outline" className="h-10" onClick={() => goTo(examinerView.step + 1)}>
+                    {examinerView.step + 1 >= examinerView.total ? "Kết thúc bài thi" : "Sang câu tiếp"}
+                  </Button>
+                )}
                 {examinerView.step > 0 && (
                   <Button variant="outline" className="h-10" onClick={() => goTo(examinerView.step - 1)}>
                     Quay lại
@@ -678,9 +849,23 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                   Huỷ lượt
                 </Button>
               </div>
+              <p className="text-xs text-muted-foreground">
+                Phím cách:{" "}
+                {examinerView.phase === "reading"
+                  ? "bấm giờ"
+                  : examinerView.step + 1 >= examinerView.total
+                    ? "kết thúc bài thi"
+                    : examinerView.kind === "prep"
+                      ? "cho nói luôn"
+                      : "sang câu tiếp"}
+                .
+              </p>
               {sheet.steps[examinerView.step + 1] && (
                 <p className="text-sm text-muted-foreground">
-                  Tiếp theo: {sheet.steps[examinerView.step + 1].prompt.split("\n")[0]}
+                  Tiếp theo:{" "}
+                  {sheet.steps[examinerView.step + 1].kind === "talk"
+                    ? "thí sinh nói 2 phút theo cue card"
+                    : sheet.steps[examinerView.step + 1].prompt.split("\n")[0]}
                 </p>
               )}
             </div>
@@ -693,19 +878,32 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                 <Circle className="size-3 fill-destructive text-destructive" /> Câu trả lời của bạn đang được ghi âm
               </p>
               {view.kind === "question" ? (
-                <p className="text-muted-foreground">Nghe {nameOf(view.examinerId)} hỏi rồi trả lời như thi thật.</p>
+                view.phase === "timing" ? (
+                  <>
+                    <p className="text-muted-foreground">Đang tính giờ câu trả lời của bạn.</p>
+                    <AnswerClock seconds={timingSeconds ?? 0} target={view.target} />
+                  </>
+                ) : (
+                  <p className="text-muted-foreground">Nghe {nameOf(view.examinerId)} hỏi rồi trả lời như thi thật.</p>
+                )
+              ) : !view.prompt ? (
+                <p className="text-muted-foreground">
+                  {nameOf(view.examinerId)} đang giới thiệu Part 2. Cue card sẽ hiện ở đây khi bắt đầu 1 phút chuẩn bị.
+                </p>
               ) : (
                 <>
                   <p className="rounded-xl border bg-background p-4 text-lg leading-7 font-medium whitespace-pre-line">
                     {view.prompt}
                   </p>
-                  {remaining != null && (
+                  {view.phase === "timing" && remaining != null ? (
                     <p className={cn("font-heading text-5xl font-bold tabular-nums", remaining <= 0 && "text-destructive")}>
                       {clock(remaining)}
                       <span className="ml-2 text-sm font-normal text-muted-foreground">
                         {view.kind === "prep" ? "chuẩn bị, có thể ghi chú" : "nói tới khi giám khảo dừng"}
                       </span>
                     </p>
+                  ) : (
+                    <p className="text-sm text-muted-foreground">Chờ {nameOf(view.examinerId)} bấm bắt đầu 2 phút.</p>
                   )}
                 </>
               )}

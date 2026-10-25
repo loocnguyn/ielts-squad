@@ -7,6 +7,16 @@ import type { FullSpeakingContent } from "@/lib/tests/types";
 export const PREP_SECONDS = 60;
 export const TALK_SECONDS = 120;
 
+/**
+ * Roughly how long an answer should run once the examiner has finished the
+ * question: short in Part 1 and the rounding-off questions, developed in Part 3.
+ * Kept to these, a test lands inside the real 11 to 14 minutes.
+ */
+export const ANSWER_SECONDS = { 1: 25, 2: 20, 3: 50 } as const;
+/** How long each part takes in the real test, in minutes. */
+export const PART_MINUTES = { 1: [4, 5], 2: [3, 4], 3: [4, 5] } as const;
+export const TEST_MINUTES = [11, 14] as const;
+
 export type ExamStep = {
   part: 1 | 2 | 3;
   /** question: asked aloud. prep / talk: the two halves of the Part 2 long turn. */
@@ -38,6 +48,16 @@ export function buildExamSteps(content: FullSpeakingContent): ExamStep[] {
   return steps;
 }
 
+/** The suggested answer length for a question; the long turn has countdowns instead. */
+export function answerTarget(step: Pick<ExamStep, "part" | "kind">): number | null {
+  return step.kind === "question" ? ANSWER_SECONDS[step.part] : null;
+}
+
+export function formatClock(seconds: number) {
+  const s = Math.max(0, Math.round(seconds));
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+}
+
 /** What the examiner says to move the test along; not part of the transcript. */
 export const EXAMINER_LINES: Record<string, string> = {
   opening: "Good morning. Can you tell me your full name, please? … Thank you. In this first part, I'd like to ask you some questions about yourself.",
@@ -47,12 +67,16 @@ export const EXAMINER_LINES: Record<string, string> = {
   closing: "Thank you. That is the end of the speaking test.",
 };
 
-/** One answered step: what was asked, and what the candidate said. */
-export type AnsweredStep = Pick<ExamStep, "part" | "kind" | "prompt"> & { answer: string };
+/**
+ * One answered step: what was asked, what the candidate said, and how long they
+ * spoke after the examiner started the clock (unknown if it was never started).
+ */
+export type AnsweredStep = Pick<ExamStep, "part" | "kind" | "prompt"> & { answer: string; seconds?: number | null };
 
 /** The transcript handed to the grader: the candidate's words under each question. */
-export function formatTranscript(answers: AnsweredStep[]) {
-  const lines: string[] = [];
+export function formatTranscript(answers: AnsweredStep[], testSeconds?: number) {
+  const lines: string[] = testSeconds ? [`Test length: ${formatClock(testSeconds)}`] : [];
+  const timed = (step: AnsweredStep) => (step.seconds == null ? "" : formatClock(step.seconds));
   let part = 0;
   for (const step of answers) {
     if (step.kind === "prep") continue;
@@ -60,8 +84,13 @@ export function formatTranscript(answers: AnsweredStep[]) {
       part = step.part;
       lines.push("", `PART ${part}`);
     }
-    if (step.kind === "talk") lines.push(`Cue card: ${step.prompt.replace(/\n/g, " ")}`, `Candidate (long turn): ${step.answer || "(no answer)"}`);
-    else lines.push(`Examiner: ${step.prompt}`, `Candidate: ${step.answer || "(no answer)"}`);
+    const answer = step.answer || "(no answer)";
+    if (step.kind === "talk") {
+      const label = ["long turn", timed(step)].filter(Boolean).join(", ");
+      lines.push(`Cue card: ${step.prompt.replace(/\n/g, " ")}`, `Candidate (${label}): ${answer}`);
+    } else {
+      lines.push(`Examiner: ${step.prompt}`, `Candidate${timed(step) ? ` (${timed(step)})` : ""}: ${answer}`);
+    }
   }
   return lines.join("\n").trim();
 }

@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { parseImport } from "@/lib/tests/import-schema";
 import { buildSpeakingGradingPrompt } from "@/lib/tests/prompts";
 import type { FullSpeakingContent } from "@/lib/tests/types";
-import { PREP_SECONDS, TALK_SECONDS, buildExamSteps, formatTranscript } from "./script";
+import { PREP_SECONDS, TALK_SECONDS, answerTarget, buildExamSteps, formatTranscript } from "./script";
 
 const raw = {
   skill: "speaking",
@@ -58,6 +58,22 @@ describe("full speaking tests", () => {
     expect(transcript).toContain("Candidate (long turn): answer 5");
     expect(transcript).not.toContain("notes");
     expect(transcript).toContain("PART 3\nExaminer: What makes a good teacher?");
+  });
+
+  it("suggests answer lengths that fit the test into 11 to 14 minutes", () => {
+    const steps = buildExamSteps(importFull().content as FullSpeakingContent);
+    expect(steps.map((step) => answerTarget(step))).toEqual([25, 25, 25, 25, null, null, 20, 50, 50]);
+  });
+
+  it("notes the test length and how long each timed answer ran", () => {
+    const steps = buildExamSteps(importFull().content as FullSpeakingContent);
+    const transcript = formatTranscript(
+      steps.map((step, i) => ({ ...step, answer: `answer ${i}`, seconds: i === 0 ? 24 : i === 5 ? 112 : null })),
+      785,
+    );
+    expect(transcript.startsWith("Test length: 13:05\n\nPART 1\nExaminer: Do you work or study?\nCandidate (0:24): answer 0")).toBe(true);
+    expect(transcript).toContain("Examiner: Why did you choose it?\nCandidate: answer 1");
+    expect(transcript).toContain("Candidate (long turn, 1:52): answer 5");
   });
 
   it("asks the grader for one band over the whole test", () => {

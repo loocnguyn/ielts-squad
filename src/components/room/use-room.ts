@@ -5,6 +5,7 @@ import type { RealtimeChannel } from "@supabase/supabase-js";
 import { getIceConfig } from "@/app/actions/room";
 import { STUN_ONLY, type IceConfig } from "@/lib/speaking-room/ice";
 import { createClient } from "@/lib/supabase/client";
+import { detectSymmetricNat } from "./probe-network";
 
 // The speaking room's plumbing: camera and microphone, a peer-to-peer video
 // call between everyone present (a small mesh, signalled over the group's
@@ -74,6 +75,8 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
   const [camOn, setCamOn] = useState(true);
   /** Whether a relay is available for networks that block a direct call. Null until known. */
   const [relay, setRelay] = useState<boolean | null>(null);
+  /** This device's network blocks direct calls (a VPN, mobile data); only matters without a relay. */
+  const [networkBlocked, setNetworkBlocked] = useState<boolean | null>(null);
 
   const channelRef = useRef<RealtimeChannel | null>(null);
   const peersRef = useRef(new Map<string, PeerEntry>());
@@ -331,6 +334,11 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
       }
       if (cancelled) return;
       setRelay(ice.relay);
+      if (!ice.relay) {
+        void detectSymmetricNat().then((blocked) => {
+          if (!cancelled) setNetworkBlocked(blocked);
+        });
+      }
 
       await supabase.realtime.setAuth();
       if (cancelled) return;
@@ -374,6 +382,7 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
       localRef.current = null;
       setLocalStream(null);
       setRelay(null);
+      setNetworkBlocked(null);
       const channel = channelRef.current;
       channelRef.current = null;
       if (channel) void supabase.removeChannel(channel);
@@ -397,5 +406,5 @@ export function useRoom(args: { groupId: string; me: { id: string; name: string 
     setCamOn(next);
   }, []);
 
-  return { status, mediaProblem, relay, localStream, peers, micOn, camOn, toggleMic, toggleCam, send, on };
+  return { status, mediaProblem, relay, networkBlocked, localStream, peers, micOn, camOn, toggleMic, toggleCam, send, on };
 }

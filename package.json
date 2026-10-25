@@ -10,7 +10,8 @@
     "test": "vitest run",
     "typecheck": "next typegen && tsc --noEmit",
     "bank:check": "tsx scripts/bank/cli.mts check",
-    "bank:build": "tsx scripts/bank/cli.mts build"
+    "bank:build": "tsx scripts/bank/cli.mts build",
+    "turn:setup": "tsx scripts/turn-setup.mts"
   },
   "dependencies": {
     "@breezystack/lamejs": "^1.2.7",
