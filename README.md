@@ -48,9 +48,13 @@ The interface is in Vietnamese; the test material and transcripts are in English
  Works through Part 3, ends the test        Recording is transcribed and saved
 ```
 
-The examiner's sheet always shows the time spent on the current part (4–5, 3–4 and 4–5 minutes) and on
-the whole test, turning red when a part runs long. The Space bar drives the main button, so the
-examiner never has to look away from their partner.
+Both screens show the time spent on the current part (4–5, 3–4 and 4–5 minutes) and on the whole
+test, turning red when a part runs long, and the candidate sees the standard timing of every part.
+The Space bar drives the examiner's main button, so they never have to look away from their partner.
+
+Roles swap the moment a test ends: the candidate's device transcribes and saves in the background
+while they examine their partner. Each person's volume can be turned down, muted or boosted up to 200%
+on your own screen.
 
 The saved transcript reads like an examiner's record:
 

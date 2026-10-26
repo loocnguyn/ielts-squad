@@ -15,12 +15,15 @@ import {
   Timer,
   Video,
   VideoOff,
+  Volume2,
+  VolumeX,
 } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { decodeTo16kMono, transcribeMany, voicedSeconds } from "@/lib/audio/recording";
 import {
+  ANSWER_SECONDS,
   EXAMINER_LINES,
   PART_MINUTES,
   TEST_MINUTES,
@@ -129,6 +132,36 @@ function AnswerClock({ seconds, target }: { seconds: number; target: number | nu
   );
 }
 
+/** The real test's timings, with the current part picked out. */
+function TimingGuide({ part }: { part?: 1 | 2 | 3 }) {
+  const [testMin, testMax] = TEST_MINUTES;
+  const rows = [
+    { part: 1, detail: `câu hỏi ngắn về bản thân, mỗi câu khoảng ${ANSWER_SECONDS[1]} giây` },
+    { part: 2, detail: "1 phút chuẩn bị, nói 1–2 phút theo cue card, rồi 1–2 câu hỏi ngắn" },
+    { part: 3, detail: `thảo luận rộng hơn, mỗi câu khoảng ${ANSWER_SECONDS[3]} giây` },
+  ] as const;
+  return (
+    <div className="flex flex-col gap-1.5 text-sm">
+      <p className="font-medium">
+        Thời gian chuẩn: cả bài {testMin}–{testMax} phút
+      </p>
+      <ul className="flex flex-col gap-1">
+        {rows.map((row) => (
+          <li
+            key={row.part}
+            className={cn("rounded-md px-2 py-1", row.part === part ? "bg-secondary text-foreground" : "text-muted-foreground")}
+          >
+            <span className="font-semibold">
+              Part {row.part} · {PART_MINUTES[row.part][0]}–{PART_MINUTES[row.part][1]} phút
+            </span>
+            : {row.detail}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 /** How far into the part and the whole test the examiner is, against the real timings. */
 function Pace({ part, partSeconds, testSeconds }: { part: 1 | 2 | 3; partSeconds: number; testSeconds: number }) {
   const [partMin, partMax] = PART_MINUTES[part];
@@ -155,6 +188,70 @@ function Pace({ part, partSeconds, testSeconds }: { part: 1 | 2 | 3; partSeconds
   );
 }
 
+/** Loudness of one person, in percent: 100 is as received, above it is amplified. */
+const MAX_VOLUME = 200;
+const volumeKey = (id: string) => `room-volume:${id}`;
+
+function storedVolume(id: string) {
+  try {
+    const saved = localStorage.getItem(volumeKey(id));
+    const value = saved === null ? NaN : Number(saved);
+    return value >= 0 && value <= MAX_VOLUME ? value : 100;
+  } catch {
+    return 100;
+  }
+}
+
+/**
+ * Plays a person's sound at the chosen level. Up to 100% the video element does
+ * it; above that Web Audio amplifies the stream while the element, muted, keeps
+ * it flowing.
+ */
+function usePersonVolume(stream: MediaStream | null, percent: number | null) {
+  const video = useRef<HTMLVideoElement>(null);
+  const boost = useRef<{ context: AudioContext; source: MediaStreamAudioSourceNode; gain: GainNode; stream: MediaStream } | null>(
+    null,
+  );
+
+  useEffect(() => {
+    const element = video.current;
+    if (!element || percent == null) return;
+    const close = () => {
+      boost.current?.source.disconnect();
+      void boost.current?.context.close();
+      boost.current = null;
+    };
+    const level = percent / 100;
+    if (level <= 1 || !stream?.getAudioTracks().length) {
+      close();
+      element.muted = level === 0;
+      element.volume = Math.min(1, level);
+      return;
+    }
+    element.muted = true;
+    if (boost.current?.stream !== stream) {
+      close();
+      const context = new AudioContext();
+      const source = context.createMediaStreamSource(stream);
+      const gain = context.createGain();
+      source.connect(gain).connect(context.destination);
+      boost.current = { context, source, gain, stream };
+    }
+    boost.current!.gain.gain.value = level;
+    void boost.current!.context.resume();
+  }, [stream, percent]);
+
+  useEffect(
+    () => () => {
+      boost.current?.source.disconnect();
+      void boost.current?.context.close();
+    },
+    [],
+  );
+
+  return video;
+}
+
 function VideoTile({
   stream,
   label,
@@ -162,6 +259,7 @@ function VideoTile({
   muted,
   connecting,
   note,
+  personId,
 }: {
   stream: MediaStream | null;
   label: string;
@@ -169,9 +267,24 @@ function VideoTile({
   muted?: boolean;
   connecting?: boolean;
   note?: string;
+  /** Someone else's tile: offers a volume control, remembered on this device. */
+  personId?: string;
 }) {
-  const ref = useRef<HTMLVideoElement>(null);
   const [silenced, setSilenced] = useState(false);
+  const [volume, setVolume] = useState(() => (personId ? storedVolume(personId) : 100));
+  const lastAudible = useRef(volume || 100);
+  const ref = usePersonVolume(stream, personId ? volume : null);
+
+  const changeVolume = (next: number) => {
+    if (!personId) return;
+    if (next > 0) lastAudible.current = next;
+    setVolume(next);
+    try {
+      localStorage.setItem(volumeKey(personId), String(next));
+    } catch {
+      // Only a convenience: the level resets to 100% next time.
+    }
+  };
 
   const play = useCallback(() => {
     const video = ref.current;
@@ -181,13 +294,13 @@ function VideoTile({
       // The browser held back sound it was not asked for; one tap starts it.
       (error: DOMException) => setSilenced(error.name === "NotAllowedError"),
     );
-  }, []);
+  }, [ref]);
 
   useEffect(() => {
     if (!ref.current || ref.current.srcObject === stream) return;
     ref.current.srcObject = stream;
     play();
-  }, [stream, play]);
+  }, [stream, play, ref]);
 
   return (
     <div className="relative aspect-video overflow-hidden rounded-2xl border bg-card">
@@ -201,10 +314,34 @@ function VideoTile({
         </div>
       )}
       {note && <p className="absolute top-2 right-2 rounded-lg bg-black/60 px-2 py-0.5 text-xs text-white">{note}</p>}
-      <p className="absolute bottom-2 left-2 flex items-center gap-2 rounded-lg bg-black/60 px-2.5 py-1 text-sm font-medium text-white">
-        {label}
-        {badge && <span className="rounded bg-white/20 px-1.5 text-xs">{badge}</span>}
+      <p className="absolute bottom-2 left-2 flex max-w-[55%] items-center gap-2 rounded-lg bg-black/60 px-2.5 py-1 text-sm font-medium text-white">
+        <span className="truncate">{label}</span>
+        {badge && <span className="shrink-0 rounded bg-white/20 px-1.5 text-xs">{badge}</span>}
       </p>
+      {personId && !connecting && (
+        <div className="absolute right-2 bottom-2 flex items-center gap-1.5 rounded-lg bg-black/60 px-2 py-1 text-white">
+          <button
+            type="button"
+            className="grid size-6 place-items-center rounded hover:bg-white/20"
+            aria-label={volume === 0 ? `Bật tiếng ${label}` : `Tắt tiếng ${label}`}
+            onClick={() => changeVolume(volume === 0 ? lastAudible.current : 0)}
+          >
+            {volume === 0 ? <VolumeX className="size-4" /> : <Volume2 className="size-4" />}
+          </button>
+          <input
+            type="range"
+            min={0}
+            max={MAX_VOLUME}
+            step={10}
+            value={volume}
+            onChange={(event) => changeVolume(Number(event.target.value))}
+            aria-label={`Âm lượng của ${label}`}
+            title="Trên 100% là khuếch đại; nên đeo tai nghe để bạn kia không nghe tiếng mình vọng lại."
+            className="w-20 accent-white sm:w-24"
+          />
+          <span className="w-9 text-right text-xs tabular-nums">{volume}%</span>
+        </div>
+      )}
     </div>
   );
 }
@@ -221,6 +358,13 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
   const [busy, setBusy] = useState(false);
   const [processing, setProcessing] = useState<{ done: number; total: number; status?: string } | null>(null);
   const [recordingBy, setRecordingBy] = useState<string[]>([]);
+  /** Members whose device is still transcribing and saving their last test. */
+  const [savingBy, setSavingBy] = useState<string[]>([]);
+  /**
+   * Tests this examiner finished before moving on to the next turn. Their end is
+   * repeated until the candidate's device has saved them, in case a message was lost.
+   */
+  const [closing, setClosing] = useState<(ExamState & { closedAt: number })[]>([]);
 
   const nameOf = useCallback(
     (id: string) => (id === me.id ? me.name : (members.find((m) => m.id === id)?.name ?? "Thành viên")),
@@ -290,6 +434,10 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
       return;
     }
     const { turn, test } = data as { turn: SpeakingTurn; test: { content: FullSpeakingContent } };
+    if (sheet?.status === "finished") {
+      const finished = sheet;
+      setClosing((list) => [...list, { ...stateOf(finished, "finished"), closedAt: Date.now() }]);
+    }
     setSheet({
       turn,
       steps: buildExamSteps(test.content),
@@ -408,6 +556,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
   const submitTurn = useCallback(
     async (session: NonNullable<typeof capture.current>) => {
       setProcessing({ done: 0, total: 1, status: "Đang xử lý bản ghi" });
+      send("saving", { on: true });
       const supabase = createClient();
       let transcript = "";
       let seconds = 0;
@@ -453,6 +602,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
         p_speaking_seconds: seconds,
       });
       setProcessing(null);
+      send("saving", { on: false });
       if (error) toast.error("Không lưu được lượt thi. Báo giám khảo bắt đầu lại nhé.");
       else toast.success("Đã lưu lượt thi của bạn. Vào Buổi nói để xem transcript và chấm điểm.");
       send("turns", null);
@@ -464,7 +614,12 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
   const onExam = useCallback(
     (data: unknown) => {
       const state = data as ExamState;
-      setRemote({ ...state, receivedAt: Date.now() });
+      // The end of an earlier turn, repeated, must not hide the turn that is running now.
+      setRemote((previous) =>
+        state.status !== "running" && previous?.status === "running" && previous.turnId !== state.turnId
+          ? previous
+          : { ...state, receivedAt: Date.now() },
+      );
       if (state.candidateId !== me.id) return;
 
       const session = capture.current;
@@ -517,6 +672,14 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
   useEffect(() => on("turns", () => void refreshTurns()), [on, refreshTurns]);
   useEffect(
     () =>
+      on("saving", (data, from) => {
+        const active = (data as { on: boolean }).on;
+        setSavingBy((list) => (active ? [...new Set([...list, from])] : list.filter((id) => id !== from)));
+      }),
+    [on],
+  );
+  useEffect(
+    () =>
       on("recording", (data, from) => {
         const active = (data as { on: boolean }).on;
         setRecordingBy((list) => (active ? [...new Set([...list, from])] : list.filter((id) => id !== from)));
@@ -550,7 +713,21 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
       examinerPhase === "reading" ? startClock : examinerPhase === "timing" ? () => goTo(examinerStep + 1) : null;
   }, [examinerPhase, examinerStep, startClock, goTo]);
   const iAmCandidate = view?.candidateId === me.id;
-  const iAmExaminer = Boolean(examinerView);
+  const iAmExaminer = examinerView?.status === "running";
+
+  const openClosing = closing.filter(
+    (state) => now - state.closedAt < 120_000 && !turns.some((t) => t.id === state.turnId && t.finished_at),
+  );
+  const closingRef = useRef(openClosing);
+  useEffect(() => {
+    closingRef.current = openClosing;
+  });
+  const closingKey = openClosing.map((state) => state.turnId).join(",");
+  useEffect(() => {
+    if (!closingKey) return;
+    const beat = setInterval(() => closingRef.current.forEach((state) => send("exam", state)), 3000);
+    return () => clearInterval(beat);
+  }, [closingKey, send]);
 
   useEffect(() => {
     const tick = setInterval(() => setNow(Date.now()), 250);
@@ -715,6 +892,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                 badge={roleOf(peer.id)}
                 connecting={peer.connection !== "connected"}
                 note={peer.route === "relay" ? "Qua máy chủ chuyển tiếp" : undefined}
+                personId={peer.id}
               />
             ))}
           </div>
@@ -726,17 +904,28 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
         </section>
 
         <aside className="flex flex-col gap-4 rounded-2xl border bg-card p-5">
-          {processing ? (
-            <div className="flex flex-col gap-3" role="status">
-              <h2 className="font-heading font-bold">Đang lưu lượt thi của bạn</h2>
-              <p className="flex items-center gap-2 text-sm">
-                <Loader2 className="size-4 animate-spin" /> {processing.status}
+          {processing && (
+            <div className="flex flex-col gap-2 rounded-lg bg-secondary px-3 py-2.5" role="status">
+              <p className="flex items-center gap-2 text-sm font-medium">
+                <Loader2 className="size-4 shrink-0 animate-spin" /> Đang lưu bài thi của bạn: {processing.status}
                 {processing.total > 1 && ` (${processing.done}/${processing.total})`}
               </p>
               <Progress value={(processing.done / Math.max(1, processing.total)) * 100} />
-              <p className="text-sm text-muted-foreground">Đừng đóng trang cho tới khi xong.</p>
+              <p className="text-xs text-muted-foreground">
+                Vẫn hỏi bạn khác hoặc thi tiếp được ngay; chỉ đừng đóng trang cho tới khi lưu xong.
+              </p>
             </div>
-          ) : sheet?.status === "ready" ? (
+          )}
+          {sheet?.status === "finished" && !iAmCandidate && (
+            <div className="flex flex-col gap-1 rounded-lg bg-secondary px-3 py-2.5 text-sm" role="status">
+              <p className="font-medium">Đã hỏi xong {nameOf(sheet.turn.candidate_id)}.</p>
+              <p className="text-muted-foreground">
+                Đọc lời kết: “{EXAMINER_LINES.closing}” Máy của {nameOf(sheet.turn.candidate_id)} đang lưu transcript;
+                hai bạn đổi vai được ngay.
+              </p>
+            </div>
+          )}
+          {sheet?.status === "ready" ? (
             <div className="flex flex-col gap-3">
               <h2 className="font-heading font-bold">Bạn làm giám khảo cho {nameOf(sheet.turn.candidate_id)}</h2>
               <p className="text-sm text-muted-foreground">
@@ -750,16 +939,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                 Để sau
               </Button>
             </div>
-          ) : sheet?.status === "finished" ? (
-            <div className="flex flex-col gap-3" role="status">
-              <h2 className="font-heading font-bold">Đã hỏi xong</h2>
-              <p className="flex items-center gap-2 text-sm">
-                <Loader2 className="size-4 animate-spin" /> Máy của {nameOf(sheet.turn.candidate_id)} đang chuyển bản ghi
-                thành transcript.
-              </p>
-              <p className="text-sm text-muted-foreground">{EXAMINER_LINES.closing}</p>
-            </div>
-          ) : sheet && examinerView ? (
+          ) : sheet?.status === "running" && examinerView ? (
             <div className="flex flex-col gap-4">
               <div className="flex items-baseline justify-between gap-3">
                 <h2 className="font-heading font-bold">
@@ -877,6 +1057,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
               <p className="flex items-center gap-1.5 text-sm text-muted-foreground">
                 <Circle className="size-3 fill-destructive text-destructive" /> Câu trả lời của bạn đang được ghi âm
               </p>
+              <Pace part={view.part} partSeconds={partSeconds} testSeconds={testSeconds} />
               {view.kind === "question" ? (
                 view.phase === "timing" ? (
                   <>
@@ -907,6 +1088,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                   )}
                 </>
               )}
+              <TimingGuide part={view.part} />
             </div>
           ) : (
             <div className="flex flex-col gap-3">
@@ -921,6 +1103,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                   const turn = turnOf(member.id);
                   const here = present.has(member.id);
                   const done = Boolean(turn?.finished_at);
+                  const saving = !done && (member.id === me.id ? Boolean(processing) : savingBy.includes(member.id));
                   return (
                     <li key={member.id} className="flex items-center gap-3 py-2.5">
                       <span className={cn("size-2.5 shrink-0 rounded-full", here ? "bg-success" : "bg-border")} />
@@ -930,11 +1113,19 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                           {member.id === me.id && <span className="ml-1.5 text-xs font-normal text-muted-foreground">(bạn)</span>}
                         </p>
                         <p className="text-xs text-muted-foreground">
-                          {done ? "Đã thi xong" : here ? "Trong phòng, chưa thi" : "Chưa vào phòng"}
+                          {done
+                            ? "Đã thi xong"
+                            : saving
+                              ? "Đang lưu bài thi…"
+                              : here
+                                ? "Trong phòng, chưa thi"
+                                : "Chưa vào phòng"}
                         </p>
                       </div>
                       {done ? (
                         <Check className="size-5 text-success" />
+                      ) : saving ? (
+                        <Loader2 className="size-5 animate-spin text-muted-foreground" />
                       ) : (
                         member.id !== me.id &&
                         here &&
@@ -953,6 +1144,7 @@ export function SpeakingRoom({ group, me, members, date, initialTurns }: Props) 
                   Tới lượt bạn thi khi một bạn trong phòng bấm hỏi bạn. Đề của bạn chỉ người hỏi nhìn thấy.
                 </p>
               )}
+              <TimingGuide />
               <Button asChild variant="outline" className="h-9 w-fit">
                 <Link href={`/groups/${group.id}/speaking`}>Xem transcript và chấm điểm</Link>
               </Button>
